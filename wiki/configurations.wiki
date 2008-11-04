@@ -1,0 +1,21 @@
+#summary One-sentence summary of this page.
+
+= Introduction =
+
+eclipse Mylyn과 Google Code의 Issues Tracker 연동
+
+
+= Details =
+
+eclipse 에서 Help > Software Updates > Add Site 에 다음의 주소를 추가하고 Mylyn을 설치합니다. (ganymede 기준)
+
+*Name : Mylyn*
+*URL :* _download.eclipse.org/tools/mylyn/update/e3.4_
+*Name : Mylyn_Extensions*
+*URL :* _download.eclipse.org/tools/mylyn/update/e3.4/extras_
+
+
+Add your content here.  Format your content with:
+  * Text in *bold* or _italic_
+  * Headings, paragraphs, and lists
+  * Automatic links to other wiki pages
