@@ -9,13 +9,17 @@ eclipse Mylyn과 Google Code의 Issues Tracker 연동
 
 eclipse 에서 Help > Software Updates > Add Site 에 다음의 주소를 추가하고 Mylyn을 설치합니다. (ganymede 기준)
 
-*Name : Mylyn*
+*Mylyn*
 
 *URL :* _http://download.eclipse.org/tools/mylyn/update/e3.4_
 
-*Name : Mylyn_Extensions*
+*extras*
 
 *URL :* _http://download.eclipse.org/tools/mylyn/update/e3.4/extras_
+
+*incubator*
+
+*URL :* _http://download.eclipse.org/tools/mylyn/update/incubator_
 
 
 Add your content here.  Format your content with:
