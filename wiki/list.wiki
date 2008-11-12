@@ -1,7 +1,7 @@
 = 프로젝트 리스트를 확인하세요. =
 
 
-= 하위 경로 클릭 =
+== 하위 경로 클릭 ==
 
  * *Inozen* *standard* *project* : http://code.google.com/p/inozen/
 
