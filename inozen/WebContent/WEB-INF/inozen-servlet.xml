@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:aop="http://www.springframework.org/schema/aop"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:jee="http://www.springframework.org/schema/jee"
+	xmlns:lang="http://www.springframework.org/schema/lang"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xmlns:tx="http://www.springframework.org/schema/tx"
+	xmlns:util="http://www.springframework.org/schema/util"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd
+		http://www.springframework.org/schema/jee http://www.springframework.org/schema/jee/spring-jee.xsd
+		http://www.springframework.org/schema/lang http://www.springframework.org/schema/lang/spring-lang.xsd
+		http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx.xsd
+		http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util.xsd">
+
+	<!-- ============================================================= -->
+	<!--  View Resolver(jstl)                                          -->
+	<!-- ============================================================= -->
+	<bean id="viewResolver"
+		class="org.springframework.web.servlet.view.InternalResourceViewResolver"
+		p:prefix="/" p:suffix=".jsp" />
+
+	<context:component-scan base-package="com.inozen.app"
+		use-default-filters="false">
+		<context:include-filter type="annotation"
+			expression="org.springframework.stereotype.Controller" />
+	</context:component-scan>
+
+	<!-- ============================================================= -->
+	<!--  HandlerMapping                                               -->
+	<!-- ============================================================= -->
+	<bean
+		class="org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping">
+		<property name="interceptors">
+			<list>
+				<ref bean="sessionAttributeNameInterceptor" />
+			</list>
+		</property>
+	</bean>
+
+	<bean id="sessionAttributeNameInterceptor"
+		class="com.inozen.framework.web.interceptor.SessionAttributeNameInterceptor" />
+
+	<!-- ============================================================= -->
+	<!--  Binder                                                       -->
+	<!-- ============================================================= -->
+	<bean
+		class="org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter">
+		<property name="cacheSeconds" value="0" />
+		<property name="sessionAttributeStore">
+			<bean
+				class="com.inozen.framework.web.session.PrefixedSessionAttributeStore" />
+		</property>
+		<property name="webBindingInitializer">
+			<bean class="com.inozen.app.web.AppBindingInitializer" />
+		</property>
+	</bean>
+	
+	<!-- ============================================================= -->
+	<!--  Velocity                                                    -->
+	<!-- ============================================================= -->
+	<bean id="velocityViewResolver"
+		class="org.springframework.web.servlet.view.velocity.VelocityViewResolver">
+		<property name="cache" value="true" />
+		<property name="prefix" value="/WEB-INF/vm/" />
+		<property name="suffix" value=".vm" />
+		<property name="contentType" value="text/html; charset=EUC-KR" />
+	</bean>
+	
+	<bean id="velocityConfig"
+		class="org.springframework.web.servlet.view.velocity.VelocityConfigurer">
+		<property name="resourceLoaderPath" value="/WEB-INF/vm/" />
+		<property name="velocityProperties">
+			<props>
+				<prop key="directive.foreach.counter.name">loopCounter</prop>
+				<prop key="directive.foreach.counter.initial.value">0</prop>
+				<prop key="input.encoding">EUC-KR</prop>
+				<prop key="output.encoding">EUC-KR</prop>
+			</props>
+		</property>
+	</bean>
+	
+
+</beans>
