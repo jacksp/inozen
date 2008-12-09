@@ -16,7 +16,6 @@ import javax.persistence.TemporalType;
 public class Sequence {
 	
 	@Id
-	@GeneratedValue(generator="sequence_seqNo_seq", strategy=GenerationType.AUTO)
 	@Column(name="seq_no")
 	private long seqNo;
 	

@@ -17,7 +17,7 @@ public class SequenceDaoImpl extends HibernateGenericDao<Sequence, SequenceParam
 	public long getSequence(String kind, String type) {
 		long _seqNo = 0l;
 		List<Long> _list =
-		getSession().createQuery("select max(seq_no) from tbl_sequence where seq_kind=:seq_kind and seq_type=:seq_type")
+		getSession().createQuery("select max(a.seqNo) from tbl_sequence a where a.seqKind=:seq_kind and a.seqType=:seq_type")
 		.setParameter("seq_kind", kind).setParameter("seq_type", type).list();
 		
 		if(null!=_list.get(0)) _seqNo = Long.parseLong(_list.get(0).toString());

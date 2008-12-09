@@ -23,13 +23,21 @@ body {
 </style>
 
 </head>
+<%
+	String pCode = (String)request.getAttribute("code");
+	String message = (String)request.getAttribute("message");
+%>
 <body>
 
 <div id="buttons">
 <script type="text/javascript">
-
+	var pCode = "<%=pCode%>";
+	var message = "<%=message%>";
 	function addCategory () {
-		var pCode = "";
+		if((pCode==""||pCode=="null")&&message=="") {
+			alert("카테고리를 선택하세요.");
+			return;
+		}
 		popup("saveCategory.do?pCode="+pCode, "popup", 700, 400, "yes", "yes");
 	}
 
@@ -87,6 +95,9 @@ body {
 <%
 	}
 %>
+		<tr>
+			<td colspan="11"><font color="red"><%=message %></font></td>
+		</tr>
 	</table>
 </body>
 </html>
