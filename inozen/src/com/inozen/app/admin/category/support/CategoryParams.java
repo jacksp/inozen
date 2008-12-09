@@ -1,7 +1,5 @@
 package com.inozen.app.admin.category.support;
 
-import java.util.Date;
-import java.util.List;
 
 /**
  * @author seokhoon
@@ -10,7 +8,7 @@ public class CategoryParams {
 
 	private String cateName;
 	private String cateStatus;
-	private String pCateCode;
+	private long pCateCode;
 
 	public String getCateName() {
 		return cateName;
@@ -28,11 +26,11 @@ public class CategoryParams {
 		this.cateStatus = cateStatus;
 	}
 	
-	public String getPCateCode() {
+	public long getPCateCode() {
 		return pCateCode;
 	}
 	
-	public void setPCateCode(String pCateCode) {
+	public void setPCateCode(long pCateCode) {
 		this.pCateCode = pCateCode;
 	}
 

@@ -6,4 +6,6 @@ import com.inozen.framework.data.hibernate.HibernateDao;
 
 public interface SequenceDao extends HibernateDao<Sequence, SequenceParams>{
 	long getSequence(String kind, String type);
+	
+	void updateSequence(String kind, String type, long seqNo);
 }

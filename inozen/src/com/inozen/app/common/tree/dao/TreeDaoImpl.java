@@ -1,18 +1,14 @@
 package com.inozen.app.common.tree.dao;
-
+import java.util.ArrayList;
 import java.util.List;
 
-import org.apache.commons.logging.Log;
-import org.apache.commons.logging.LogFactory;
 import org.hibernate.Criteria;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
-import org.hibernate.criterion.MatchMode;
 import org.hibernate.criterion.Order;
 import org.hibernate.criterion.Projections;
 
 import com.inozen.framework.data.hibernate.CriteriaUtils;
-import com.inozen.framework.data.support.OrderPage;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
@@ -22,21 +18,17 @@ import com.inozen.app.model.Category;
 
 @Repository
 public class TreeDaoImpl implements TreeDao {
-	
-	/** Logger available to subclasses */
-	private Log logger = LogFactory.getLog(this.getClass());
-
-	@Autowired 
+	@Autowired
 	private SessionFactory sessionFactory;
 	
 	private static final int CATEGORY = 1;
 	
 	private String statusFieldName;
 	private String pCodeFieldName;
-	private String orderFieldName;
 	
 	public Session getSession() {
-		return sessionFactory.getCurrentSession();
+		Session returnSession = sessionFactory.getCurrentSession();
+		return returnSession;
 	}
 	
 	private void initializedField(int type) {
@@ -44,61 +36,81 @@ public class TreeDaoImpl implements TreeDao {
 			case CATEGORY :
 				pCodeFieldName = "pCateCode";
 				statusFieldName = "cateStatus";
-				orderFieldName = "cateOrder";
+				
 			break;
 			default :
 				pCodeFieldName = "pCateCode";
 				statusFieldName = "cateStatus";
-				orderFieldName = "cateOrder";
 			break;
 		}
 	}
-	
+
 	@Override
-	@SuppressWarnings("unchecked")
-	public List<Tree> tree(int type, String code) {
-		
+	public List<Tree> tree(int type, long code) {
+		List<Tree> list = new ArrayList<Tree>();
 		this.initializedField(type);
-		
-		Criteria c = getSession().createCriteria(Category.class);
-		CriteriaUtils.conditionalEq(c, statusFieldName, "1");
-		CriteriaUtils.ilike(c, pCodeFieldName, code, MatchMode.EXACT);
-		
-		getChildren(code);
-
-		return c.list();
+		int level = 0;
+		getCategoryChildren(code, list, level);
+		return list;
 	}
 
 	@Override
-	public int getChildCount(String code) {
+	public int getChildCount(long code) {
 		Criteria c = getSession().createCriteria(Category.class);
 		CriteriaUtils.conditionalEq(c, statusFieldName, "1");
-		CriteriaUtils.ilike(c, pCodeFieldName, code, MatchMode.EXACT);
-		
-		return (Integer)(c.setProjection(Projections.rowCount()).uniqueResult());
+		CriteriaUtils.conditionalEq(c, pCodeFieldName, code);
+
+		int returnint = (Integer) (c.setProjection(Projections.rowCount()).uniqueResult());
+		return returnint;
 	}
 
 	@Override
-	public List<Tree> getChildren(String code) {
-		Criteria c = getSession().createCriteria(Category.class);
-		CriteriaUtils.conditionalEq(c, statusFieldName, "1");
-		CriteriaUtils.ilike(c, pCodeFieldName, code, MatchMode.EXACT);
-		c.addOrder(Order.desc(orderFieldName));
-		
-		logger.debug("c.list():::::::::::::::"+c.list());
-		
-		for(int i=0; i<c.list().size(); i++) {
-			c.list().get(i);
+	public boolean isEmptyChild(long code) {
+		boolean returnboolean = (getChildCount(code) > 0 ? false : true);
+		return returnboolean;
+	}
+
+	@Override
+	public List<Tree> getCategoryChildren(long code, List<Tree> list, int level) {
+		Tree tree = null;
+		int _count = getChildCount(code);
+		long _code = -1;
+		List<Category> _list = null;
+		if(_count>0) {
+			_list = getCategoryChildren(code);
+			for(int i=0; i<_list.size(); i++) {
+				boolean haschild = false;
+				_code = _list.get(i).getCateCode();
+				tree = new Tree();
+				tree.setName(_list.get(i).getCateName());
+				tree.setNodeId(Long.toString(_code));
+				tree.setHasChild(haschild);
+				tree.setParentId(Long.toString(code));
+				tree.setLast(true);
+				tree.setLevel(level);
+				if(getChildCount(_code)>0 ) {
+					tree.setLast(false);
+				}
+				tree.setLeaf(false);
+				list.add(tree);
+				if(getChildCount(_code)>0 ) {
+					level++;
+					getCategoryChildren(_code, list, level);
+				}
+			}
 		}
-		return null;
+		return list;
 	}
 
+	@SuppressWarnings("unchecked")
 	@Override
-	public boolean isEmptyChild(String code) {
-		return (getChildCount(code) > 0 ? false : true);
+	public List<Category> getCategoryChildren(long code) {
+		Criteria c = getSession().createCriteria(Category.class);
+		CriteriaUtils.conditionalEq(c, "cateStatus", "1");
+		CriteriaUtils.conditionalEq(c, "pCateCode", code);
+		c.addOrder(Order.desc("cateOrder"));
+		List<Category> returnList = c.list();
+		return returnList;
 	}
-	
-	
-	
 	
 }

@@ -1,6 +1,8 @@
 package com.inozen.app.common.tree;
 
 
+import java.util.List;
+
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -20,9 +22,9 @@ public class TreeServiceImpl implements TreeService {
 	private TreeDao dao;
 
 	@Override
-	public Tree[] tree(int type, String code) {
-		dao.tree(type, code);
-		return null;
+	public List<Tree> tree(int type, long code) {
+		List<Tree> list = dao.tree(type, code);
+		return list;
 	}
 
 }

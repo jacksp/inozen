@@ -14,4 +14,5 @@ public class CommonPages {
 	public static final String CLOSE_RESEARCH = "common/closeresearch";
 	public static final String CLOSE_RESEARCH_PARENT = "common/closeandrefreshp";
 	public static final String CLOSE_GRID_REFRESH = "common/closegridrefresh";
+	public static final String CLOSE_AND_REFRESH = "common/closeandrefresh";
 }

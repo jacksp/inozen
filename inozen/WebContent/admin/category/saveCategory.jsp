@@ -26,7 +26,7 @@
 	</script>
 </div>
 <div id="formbox">
-	<form id="form" action="/admin/category/add.do?gridid=maingrid" method="post">
+	<form id="form" action="/admin/category/saveCategory.do?gridid=maingrid" method="post">
 	<input type="hidden" name="pCateName" value="${model.cateName}"/>
 	<input type="hidden" name="pCateCode" value="${model.cateCode}"/>
 		<div class="formblock">
