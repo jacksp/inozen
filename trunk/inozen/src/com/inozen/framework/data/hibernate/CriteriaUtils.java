@@ -39,6 +39,12 @@ public class CriteriaUtils {
 			c.add(Restrictions.eq(propertyName, value));
 		}
 	}
+	
+	public static void conditionalEq(Criteria c, String propertyName, long value) {
+		if (value > -1) {
+			c.add(Restrictions.eq(propertyName, value));
+		}
+	}
 
 	public static void conditionalEq(Criteria c, String propertyName, Date value) {
 		if (value != null) {

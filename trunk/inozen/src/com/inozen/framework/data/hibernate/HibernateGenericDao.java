@@ -119,7 +119,6 @@ public class HibernateGenericDao<T, P> implements HibernateDao<T, P>, Initializi
 	@SuppressWarnings("unchecked")
 	public List<T> search(P params, OrderPage orderPage) {
 		
-		logger.debug("params::::::::::::::::"+params);
 		// rowcount
 		orderPage.setRowcount(
 			(Integer)(addRestrictions(getSession().createCriteria(this.domainClass), params)

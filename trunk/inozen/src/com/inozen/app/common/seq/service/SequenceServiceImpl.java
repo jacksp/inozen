@@ -1,35 +1,56 @@
 package com.inozen.app.common.seq.service;
 
+import java.util.Date;
+
+import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
+
 import com.inozen.app.common.seq.dao.SequenceDao;
 import com.inozen.app.common.seq.support.SequenceParams;
 import com.inozen.app.model.Sequence;
 import com.inozen.framework.service.impl.GenericServiceImpl;
 
+@Service
+@Transactional
 public class SequenceServiceImpl extends GenericServiceImpl<Sequence, SequenceDao, SequenceParams> implements SequenceService {
 	protected SequenceDao dao;
 	protected Sequence entity;
+	
+	protected SequenceServiceImpl() {
+		super(SequenceDao.class);
+	}
 
 	protected SequenceServiceImpl(Class<SequenceDao> persistentClass) {
 		super(persistentClass);
-		// TODO Auto-generated constructor stub
 	}
 
 	@Override
 	public long getSequence(String kind, String type) {
-		dao.getSequence(kind, type);
-		return 0;
+		long retVal = -1l;
+		retVal = dao.getSequence(kind, type);
+		if(retVal==0l) {
+			retVal = 1l;
+			this.insertSequence(kind, type, retVal);
+		}else{
+			retVal++;
+			this.updateSequence(kind, type, retVal);
+		}
+		return retVal;
 	}
 
 	@Override
-	public long insertSequence(String kind, String type, long retVal) {
-		// TODO Auto-generated method stub
-		return 0;
+	public void insertSequence(String kind, String type, long retVal) {
+		entity.setCreatedDate(new Date());
+		entity.setSeqKind(kind);
+		entity.setSeqType(type);
+		entity.setSeqNo(retVal);
+	
+		dao.save(entity);
 	}
 
 	@Override
-	public long updateSequence(String kind, String type, long retVal) {
-		// TODO Auto-generated method stub
-		return 0;
+	public void updateSequence(String kind, String type, long retVal) {
+		dao.updateSequence(kind, type, retVal);
 	}
 
 }

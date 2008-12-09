@@ -1,5 +1,7 @@
 package com.inozen.app.common.tree;
 
+import java.util.List;
+
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
@@ -36,10 +38,10 @@ public class TreeController {
 
 	@RequestMapping
 	public ModelAndView tree(HttpServletRequest req, HttpServletResponse res, ModelMap model, @RequestParam("type") int type, @RequestParam(value="code", required=false) String code) throws Exception {
-		
+		long _code = 0l;
 		model.addAttribute("type", type);
-		if(code==null) code = "";
-		Tree[] tree = service.tree(type, code);
+		if(code!=null) _code=Long.parseLong(code);
+		List<Tree> tree = service.tree(type, _code);
 		model.addAttribute("list", tree);
 		
 		return new ModelAndView("/common/tree/tree", model);

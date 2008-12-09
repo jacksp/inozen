@@ -166,17 +166,7 @@ public abstract class BaseController<T,S extends BaseService<T, ? extends Generi
 		return returnModelAndView;
 	}
 	
-	@RequestMapping
-	public ModelAndView list(HttpServletRequest req, HttpServletResponse res, ModelMap model, P params, OrderPage orderPage, String view) throws Exception {
-		if (orderPage.getOrder() == null) {
-			orderPage.setOrder(this.order);
-		}
-		model.addAttribute("orderPage", orderPage);
-		model.addAttribute("list", service.search(params, orderPage));
-
-		ModelAndView returnModelAndView = new ModelAndView(this.urlbase.substring(1) + "/list", model);
-		return returnModelAndView;
-	}
+	
 
 	@SuppressWarnings("unchecked")
 	public void afterPropertiesSet() throws Exception {
