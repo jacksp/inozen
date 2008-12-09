@@ -1,6 +1,7 @@
 package com.inozen.app.admin.category;
 
 import java.util.Date;
+import java.util.List;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -53,15 +54,16 @@ public class CategoryController extends GenericController<Category, CategoryServ
 		long _code = -1l;
 		Category entity;
 		
-		if(!pCode.equalsIgnoreCase("")) {
-			_code = Long.parseLong(pCode);
-			entity = this.service.get(_code);
-		}else{
+		if(pCode.equalsIgnoreCase("")||pCode.equalsIgnoreCase("null")) {
 			try {
-			entity = this.domainClass.newInstance();
-			}catch(Exception e) {
+				entity = this.domainClass.newInstance();
+			} catch (Exception e) {
 				throw new RuntimeException(e);
 			}
+
+		}else{
+			_code = Long.parseLong(pCode);
+			entity = this.service.get(_code);
 		}
 		model.addAttribute("model", entity);
 		model = addReference(model);
@@ -87,7 +89,7 @@ public class CategoryController extends GenericController<Category, CategoryServ
 			
 			this.service.add(model);
 			status.setComplete();
-			String returnString = addview(refresh, model);
+			String returnString = addview(CommonPages.CLOSE_RESEARCH_PARENT, model);
 
 			return returnString;
 		}
@@ -98,12 +100,20 @@ public class CategoryController extends GenericController<Category, CategoryServ
 		if (orderPage.getOrder() == null) {
 			orderPage.setOrder(this.order);
 		}
+		List<Category> list = service.search(params, orderPage);
+		String _message = "";
 		
 		if(code!=null)
 			params.setPCateCode(Long.parseLong(code));
 		model.addAttribute("orderPage", orderPage);
-		model.addAttribute("list", service.search(params, orderPage));
+		model.addAttribute("list", list);
+		model.addAttribute("code", code);
 		
+		if(code==null&&list.size()==0) {
+			_message="생성된 루트 카테고리가 없습니다. 추가 버튼을 클릭하고 루트 카테고리를 생성하세요.";
+		}
+			
+		model.addAttribute("message", _message);
 		ModelAndView returnModelAndView = new ModelAndView(this.urlbase.substring(1) + "/categoryList", model);
 		return returnModelAndView;
 	}
