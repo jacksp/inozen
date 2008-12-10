@@ -33,7 +33,7 @@
 					<a href="javascript:void(0)" onclick="toggledisplay('board');">게시판관리</a>
 					<ul id="board">
 						<li><a href="admin/category/main.do" target="content">카테고리 관리</a></li>
-						<li><a href="admin/board/search.do" target="content">게시판관리</a></li>
+						<li><a href="admin/board/index.do" target="content">게시판관리</a></li>
 					</ul>
 				</li>
 			</ul>

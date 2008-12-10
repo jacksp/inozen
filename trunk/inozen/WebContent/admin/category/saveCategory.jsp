@@ -26,13 +26,13 @@
 	</script>
 </div>
 <div id="formbox">
-	<form id="form" action="/admin/category/saveCategory.do?gridid=maingrid" method="post">
-	<input type="hidden" name="pCateName" value="${model.cateName}"/>
-	<input type="hidden" name="pCateCode" value="${model.cateCode}"/>
+	<form id="form" action="/admin/category/saveCategory.do" method="post">
 		<div class="formblock">
 		<p id="namerow">
 			<label>카테고리 이름 :</label>
-			<input id="name" name="cateName" type="text" value="" size="10" maxlength="15"/>&nbsp;
+			<input id="cateName" name="cateName" type="text" value="" size="10" maxlength="15"/>&nbsp;
+			<input id="pCateName" name="pCateName" type="hidden" value="${model.cateName}" />
+			<input id="pCateCode" name="pCateCode" type="hidden" value="${model.cateCode}" />
 		</p>
 		<p id="namerow">
 			<label>상위 카테고리 : </label> <c:out value="${model.cateName}" default="선택된 상위 카테고리가 없습니다."/>

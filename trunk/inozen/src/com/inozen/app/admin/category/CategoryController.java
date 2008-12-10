@@ -50,34 +50,34 @@ public class CategoryController extends GenericController<Category, CategoryServ
 	}
 	
 	@RequestMapping(method=RequestMethod.GET)
-	public void saveCategory(ModelMap model, @RequestParam("pCode") String pCode) {
+	public void saveCategory(ModelMap model, @RequestParam("pCateCode") String pCateCode) {
 		long _code = -1l;
 		Category entity;
-		
-		if(pCode.equalsIgnoreCase("")||pCode.equalsIgnoreCase("null")) {
-			try {
-				entity = this.domainClass.newInstance();
-			} catch (Exception e) {
-				throw new RuntimeException(e);
-			}
 
-		}else{
-			_code = Long.parseLong(pCode);
+		try {
+			entity = this.domainClass.newInstance();
+		} catch (Exception e) {
+			throw new RuntimeException(e);
+		}
+
+		if (!pCateCode.equalsIgnoreCase("") && !pCateCode.equalsIgnoreCase("null")) {
+			_code = Long.parseLong(pCateCode);
 			entity = this.service.get(_code);
 		}
 		model.addAttribute("model", entity);
 		model = addReference(model);
+		
 
 	}
 	
 	@RequestMapping(method=RequestMethod.POST)
-	public String saveCategory(@ModelAttribute("model") Category model, BindingResult result, SessionStatus status) {
+	public String saveCategory(@ModelAttribute(value="model") Category model, BindingResult result, @RequestParam("pCateCode") long pCateCode, @RequestParam("pCateName") String pCateName, SessionStatus status) {
 		validator.validate(model, result);
 		if(result.hasErrors())
 			return this.urlbase + "/saveCategory";
 		else{
 			model.setCateCode(seqService.getSequence(SeqConstants.SEQ_CATEGORY_ID, SeqConstants.SEQ_CATEGORY_ID));
-			model.setCateOrder(0);
+			model.setCateOrder(service.countChildren(pCateCode));
 			model.setCateStatus("1");
 			model.setCreatedDate(new Date());
 			// NEWCODE userID, username을 security에서 받아와서 처리하는 것으로 수정
@@ -86,6 +86,8 @@ public class CategoryController extends GenericController<Category, CategoryServ
 			model.setModifiedDate(new Date());
 			model.setModifiedUserId("userid");
 			model.setModifiedUserName("username");
+			model.setPCateCode(pCateCode);
+			model.setPCateName(pCateName);
 			
 			this.service.add(model);
 			status.setComplete();
@@ -96,15 +98,18 @@ public class CategoryController extends GenericController<Category, CategoryServ
 	}
 	
 	@RequestMapping(method=RequestMethod.GET)
-	public ModelAndView categoryList(ModelMap model, CategoryParams params, OrderPage orderPage, @RequestParam(value="code", required=false) String code) throws Exception {
+	public void categoryList(ModelMap model, CategoryParams params, OrderPage orderPage, @RequestParam(value="code", required=false) String code) throws Exception {
 		if (orderPage.getOrder() == null) {
 			orderPage.setOrder(this.order);
+			orderPage.setOrder("cateCode asc");
 		}
-		List<Category> list = service.search(params, orderPage);
-		String _message = "";
 		
 		if(code!=null)
 			params.setPCateCode(Long.parseLong(code));
+		else params.setPCateCode(-1);
+		List<Category> list = service.search(params, orderPage);
+		String _message = "";
+		
 		model.addAttribute("orderPage", orderPage);
 		model.addAttribute("list", list);
 		model.addAttribute("code", code);
@@ -114,12 +119,10 @@ public class CategoryController extends GenericController<Category, CategoryServ
 		}
 			
 		model.addAttribute("message", _message);
-		ModelAndView returnModelAndView = new ModelAndView(this.urlbase.substring(1) + "/categoryList", model);
-		return returnModelAndView;
 	}
 	
 	@RequestMapping(method=RequestMethod.POST)
-	public ModelAndView categoryList(HttpServletRequest req, HttpServletResponse res, ModelMap model, CategoryParams params, OrderPage orderPage) throws Exception {
+	public ModelAndView categoryList(ModelMap model, CategoryParams params, OrderPage orderPage) throws Exception {
 		if (orderPage.getOrder() == null) {
 			orderPage.setOrder(this.order);
 		}

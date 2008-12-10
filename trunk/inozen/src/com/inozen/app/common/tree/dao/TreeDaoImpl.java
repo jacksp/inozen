@@ -14,6 +14,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
 import com.inozen.app.common.tree.domain.Tree;
+import com.inozen.app.model.Board;
 import com.inozen.app.model.Category;
 
 @Repository
@@ -22,9 +23,13 @@ public class TreeDaoImpl implements TreeDao {
 	private SessionFactory sessionFactory;
 	
 	private static final int CATEGORY = 1;
+	private static final int BOARD = 2;
 	
-	private String statusFieldName;
-	private String pCodeFieldName;
+	private String _statusFieldName;
+	private String _pCodeFieldName;
+	private String _orderFiledName;
+	@SuppressWarnings("unchecked")
+	private Class domain;
 	
 	public Session getSession() {
 		Session returnSession = sessionFactory.getCurrentSession();
@@ -34,31 +39,37 @@ public class TreeDaoImpl implements TreeDao {
 	private void initializedField(int type) {
 		switch(type) {
 			case CATEGORY :
-				pCodeFieldName = "pCateCode";
-				statusFieldName = "cateStatus";
+				domain = Category.class;
+				_pCodeFieldName = "pCateCode";
+				_statusFieldName = "cateStatus";
+				_orderFiledName = "cateOrder";
 				
 			break;
+			case BOARD :
+				domain = Board.class;
+				_pCodeFieldName = "category.cateCode";
+				_statusFieldName = "boardStatus";
+				_orderFiledName = "boardOrder";
+			break;
 			default :
-				pCodeFieldName = "pCateCode";
-				statusFieldName = "cateStatus";
+				domain = Category.class;
+				_pCodeFieldName = "pCateCode";
+				_statusFieldName = "cateStatus";
+				_orderFiledName = "cateOrder";
 			break;
 		}
 	}
 
 	@Override
-	public List<Tree> tree(int type, long code) {
-		List<Tree> list = new ArrayList<Tree>();
+	public void setTree(int type) {
 		this.initializedField(type);
-		int level = 0;
-		getCategoryChildren(code, list, level);
-		return list;
 	}
 
 	@Override
 	public int getChildCount(long code) {
-		Criteria c = getSession().createCriteria(Category.class);
-		CriteriaUtils.conditionalEq(c, statusFieldName, "1");
-		CriteriaUtils.conditionalEq(c, pCodeFieldName, code);
+		Criteria c = getSession().createCriteria(domain);
+		CriteriaUtils.conditionalEq(c, _statusFieldName, "1");
+		CriteriaUtils.conditionalEq(c, _pCodeFieldName, code);
 
 		int returnint = (Integer) (c.setProjection(Projections.rowCount()).uniqueResult());
 		return returnint;
@@ -70,46 +81,15 @@ public class TreeDaoImpl implements TreeDao {
 		return returnboolean;
 	}
 
-	@Override
-	public List<Tree> getCategoryChildren(long code, List<Tree> list, int level) {
-		Tree tree = null;
-		int _count = getChildCount(code);
-		long _code = -1;
-		List<Category> _list = null;
-		if(_count>0) {
-			_list = getCategoryChildren(code);
-			for(int i=0; i<_list.size(); i++) {
-				boolean haschild = false;
-				_code = _list.get(i).getCateCode();
-				tree = new Tree();
-				tree.setName(_list.get(i).getCateName());
-				tree.setNodeId(Long.toString(_code));
-				tree.setHasChild(haschild);
-				tree.setParentId(Long.toString(code));
-				tree.setLast(true);
-				tree.setLevel(level);
-				if(getChildCount(_code)>0 ) {
-					tree.setLast(false);
-				}
-				tree.setLeaf(false);
-				list.add(tree);
-				if(getChildCount(_code)>0 ) {
-					level++;
-					getCategoryChildren(_code, list, level);
-				}
-			}
-		}
-		return list;
-	}
 
 	@SuppressWarnings("unchecked")
 	@Override
-	public List<Category> getCategoryChildren(long code) {
-		Criteria c = getSession().createCriteria(Category.class);
-		CriteriaUtils.conditionalEq(c, "cateStatus", "1");
-		CriteriaUtils.conditionalEq(c, "pCateCode", code);
-		c.addOrder(Order.desc("cateOrder"));
-		List<Category> returnList = c.list();
+	public List getChildren(long code) {
+		Criteria c = getSession().createCriteria(domain);
+		CriteriaUtils.conditionalEq(c, _statusFieldName, "1");
+		CriteriaUtils.conditionalEq(c, _pCodeFieldName, code);
+		c.addOrder(Order.asc(_orderFiledName));
+		List returnList = c.list();
 		return returnList;
 	}
 	

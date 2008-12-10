@@ -7,7 +7,7 @@ import com.inozen.app.model.Category;
 
 public interface TreeDao {
 
-	List<Tree> tree(int type, long code);
+	void setTree(int type);
 
 	// count of child node
 	int getChildCount(long code);
@@ -15,6 +15,6 @@ public interface TreeDao {
 	// check have no child
 	boolean isEmptyChild(long code);
 	
-	List<Category> getCategoryChildren(long code);
-	List<Tree> getCategoryChildren(long code, List<Tree> list, int level);
+	@SuppressWarnings("unchecked")
+	List getChildren(long code);
 }

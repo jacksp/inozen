@@ -13,6 +13,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.support.SessionStatus;
 import org.springframework.web.servlet.ModelAndView;
 
 import com.inozen.app.common.tree.domain.Tree;
@@ -37,7 +38,8 @@ public class TreeController {
 	}
 
 	@RequestMapping
-	public ModelAndView tree(HttpServletRequest req, HttpServletResponse res, ModelMap model, @RequestParam("type") int type, @RequestParam(value="code", required=false) String code) throws Exception {
+	public ModelAndView tree(ModelMap model, @RequestParam("type") int type
+			, @RequestParam(value="code", required=false) String code, SessionStatus status) throws Exception {
 		long _code = 0l;
 		model.addAttribute("type", type);
 		if(code!=null) _code=Long.parseLong(code);

@@ -21,4 +21,14 @@ public class CategoryDaoImpl extends HibernateGenericDao<Category, CategoryParam
 		CriteriaUtils.conditionalEq(c, "pCateCode", params.getPCateCode());
 		return c;
 	}
+
+	/*
+	 * @see com.inozen.app.admin.category.CategoryDao#countCategorysByPCateCode(long)
+	 */
+	@Override
+	public int countCategorysByPCateCode(long pCateCode) {
+		Long count = (Long)getSession().createQuery("select count(*) from tbl_category a where a.pCateCode=:pCateCode")
+		.setParameter("pCateCode", pCateCode).uniqueResult();
+		return count.intValue();
+	}
 }

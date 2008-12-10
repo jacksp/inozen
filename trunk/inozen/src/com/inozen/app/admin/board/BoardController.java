@@ -18,4 +18,9 @@ public class BoardController extends GenericController<Board, BoardService, Boar
 		this.order = "boardOrder asc";
 	}
 	
+	@RequestMapping
+	public void index() {
+		
+	}
+	
 }
