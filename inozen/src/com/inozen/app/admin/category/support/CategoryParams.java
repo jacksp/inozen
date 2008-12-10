@@ -9,6 +9,7 @@ public class CategoryParams {
 	private String cateName;
 	private String cateStatus;
 	private long pCateCode;
+	private String pCateName;
 
 	public String getCateName() {
 		return cateName;
@@ -32,6 +33,14 @@ public class CategoryParams {
 	
 	public void setPCateCode(long pCateCode) {
 		this.pCateCode = pCateCode;
+	}
+	
+	public String getPCateName() {
+		return pCateName;
+	}
+
+	public void setPCateName(String pCateName) {
+		this.pCateName = pCateName;
 	}
 
 }

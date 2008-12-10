@@ -9,5 +9,5 @@ import com.inozen.app.admin.category.support.CategoryParams;
 import com.inozen.app.model.Category;
 
 public interface CategoryService extends GenericService<Category, CategoryDao, CategoryParams>{
-	
+	int countChildren(long pCateCode);
 }

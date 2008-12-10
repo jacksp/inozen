@@ -41,7 +41,7 @@ public class CriteriaUtils {
 	}
 	
 	public static void conditionalEq(Criteria c, String propertyName, long value) {
-		if (value > -1) {
+		if (value >= 0) {
 			c.add(Restrictions.eq(propertyName, value));
 		}
 	}

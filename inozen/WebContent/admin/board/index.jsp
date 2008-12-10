@@ -8,11 +8,11 @@
 </div>
 		
 <div id="tree" class="ifrmbox40">
-	<iframe id="tree" name="tree" src="/common/tree/tree.do?type=1&target=categoryList&src=/admin/category/categoryList.do" height="300" scrolling="auto" frameborder="0" width="100%">
+	<iframe id="tree" name="tree" src="/common/tree/tree.do?type=2&target=boardList&src=/admin/board/boardList.do" height="300" scrolling="auto" frameborder="0" width="100%">
 	</iframe>
 </div>
 <div id="list" class="ifrmbox60">
-	<iframe id="categoryList" name="categoryList" src="categoryList.do" height="300" scrolling="auto" frameborder="0" width="100%">
+	<iframe id="boardList" name="boardList" src="boardList.do" height="300" scrolling="auto" frameborder="0" width="100%">
 	</iframe>
 </div>
 <%@ include file="/admin/include/searchfooter.jsp" %>

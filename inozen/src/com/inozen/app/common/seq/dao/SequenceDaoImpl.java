@@ -37,7 +37,7 @@ public class SequenceDaoImpl extends HibernateGenericDao<Sequence, SequenceParam
 		.setParameter("seq_no", seqNo)
 		.setParameter("created_date", new Date())
 		.setParameter("seq_kind", kind)
-		.setParameter("seq_type", type);
+		.setParameter("seq_type", type).executeUpdate();
 		
 	}
 

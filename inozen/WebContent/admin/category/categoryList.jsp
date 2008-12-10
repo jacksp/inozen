@@ -38,7 +38,7 @@ body {
 			alert("카테고리를 선택하세요.");
 			return;
 		}
-		popup("saveCategory.do?pCode="+pCode, "popup", 700, 400, "yes", "yes");
+		popup("saveCategory.do?pCateCode="+pCode, "popup", 700, 400, "yes", "yes");
 	}
 
 	function searchCategory () {
