@@ -30,7 +30,19 @@ public class TreeServiceImpl implements TreeService {
 		int level = 0;
 		List<Tree> list = new ArrayList<Tree>();
 		dao.setTree(type);
-		list = getCategoryChildren(code, list, level);
+		
+		switch(type) {
+			case CATEGORY :
+				list = this.getCategoryChildren(code, list, level);
+			break;
+			case BOARD :
+				list = this.getCategoryAndBoard(code, list, level);
+			break;
+			default :
+				list = this.getCategoryChildren(code, list, level);
+			break;
+		}
+		
 		return list;
 	}
 	
@@ -43,17 +55,17 @@ public class TreeServiceImpl implements TreeService {
 		if(_count>0) {
 			_list = dao.getChildren(code);
 			for(int i=0; i<_list.size(); i++) {
-				boolean haschild = false;
 				_code = _list.get(i).getCateCode();
 				tree = new Tree();
 				tree.setName(_list.get(i).getCateName());
 				tree.setNodeId(Long.toString(_code));
-				tree.setHasChild(haschild);
 				tree.setParentId(Long.toString(code));
+				tree.setHasChild(false);
 				tree.setLast(true);
 				tree.setLevel(level);
 				if(dao.getChildCount(_code)>0 ) {
 					tree.setLast(false);
+					tree.setHasChild(true);
 				}
 				tree.setLeaf(false);
 				list.add(tree);
@@ -67,7 +79,32 @@ public class TreeServiceImpl implements TreeService {
 	}
 
 	@Override
-	public List<Tree> getBoardChildren(long code, List<Tree> list, int level) {
+	public void getBoardChildren(long code, List<Tree> list, int level) {
+		Tree tree = null;
+
+		dao.setTree(BOARD);
+		int _count = dao.getChildCount(code);
+		List<Board> _list = null;
+
+		if(_count>0) {
+			_list = dao.getChildren(code);
+			for(int i=0; i<_list.size(); i++) {
+				tree = new Tree();
+				tree.setName(_list.get(i).getBoardName());
+				tree.setNodeId(Long.toString(_list.get(i).getBoardCode()));
+				tree.setHasChild(false);
+				tree.setParentId(Long.toString(code));
+				tree.setLast(true);
+				tree.setLevel(level+1);
+				tree.setLeaf(true);
+				list.add(tree);
+			}
+		}
+		dao.setTree(CATEGORY);
+	}
+
+	@Override
+	public List<Tree> getCategoryAndBoard(long code, List<Tree> list, int level) {
 		dao.setTree(CATEGORY);
 		Tree tree = null;
 		int _count = dao.getChildCount(code);
@@ -76,27 +113,31 @@ public class TreeServiceImpl implements TreeService {
 		if(_count>0) {
 			_list = dao.getChildren(code);
 			for(int i=0; i<_list.size(); i++) {
-				boolean haschild = false;
+
 				_code = _list.get(i).getCateCode();
 				tree = new Tree();
 				tree.setName(_list.get(i).getCateName());
 				tree.setNodeId(Long.toString(_code));
-				tree.setHasChild(haschild);
 				tree.setParentId(Long.toString(code));
+				tree.setHasChild(false);
 				tree.setLast(true);
 				tree.setLevel(level);
 				if(dao.getChildCount(_code)>0 ) {
 					tree.setLast(false);
+					tree.setHasChild(true);
 				}
 				tree.setLeaf(false);
 				list.add(tree);
+				
+				this.getBoardChildren(_code, list, level);
+				
 				if(dao.getChildCount(_code)>0 ) {
 					int _level = level+1;
 					getCategoryChildren(_code, list, _level);
 				}
 			}
 		}
-		return null;
+		return list;
 	}
 	
 	

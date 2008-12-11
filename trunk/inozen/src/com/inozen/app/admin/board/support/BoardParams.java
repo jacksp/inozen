@@ -9,6 +9,7 @@ import java.util.List;
 public class BoardParams {
 
 	private String boardName;
+	private long cateCode;
 
 	public String getBoardName() {
 		return boardName;
@@ -16,6 +17,14 @@ public class BoardParams {
 
 	public void setBoardName(String boardName) {
 		this.boardName = boardName;
+	}
+	
+	public long getCateCode() {
+		return cateCode;
+	}
+	
+	public void setCateCode(long cateCode) {
+		this.cateCode = cateCode;
 	}
 
 }

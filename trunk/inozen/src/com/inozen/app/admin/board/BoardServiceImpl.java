@@ -15,4 +15,10 @@ public class BoardServiceImpl extends GenericServiceImpl<Board, BoardDao, BoardP
 		super(BoardDao.class);
 	}
 
+	@Override
+	public int countBoardByCateCode(long cateCode) {
+		
+		return dao.countBoardByCateCode(cateCode);
+	}
+
 }
