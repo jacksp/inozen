@@ -17,5 +17,12 @@ public class BoardDaoImpl extends HibernateGenericDao<Board, BoardParams> implem
 		CriteriaUtils.ilike(c, "boardName", params.getBoardName(), MatchMode.ANYWHERE);
 		return c;
 	}
+
+	@Override
+	public int countBoardByCateCode(long cateCode) {
+		Long count = (Long)getSession().createQuery("select count(*) from tbl_board a where a.category.cateCode=:cateCode")
+		.setParameter("cateCode", cateCode).uniqueResult();
+		return count.intValue();
+	}
 	
 }

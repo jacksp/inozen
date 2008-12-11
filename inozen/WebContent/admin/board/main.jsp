@@ -4,7 +4,7 @@
 <%@ taglib prefix="a" tagdir="/WEB-INF/tags/inozen/admin" %>
 <%@ include file="/admin/include/searchheader.jsp" %>
 <div id="title">
-	<h1>카테고리 관리</h1>
+	<h1>게시판 관리</h1>
 </div>
 		
 <div id="tree" class="ifrmbox40">
