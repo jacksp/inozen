@@ -37,6 +37,14 @@
 					</ul>
 				</li>
 			</ul>
+			<ul>
+				<li style="background: #c3ebf9 url(images/l1-inbox.png) no-repeat">
+					<a href="javascript:void(0)" onclick="toggledisplay('page');">其捞瘤 包府</a>
+					<ul id="page">
+						<li><a href="admin/page/htmlList.do" target="content">其捞瘤 包府</a></li>
+					</ul>
+				</li>
+			</ul>
 		</div>
 	</body>
 </html>

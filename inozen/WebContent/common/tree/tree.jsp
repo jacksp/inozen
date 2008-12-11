@@ -24,7 +24,10 @@
 <%
 	for(int i=0; i<list.size(); i++) {
 		for(int j=0; j<list.get(i).getLevel(); j++) out.print("&nbsp;=>");
-		out.print("<a href='javascript:setRight("+list.get(i).getNodeId()+")'>"+list.get(i).getName()+"</a>");
+		if(list.get(i).isLeaf())
+			out.print(list.get(i).getName());
+		else
+			out.print("<a href='javascript:setRight("+list.get(i).getNodeId()+")'>"+list.get(i).getName()+"</a>");
 		out.print("<br>");
 		
 	}
