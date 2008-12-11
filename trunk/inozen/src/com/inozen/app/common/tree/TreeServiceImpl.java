@@ -133,7 +133,7 @@ public class TreeServiceImpl implements TreeService {
 				
 				if(dao.getChildCount(_code)>0 ) {
 					int _level = level+1;
-					getCategoryChildren(_code, list, _level);
+					getCategoryAndBoard(_code, list, _level);
 				}
 			}
 		}

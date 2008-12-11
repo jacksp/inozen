@@ -7,7 +7,11 @@
 		<link rel="stylesheet" media="screen" type="text/css" href="css/base.css" />
 		<style>
 			body { background: url(images/top_bar.png) repeat-x; }
-			#logo {float:left; margin: 45px 10px 0 0;}
+			#logo {float:left; color:#FFFFFF; margin: 45px 10px 0 0;}
+			h1 {
+				color: #FFFFFF;
+				font-size: 16px;
+			}
 			#user {float:right; color:#eee; margin: 48px 10px 0 0;}
 			#logout {float:right; color:#eee; margin: 48px 10px 0 0;}
 			#logout a {color:#eee;}
@@ -15,13 +19,13 @@
 	</head>
 	<body>
 		<div id="logo">
-			<img src="images/osaf.png"/>
+			<h1>INOZEN ADMIN page</h1>
 		</div>
 		<div id="logout">
 			<a href="/j_spring_security_logout" target="_top">[Logout]</a>
 		</div>
 		<div id="user">
-			OpenSprout
+			InozenTest
 		</div>
 	</body>
 </html>
