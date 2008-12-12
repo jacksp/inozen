@@ -1,5 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=EUC-KR" pageEncoding="EUC-KR"%>
 <%@ include file="/admin/include/popupheader.jsp" %>
+<%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
 
 <div id="title">
 	<h1>카테고리 등록</h1>
@@ -28,9 +29,10 @@
 <div id="formbox">
 	<form id="form" action="/admin/category/saveCategory.do" method="post">
 		<div class="formblock">
-		<p id="namerow">
+		<p id="cateNamerow">
 			<label>카테고리 이름 :</label>
-			<input id="cateName" name="cateName" type="text" value="" size="10" maxlength="15"/>&nbsp;
+			<input id="cateName" name="cateName" type="text" value="" size="10" maxlength="15"/>
+			<form:errors path="cateName" cssClass="error" />
 			<input id="pCateName" name="pCateName" type="hidden" value="${model.cateName}" />
 			<input id="pCateCode" name="pCateCode" type="hidden" value="${model.cateCode}" />
 		</p>

@@ -1,7 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=EUC-KR" pageEncoding="EUC-KR"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jstl/core_rt" %>
 <%@ taglib prefix="f" uri="http://java.sun.com/jstl/fmt_rt" %>
-<%@ taglib prefix="x" tagdir="/WEB-INF/tags/x" %>
 <%@ taglib prefix="sf" uri="/WEB-INF/tld/spring-form.tld" %>
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
 <html>
