@@ -30,6 +30,14 @@
 			</ul>
 			<ul>
 				<li style="background: #c3ebf9 url(images/l1-inbox.png) no-repeat">
+					<a href="javascript:void(0)" onclick="toggledisplay('appMenu');">皋春 包府</a>
+					<ul id="appMenu">
+						<li><a href="admin/menu/main.do" target="content">皋春 包府</a></li>
+					</ul>
+				</li>
+			</ul>
+			<ul>
+				<li style="background: #c3ebf9 url(images/l1-inbox.png) no-repeat">
 					<a href="javascript:void(0)" onclick="toggledisplay('board');">霸矫魄 包府</a>
 					<ul id="board">
 						<li><a href="admin/category/main.do" target="content">墨抛绊府 包府</a></li>

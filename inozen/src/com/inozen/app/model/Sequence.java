@@ -15,7 +15,10 @@ import javax.persistence.TemporalType;
 @SequenceGenerator(name="sequence_seqNo_seq", sequenceName="sequence_seqNo_seq")
 public class Sequence {
 	
-	@Id
+	@Id @GeneratedValue(generator="sequence_seqNo_seq")
+	@Column(name="seq_code")
+	private long seqCode;
+	
 	@Column(name="seq_no")
 	private long seqNo;
 	
@@ -59,6 +62,14 @@ public class Sequence {
 	
 	public void setCreatedDate(Date createdDate) {
 		this.createdDate = createdDate;
+	}
+
+	public void setSeqCode(long seqCode) {
+		this.seqCode = seqCode;
+	}
+
+	public long getSeqCode() {
+		return seqCode;
 	}
 
 }

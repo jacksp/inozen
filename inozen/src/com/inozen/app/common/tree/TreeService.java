@@ -14,4 +14,6 @@ public interface TreeService {
 	void getBoardChildren(long code, List<Tree> list, int level);
 	
 	List<Tree> getCategoryAndBoard(long code, List<Tree> list, int level);
+	
+	List<Tree> getMenuChildren(long code, List<Tree> list, int level);
 }

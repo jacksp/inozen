@@ -60,6 +60,7 @@
 				<value>com.inozen.app.model.Category</value>
 				<value>com.inozen.app.model.Sequence</value>
 				<value>com.inozen.app.model.HtmlPage</value>
+				<value>com.inozen.app.model.Menu</value>
 			</list>
 		</property>
 	</bean>

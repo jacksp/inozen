@@ -39,6 +39,8 @@ public class Employee {
 	private Date lastConDate;				// 최종 접속일
 	private String empStatus;				// 직원상태 : 사용함, 사용안함.
 	
+	private int sex;
+	
 	public int getId() {
 		return id;
 	}
@@ -205,6 +207,14 @@ public class Employee {
 	
 	public void setEmpStatus(String empStatus) {
 		this.empStatus = empStatus;
+	}
+
+	public void setSex(int sex) {
+		this.sex = sex;
+	}
+
+	public int getSex() {
+		return sex;
 	}
 	
 }

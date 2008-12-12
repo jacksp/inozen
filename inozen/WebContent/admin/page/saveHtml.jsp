@@ -26,7 +26,7 @@
 	</script>
 </div>
 <div id="formbox">
-	<form id="form" action="/admin/board/saveBoard.do" method="post">
+	<form id="form" action="/admin/page/saveHtml.do" method="post">
 		<div class="formblock">
 			<p>
 				<label>페이지 이름 :</label>

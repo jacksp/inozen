@@ -1,5 +1,5 @@
 package com.inozen.app.common.tree.dao;
-import java.util.ArrayList;
+
 import java.util.List;
 
 import org.hibernate.Criteria;
@@ -13,17 +13,15 @@ import com.inozen.framework.data.hibernate.CriteriaUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
-import com.inozen.app.common.tree.domain.Tree;
+import com.inozen.app.common.tree.TreeConstants;
 import com.inozen.app.model.Board;
 import com.inozen.app.model.Category;
+import com.inozen.app.model.Menu;
 
 @Repository
 public class TreeDaoImpl implements TreeDao {
 	@Autowired
 	private SessionFactory sessionFactory;
-	
-	private static final int CATEGORY = 1;
-	private static final int BOARD = 2;
 	
 	private String _statusFieldName;
 	private String _pCodeFieldName;
@@ -38,18 +36,24 @@ public class TreeDaoImpl implements TreeDao {
 	
 	private void initializedField(int type) {
 		switch(type) {
-			case CATEGORY :
+			case TreeConstants.CATEGORY :
 				domain = Category.class;
 				_pCodeFieldName = "pCateCode";
 				_statusFieldName = "cateStatus";
 				_orderFiledName = "cateOrder";
 				
 			break;
-			case BOARD :
+			case TreeConstants.BOARD :
 				domain = Board.class;
 				_pCodeFieldName = "category.cateCode";
 				_statusFieldName = "boardStatus";
 				_orderFiledName = "boardOrder";
+			break;
+			case TreeConstants.MENU :
+				domain = Menu.class;
+				_pCodeFieldName = "pMenuCode";
+				_statusFieldName = "menuStatus";
+				_orderFiledName = "menuOrder";
 			break;
 			default :
 				domain = Category.class;
