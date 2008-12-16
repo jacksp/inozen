@@ -1,0 +1,71 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="ko" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=euc-kr"/>
+	<meta name="description" content="KOREA LEGAL AID CORPORATION" />
+	<meta name="keyword" content="법률구조공단" />
+	<title>공단이용안내</title>
+	<link rel="stylesheet" type="text/css" href="/klac/css/kl_law.css" />
+
+	<script type="text/javascript" language="javascript" src="/klac/jscript/common.js"></script>
+	
+</head>
+
+<body>
+	<div id="skipMenu">
+		<!-- #include virtual = /klac/common/comm/skip.vm-->
+	</div>
+
+	<div id="wrapper">
+		<div id="header">
+		<!-- header	  -->
+			<!-- #include virtual = /klac/common/include/header.vm -->			
+		</div>
+
+		<div id="contentWrapper">
+		<!-- contentWrapper -->
+			<!-- subvisual -->
+			<p class="subVisual"><img src="/Images/common/klcomm_imgSubVisual03.jpg" width="865" height="128" alt="가족처럼 따뜻하게 친구처럼 편안하게 대한법률구조공단의 약속입니다," /></p>
+		
+			<div id="leftMenu">
+			<!-- leftmenu -->
+				<!-- #include virtual = /klac/common/include/leftMenu_xxx.vm -->				
+			</div>
+
+			<div id="content" class="content-type2">
+			<!-- content -->
+				<div id="pageLocation">
+					<!-- include -->
+					<p>home &gt; 1depth &gt; 2depth &gt; 3depth &gt; <strong>current pageTitle</strong></p>
+				</div>
+				<h1><img src="/Images/common/contitle/conTit0301.gif" width="150" height="25" alt="공단이용안내" /></h1>
+
+				<ul id="commTabnavi">
+					<li><img src="/Images/tabMenu/kltab_law0101_on.gif" width="95" height="30" alt="대한법률구조공단" id="tabImg1" /></li>
+					<li><a href="/klac/law/lawAid01002.html" onmouseover="jsTabnaviSwap(2,event);" onfocus="jsTabnaviSwap(2,event);" onmouseout="jsTabnaviSwap(2,event);" onblur="jsTabnaviSwap(2,event);"><img src="/Images/tabMenu/kltab_law0102_off.gif" width="81" height="30" alt="공단이 하는 일" id="tabImg2" /></a></li>
+					<li><a href="/klac/law/lawAid01003.html" onmouseover="jsTabnaviSwap(3,event);" onfocus="jsTabnaviSwap(3,event);" onmouseout="jsTabnaviSwap(3,event);" onblur="jsTabnaviSwap(3,event);"><img src="/Images/tabMenu/kltab_law0103_off.gif" width="160" height="30" alt="공단의 도움을 받을 수 있는 경우" id="tabImg3" /></a></li>
+					<li><a href="/klac/law/lawAid01004.html" onmouseover="jsTabnaviSwap(4,event);" onfocus="jsTabnaviSwap(4,event);" onmouseout="jsTabnaviSwap(4,event);" onblur="jsTabnaviSwap(4,event);"><img src="/Images/tabMenu/kltab_law0104_off.gif" width="155" height="30" alt="비용은 걱정하지 않아도 되는지" id="tabImg4" /></a></li>
+					<li class="noMg"><a href="/klac/law/lawAid01005.html" onmouseover="jsTabnaviSwap(5,event);" onfocus="jsTabnaviSwap(5,event);" onmouseout="jsTabnaviSwap(5,event);" onblur="jsTabnaviSwap(5,event);"><img src="/Images/tabMenu/kltab_law0105_off.gif" width="155" height="30" alt="법률구조 신청절차 및 구비서류" id="tabImg5" /></a></li>
+				</ul>
+
+				<h2 class="styleH2-type2">대한법률구조공단</h2>
+				<div class="useinfo">
+					<p>정부는 경제적으로 어렵거나 법를 모르기 때문에 법의 보호를 제대로 받지 못하는 사람들이<br /> 적법한 절차에 의하여 정당한 권리를 보호받을 수 있도록 하기 위한 법률구조제도를 마련하여<br /> 두고 있습니다.</p>
+					<p>그리고 이러환 법률구조사업을 효율적으로 수행하도록 하기 위하여 정부에서 설리하고 운영하는 기관이 대한법률구조공단입니다.</p>
+					<p class="noMg">공단은 1987.9.1 설립되어 본부는 서울특별시 서초구 서초동 1703-10에 있으며 전국의 법원,<br /> 검찰청 소재지마다 지부와 출장소가 있습니다.</p>
+				</div>
+
+			</div>
+		</div>
+
+		<div id="footer">
+		<!-- footer -->		
+		</div>
+
+		<div id="quickMenu">
+		<!-- quick menu -->
+			<!-- #include virtual = /klac/common/comm/quickMenu.vm -->			
+		</div>		
+	</div>
+</body>
+</html>

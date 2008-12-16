@@ -3,6 +3,8 @@ package com.inozen.app.admin.board;
 import java.util.Date;
 import java.util.List;
 
+import javax.servlet.http.HttpServletRequest;
+
 import com.inozen.framework.data.support.OrderPage;
 import com.inozen.framework.web.GenericController;
 import com.inozen.framework.web.support.CommonPages;
@@ -48,7 +50,7 @@ public class BoardController extends GenericController<Board, BoardService, Boar
 	}
 	
 	@RequestMapping(method=RequestMethod.GET)
-	public void boardList(ModelMap model, BoardParams params, OrderPage orderPage, @RequestParam(value="code", required=false) String code) {
+	public void boardList(HttpServletRequest req, ModelMap model, BoardParams params, OrderPage orderPage, @RequestParam(value="code", required=false) String code) {
 		
 		if (orderPage.getOrder() == null) {
 			orderPage.setOrder(this.order);
@@ -62,6 +64,7 @@ public class BoardController extends GenericController<Board, BoardService, Boar
 		
 		List<Board> list = service.search(params, orderPage);
 		
+		
 		model.addAttribute("orderPage", orderPage);
 		model.addAttribute("list", list);
 		model.addAttribute("code", code);
@@ -69,7 +72,7 @@ public class BoardController extends GenericController<Board, BoardService, Boar
 		if(code==null&&list.size()==0) {
 			_message="추가 버튼을 클릭하고 게시판을 생성하세요.";
 		}
-			
+		model.addAttribute("req", req);	
 		model.addAttribute("message", _message);
 	}
 	

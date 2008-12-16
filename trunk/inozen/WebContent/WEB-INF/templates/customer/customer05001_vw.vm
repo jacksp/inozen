@@ -1,0 +1,76 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="ko" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=euc-kr"/>
+	<meta name="description" content="KOREA LEGAL AID CORPORATION" />
+	<meta name="keyword" content="법률구조공단" />
+	<title>법률구조공단 &gt; </title>
+	<link rel="stylesheet" type="text/css" href="/klac/css/kl_xxx.css" />
+
+	<script type="text/javascript" language="javascript" src="/klac/jscript/common.js"></script>
+	
+</head>
+
+<body>
+	<div id="skipMenu">
+		<!-- #include virtual = /klac/common/comm/skip.vm-->
+	</div>
+
+	<div id="wrapper">
+		<div id="header">
+		<!-- header	   -->
+			<!-- #include virtual = /klac/common/include/header.vm -->			
+		</div>
+
+		<div id="contentWrapper">
+		<!-- contentWrapper -->
+			<!-- subvisual -->
+			<p class="subVisual"></p>
+		
+			<div id="leftMenu">
+			<!-- leftmenu -->
+				<!-- #include virtual = /klac/common/include/leftMenu_xxx.vm -->				
+			</div>
+
+			<div id="content" class="content-type2">
+			<!-- content -->
+				<div id="pageLocation">
+					<!-- include -->
+				</div>
+				<h1>page title</h1>
+
+<h2>민원/불친절 신고</h2>
+
+<p>이용하시는데 편리하고 친절한 대한법률구조공단이 되도록 최선을 다 하겠습니다.</p>
+
+<p>공단을 이용하는 과장에서 불친절하거나 불편한 사례가 있으면 아래형식에 의해서 의견을 올려 주시기 바랍니다. 그리고 의견을 게시할 때에는 게시자의 성명, 주민등록번호, 전화번호, E-mail, 주소를 정확히 입력하셔야 하며 이것은 사실확인 및 답변회신을 위하여 꼭 필요한 내용입니다. 답변은 게시자의 E-mail, 전화 또는 우편으로 회신되며 게시판에서 주민등록번호를 입력하면 처리과정을 확인하실 수 있습니다. 여기에 게시되는 내용은 공단 감사실에서만 열람할 수 있으므로 게시자 및 게시내용에 대하여는 절대 비밀이 보장됩니다.</p>
+
+<p>불친절 기타 불편한 사례가 있으면 즉시 바로 잡도록 하겠습니다.</p>
+
+<form>
+<fieldset>
+<legend>민원처리상황 조회를 위한 주민등록번호 입력</legend>
+<dl>
+	<dt><label for="p_ju1">주민등록번호 입력</label></dt>
+	<dd>
+		<input type="text" maxlength="6" name="p_ju1" id="p_ju1" title="주민등록번호 앞자리"/>-<input type="text" maxlength="7" name="p_ju2" title="주민등록번호 뒷자리"/>
+	</dd>
+	<dd><input type="image" alt="민원처리상황조회"/></dd>
+</dl>
+</fieldset>
+</form>
+
+			</div>
+		</div>
+
+		<div id="footer">
+		<!-- footer -->		
+		</div>
+
+		<div id="quickMenu">
+		<!-- quick menu -->
+			<!-- #include virtual = /klac/common/comm/quickMenu.vm -->			
+		</div>		
+	</div>
+</body>
+</html>

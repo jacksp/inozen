@@ -1,0 +1,97 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="ko" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=euc-kr"/>
+	<meta name="description" content="KOREA LEGAL AID CORPORATION" />
+	<meta name="keyword" content="법률구조공단" />
+	<title>법률구조공단 &gt; </title>
+	<link rel="stylesheet" type="text/css" href="/klac/css/kl_xxx.css" />
+
+	<script type="text/javascript" language="javascript" src="/klac/jscript/common.js"></script>
+	
+</head>
+
+<body>
+	<div id="skipMenu">
+		<!-- #include virtual = /klac/common/comm/skip.vm-->
+	</div>
+
+	<div id="wrapper">
+		<div id="header">
+		<!-- header	   -->
+			<!-- #include virtual = /klac/common/include/header.vm -->			
+		</div>
+
+		<div id="contentWrapper">
+		<!-- contentWrapper -->
+			<!-- subvisual -->
+			<p class="subVisual"></p>
+		
+			<div id="leftMenu">
+			<!-- leftmenu -->
+				<!-- #include virtual = /klac/common/include/leftMenu_xxx.vm -->				
+			</div>
+
+			<div id="content" class="content-type1">
+			<!-- content -->
+				<div id="pageLocation">
+					<!-- include -->
+				</div>
+				<h1>page title</h1>
+
+<h2>생활속 법률상식</h2>
+
+<p>실생활에서 부딪치기 쉬운 여러 법률문제를 재미있는 상황을 통해 풀어드립니다.</p>
+
+<div>
+	<dl>
+		<dt>방송매체:</dt>
+		<dd>	국회방송(NATV)</dd>
+	</dl>
+
+	<dl>
+		<dt>프로그램:</dt>
+		<dd>신율의 법률이야기</dd>
+	</dl>
+
+	<dl>
+		<dt>출연:</dt>
+		<dd>강병훈 변호사</dd>
+	</dl>
+</div>
+
+<ul>
+	<li>세든 집에 난 불<span><a href="">동영상</a></span></li>
+	<li>인터넷 불통으로 인한 피해<span><a href="">동영상</a></span></li>
+	<li>천재지변과 국가배상<span><a href="">동영상</a></span></li>
+	<li>쇼핑 고객의 누명<span><a href="">동영상</a></span></li>
+	<li>잘못 입금된 동의 사용<span><a href="">동영상</a></span></li>
+	<li>증여계약 파기<span><a href="">동영상</a></span></li>
+	<li>이혼 위자료<span><a href="">동영상</a></span></li>
+	<li>주차권 분실<span><a href="">동영상</a></span></li>
+</ul>
+
+<ul>
+	<li>1</li>
+	<li>2</li>
+	<li>3</li>
+	<li>4</li>
+	<li>5</li>
+	<li>6</li>
+	<li>마지막 페이지</li>
+</ul>
+
+			</div>
+		</div>
+
+		<div id="footer">
+		<!-- footer -->		
+		</div>
+
+		<div id="quickMenu">
+		<!-- quick menu -->
+			<!-- #include virtual = /klac/common/comm/quickMenu.vm -->			
+		</div>		
+	</div>
+</body>
+</html>

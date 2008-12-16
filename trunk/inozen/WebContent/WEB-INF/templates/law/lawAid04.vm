@@ -1,0 +1,79 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="ko" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=euc-kr"/>
+	<meta name="description" content="KOREA LEGAL AID CORPORATION" />
+	<meta name="keyword" content="법률구조공단" />
+	<title>무료법률구조안내 &gt; 개요</title>
+	<link rel="stylesheet" type="text/css" href="/klac/css/kl_law.css" />
+
+	<script type="text/javascript" language="javascript" src="/klac/jscript/common.js"></script>
+	
+</head>
+
+<body>
+	<div id="skipMenu">
+		<!-- #include virtual = /klac/common/comm/skip.vm-->
+	</div>
+
+	<div id="wrapper">
+		<div id="header">
+		<!-- header	    -->
+			<!-- #include virtual = /klac/common/include/header.vm -->			
+		</div>
+
+		<div id="contentWrapper">
+		<!-- contentWrapper -->
+			<!-- subvisual -->
+			<p class="subVisual"><img src="/Images/common/klcomm_imgSubVisual03.jpg" width="865" height="128" alt="가족처럼 따뜻하게 친구처럼 편안하게 대한법률구조공단의 약속입니다," /></p>
+		
+			<div id="leftMenu">
+			<!-- leftmenu -->
+				<!-- #include virtual = /klac/common/include/leftMenu_xxx.vm -->				
+			</div>
+
+			<div id="content" class="content-type2">
+			<!-- content -->
+				<div id="pageLocation">
+					<!-- include -->
+				</div>
+				<h1><img src="/Images/common/contitle/conTit030401.gif" width="150" height="25" alt="무료법률구조안내" /></h1>
+
+				<h2 class="styleH2-type2">개요</h2>
+
+				<div id="consult-m">
+					<div class="consult-t">
+						<div class="consult-b">
+							<div class="consult-icon6">
+								<h3>A FREE LEGAL ADVISER</h3>
+								<p class="strong">국민의 기본적 인권을 옹호하는 법률분야의 사회복지 제도입니다.</p>
+
+								<p>경제적인 이유등으로 법의 보호에서 소외되어 있는 국민의 권리를 옹호하는 법률구조제도는 현대사회에서는 국가가 베푸는 자선이 아니라 국민의 권리이자 국가의 의무이고 더 나아가 의료서비스와 같은 사회복지제도의 하나로서 자리 잡아가고 있습니다.<br />그러나 저렴한 비용으로 이용할 수 있는 법률구조 서비스마저도 경제적인 이유로 이용하기 힘든 국민들이 많아 이들을 위한 보완책이 필요하게 되어 공단에서는 여럭기관들과의 무료법률구조사업 협약을 체결하고 동 기관들로부터 출연받은 적립금을 재원으로 하여 무료법률구조사업을 실시하고 있습니다.</p>			
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				<div class="list2-btype02">
+					<p>공단은 농&middot;수협과 농&middot;어민 무료법률구조사업 협약을 체결하고 농협 등이 공단에 출연한 적립금을 재원으로하여<br /> 1996. 7. 1.부터 농민, 어민, 축산인에 대한 무료법률구조사업을 실시하였습니다.</p>
+					<p>1997. 10. 1. 조흥은행(현 : 신한은행)과 도시영세민들에 대하여, 1999. 2. 1. KT&G와 담배소매인들에 대하여, 2003. 12. 23. 여성가족부와 가정폭력 등으로 인한 피해를 입은 여성들에 대하여 각각 무료법률구조사업협약을 체결하였습니다.</p>
+					<p>또한 2005. 7. 1. 노동부와의 협약을 통해 임금 및 퇴직금 체불로 인한 피해근로자, 2005. 9.1. 중소기업청과의 협약으로 소상공자영업자, 2007. 2. 1. 여성가족부와의 협약을 통해 한부모가족에 대하여 무료법률구조사업을 실시하였고, 2008. 1. 1. 한국선원복지고용센터와의 협약을 통해 선원법 상의 임금&middot;퇴직금 체불 및 재해보상 사고와 관련된 피해선원에 대한 무료법률구조를 실시하고 있다.</p>
+					<p>이로서 이들 기관이 공단에 출연한 적립금을 재원으로 하여 농&middot;어민, 생활보장수급자, 소년&middot; 소녀가장, 장애인,
+					국가보훈대상자, 모자&middot;부자가정, 사회연대은행(사) 함께만드는세상의 지원수혜자, 국내거주 북한이탈주민,
+					장애인, 국가보훈대상자 및 5.18민주유공자, 윌평균수입이 260만원 이하이고 재산세미과세 대상자 중 주택임대차 보호법에서 정한 소액임차인, 영세담배소매인, 가정폭력 &middot; 성폭력으로 인한 피해를 입은 여성(국내거주 외국인 여성 포함) 및 13세 미만 남아, 임금 등 체불 피해근로자, 소상공자영업자 및 한부모가족, 선원에 대한 무료법률구조사업을 실시하고 있습니다.</p>
+				</div>
+
+			</div>
+		</div>
+
+		<div id="footer">
+		<!-- footer -->		
+		</div>
+
+		<div id="quickMenu">
+		<!-- quick menu -->
+			<!-- #include virtual = /klac/common/comm/quickMenu.vm -->			
+		</div>		
+	</div>
+</body>
+</html>

@@ -1,0 +1,108 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="ko" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=euc-kr"/>
+	<meta name="description" content="KOREA LEGAL AID CORPORATION" />
+	<meta name="keyword" content="법률구조공단" />
+	<title>법률구조공단 &gt; </title>
+	<link rel="stylesheet" type="text/css" href="/klac/css/kl_xxx.css" />
+
+	<script type="text/javascript" language="javascript" src="/klac/jscript/common.js"></script>
+	
+</head>
+
+<body>
+	<div id="skipMenu">
+		<!-- #include virtual = /klac/common/comm/skip.vm-->
+	</div>
+
+	<div id="wrapper">
+		<div id="header">
+		<!-- header	   -->
+			<!-- #include virtual = /klac/common/include/header.vm -->			
+		</div>
+
+		<div id="contentWrapper">
+		<!-- contentWrapper -->
+			<!-- subvisual -->
+			<p class="subVisual"></p>
+		
+			<div id="leftMenu">
+			<!-- leftmenu -->
+				<!-- #include virtual = /klac/common/include/leftMenu_xxx.vm -->				
+			</div>
+
+			<div id="content" class="content-type2">
+			<!-- content -->
+				<div id="pageLocation">
+					<!-- include -->
+				</div>
+				<h1>page title</h1>
+
+<p>공단은 국민으로부터 받은 신뢰와 사랑을 되돌려 드리고 함께하는 사회를 만들기 위해 지속적인 '사랑나눔 실천운동'을 펼치고 있습니다.</p>
+
+<h2>사회공헌</h2>
+
+<ul>
+	<li>사회공헌소개</li>
+	<li>추진활동</li>
+</ul>
+
+<table summary="">
+	<thead>
+		<tr>
+			<th>번호</th>
+			<th>파일</th>
+			<th>제목</th>
+			<th>날짜</th>
+			<th>조회</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>909</td>
+			<td></td>
+			<td>공단, 농촌 일손 돕기 행사 실시</td>
+			<td>2008-11-21</td>
+			<td>548</td>
+		</tr>
+	</tbody>
+</table>
+<div>
+	<p>
+		[사진 위] 사과·잣 수확 일손돕기를 마친 공단 직원들이 마을 어르신들에게 점심 식사를 대접하고 있다.<br />
+		[사진 아래] 과실 수확 등 농번기를 맞아 공단을 찾기 힘든 마을 주민들을 위해 ‘하면농협’ 앞마당에서 찾아가는 법률상담을 실시하고 있는 공단 직원들
+	</p>
+
+	<p><strong>- 자매결연마을서 포도·잣 수확 및 법률상담 실시 -</strong></p>
+	<p>
+		공단은 23일 1사1촌 결연마을인 경기도 가평군 대보1리를 찾아 직원과 가족이 함께 1박 2일 동안 농촌의 부족한 일손돕기에 나섰다.<br /><br />
+		공단 직원과 가족 30여명은 사과, 포도, 잣 등 대보1리 특산물을 주민들과 같이 구슬땀을 흘리며 수	확하는 한편, 마을회관에 어르신들을 모시고 식사를 대접하는 등 다양한 농촌사랑운동을 펼쳤다.<br /><br />
+		또한 현지 마을 주민들을 위해「찾아가는 법률상담·구조활동」을 펼쳐, ‘마을의 변호사가 되겠다’던 지난 해 자매결연식때의 약속을 지켰다.<br /><br />
+		공단은 지속적으로 사회공헌활동과 나눔경영을 펼치고 있으며, 지난 2006년 12월 대보1리 마을과 결연을 맺고 농산물 구매·농번기 일손돕기·공단 견학·장학금 수여 등의 많은 교류와 지원을 통해 도농상생의 참뜻을 실천하고 있다.
+	</p>
+</div>
+
+<dl>
+	<dt>이전글</dt>
+	<dd>None</dd>
+	<dt>다음글</dt>
+	<dd>불우 이웃돕기 기금마련 활동 참여</dd>
+</dl>
+
+<p><a href="" title="목록보기">사회공헌 목록보기</a></p>
+
+			</div>
+		</div>
+
+		<div id="footer">
+		<!-- footer -->		
+		</div>
+
+		<div id="quickMenu">
+		<!-- quick menu -->
+			<!-- #include virtual = /klac/common/comm/quickMenu.vm -->			
+		</div>		
+	</div>
+</body>
+</html>

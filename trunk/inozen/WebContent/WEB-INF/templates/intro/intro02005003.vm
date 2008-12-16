@@ -1,0 +1,96 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="ko" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=euc-kr"/>
+	<meta name="description" content="KOREA LEGAL AID CORPORATION" />
+	<meta name="keyword" content="법률구조공단" />
+	<title>법률구조공단 &gt; </title>
+	<link rel="stylesheet" type="text/css" href="/klac/css/kl_xxx.css" />
+
+	<script type="text/javascript" language="javascript" src="/klac/jscript/common.js"></script>
+	
+</head>
+
+<body>
+	<div id="skipMenu">
+		<!-- #include virtual = /klac/common/comm/skip.vm-->
+	</div>
+
+	<div id="wrapper">
+		<div id="header">
+		<!-- header	   -->
+			<!-- #include virtual = /klac/common/include/header.vm -->			
+		</div>
+
+		<div id="contentWrapper">
+		<!-- contentWrapper -->
+			<!-- subvisual -->
+			<p class="subVisual"></p>
+		
+			<div id="leftMenu">
+			<!-- leftmenu -->
+				<!-- #include virtual = /klac/common/include/leftMenu_xxx.vm -->				
+			</div>
+
+			<div id="content" class="content-type2">
+			<!-- content -->
+				<div id="pageLocation">
+					<!-- include -->
+				</div>
+				<h1>page title</h1>
+
+<h2>연혁</h2>
+
+<ul>
+	<li>2000년-현재</li>
+	<li>1990년</li>
+	<li>1980년-1979년</li>
+</ul>
+
+<h3>1980년-1979년</h3>
+
+<h4>1980</h4>
+
+<ul>
+	<li>1989. 11. 01 법률상담사례집 제Ⅰ권 발행 (상담사례 208사례)</li>
+	<li>1989. 09. 01 서부직할출장소 신설</li>
+	<li>1989. 07. 29 공단 본부 청사이전- 광화문 목산빌딩에서 역삼동 648-17 부옥빌딩</li>
+	<li>1989. 02. 04 부산동부출장소 신설</li>
+	<li>1988. 08. 09 물품의 사용 및 용역의 이용으로 인한 피해를 입은 소비자 추가</li>
+	<li>1987. 09. 01 대한법률구조공단 설립
+		<ul>
+			<li>- 재단법인 대한법률구조협회 권리 의무승계</li>
+			<li>- 기구 : 본부(2부 1국 2실 6과), 11개 지부, 4개 직할출장소,</li>
+			<li>　32개 출장소</li>
+			<li>- 서울시 종로구 적선동 156번지 목산빌딩</li>
+			<li>- 초대이사장 : 김 성 기</li>
+			<li>- 법률구조대상자 : 농 어민, 월수입 40만원이하 근로자 및 영세상인, 6급이하 공무원, 위관급이하 군인, 국가보훈대상자, 기타 생활보호대상자 등</li>
+		</ul>
+	</li>
+	<li>1987. 07. 06 법률구조법 시행규칙 제정 공포(법무부령 제301호)</li>
+	<li>1987. 07. 01 법률구조법 시행령 제정 공포(대통령령 제12198호)</li>
+	<li>1986. 02. 23 법률구조법 제정 공포(법률 제3862호)</li>
+	<li>1982. 02. 23 법률구조대상자 범위 대폭 확대- 전체 농·어민, 월수입 30만원이하 근로자, 4급(현6급)이하 공무원, 위관급이하 군인</li>
+</ul>
+
+<h4>1970</h4>
+
+<ul>
+	<li>1972. 06. 25 각 지방검찰청에 지부설치(9개 지부)</li>
+	<li>1972. 06. 14 재단법인 대한법률구조협회 설립- 근거 : 민법 제32조(비영리 재단법인)</li>
+</ul>
+
+			</div>
+		</div>
+
+		<div id="footer">
+		<!-- footer -->		
+		</div>
+
+		<div id="quickMenu">
+		<!-- quick menu -->
+			<!-- #include virtual = /klac/common/comm/quickMenu.vm -->			
+		</div>		
+	</div>
+</body>
+</html>

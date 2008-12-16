@@ -18,9 +18,9 @@ public class Menu {
 	@Column(name="p_menu_name")
 	private String pMenuName;				// 상위 메뉴 이름
 	@Column(name="menu_kind")
-	private String menuKind;				// 메뉴 종류
+	private String menuKind;				// 메뉴 위치
 	@Column(name="menu_type")
-	private String menuType;				// 메뉴 타입
+	private String menuType;				// 메뉴 종류
 	@Column(name="menu_related_code")
 	private long menuRelatedCode;			// 메뉴 관련 코드 (카테고리 코드, 게시판 코드, 페이지 코드)
 	@Column(name="menu_url")

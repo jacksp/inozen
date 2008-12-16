@@ -1,0 +1,418 @@
+/*
+Source		:	kl_law.css
+Discription	:	법률구조안내 스타일시트 정의
+
+Date			:	2008.	11.14
+Author		:	choi kyoung ho
+*/
+
+@import "kl_common.css";
+@import "kl_header.css";
+@import "kl_layout.css";
+@import "kl_board.css";
+
+#consult-m{
+	width:650px;
+	margin:15px 0px 20px 5px;
+	background:url(/images/common/klcomm_bgConsult_mid.jpg) repeat-y left top;
+}
+
+.consult-t{
+	width:650px;
+	background:url(/images/common/klcomm_bgConsult_top.jpg) no-repeat left top;
+}
+
+.consult-b{
+	background:url(/images/common/klcomm_bgConsult_btm.jpg) no-repeat left bottom;
+}
+
+.consult-icon1{
+	min-height:87px;
+	_height:87px;
+	background:url(/images/law/kllaw_bgConsult_icon01.jpg) no-repeat 3px 10px;
+	padding:18px 0px 15px 164px;
+}
+
+.consult-icon2{
+	min-height:198px;
+	_height:198px;
+	background:url(/images/law/kllaw_bgConsult_icon02.jpg) no-repeat 3px 15px;
+	padding:18px 0px 15px 164px;
+}
+
+.consult-icon3{
+	min-height:180px;
+	_height:180px;
+	background:url(/images/law/kllaw_bgConsult_icon04.jpg) no-repeat 3px 15px;
+	padding:18px 0px 15px 164px;
+}
+
+.consult-icon5{
+	min-height:137px;
+	_height:137px;
+	background:url(/images/law/kllaw_bgConsult_icon05.jpg) no-repeat 3px 15px;
+	padding:18px 0px 15px 164px;
+}
+
+.consult-icon6{
+	min-height:137px;
+	_height:137px;
+	background:url(/images/law/kllaw_bgConsult_icon06.jpg) no-repeat 3px 15px;
+	padding:18px 0px 15px 164px;
+}
+
+#consult-m h3{
+	margin:0px 0px 4px;	
+}
+
+#consult-m p{	
+	margin:9px 10px 9px 0px;
+}
+
+.consult-icon1 ul{
+	font-size:0px;
+	line-height:0px;
+}
+
+.consult-icon1 ul li{
+	display:inline;
+	margin-right:4px;
+}
+
+ul.list-btype02{
+	margin:0px 0px 0px 15px;
+}
+
+dl.list-btype02{
+	margin:0px 0px 0px 25px;
+}
+
+ul.list-btype02 dl{
+	display:inline;
+}
+
+ul.list-btype02 dl dd{
+	padding-left:10px;
+	background:url(/images/common/klcomm_bgBulletList2002.gif) no-repeat left 5px;
+}
+
+ul.list2-btype02{
+	margin:0px 0px 0px 35px;
+}
+
+ul.referenceFacts{
+	margin:12px 0px 0px 15px;
+	padding-left:104px;
+	width:536px;
+	background:url(/images/law/kllaw_bgReference.gif) no-repeat left top;
+}
+
+ul.referenceFacts li{
+	margin:0px 0px 22px;
+}
+
+#consult-m .list-btype02{
+	margin:0px 0px 17px;
+}
+
+#consult-m .list-btype02 li{
+	margin:0px 0px 2px;
+	background-position:left 6px;
+}
+
+#consult-m .notice{
+	padding-left:68px;
+	color:#8C6EC7;
+	background:url(/images/law/kllaw_bgConsult_icon03.jpg) no-repeat left top;
+}
+
+.appLawInfo{
+	margin:12px 0px 15px 15px;
+	padding-left:104px;
+	width:536px;
+	background:url(/images/law/kllaw_bgArsFax.gif) no-repeat left top;
+}
+
+.appLawInfo li{
+	margin:0px 0px 20px;
+}
+
+.alikeCase{
+	margin:12px 0px 15px 15px;
+	padding-left:104px;
+	width:536px;
+	background:url(/images/law/kllaw_bgSearchCase.gif) no-repeat left top;
+}
+
+.alikeCase li{
+	margin:0px 0px 20px;
+}
+
+.alikeCase li p{
+	margin:10px 0px 0px;
+}
+
+.tab-layout{
+	border-top:2px solid #D2CAEB;
+	border-bottom:2px solid #D2CAEB;
+	margin:0px 0px 0px 10px;
+}
+
+.tab-layout2{
+	border-top:2px solid #D2CAEB;
+	border-bottom:2px solid #D2CAEB;
+	margin:0px 0px 0px 25px;
+}
+
+.lawtype1 th{
+	background-color:#F1F1F1;
+	border-bottom:1px solid #D2CAEB
+}
+
+.lawtype1 td{
+	padding:15px 8px;
+	border-bottom:1px solid #D2CAEB
+}
+
+.lawtype1 td li{
+	padding-left:14px;
+	text-indent:-15px;
+}
+
+.lawtype2 tfoot{
+	font-weight:bold;
+}
+
+.lawtype2 th{
+	background-color:#F1F1F1;
+	border:1px solid #D2CAEB;
+	padding:5px 0px 3px;
+}
+
+.lawtype2 td{
+	border:1px solid #D2CAEB;
+	padding:5px;
+}
+
+.lawtype2 .noBd-left{
+	border-left:none;
+}
+
+.lawtype2 .noBd-right{
+	border-right:none;
+}
+
+.lawtype2 td dd{
+	margin:0px 0px 8px;
+	padding-left:20px;
+	text-indent:-10px;
+}
+
+.descLAresult{
+	margin:13px 0px 18px 5px;
+	word-spacing:-1px;
+}
+
+ul.descTitle2{
+	margin:10px 0px 10px 30px;	
+}
+
+ul.descTitle2 li{
+	margin-bottom:6px;
+}
+
+.useinfo{
+	width:528px;
+	padding-left:122px;
+	margin:0px 0px 0px 5px;
+	background:url(/images/law/kllaw_bgUseinfo001.gif) no-repeat left top;
+}
+
+.useinfo p{
+	margin:0px 0px 10px;
+}
+
+.freeLawAid{
+	margin:10px 0px 10px 15px;
+	padding-left:105px;
+	background:url(/images/law/kllaw_bgfreeLawAid.gif) no-repeat left top;
+	min-height:105px;
+	_height:105px;
+}
+
+.freeLawAid p{
+	margin:0px 0px 20px;
+}
+
+.descLawAid{
+	padding-left:114px;
+	margin:0px 0px 0px 15px;
+	background:url(/images/law/kllaw_bgWhatLawAid.gif) no-repeat left top;
+}
+
+.descLawAid p{
+	margin:0px 0px 12px;
+}
+
+.aidTarget{
+	padding-left:104px;
+	margin:0px 0px 0px 15px;
+	min-height:90px;
+	_height:90px;
+	background:url(/images/law/kllaw_bgAidTarget.gif) no-repeat left top;
+}
+
+.downFormat{
+	height:20px;
+	margin:0px 0px 0px 30px;
+}
+
+.downFormat li{
+	float:left;
+	margin-right:6px;
+}
+
+div.list2-btype02{
+	margin:0px 10px;
+}
+
+#freelawAidInfor{
+	width:650px;
+	margin:0px 0px 20px 5px;
+	background:url(/images/law/kllaw_bgFreelawAidInfor_m.gif) repeat-y left top;
+}
+
+#freelawAidInfor .freelawAidInfor-t{
+	background:url(/images/law/kllaw_bgFreelawAidInfor_t.gif) no-repeat left top;
+}
+
+#freelawAidInfor .freelawAidInfor-b{
+	padding:6px 15px 11px;
+	background:url(/images/law/kllaw_bgFreelawAidInfor_b.gif) no-repeat left bottom;
+}
+
+#freelawAidInfor .freelawAidInfor-b ul{
+	min-height:23px;
+	_height:23px;
+	padding:6px 0px 0px;
+	border-bottom:1px solid #E3E3E3;
+}
+
+#freelawAidInfor .freelawAidInfor-b ul li{
+	float:left;
+	padding:3px 6px 0px 10px;
+	margin:0px 12px 0px 0px;
+	height:16px;
+	border:1px solid #ffffff;
+	background:url(/images/common/klcomm_bgBulletTri001.gif) no-repeat 4px 7px;
+}
+
+#freelawAidInfor .freelawAidInfor-b ul li a{
+	display:block;
+}
+
+#freelawAidInfor .freelawAidInfor-b li.currP{
+	font-weight:bold;
+	color:#7C4BD7;
+	border:1px solid #B990F0;
+	letter-spacing:-1px;
+	background:#F7F1FF url(/images/common/klcomm_bgBulletTri002.gif) no-repeat 4px 7px;
+}
+
+#descFreeAid{
+	padding:0px 0px 0px 105px;
+	min-height:90px;
+	_height:90px;
+	margin:0px 0px 20px 15px;
+}
+
+#descFreeAid ul{
+	margin:0px 0px 8px;
+}
+
+#descFreeAid p{
+	margin:0px 0px 8px;
+}
+
+#descFreeAid .alignR{
+	margin:20px 0px 0px !important;
+}
+
+.iconFreeAid1{
+	background:url(/images/law/kllaw_bgFreeAidicon1.gif) no-repeat left top;
+}
+
+.iconFreeAid2{
+	background:url(/images/law/kllaw_bgFreeAidicon2.gif) no-repeat left top;
+}
+
+.iconFreeAid3{
+	background:url(/images/law/kllaw_bgFreeAidicon3.gif) no-repeat left top;
+}
+
+.iconFreeAid4{
+	background:url(/images/law/kllaw_bgFreeAidicon4.gif) no-repeat left top;
+}
+
+.iconFreeAid5{
+	background:url(/images/law/kllaw_bgFreeAidicon5.gif) no-repeat left top;
+}
+
+.iconFreeAid6{
+	background:url(/images/law/kllaw_bgFreeAidicon6.gif) no-repeat left top;
+}
+
+.iconFreeAid7{
+	background:url(/images/law/kllaw_bgFreeAidicon7.gif) no-repeat left top;
+}
+
+.iconFreeAid8{
+	background:url(/images/law/kllaw_bgFreeAidicon8.gif) no-repeat left top;
+}
+
+.iconFreeAid9{
+	background:url(/images/law/kllaw_bgFreeAidicon9.gif) no-repeat left top;
+}
+
+.iconFreeAid10{
+	background:url(/images/law/kllaw_bgFreeAidicon10.gif) no-repeat left top;
+}
+
+.iconFreeAid11{
+	background:url(/images/law/kllaw_bgFreeAidicon11.gif) no-repeat left top;
+}
+
+.iconFreeAid12{
+	background:url(/images/law/kllaw_bgFreeAidicon12.gif) no-repeat left top;
+}
+
+.iconFreeAid13{
+	background:url(/images/law/kllaw_bgFreeAidicon13.gif) no-repeat left top;
+}
+
+.exam{
+	border:1px solid #c7c7c7;
+	width:600px;
+	margin:8px 0px 8px 30px;
+	padding:9px;
+}
+
+.exam li{
+	padding-left:20px;
+	text-indent:-14px;
+	margin:0px 0px 8px;
+}
+
+.exam p{
+	margin:0px 0px 8px;
+}
+
+.partners{
+	margin:12px 0px 0px 5px;
+	overflow:hidden;
+}
+
+.partners li{
+	margin:0px 0px 18px 15px;
+	float:left;
+}

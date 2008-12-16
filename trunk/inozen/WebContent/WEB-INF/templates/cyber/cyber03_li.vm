@@ -1,0 +1,115 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="ko" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=euc-kr"/>
+	<meta name="description" content="KOREA LEGAL AID CORPORATION" />
+	<meta name="keyword" content="법률구조공단" />
+	<title>법률구조공단 &gt; </title>
+	<link rel="stylesheet" type="text/css" href="/klac/css/kl_cyber.css" />
+
+	<script type="text/javascript" language="javascript" src="/klac/jscript/common.js"></script>
+	
+</head>
+
+<body>
+	<div id="skipMenu">
+		<!-- #include virtual = /klac/common/comm/skip.vm-->
+	</div>
+
+	<div id="wrapper">
+		<div id="header">
+		<!-- header	    -->
+			<!-- #include virtual = /klac/common/include/header.vm -->			
+		</div>
+
+		<div id="contentWrapper">
+		<!-- contentWrapper -->
+			<!-- subvisual -->
+			<p class="subVisual"></p>
+		
+			<div id="leftMenu">
+			<!-- leftmenu -->
+				<!-- #include virtual = /klac/common/include/leftMenu_xxx.vm -->				
+			</div>
+
+			<div id="content" class="content-type1">
+			<!-- content -->
+				<div id="pageLocation">
+					<!-- include -->
+				</div>
+				<h1>page title</h1>
+
+<h1>유사사례</h1>
+
+<ul>
+	<li>상담안내</li>
+	<li>상담신청</li>
+</ul>
+
+<form>
+	<fieldset>
+		<label for="s_colum">SEARCH</label>
+		<select id="s_colum" name="s_colum">
+			<option selected="selected" value="">제목</option>
+			<option value="">신청인</option>
+			<option value="">신청일</option>
+			<option value="">답변일</option>
+			<option value="">상담번호</option>
+			<option value="">주민번호</option>
+			<option value="">답변내용</option>
+		</select>
+		<input type="text" title="검색어 입력"/>
+		<input type="images" alt="검색하기"/>
+	</fieldset>
+</form>
+
+<table width="100%" cellpadding="0" cellspacing="0" summary="상담신청 목록">
+<caption>상담신청</caption>
+	<thead>
+		<tr>
+			<th>상담번호</th>
+			<th>신청일</th>
+			<th>제목</th>
+			<th>진행사항</th>
+			<th>공개</th>
+			<th>조회</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>111111</td>
+			<td>2008-11-12</td>
+			<td>xxx xxxx xxxxx xx</td>
+			<td>검토중</td>
+			<td>O</td>
+			<td>21</td>
+		</tr>
+	</tbody>
+</table>
+
+<ul>
+	<li>처음</li>
+	<li>이전</li>
+	<li>1</li>
+	<li>2</li>
+	<li>3</li>
+	<li>4</li>
+	<li>5</li>
+	<li>다음</li>
+	<li>마지막</li>
+</ul>
+
+			</div>
+		</div>
+
+		<div id="footer">
+		<!-- footer -->		
+		</div>
+
+		<div id="quickMenu">
+		<!-- quick menu -->
+			<!-- #include virtual = /klac/common/comm/quickMenu.vm -->			
+		</div>		
+	</div>
+</body>
+</html>

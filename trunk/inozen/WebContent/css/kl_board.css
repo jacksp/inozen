@@ -1,0 +1,317 @@
+/*
+Source		:	kl_board.css
+Discription	:	조회 및 결과 리스트 스타일시트 정의
+
+Date			:	2008.	12.10
+Author		:	choi kyoung ho
+*/
+
+/* 통합검색 */
+#total-search{
+	width:865px;
+	margin:0px 0px 10px;
+	background:url(/images/common/klcomm_bgSearch_m.gif) repeat-y left top;
+	position:relative;
+}
+
+.bgSearch-top{
+	width:865px;
+	background:url(/images/common/klcomm_bgSearch_t.gif) no-repeat left top;
+}
+
+.bgSearch-btm{
+	height:62px;
+	padding:18px 0px 0px;
+	background:url(/images/common/klcomm_bgSearch_b.gif) no-repeat left bottom;
+}
+
+#total-search fieldset{
+	width:100%;
+	text-align:center;
+}
+
+#total-search fieldset label{
+	margin:0px 7px 0px 5px;
+}
+
+#total-search fieldset select{
+	border:1px solid #7F9DB9;
+}
+
+#total-search fieldset #t_keyword{
+	border:1px solid #7F9DB9;
+	width:268px;
+	padding:2px 2px 1px;
+}
+
+#total-search fieldset label input{
+	margin-bottom:3px;
+}
+
+#searchTabTitle{
+	height:30px;
+	position:absolute;
+	bottom:0px;
+	left:10px;
+}
+
+#total-search fieldset img{
+	vertical-align:middle;
+}
+
+#searchTabTitle li{
+	height:20px;
+	width:120px;
+	float:left;
+	text-align:center;
+	font-weight:bold;
+	padding:10px 0px 0px;
+	margin-right:1px;	
+}
+
+#searchTabTitle li.noPos{
+	background:url(/images/common/klcomm_bgSearchTabTitle_off.gif) no-repeat left top;
+}
+
+
+#searchTabTitle li a{
+	color:#666666;
+	text-decoration:none;
+}
+
+#searchTabTitle li.curPos{
+	background:url(/images/common/klcomm_bgSearchTabTitle_on.gif) no-repeat left top;
+}
+
+#searchTabTitle li.curPos a{
+	color:#ffffff;
+}
+
+#tSearchResult{
+	width:725px;
+	float:left;
+}
+
+p.keyword{
+	margin:0px 0px 8px;
+}
+
+p.keyword span{
+	font-size:130%;
+	color:#FF3300;
+	font-weight:bold;
+}
+
+.searchByItem{
+	height:21px;
+	padding:6px 0px 0px;
+	border-top:2px solid #84C2D1;
+	border-bottom:1px solid #CCCCCC;
+}
+
+.searchByItem h2{
+	float:left;
+	color:#000000;
+	margin-left:5px;
+}
+
+.searchByItem h2 span{
+	color:#666666;
+	margin-left:10px;
+}
+
+.searchByItem dl{
+	float:right;
+	font-weight:bold;
+}
+
+.searchByItem dt{
+	float:left;
+	margin:0px 0px 0px 7px;
+	padding:0px 0px 0px 8px;
+	background:url(/images/common/klcomm_bgborderBar.gif) no-repeat left top;
+}
+
+.searchByItem dd{
+	float:left;
+	font-size:0px;
+	line-height:0px;
+	margin-left:4px;
+}
+
+.result-list{
+	padding:10px 18px;
+	margin:0px 0px 25px;
+}
+
+.result-list dl{
+	margin:0px 0px 8px;
+}
+
+.result-list dl.rtype2{
+	padding-left:108px;
+	position:relative;
+}
+
+.result-list dl.rtype2 .rImg{
+	position:absolute;
+	left:0;
+	top:0;
+}
+
+.result-list dt{
+	margin:0px 0px 8px;
+}
+
+.result-list dt a{
+	text-decoration:underline;
+	color:#1683B9;
+	margin-right:5px;
+}
+
+.result-list dt a:link{
+	text-decoration:underline;
+	color:#1683B9;
+}
+
+.result-list dt a:visited{
+	text-decoration:underline;
+	color:#1683B9;
+}
+
+.result-list dt a:hover{
+	text-decoration:underline;
+	color:#1683B9;
+}
+
+.result-list dt img{
+	vertical-align:middle;
+}
+
+.result-list .location{
+	color:#999999;
+	clear:both;
+	margin:8px 0px;
+}
+
+.result-list .filedown{
+	margin:0px 0px 20px;
+}
+
+.result-list .location span{
+	font-weight:bold;
+}
+
+.result-list dd{
+	margin:0px 0px 8px;
+}
+
+.result-list .alignR a{
+	color:#4095FF;
+}
+
+.result-list .noData{
+	color:#ff3355;
+	font-weight:bold;
+	text-align:center;
+	padding:15px 0px;
+}
+
+#rank{
+	width:125px;
+	float:right;
+	background:url(/images/common/klcomm_bgRank_m.gif) repeat-y left top;
+}
+
+.rank-t{
+	width:125px;
+	background:url(/images/common/klcomm_bgRank_t.gif) no-repeat left top;
+}
+
+.rank-b{
+	padding:10px 10px 15px;
+	background:url(/images/common/klcomm_bgRank_b.gif) no-repeat left bottom;
+}
+
+#rank h3{
+	padding:0 0 4px 6px;
+	border-bottom:1px solid #CCCCCC;
+	margin:0 0 8px;
+}
+
+#rank ol{
+	padding:0 0 0 6px;
+}
+
+#rank ol li{
+	line-height:140%;
+}
+
+.noneKeyword{
+	border-bottom:1px solid #cccccc;
+	padding:92px 0px 105px 180px;
+	background:url(/images/common/klcomm_bgNoneKeyword.gif) no-repeat 50px 56px;
+}
+
+.resultNone{
+	border-bottom:1px solid #cccccc;
+	padding:92px 0px 105px 180px;
+	background:url(/images/common/klcomm_bgResutlnone.gif) no-repeat 50px 56px;
+}
+
+#tSearchResult .bullet{
+	padding-left:11px;
+	margin: 12px 0px;
+	background:url(/images/common/klcomm_bgBulletList003.gif) no-repeat left 5px;
+}
+
+/* 페이지내 검색 */
+
+#bbs-search{
+	margin:10px 0px 15px 5px;
+	width:650px;
+	height:27px;
+	background:url(/images/common/klcomm_bgBbsSearch.gif) no-repeat left top;
+	padding:8px 0px 0px;
+	text-align:center;
+}
+
+#s_colum{
+	border:1px solid #7F9DB9;
+}
+
+#p_search{
+	border:1px solid #7F9DB9;
+	width:264px;
+	padding:2px 3px 1px;
+	background-color:#ffffff;
+}
+
+#bbs-search fieldset img{
+	vertical-align:middle;
+}
+
+#bbs-list{
+	color:#333333;
+	font-size:100%;
+	margin:0px 0px 10px;
+}
+
+#bbs-list th{	
+	padding:0px;
+	background:url(/images/common/klcomm_bgBbsListTh.gif) repeat-x left top;
+	height:30px;
+}
+
+#bbs-list tr.lineGray td{
+	background-color:#F9F9F9;
+}
+
+#bbs-list td{	
+	border-bottom:1px solid #cccccc;
+	padding:5px 0px 3px;
+}
+
+#bbs-list td.alignL{
+	padding-left:8px;
+}

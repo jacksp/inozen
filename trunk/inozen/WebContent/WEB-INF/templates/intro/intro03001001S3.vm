@@ -1,0 +1,23 @@
+<h1>사무총장</h1>
+
+<table summary="">
+	<thead>
+		<tr>
+			<th>성명</th>
+			<th>직위</th>
+			<th>전화번호</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>금병태</td>
+			<td>사무총장</td>
+			<td>02)3482-9034</td>		
+		</tr>
+	</tbody>
+</table>
+
+<p>
+	<span><a href="" title="인쇄하기">print</a></span>
+	<span><a href="" title="팝업창 닫기">close</a></span>
+</p>

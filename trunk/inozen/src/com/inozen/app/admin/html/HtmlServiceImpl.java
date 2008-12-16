@@ -15,5 +15,10 @@ public class HtmlServiceImpl extends GenericServiceImpl<HtmlPage, HtmlPageDao, H
 		super(HtmlPageDao.class);
 	}
 
+	@Override
+	public HtmlPage getHtmlInfo(long htmlCode) {
+		return dao.get(htmlCode);
+	}
+
 
 }

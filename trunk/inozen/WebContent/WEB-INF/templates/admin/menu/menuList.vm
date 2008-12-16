@@ -1,0 +1,107 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=euc-kr" />
+<title>Untitled Document</title>
+<link rel="stylesheet" media="screen" type="text/css" href="/css/base.css" />
+<script language="JavaScript" src="/js/prototype-1.6.x.js"></script>
+<script language="JavaScript" src="/js/osaf.js"></script>
+
+<!-- calendar -->
+<link rel="stylesheet" type="text/css" media="all" href="/js/jscalendar-1.0/calendar-blue2.css" title="win2k-cold-1" />
+<script type="text/javascript" src="/js/jscalendar-1.0/calendar.js"></script>
+<script type="text/javascript" src="/js/jscalendar-1.0/lang/calendar-en.js"></script>
+<script type="text/javascript" src="/js/jscalendar-1.0/calendar-setup.js"></script>
+
+<style>
+body {
+	margin-right: 2px;
+}
+</style>
+
+</head>
+<body>
+
+<div id="buttons">
+
+	<script type="text/javascript" language="javascript">
+		var pMenuCode = "$!code";
+		var message = "$!message";
+		
+		var addHandler = function() {
+			if((pMenuCode==""||pMenuCode=="null")&&message=="") {
+				alert("메뉴를 선택하세요.");
+				return;
+			}
+			document.location.href = "saveMenu.do?pMenuCode="+pMenuCode;
+		}
+	
+		var searchHandler = function() {
+			document.forms.searchform.method="POST";
+			document.forms.searchform.action="menuList.do";
+			document.forms.searchform.submit();
+		}
+	
+	</script>
+
+	<a href="javascript:void(1)" id="searchbtn" class="searchbtn">검색</a>
+	<a href="javascript:void(1)" id="addbtn" class="addbtn">추가</a>
+
+	<script type="text/javascript" language="javascript"> 
+		Event.observe("searchbtn", "click", searchHandler, false);	
+		Event.observe("addbtn", "click", addHandler, false);	
+	</script>
+
+</div>
+
+<form id="searchform" method="get">
+	<label>이름 :</label>
+	<input id="name" name="cateName" type="text" size="20" maxlength="30" value=""/>
+</form>
+	<table border="1">
+		<tr>
+			<td>메뉴코드</td>
+			<td>메뉴이름</td>
+			<td>상위메뉴코드</td>
+			<td>상위메뉴이름</td>
+			<td>메뉴종류</td>
+			<td>메뉴타입</td>
+			<td>관련코드</td>
+			<td>메뉴URL</td>
+			<td>등록사용자아이디</td>
+			<td>등록사용자이름</td>
+			<td>등록일자</td>
+			<td>수정사용자아이디</td>
+			<td>수정사용자이름</td>
+			<td>수정일자</td>
+			<td>메뉴순서</td>
+			<td>메뉴상태</td>
+		</tr>
+#if($list)
+	#foreach($menuList in $list)
+		<tr>
+			<td>$!menuList.menuCode</td>
+			<td>$!menuList.menuName</td>
+			<td>$!menuList.pMenuCode</td>
+			<td>$!menuList.pMenuName</td>
+			<td>$!menuList.menuKind</td>
+			<td>$!menuList.menuType</td>
+			<td>$!menuList.menuRelatedCode</td>
+			<td>$!menuList.menuURL</td>
+			<td>$!menuList.createdUserID</td>
+			<td>$!menuList.createdUserName</td>
+			<td>$!menuList.createdDate</td>
+			<td>$!menuList.modifiedUserID</td>
+			<td>$!menuList.modifiedUserName</td>
+			<td>$!menuList.modifiedDate</td>
+			<td>$!menuList.menuOrder</td>
+			<td>$!menuList.menuStatus</td>
+		</tr>
+	#end
+#end
+		<tr>
+			<td colspan="16"><font color="red">$message</font></td>
+		</tr>
+	</table>
+</body>
+</html>

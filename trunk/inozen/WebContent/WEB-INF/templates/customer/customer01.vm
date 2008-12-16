@@ -1,0 +1,122 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="ko" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=euc-kr"/>
+	<meta name="description" content="KOREA LEGAL AID CORPORATION" />
+	<meta name="keyword" content="법률구조공단" />
+	<title>법률구조공단 &gt; </title>
+	<link rel="stylesheet" type="text/css" href="/klac/css/kl_xxx.css" />
+
+	<script type="text/javascript" language="javascript" src="/klac/jscript/common.js"></script>
+	
+</head>
+
+<body>
+	<div id="skipMenu">
+		<!-- #include virtual = /klac/common/comm/skip.vm-->
+	</div>
+
+	<div id="wrapper">
+		<div id="header">
+		<!-- header	   -->
+			<!-- #include virtual = /klac/common/include/header.vm -->			
+		</div>
+
+		<div id="contentWrapper">
+		<!-- contentWrapper -->
+			<!-- subvisual -->
+			<p class="subVisual"></p>
+		
+			<div id="leftMenu">
+			<!-- leftmenu -->
+				<!-- #include virtual = /klac/common/include/leftMenu_xxx.vm -->				
+			</div>
+
+			<div id="content" class="content-type2">
+			<!-- content -->
+				<div id="pageLocation">
+					<!-- include -->
+				</div>
+				<h1>page title</h1>
+
+<p>고객제안마당에 오신 여러분을 환영합니다. 법률구조제도 및 공단운영에 관한 고객의 다양한 의견을 수렴하여 공단운영에 적극 반영함으로서 고객의 편의증진을 도모하고자 합니다.
+고객여러분의 많은 참여 바랍니다.</p>
+
+<p>참여하기</p>
+
+<ul>
+	<li>제안자격: 외국인, 단체 등을 불문하고 누구나 참여 가능</li>
+	<li>접수시기: 연중계속</li>
+	<li>제안대상: 법률구조제도 및 공단운영에 관한 사항</li>
+</ul>
+
+<h2>제안서 제출</h2>
+
+<ul>
+	<li>인터넷 : 대한법률구조공단 홈페이지(http://www.klac.or.kr) 고객제안마당</li>
+	<li>우편ㆍ직접방문 : (137-884) 서울시 서초구 서초동 1703-10 대한법률구조공단 혁신행정팀 고객제안 담당</li>
+	<li>FAX : (02) 3482-6556(혁신행정팀)</li>
+</ul>
+
+<h2>제안서 작성방법</h2>
+
+<p>특별한 양식이나 분량에 제한 없음</p>
+
+<h2>제안서 공개여부</h2>
+
+<p>고객의 의사에 따라 공개/비공개 선택 가능</p>
+
+<h2>제안으로 볼 수 없는 사항</h2>
+
+<ul>
+	<li>일반적으로 공지되었거나 이용되고 있는 내용</li>
+	<li>동일한 내용의 제안이 접수된 경우에 후에 접수된 제안</li>
+	<li>단순한 건의, 진정, 비판 또는 불만의 표시에 불과한 내용</li>
+	<li>※ 욕설&middot;단순한 비난 등 제안마당의 성격과 관련없는 사항은 삭제될 수 있습니다.</li>
+</ul>
+
+<h2>제안서 처리절차</h2>
+
+<ol>
+	<li>제안서 접수</li>
+	<li>업무관련 부서 심사(채택여부 결정) 및 동상이상 제안심사위원회 심사의뢰</li>
+	<li>제안심사위원회(금,은,동상 결정)</li>
+</ol>
+
+<h2>결과통보</h2>
+
+<p>채택된 제안에 대하여 e-mail, 유선(무선)전화, 우편 등으로 통지</p>
+
+<h2>우수제안 포상</h2>
+
+<ul>
+	<li>심사기준 : 개선효과(70점), 창의성(20점), 노력도(10점)</li>
+	<li>포상기준
+		<ul>
+			<li>금 상(91점 이상): 공단 이사장 표창 및 포상금 100만원</li>
+			<li>은 상(76점 이상): 공단 이사장 표창 및 포상금 50만원</li>
+			<li>동 상(61점 이상): 포상금 20만원</li>
+			<li>장려상(51점 이상): 포상금 5만원</li>
+			<li>노력상(공단운영에 도움이 인정됨): 포상금 2만원(상품권으로 지급)</li>
+			<li>※ 위 포상기준에 포함되지 않더라도 제안으로 인정되면 5,000원 상당의 상품권 지급(연 4회에 한함)</li>
+		</ul>
+	</li>
+</ul>
+
+<p>고객제안 담당부서 및 담당자 : 혁신행정팀 정 효 균 (02-3482-0635)</p>
+
+
+			</div>
+		</div>
+
+		<div id="footer">
+		<!-- footer -->		
+		</div>
+
+		<div id="quickMenu">
+		<!-- quick menu -->
+			<!-- #include virtual = /klac/common/comm/quickMenu.vm -->			
+		</div>		
+	</div>
+</body>
+</html>

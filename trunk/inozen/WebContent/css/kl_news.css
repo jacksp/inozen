@@ -1,0 +1,12 @@
+/*
+Source		:	kl_law.css
+Discription	:	법률구조안내 스타일시트 정의
+
+Date			:	2008.	11.25
+Author		:	choi kyoung ho
+*/
+
+@import "kl_common.css";
+@import "kl_header.css";
+@import "kl_layout.css";
+@import "kl_board.css";

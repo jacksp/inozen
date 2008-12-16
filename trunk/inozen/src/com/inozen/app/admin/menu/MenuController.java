@@ -1,5 +1,6 @@
 package com.inozen.app.admin.menu;
 
+import java.util.Date;
 import java.util.List;
 
 import com.inozen.framework.data.support.OrderPage;
@@ -69,13 +70,25 @@ public class MenuController extends GenericController<Menu, MenuService, MenuRef
 	@RequestMapping(method=RequestMethod.POST)
 	public String saveMenu(@ModelAttribute(value="model") Menu model, BindingResult result, @RequestParam("pMenuCode") long pMenuCode, @RequestParam("pMenuName") String pMenuName, SessionStatus status) {
 		validator.validate(model, result);
+		
 		if(result.hasErrors())
 			return this.urlbase + "/saveMenu";
 		else{
-			
+			model.setMenuCode(seqService.getSequence(SeqConstants.SEQ_MENU_ID, SeqConstants.SEQ_MENU_ID));
+			model.setCreatedDate(new Date());
+			model.setModifiedDate(new Date());
+			// NEWCODE 이후에 session에서 처리해아야 함.
+			model.setCreatedUserID("user_id");
+			model.setCreatedUserName("user_name");
+			model.setModifiedUserID("user_id");
+			model.setModifiedUserName("user_name");
+			model.setMenuOrder(service.countChildren(model.getPMenuCode()));
+			model.setMenuStatus("1");
+			model.setPMenuCode(pMenuCode);
+			model.setPMenuName(pMenuName);
 			this.service.add(model);
 			status.setComplete();
-			String returnString = addview(CommonPages.CLOSE_RESEARCH_PARENT, model);
+			String returnString = addview(this.urlbase+"/menuList", model);
 
 			return returnString;
 		}

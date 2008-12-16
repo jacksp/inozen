@@ -1,0 +1,76 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="ko" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=euc-kr"/>
+	<meta name="description" content="KOREA LEGAL AID CORPORATION" />
+	<meta name="keyword" content="법률구조공단" />
+	<title>법률구조공단 &gt; </title>
+	<link rel="stylesheet" type="text/css" href="/klac/css/kl_xxx.css" />
+
+	<script type="text/javascript" language="javascript" src="/klac/jscript/common.js"></script>
+	
+</head>
+
+<body>
+	<div id="skipMenu">
+		<!-- #include virtual = /klac/common/comm/skip.vm-->
+	</div>
+
+	<div id="wrapper">
+		<div id="header">
+		<!-- header	   -->
+			<!-- #include virtual = /klac/common/include/header.vm -->			
+		</div>
+
+		<div id="contentWrapper">
+		<!-- contentWrapper -->
+			<!-- subvisual -->
+			<p class="subVisual"></p>
+		
+			<div id="leftMenu">
+			<!-- leftmenu -->
+				<!-- #include virtual = /klac/common/include/leftMenu_xxx.vm -->				
+			</div>
+
+			<div id="content" class="content-type1">
+			<!-- content -->
+				<div id="pageLocation">
+					<!-- include -->
+				</div>
+				<h1>page title</h1>
+
+<h2>법률서식</h2>
+
+<p>급변하는 사회속에서 예상치 못하게 부딪히게 되는 각종 분쟁. 법률서식은 국민의 권리구제를 위한 좋은 길잡이가 될 것입니다.</p>
+
+<h3>개요</h3>
+
+<ul>
+	<li>헌법소원심판의 종류와 그 성격</li>
+	<li>심판절차의 개요</li>
+</ul>
+
+<h4>1. 헌법소원심판의 종류와 그 성격</h4>
+
+<p>현행법상의 헌법소원제도는 공권력의 행사 또는 불행사로 인하여 헌법상 보장된 기본권을 침해받은 자가 제기하는 권리구제형 헌법소원(헌법재판소법 제68조 제1항에 의한 헌법소원)과 법원에 위헌법률심판제청 신청을 하였으나 기각된 경우에 제청신청 당사자가 헌법재판소에 제기하는 규범통제형(위헌심사형) 헌법 소원(헌법재판소법 제68조 제2항에 의한 헌법소원)으로 나누어 규율되고 있다.</p>
+
+<p>법 제68조 제1항에 의한 헌법소원심판은 주관적 권리구제의 헌법소원으로서 개별적인 공권력의 행사 또는 불행사로 인하여 헌법상 보장된 기본권을 침해받은 자가 청구할 수 있고 이 경우 법 제75조 제5항 (인용 결정) 에 의하여 부수적으로 공권력행사의 근거가 된 법률이 위헌선언 될 수 있음에 대하여, 법 제68조 제2항에 의한 헌법소원심판은 구체적 규범통제의 헌법소원으로서 법 제41조 제1항(위헌여부 심판의 제청) 의 규정에 의한 법률의 위헌여부심판의 제청신청이 법원에 의하여 기각된 때에 그 신청을 한 당사자가 헌법재판소에 제청신청이 기각된 법률의 위헌여부를 가리기 위한 헌법소원 심판을 청구하는 것으로서, 법 제68조 제1항과 같은 조 제2항에 규정된 헌법소원은 그 심판청구의 요건과 그 대상이 각기 다르다 (헌재 1994. 4. 28. 89헌마221, 판례집 6-1,239, 257).</p>
+
+<h4>2. 심판절차의 개요</h4>
+
+<p>청구인이 헌법재판소에 헌법소원심판청구서를 제출하면 사건번호와 사건명이 부여되고 지정재판부의 사전 심사를 받게 된다. 지정재판부의 재판장은 심판청구서를 심사하여 심판청구가 부적법하나 보정할 수 있다고 인정하는 경우 에는 상당한 기간을 정하여 보정을 요구하여야 한다(법 제72조 제5항, 제28조). 사전심사를 통과하여 전원재판부에 회부되면 본격적인 심리에 들어간다.</p>
+
+			</div>
+		</div>
+
+		<div id="footer">
+		<!-- footer -->		
+		</div>
+
+		<div id="quickMenu">
+		<!-- quick menu -->
+			<!-- #include virtual = /klac/common/comm/quickMenu.vm -->			
+		</div>		
+	</div>
+</body>
+</html>

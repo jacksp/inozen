@@ -1,0 +1,71 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="ko" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=euc-kr"/>
+	<meta name="description" content="KOREA LEGAL AID CORPORATION" />
+	<meta name="keyword" content="법률구조공단" />
+	<title>법률구조공단 &gt; </title>
+	<link rel="stylesheet" type="text/css" href="/klac/css/kl_xxx.css" />
+
+	<script type="text/javascript" language="javascript" src="/klac/jscript/common.js"></script>
+	
+</head>
+
+<body>
+	<div id="skipMenu">
+		<!-- #include virtual = /klac/common/comm/skip.vm-->
+	</div>
+
+	<div id="wrapper">
+		<div id="header">
+		<!-- header	   -->
+			<!-- #include virtual = /klac/common/include/header.vm -->			
+		</div>
+
+		<div id="contentWrapper">
+		<!-- contentWrapper -->
+			<!-- subvisual -->
+			<p class="subVisual"></p>
+		
+			<div id="leftMenu">
+			<!-- leftmenu -->
+				<!-- #include virtual = /klac/common/include/leftMenu_xxx.vm -->				
+			</div>
+
+			<div id="content" class="content-type2">
+			<!-- content -->
+				<div id="pageLocation">
+					<!-- include -->
+				</div>
+				<h1>page title</h1>
+
+<h2>저작권 정책</h2>
+
+<ul>
+	<li>법률구조공단 홈페이지에서 제공하는 모든 자료는 저작권법에 의하여 보호받는 저작물로 모든 권리는 대한법률구조공단에 있습니다.</li>
+	<li>우리 공단에서 제공하는 자료에 대한 무단전재 및 재배포를 원칙적으로 금합니다.</li>
+	<li>우리 공단 홈페이지에서 제공되는 자료로 수익을 얻거나 이에 상응하는 혜택을 누리고자 하는 경우에는 우리 공단과 사전에 별도의 협의를 하거나 허락을 얻어야하며, 허락을 얻어 자료의 내용을 게재하는 경우에도 출처가 대한법률구조공단임을 밝혀야 합니다.</li>
+	<li>우리 공단 홈페이지의 자료를 무단 복제 및 배포하는 경우에는 저작권법 제97조의 저작재산권 침해죄에 해당될 수 있으므로 유의하시기 바랍니다.</li>
+	<li>위와 관련된 사항에 대한 보다 자세한 문의는 우리 공단 홈페이지 관리자에게 문의하여 주시기 바랍니다.
+		<ul>
+			<li>이메일 : webmaster@klac.or.kr</li>
+			<li>전화번호 : 02-3482-0675</li>
+			<li>주소 : 우)137-884 서울특별시 서초구 서초동 1703-10 대한법률구조공단빌딩</li>
+		</ul>
+	</li>
+</ul>
+
+			</div>
+		</div>
+
+		<div id="footer">
+		<!-- footer -->		
+		</div>
+
+		<div id="quickMenu">
+		<!-- quick menu -->
+			<!-- #include virtual = /klac/common/comm/quickMenu.vm -->			
+		</div>		
+	</div>
+</body>
+</html>

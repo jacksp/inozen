@@ -6,6 +6,7 @@ package com.inozen.app.admin.menu.support;
  */
 public class MenuParams {
 
+	private long menuCode;
 	private String menuName;
 	private String menuStatus;
 	private long pMenuCode;
@@ -41,6 +42,14 @@ public class MenuParams {
 
 	public void setPMenuName(String pMenuName) {
 		this.pMenuName = pMenuName;
+	}
+
+	public void setMenuCode(long menuCode) {
+		this.menuCode = menuCode;
+	}
+
+	public long getMenuCode() {
+		return menuCode;
 	}
 
 }

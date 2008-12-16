@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <beans xmlns="http://www.springframework.org/schema/beans"
-	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xmlns:aop="http://www.springframework.org/schema/aop"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:aop="http://www.springframework.org/schema/aop"
 	xmlns:context="http://www.springframework.org/schema/context"
-	xmlns:jee="http://www.springframework.org/schema/jee"
-	xmlns:lang="http://www.springframework.org/schema/lang"
-	xmlns:p="http://www.springframework.org/schema/p"
-	xmlns:tx="http://www.springframework.org/schema/tx"
+	xmlns:jee="http://www.springframework.org/schema/jee" xmlns:lang="http://www.springframework.org/schema/lang"
+	xmlns:p="http://www.springframework.org/schema/p" xmlns:tx="http://www.springframework.org/schema/tx"
 	xmlns:util="http://www.springframework.org/schema/util"
 	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
 		http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop.xsd
@@ -51,15 +48,20 @@
 	</bean>
 
 	<bean id="parentList"
-		class="org.springframework.beans.factory.config.ListFactoryBean" abstract="true">
+		class="org.springframework.beans.factory.config.ListFactoryBean"
+		abstract="true">
 		<property name="sourceList">
 			<list>
 				<value>com.inozen.app.model.Task</value>
-				<value>com.inozen.app.model.Employee</value>
+				<value>com.inozen.app.model.Employee
+				</value>
 				<value>com.inozen.app.model.Board</value>
-				<value>com.inozen.app.model.Category</value>
-				<value>com.inozen.app.model.Sequence</value>
-				<value>com.inozen.app.model.HtmlPage</value>
+				<value>com.inozen.app.model.Category
+				</value>
+				<value>com.inozen.app.model.Sequence
+				</value>
+				<value>com.inozen.app.model.HtmlPage
+				</value>
 				<value>com.inozen.app.model.Menu</value>
 			</list>
 		</property>

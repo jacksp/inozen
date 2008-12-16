@@ -1,0 +1,98 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="ko" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=euc-kr"/>
+	<meta name="description" content="KOREA LEGAL AID CORPORATION" />
+	<meta name="keyword" content="법률구조공단" />
+	<title>상담안내</title>
+	<link rel="stylesheet" type="text/css" href="/klac/css/kl_cyber.css" />
+
+	<script type="text/javascript" language="javascript" src="/klac/jscript/common.js"></script>
+	
+</head>
+
+<body>
+	<div id="skipMenu">
+		<!-- #include virtual = /klac/common/comm/skip.vm-->
+	</div>
+
+	<div id="wrapper">
+		<div id="header">
+		<!-- header	    -->
+			<!-- #include virtual = /klac/common/include/header.vm -->			
+		</div>
+
+		<div id="contentWrapper">
+		<!-- contentWrapper -->
+			<!-- subvisual -->
+			<p class="subVisual"><img src="/Images/common/klcomm_imgSubVisual02.jpg" width="865" height="128" alt="가족처럼 따뜻하게 친구처럼 편안하게 대한법률구조공단의 약속입니다," /></p>
+		
+			<div id="leftMenu">
+			<!-- leftmenu -->
+				<!-- #include virtual = /klac/common/include/leftMenu_xxx.vm -->				
+			</div>
+
+			<div id="content" class="content-type1">
+			<!-- content -->
+				<div id="pageLocation">
+					<!-- include -->
+				</div>
+				<h1><img src="/Images/common/contitle/conTit0201.gif" width="150" height="25" alt="상담안내" /></h1>
+				
+				<div id="consult-m">
+					<div class="consult-t">
+						<div class="consult-b">
+							<div class="consult-icon1">
+								<h2>CONSULTATION</h2>
+								<p>공단 사이버상담실을 방문해 주셔서 감사합니다.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<h3 class="descTitle">1. 사이버상담실은 '공개상담'이 원칙입니다.</h3>
+
+				<p class="descTitle2">사이버상담은 상담신청 후 답변 완료 전까지는 모든 상담 내용이 비공개되고 신청인만 상담번호, 주민등록번호, 비밀번호를 이용하여 질문내용의 수정 및 조회가 가능하며, 답변완료 후에는 공단이 정한 비공개 상담기준에 해당되어 비공개 처리된 상담내용을 제외하고 모든 상담자료가 공개되어 유사사례로 활용되고 있으니 타인에게 상담내용의 공개를 원하지 않으신다면 전화상담이나 방문상담을 이용해 주시기 바랍니다.</p>
+
+				<h3 class="descTitle">2. 질문내용은 1200자 이내로 요약하여 작성해 주시기 바랍니다.</h3>
+
+				<p class="descTitle2">상담신청을 하실 경우에는 답변자가 질문사안을 쉽게 파악할 수 있도록 내용을 1200자 이내로 요약하여 사실관계를 명확히 하시되 신청인 또는 타인의 개인정보 및 사생활이 노출될 수 있는 상황에 관한 진술은 자제하여 주시기 바랍니다.</p>
+
+				<h3 class="descTitle">3. 사이버상담의 답변내용은 참고자료로만 활용하시기 바랍니다.</h3>
+
+				<p class="descTitle2">사이버상담실의 답변내용은 신청인이 제시한 내용이 사실이라는 전제 하에 질문내용의 사실관계만을 근거로 한 법률이론상의 원칙적인 답변 및 답변자(공익법무관) 개인의 법률적인 의견으로 그 대강의 방향만을 제시하는 것이므로 참고자료로만 활용하시기 바라며 최종 판단은 법원에서 하게 됨을 알려드립니다.</p>
+
+				<h3 class="descTitle">4. 1일 상담접수건수는 170건에 한합니다.</h3>
+
+				<p class="descTitle2">보다 신속하고 정확한 상담을 위하여 1일 상담건수를 170건으로 제한하여 접수받고 있으니, 당일에 상담을 접수하지 못하신 분들은 다음 날 접수 신청하여 주시기 바랍니다.</p>
+
+				<h3 class="descTitle">5. 사이버상담실의 구성</h3>
+
+				<p class="descTitle2">본 사이버상담실은 최근 6개월간의 상담 자료를 검색하기 편리하게 유사사례별로 분류해 놓은 '유사사례찾기', 질문빈도가 높은 상담내용을 모아놓은 'FAQ', 상담을 신청하는 '상담실'로 구성되어 있습니다.</p>
+
+				<h3 class="descTitle">6. 사이버상담실의 상담내용 보존기간</h3>
+
+				<p class="descTitle2">사이버상담실에서의 상담내용의 보존기간은 3년입니다. 그러나 홈페이지 운영상의 어려움으로 인해 최근 6개월간의 상담내용만 홈페이지 상에서 공개되고 있으니 이 점 양지하시기 바랍니다.</p>
+
+				<h3 class="descTitle">7. 사이버상담 답변소요기간</h3>
+
+				<p class="descTitle2">본 사이버상담실은 '법률구조서비스헌장'의 업무처리기준에 따라 상담접수일로 부터 5일 이내에 답변을 해드리는 것을 원칙으로 하고 있습니다.</p>
+
+				<h3 class="descTitle">유의사항</h3>
+
+				<p class="descTitle2">누구든지 공단 사이버상담실에 의하여 처리&middot;보관 또는 전송되는 타인의 정보를 훼손하거나 타인의 비밀을 침해&middot;도용 또는 누설하여서는 아니되며, 이를 위반할 경우 '정보통신망 이용촉진 및 정보보호 등에 관한 법률' 제 49조 및 제 62조에 의하여 5년이하의 징역 또는 5천만원 이하의 벌금에 처해지게 됩니다.</p>
+
+			</div>
+		</div>
+
+		<div id="footer">
+		<!-- footer -->		
+		</div>
+
+		<div id="quickMenu">
+		<!-- quick menu -->
+			<!-- #include virtual = /klac/common/comm/quickMenu.vm -->			
+		</div>		
+	</div>
+</body>
+</html>

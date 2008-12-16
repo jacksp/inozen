@@ -1,0 +1,289 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="ko" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=euc-kr"/>
+	<meta name="description" content="KOREA LEGAL AID CORPORATION" />
+	<meta name="keyword" content="법률구조공단" />
+	<title>통합검색 &gt; keyword</title>
+	<link rel="stylesheet" type="text/css" href="../../css/kl_header.css" />
+	<link rel="stylesheet" type="text/css" href="../../css/kl_layout.css" />
+	<link rel="stylesheet" type="text/css" href="../../css/kl_common.css" />
+	<link rel="stylesheet" type="text/css" href="../../css/kl_board.css" />
+
+	<script type="text/javascript" language="javascript" src="../../css/jscript/common.js"></script>
+	
+</head>
+
+<body>
+	<div id="skipMenu">
+		<!-- #include virtual = ../../common/comm/skip.vm-->
+	</div>
+
+	<div id="wrapper">
+		<div id="header">
+		<!-- header -->
+			<!-- #include virtual = ../../common/include/header.vm -->			
+		</div>
+
+		<div id="contentWrapper">
+			<div id="total-search">
+				<div class="bgSearch-top">
+					<div class="bgSearch-btm">
+						<form id="" method="get" action="" onsubmit="return">
+							<fieldset>
+								<legend>통합검색</legend>
+								<label for="t-search"><img src="../../../Images/common/klcomm_imgSearch.gif" width="42" height="20" alt="검색" /></label>
+								<select id="t-search" name="t-search">
+									<option value="">통합검색</option>
+									<option value="">법률서식</option>
+									<option value="">법률상담사례</option>
+									<option value="">법률구조사례</option>
+									<option value="">법률상식</option>
+									<option value="">방송상담사례</option>
+									<option value="">사이버상담사례</option>
+								</select>
+								<input type="text" name="t_keyword" id="t_keyword" title="검색하실 단어를 입력해주세요."/>
+								<input type="image" src="../../../Images/common/klcomm_btnSearch.gif" alt="검색"/>
+								<label for="t-check"><input type="checkbox" name="t-check" id="t-check" />결과 내 재검색</label>
+							</fieldset>
+
+							<ul id="searchTabTitle">
+								<li class="curPos"><a href="" onkeypress="" onclick="">통합검색</a></li>
+								<li class="noPos"><a href="" onkeypress="" onclick="">법률서식</a></li>
+								<li class="noPos"><a href="" onkeypress="" onclick="">법률상담사례</a></li>
+								<li class="noPos"><a href="" onkeypress="" onclick="">법률구조사례</a></li>
+								<li class="noPos"><a href="" onkeypress="" onclick="">법률상식</a></li>
+								<li class="noPos"><a href="" onkeypress="" onclick="">방송상담사례</a></li>
+								<li class="noPos"><a href="" onkeypress="" onclick="">사이버상담사례</a></li>
+							</ul>
+						</form>
+					</div>
+				</div>
+			</div>
+
+			<div id="tSearchResult">
+			<!-- 키워드 입력을 안했을때 -->
+				<div class="noneKeyword">
+					<p><span class="fcolorR strong">“검색어”</span>를 입력하지 않으셨습니다.</p>
+					<p class="bullet">검색어 입력항목에 검색어를 입력 후 검색해 주세요.</p>
+				</div>
+			<!-- 검색결과가 없을때 -->
+				<div class="resultNone">
+					<p><span class="fcolorR strong">“개인회생”</span>에 대한 검색결과가 없습니다.</p>
+					<p class="bullet">철자나 맞춤법 오류가 있는지 확인해주세요.</p>
+					<p class="bullet">여러 단어로 나누거나 다른 검색어로 검색해 주세요.</p>
+				</div>
+
+			<!-- 검색결과가 있을때 -->
+				<p class="keyword"><span>“키워드”</span>에 대한 검색 결과입니다.</p>
+				<div class="searchByItem">
+					<h2>법률서식<span>[검색결과 11건]</span></h2>
+					<dl>
+						<dt class="noBg">정확도순</dt>
+						<dd><a href=""><img src="../../../Images/common/klcomm_btnOrderUp.gif" width="15" height="15" alt="오름차순" /></a></dd>
+						<dd><a href=""><img src="../../../Images/common/klcomm_btnOrderDown.gif" width="15" height="15" alt="내림차순" /></a></dd>
+						<dt>날짜순</dt>
+						<dd><a href=""><img src="../../../Images/common/klcomm_btnOrderUp.gif" width="15" height="15" alt="오름차순" /></a></dd>
+						<dd><a href=""><img src="../../../Images/common/klcomm_btnOrderDown.gif" width="15" height="15" alt="내림차순" /></a></dd>
+						<dt>인기도순</dt>
+						<dd><a href=""><img src="../../../Images/common/klcomm_btnOrderUp.gif" width="15" height="15" alt="오름차순" /></a></dd>
+						<dd><a href=""><img src="../../../Images/common/klcomm_btnOrderDown.gif" width="15" height="15" alt="내림차순" /></a></dd>					
+					</dl>
+				</div>
+				<div class="result-list">
+					<dl>
+						<dt>
+							<a href="">검색결과 타이틀</a>
+							<a href="" target="_blank" title="새창으로 열립니다"><img src="../../../Images/common/klcomm_imgOpenNewWin.gif" width="30" height="16" alt="새창" /></a>
+							<span class="date">2008.11.08</span>
+						</dt>
+						<dd>채권자는 추심명령에 따라 얻은 권리를 포기할 수 있음. 다만, 기본채권에는 영향이 없음. 위의 포기는 법원에 서면으로 신고하여야 하고, 법원사무관등은 그 등본을 제3채무자와 채무자에게 송달하여야 함(민사집행법 제240조)...</dd>
+					</dl>
+					<p class="location">정보광장 &gt; 생활법률 &gt; <span>법률상담사례</span></p>
+					<p class="filedown"><a href=""><img src="../../../Images/common/klcomm_imgFileDownHwp.gif" width="16" height="16" alt="xxx.hwp 파일 다운로드" /> xxx.hwp</a></p>
+
+					<dl class="rtype2">
+						<dt>
+							<a href="">검색결과 타이틀</a>
+							<a href="" target="_blank" title="새창으로 열립니다"><img src="../../../Images/common/klcomm_imgOpenNewWin.gif" width="30" height="16" alt="새창" /></a>
+							<span class="date">2008.11.08</span>
+						</dt>
+						<dd>채권자는 추심명령에 따라 얻은 권리를 포기할 수 있음. 다만, 기본채권에는 영향이 없음. 위의 포기는 법원에 서면으로 신고하여야 하고, 법원사무관등은 그 등본을 제3채무자와 채무자에게 송달하여야 함(민사집행법 제240조)...</dd>
+						<dd class="rImg"><img src="../../../Images/common/sample.gif" width="96" height="64" alt="" /></dd>
+					</dl>
+					<p class="location">정보광장 &gt; 생활법률 &gt; <span>법률상담사례</span></p>
+					<p class="filedown"><a href=""><img src="../../../Images/common/klcomm_imgFileDownHwp.gif" width="16" height="16" alt="xxx.hwp 파일 다운로드" /> xxx.hwp</a></p>
+
+					<p class="alignR"><a href="">&gt; 법률서식 더보기</a></p>
+				</div>
+
+				<div class="searchByItem">
+					<h2>법률상담사례<span>[검색결과 11건]</span></h2>
+					<dl>
+						<dt class="noBg">정확도순</dt>
+						<dd><a href=""><img src="../../../Images/common/klcomm_btnOrderUp.gif" width="15" height="15" alt="오름차순" /></a></dd>
+						<dd><a href=""><img src="../../../Images/common/klcomm_btnOrderDown.gif" width="15" height="15" alt="내림차순" /></a></dd>
+						<dt>날짜순</dt>
+						<dd><a href=""><img src="../../../Images/common/klcomm_btnOrderUp.gif" width="15" height="15" alt="오름차순" /></a></dd>
+						<dd><a href=""><img src="../../../Images/common/klcomm_btnOrderDown.gif" width="15" height="15" alt="내림차순" /></a></dd>
+						<dt>인기도순</dt>
+						<dd><a href=""><img src="../../../Images/common/klcomm_btnOrderUp.gif" width="15" height="15" alt="오름차순" /></a></dd>
+						<dd><a href=""><img src="../../../Images/common/klcomm_btnOrderDown.gif" width="15" height="15" alt="내림차순" /></a></dd>					
+					</dl>
+				</div>
+				<div class="result-list">
+					<dl>
+						<dt>
+							<a href="">검색결과 타이틀</a>
+							<a href="" target="_blank" title="새창으로 열립니다"><img src="../../../Images/common/klcomm_imgOpenNewWin.gif" width="30" height="16" alt="새창" /></a>
+							<span class="date">2008.11.08</span>
+						</dt>
+						<dd>채권자는 추심명령에 따라 얻은 권리를 포기할 수 있음. 다만, 기본채권에는 영향이 없음. 위의 포기는 법원에 서면으로 신고하여야 하고, 법원사무관등은 그 등본을 제3채무자와 채무자에게 송달하여야 함(민사집행법 제240조)...</dd>
+					</dl>
+					<p class="location">정보광장 &gt; 생활법률 &gt; <span>법률상담사례</span></p>
+					<p class="filedown"><a href=""><img src="../../../Images/common/klcomm_imgFileDownHwp.gif" width="16" height="16" alt="xxx.hwp 파일 다운로드" /> xxx.hwp</a></p>
+
+					<dl class="rtype2">
+						<dt>
+							<a href="">검색결과 타이틀</a>
+							<a href="" target="_blank" title="새창으로 열립니다"><img src="../../../Images/common/klcomm_imgOpenNewWin.gif" width="30" height="16" alt="새창" /></a>
+							<span class="date">2008.11.08</span>
+						</dt>
+						<dd>채권자는 추심명령에 따라 얻은 권리를 포기할 수 있음. 다만, 기본채권에는 영향이 없음. 위의 포기는 법원에 서면으로 신고하여야 하고, 법원사무관등은 그 등본을 제3채무자와 채무자에게 송달하여야 함(민사집행법 제240조)...</dd>
+						<dd class="rImg"><img src="../../../Images/common/sample.gif" width="96" height="64" alt="" /></dd>
+					</dl>
+					<p class="location">정보광장 &gt; 생활법률 &gt; <span>법률상담사례</span></p>
+					<p class="filedown"><a href=""><img src="../../../Images/common/klcomm_imgFileDownHwp.gif" width="16" height="16" alt="xxx.hwp 파일 다운로드" /> xxx.hwp</a></p>
+
+					<p class="alignR"><a href="">&gt; 법률상담사례 더보기</a></p>
+				</div>
+
+				<div class="searchByItem">
+					<h2>법률구조사례<span>[검색결과 11건]</span></h2>
+					<dl>
+						<dt class="noBg">정확도순</dt>
+						<dd><a href=""><img src="../../../Images/common/klcomm_btnOrderUp.gif" width="15" height="15" alt="오름차순" /></a></dd>
+						<dd><a href=""><img src="../../../Images/common/klcomm_btnOrderDown.gif" width="15" height="15" alt="내림차순" /></a></dd>
+						<dt>날짜순</dt>
+						<dd><a href=""><img src="../../../Images/common/klcomm_btnOrderUp.gif" width="15" height="15" alt="오름차순" /></a></dd>
+						<dd><a href=""><img src="../../../Images/common/klcomm_btnOrderDown.gif" width="15" height="15" alt="내림차순" /></a></dd>
+						<dt>인기도순</dt>
+						<dd><a href=""><img src="../../../Images/common/klcomm_btnOrderUp.gif" width="15" height="15" alt="오름차순" /></a></dd>
+						<dd><a href=""><img src="../../../Images/common/klcomm_btnOrderDown.gif" width="15" height="15" alt="내림차순" /></a></dd>					
+					</dl>
+				</div>
+				<div class="result-list">
+					<dl>
+						<dt>
+							<a href="">검색결과 타이틀</a>
+							<a href="" target="_blank" title="새창으로 열립니다"><img src="../../../Images/common/klcomm_imgOpenNewWin.gif" width="30" height="16" alt="새창" /></a>
+							<span class="date">2008.11.08</span>
+						</dt>
+						<dd>채권자는 추심명령에 따라 얻은 권리를 포기할 수 있음. 다만, 기본채권에는 영향이 없음. 위의 포기는 법원에 서면으로 신고하여야 하고, 법원사무관등은 그 등본을 제3채무자와 채무자에게 송달하여야 함(민사집행법 제240조)...</dd>
+					</dl>
+					<p class="location">정보광장 &gt; 생활법률 &gt; <span>법률상담사례</span></p>
+					<p class="filedown"><a href=""><img src="../../../Images/common/klcomm_imgFileDownHwp.gif" width="16" height="16" alt="xxx.hwp 파일 다운로드" /> xxx.hwp</a></p>
+
+					<dl class="rtype2">
+						<dt>
+							<a href="">검색결과 타이틀</a>
+							<a href="" target="_blank" title="새창으로 열립니다"><img src="../../../Images/common/klcomm_imgOpenNewWin.gif" width="30" height="16" alt="새창" /></a>
+							<span class="date">2008.11.08</span>
+						</dt>
+						<dd>채권자는 추심명령에 따라 얻은 권리를 포기할 수 있음. 다만, 기본채권에는 영향이 없음. 위의 포기는 법원에 서면으로 신고하여야 하고, 법원사무관등은 그 등본을 제3채무자와 채무자에게 송달하여야 함(민사집행법 제240조)...</dd>
+						<dd class="rImg"><img src="../../../Images/common/sample.gif" width="96" height="64" alt="" /></dd>
+					</dl>
+					<p class="location">정보광장 &gt; 생활법률 &gt; <span>법률상담사례</span></p>
+					<p class="filedown"><a href=""><img src="../../../Images/common/klcomm_imgFileDownHwp.gif" width="16" height="16" alt="xxx.hwp 파일 다운로드" /> xxx.hwp</a></p>
+
+					<p class="alignR"><a href="">&gt; 법률구조사례 더보기</a></p>
+				</div>
+
+				<div class="searchByItem">
+					<h2>법률상식<span>[검색결과 11건]</span></h2>
+					<dl>
+						<dt class="noBg">정확도순</dt>
+						<dd><a href=""><img src="../../../Images/common/klcomm_btnOrderUp.gif" width="15" height="15" alt="오름차순" /></a></dd>
+						<dd><a href=""><img src="../../../Images/common/klcomm_btnOrderDown.gif" width="15" height="15" alt="내림차순" /></a></dd>
+						<dt>날짜순</dt>
+						<dd><a href=""><img src="../../../Images/common/klcomm_btnOrderUp.gif" width="15" height="15" alt="오름차순" /></a></dd>
+						<dd><a href=""><img src="../../../Images/common/klcomm_btnOrderDown.gif" width="15" height="15" alt="내림차순" /></a></dd>
+						<dt>인기도순</dt>
+						<dd><a href=""><img src="../../../Images/common/klcomm_btnOrderUp.gif" width="15" height="15" alt="오름차순" /></a></dd>
+						<dd><a href=""><img src="../../../Images/common/klcomm_btnOrderDown.gif" width="15" height="15" alt="내림차순" /></a></dd>					
+					</dl>
+				</div>
+				<div class="result-list">
+					<p class="noData">검색 결과가 없습니다.</p>
+				</div>
+
+				<div class="searchByItem">
+					<h2>방송상담사례<span>[검색결과 11건]</span></h2>
+					<dl>
+						<dt class="noBg">정확도순</dt>
+						<dd><a href=""><img src="../../../Images/common/klcomm_btnOrderUp.gif" width="15" height="15" alt="오름차순" /></a></dd>
+						<dd><a href=""><img src="../../../Images/common/klcomm_btnOrderDown.gif" width="15" height="15" alt="내림차순" /></a></dd>
+						<dt>날짜순</dt>
+						<dd><a href=""><img src="../../../Images/common/klcomm_btnOrderUp.gif" width="15" height="15" alt="오름차순" /></a></dd>
+						<dd><a href=""><img src="../../../Images/common/klcomm_btnOrderDown.gif" width="15" height="15" alt="내림차순" /></a></dd>
+						<dt>인기도순</dt>
+						<dd><a href=""><img src="../../../Images/common/klcomm_btnOrderUp.gif" width="15" height="15" alt="오름차순" /></a></dd>
+						<dd><a href=""><img src="../../../Images/common/klcomm_btnOrderDown.gif" width="15" height="15" alt="내림차순" /></a></dd>					
+					</dl>
+				</div>
+				<div class="result-list">
+					<p class="noData">검색 결과가 없습니다.</p>
+				</div>
+
+				<div class="searchByItem">
+					<h2>사이버상담사례<span>[검색결과 11건]</span></h2>
+					<dl>
+						<dt class="noBg">정확도순</dt>
+						<dd><a href=""><img src="../../../Images/common/klcomm_btnOrderUp.gif" width="15" height="15" alt="오름차순" /></a></dd>
+						<dd><a href=""><img src="../../../Images/common/klcomm_btnOrderDown.gif" width="15" height="15" alt="내림차순" /></a></dd>
+						<dt>날짜순</dt>
+						<dd><a href=""><img src="../../../Images/common/klcomm_btnOrderUp.gif" width="15" height="15" alt="오름차순" /></a></dd>
+						<dd><a href=""><img src="../../../Images/common/klcomm_btnOrderDown.gif" width="15" height="15" alt="내림차순" /></a></dd>
+						<dt>인기도순</dt>
+						<dd><a href=""><img src="../../../Images/common/klcomm_btnOrderUp.gif" width="15" height="15" alt="오름차순" /></a></dd>
+						<dd><a href=""><img src="../../../Images/common/klcomm_btnOrderDown.gif" width="15" height="15" alt="내림차순" /></a></dd>					
+					</dl>
+				</div>
+				<div class="result-list">
+					<p class="noData">검색 결과가 없습니다.</p>
+				</div>
+			</div>
+
+			<div id="rank">
+				<div class="rank-t">
+					<div class="rank-b">
+						<h3>인기검색어</h3>
+
+						<ol>
+							<li>1. <a href="">키워드</a></li>
+							<li>2. <a href="">키워드</a></li>
+							<li>3. <a href="">키워드</a></li>
+							<li>4. <a href="">키워드</a></li>
+							<li>5. <a href="">키워드</a></li>
+							<li>6. <a href="">키워드</a></li>
+							<li>7. <a href="">키워드</a></li>
+							<li>8. <a href="">키워드</a></li>
+							<li>9. <a href="">키워드</a></li>
+							<li>10. <a href="">키워드</a></li>
+						</ol>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div id="footer">
+		<!-- footer -->		
+		</div>
+
+		<div id="quickMenu">
+		<!-- quick menu -->
+			<!-- #include virtual = ../../css/common/comm/quickMenu.vm -->			
+		</div>		
+	</div>
+</body>
+</html>

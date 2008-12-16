@@ -1,0 +1,87 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="ko" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=euc-kr"/>
+	<meta name="description" content="KOREA LEGAL AID CORPORATION" />
+	<meta name="keyword" content="법률구조공단" />
+	<title>법률구조공단 &gt; </title>
+	<link rel="stylesheet" type="text/css" href="/klac/css/kl_xxx.css" />
+
+	<script type="text/javascript" language="javascript" src="/klac/jscript/common.js"></script>
+	
+</head>
+
+<body>
+	<div id="skipMenu">
+		<!-- #include virtual = /klac/common/comm/skip.vm-->
+	</div>
+
+	<div id="wrapper">
+		<div id="header">
+		<!-- header	   -->
+			<!-- #include virtual = /klac/common/include/header.vm -->			
+		</div>
+
+		<div id="contentWrapper">
+		<!-- contentWrapper -->
+			<!-- subvisual -->
+			<p class="subVisual"></p>
+		
+			<div id="leftMenu">
+			<!-- leftmenu -->
+				<!-- #include virtual = /klac/common/include/leftMenu_xxx.vm -->				
+			</div>
+
+			<div id="content" class="content-type2">
+			<!-- content -->
+				<div id="pageLocation">
+					<!-- include -->
+				</div>
+				<h1>page title</h1>
+
+<h2>FAQ(자주하는 질문)</h2>
+
+<p>FAQ<br/>
+공단이용과 관련하여 자주 문의되는 내용이 정리되어 있습니다.<br/>
+FAQ 에서 궁금하신 사항을 해결하지 못할 때에는 Contact us를 이용해 주시면 소관부서에서 성심성의껏 답변을 드리겠습니다.</p>
+
+<ul>
+	<li>홈페이지 이용</li>
+	<li>사이버상담</li>
+	<li>채용일반</li>
+	<li>변호사채용</li>
+	<li>간행물&amp;기타</li>
+</ul>
+
+<h3>사이버상담</h3>
+
+<h4><span>질문</span> 사이버상담은 어떤 분들이 담당하시나요?</h4>
+
+<p><span>답변</span> 사이버상담에 대한 답변을 담당하는 사람은 사법시험에 합격하고 사법연수원을 수료하여 변호사자격을 취득한 후 군복무를 대신하여 근무하는 공익법무관입니다. ‘공익법무관’은 병역법 제34조의 2 제1항의 규정에 의하여 공익법무관에 편입된 사람으로서 법무부장관에 의하여 임용되어 법률구조업무나 국가소송 등 관련사무에의 종사명령을 받은 사람을 말합니다. 	 </p>
+
+<h4><span>질문</span> 사이버상담 답변은 몇일만에 이루어지나요?</h4>
+
+<p><span>답변</span> 사이버상담실에 상담을 신청하시면 그 다음날까지(단, 공휴일은 제외) 답변자에게 배당이 되고, 각 배당받은 상담건에 대하여 공단의 업무처리 방침은 상담신청일로부터 7일이내에 답변을 하도록 되어 있으며 상담내용의 난이도나 답변자의 업무량에 따라 다소 달라질 수 있으나 상담신청순서에 따라 가능한 한 신속하고 충실한 답변을 드리려고 노력하고 있습니다. 	 </p>
+
+<h4><span>질문</span> 사이버상담실에 질의한 모든 사항에 대하여 답변을 해주나요?</h4>
+
+<p><span>답변</span> 사이버상담실의 상담업무는 국민들의 법률적 분쟁에 대한 해결방안 조언 등 구체적인 법률문제에 대하여 사이버상에서 법률상담을 해드리는 것으로 한정되어 있으며, 행정기관, 공법인, 관리능력 또는 자력이 충분한 전문성을 가지고 있는 단체·기업 등의 질의, 시험문제의 정답에 관한 의견·수업의 과제물 문의, 사회정의에 반하는 질의 등에 관한 답변은 공단의 업무에 해당되지 않습니다.</p>
+
+<h4><span>질문</span> 서신상담을 신청하려면 어떻게 해야 하나요?</h4>
+
+<p><span>답변</span> 상담사항을 기재한 서신을 공단 본부나 귀하의 주소지 관할 공단 지부·출장소에 우편으로 제출하시면 됩니다. 공단 본부에 제출한 경우에는 해당 지부·출장소로 이송을 하고 있으며, 지부·출장소에서는 상담사항을 검토한 후 서신으로 답변을 해 드리고 있습니다. 상담사항을 작성하실 경우에는 답변자가 사건내용을 파악할 수 있도록 구체적으로 기재하여 주시기 바랍니다.</p>
+
+			</div>
+		</div>
+
+		<div id="footer">
+		<!-- footer -->		
+		</div>
+
+		<div id="quickMenu">
+		<!-- quick menu -->
+			<!-- #include virtual = /klac/common/comm/quickMenu.vm -->			
+		</div>		
+	</div>
+</body>
+</html>

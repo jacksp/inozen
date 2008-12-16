@@ -1,7 +1,13 @@
 <%@ page language="java" contentType="text/html; charset=EUC-KR" pageEncoding="EUC-KR"%>
 <%@ taglib prefix="o" tagdir="/WEB-INF/tags/inozen" %>
 <%@ include file="/include/popupheader.jsp" %>
-
+<%
+	out.print(request.getAttribute("result"));
+	out.print("<BR>");
+	out.print(request.getAttribute("status"));
+	out.print("<BR>");
+	out.print(request.getAttribute("model"));
+%>
 <o:popuppage title="사원등록">
 	<o:formbuttons />
 	

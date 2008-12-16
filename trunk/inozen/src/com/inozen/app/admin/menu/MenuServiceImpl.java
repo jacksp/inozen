@@ -21,5 +21,14 @@ public class MenuServiceImpl extends GenericServiceImpl<Menu, MenuDao, MenuParam
 		super(MenuDao.class);
 	}
 
+	@Override
+	public int countChildren(long menuCode) {
+		return dao.countMenuByPMenuCode(menuCode);
+	}
+
+	@Override
+	public Menu getMenuInfo(long menuCode) {
+		return dao.get(menuCode);
+	}
 
 }

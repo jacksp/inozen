@@ -1,0 +1,18 @@
+			<ul class="helpCustomer">
+				<li><a href=""><img src="/images/include/footer/klfoot_txtHelpCustom01.gif" width="103" height="15" alt="전국 공단 사무소 전화번호 안내" /></a></li>
+				<li><a href=""><img src="/images/include/footer/klfoot_txtHelpCustom02.gif" width="103" height="15" alt="홈페이지 개선의견" /></a></li>
+				<li><a href=""><img src="/images/include/footer/klfoot_txtHelpCustom03.gif" width="101" height="15" alt="홈페이지 이용안내" /></a></li>
+				<li><a href=""><img src="/images/include/footer/klfoot_txtHelpCustom04.gif" width="67" height="15" alt="관련사이트" /></a></li>
+				<li><a href=""><img src="/images/include/footer/klfoot_txtHelpCustom05.gif" width="96" height="15" alt="개인정보보호정책" /></a></li>
+				<li><a href=""><img src="/images/include/footer/klfoot_txtHelpCustom06.gif" width="76" height="15" alt="찾아오시는길" /></a></li>
+				<li><a href=""><img src="/images/include/footer/klfoot_txtHelpCustom07.gif" width="79" height="15" alt="뷰어다운로드" /></a></li>
+			</ul>
+			<p class="footerLogo"><img src="/images/include/footer/klfoot_imgFooterLogo.gif" width="160" height="37" alt="대한법률구조공단" /></p>
+			<address>
+				<img src="/images/include/footer/klfoot_imgAddress.gif" width="386" height="15" alt="137-883 서울시 서초구 법원4길 9 대한법률구조공단빌딩 / 고유번호 213-82-02329" /><br />
+				<img src="/images/include/footer/klfoot_txtTelnum_Email.gif" width="530" height="17" alt="대표전화 : 02)532-0132 / 팩스 : 02)3482-6556 / 법률상담 : 국번없이 132 / 이메일 : webmaster@klac.go.kr" usemap="#mail" /><br />
+				<img src="/images/include/footer/klfoot_txtFooterCopyright.gif" width="347" height="16" alt="copyright 2001~2006 Korea Legal Aid Corporation. All rights reserved." />
+			</address>
+			<map id="mail" name="mail">
+				<area shape="rect" href="" coords="400,1,516,16" alt="이메일 상담" />
+			</map>

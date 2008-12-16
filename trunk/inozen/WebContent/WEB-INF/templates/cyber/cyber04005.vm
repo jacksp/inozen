@@ -1,0 +1,85 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="ko" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=euc-kr"/>
+	<meta name="description" content="KOREA LEGAL AID CORPORATION" />
+	<meta name="keyword" content="법률구조공단" />
+	<title>법률구조공단 &gt; </title>
+	<link rel="stylesheet" type="text/css" href="/klac/css/kl_cyber.css" />
+
+	<script type="text/javascript" language="javascript" src="/klac/jscript/common.js"></script>
+	
+</head>
+
+<body>
+	<div id="skipMenu">
+		<!-- #include virtual = /klac/common/comm/skip.vm-->
+	</div>
+
+	<div id="wrapper">
+		<div id="header">
+		<!-- header	   -->
+			<!-- #include virtual = /klac/common/include/header.vm -->			
+		</div>
+
+		<div id="contentWrapper">
+		<!-- contentWrapper -->
+			<!-- subvisual -->
+			<p class="subVisual"></p>
+		
+			<div id="leftMenu">
+			<!-- leftmenu -->
+				<!-- #include virtual = /klac/common/include/leftMenu_xxx.vm -->				
+			</div>
+
+			<div id="content" class="content-type1">
+			<!-- content -->
+				<div id="pageLocation">
+					<!-- include -->
+				</div>
+				<h1>page title</h1>
+
+<h1>상담실</h1>
+
+<ul>
+	<li>상담안내</li>
+	<li>상담신청</li>
+	<li>유사사례찾기</li>
+</ul>
+
+<h2 class="styleH2-type1">법률상담 FAQ</h2>
+
+<h3 class="styleH3-type1">5. 집주인이 임차보증금을 돌려주지 않을 때는 어떻게 해야 하나요?</h3>
+
+<ul>
+	<li>1. 입금을 못 받았는데 어떻게 해야 하나요?</li>
+	<li>2. 빌려준 돈을 못 받았는데 사기죄로 고소할 수 있나요?</li>
+	<li>3. 빌려준 돈을 못 받았는데 어떻게 해야 하나요?</li>
+	<li>4. 이혼하고 싶은데 어떻게 해야 하나요?</li>
+	<li>5. 집주인이 임차보증금을 돌려주지 않을 때는 어떻게 해야 하나요?</li>
+	<li>6. 임차인이 집을 비워주지 않으면 어떻게 하나요?</li>
+	<li>7. 저는 상가임대차보호법의 적용대상인가요?</li>
+</ul>
+
+<p>귀하는 임대차기간이 만료되었음에도 임차보증금을 반환받지 못하여 그 해결방안에 대하여 문의하셨습니다. 현실에서는 많은 집주인들이 자력이 부족하다는 이유로 임대차계약기간이 만료되었음에도 새로운 임차인이 들어오면 보증금을 받아서 주겠다고 하면서 반환을 지체하는 경우가 많이 있습니다. 대부분의 경우는 법적 분쟁에 이르지 않고 서로 원만하게 해결되고 있으나, 경우에 따라서는 집주인이 지나치게 장시간 동안 보증금을 반환하지 아니하여 임차인들에게 고통을 주기도 합니다. 이러한 경우에는 법적인 대응이 필요하다고 생각합니다.</p>
+
+<p>우선 임차인은 권리를 명확하게 주장하기 위해서 집주인에게 내용증명우편을 보내서 임대차계약이 종료된 사실과 보증금을 반환하여 줄 것을 문서로서 요구할 필요가 있습니다. 대부분의 집주인들은 위와 같은 내용증명을 받게 되면 임차인이 법적 조치로 진행할 것을 예상하고 보증금반환에 적극적으로 노력하기 때문에 문제가 쉽게 해결되는 경우가 많습니다.</p>
+
+<p>그러나 계속하여 집주인이 보증금반환의 노력을 보이지 않는다면 결국 어쩔 수 없이 집주인을 상대로 임차보증금반환청구의 소를 제기하여 강제로라도 권리를 주장하여야 할 것입니다.</p>
+
+<p>이 때 유의해야 할 점은 임차인으로서 계속하여 주택임대차보호법의 보호를 받을 수 있도록 주민등록을 계속 유지하여야 한다는 점입니다. 만약 보증금을 못 받은 채로 주민등록을 옮기고 이사를 가면 나중에 그 집이 경매로 넘어 갔을 때 배당을 받지 못하게 될 수 있습니다. 어쩔 수 없이 주민등록을 옮기고 이사를 가야한다면 법원에 임차권등기명령을 신청하여 임차권등기를 경료한 후 주민등록을 이전하여야 할 것입니다.</p>
+
+			</div>
+		</div>
+
+		<div id="footer">
+		<!-- footer -->		
+		</div>
+
+		<div id="quickMenu">
+		<!-- quick menu -->
+			<!-- #include virtual = /klac/common/comm/quickMenu.vm -->			
+		</div>		
+	</div>
+</body>
+</html>

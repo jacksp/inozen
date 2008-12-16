@@ -1,0 +1,168 @@
+<h1>법률구조 사건검색</h1>
+<p>대한법률구조공단의 법률구조사건조회시스템입니다.</p>
+
+<dl>
+	<dt>나의 사건검색 프로그램의 조회방법.</dt>
+	<dd>1. 법률구조공단의 접수사건번호와 의뢰자의 성명을 동시에 입력하세요.</dd>
+	<dd>조회된 사건목록의 사건번호를 클릭하시면 세부진행 상황을 열람하실수 있습니다.</dd>
+</dl>
+
+<p>법률구조접수사건 조회 프로그램은 대한법률구조공단의 55개 지부, 출장소를 통하여 접수처리된 사건에 대하여 사건진행상황 및 결과를 접수사건번호를 통하여 실시간으로 조회가 가능하도록 하고 있습니다.</p>
+<p>* 의뢰사건의 접수번호를 모를 경우, 사건접수기관에 문의하여 주시기 바랍니다.</p>
+
+<form id="" method="" action="" onsubmit="return ">
+	<fieldset>
+		<legend></legend>
+		<dl>
+			<dt><label for="org">접수기관</label></dt>
+			<dd>
+				<select id="org" name="org">
+					<option value="20100">서울중앙</option>
+					<option value="20200">동부지부</option>
+					<option value="20300">남부지부</option>
+					<option value="20400">북부지부</option>
+					<option value="20500">서부지부</option>
+					<option value="20600">의정부</option>
+					<option value="20610">고양출</option>
+					<option value="21000">인천</option>
+					<option value="21010">부천출</option>
+					<option value="21200">수원</option>
+					<option value="21210">성남출</option>
+					<option value="21220">여주출</option>
+					<option value="21230">평택출</option>
+					<option value="21240">안산출</option>
+					<option value="21400">춘천지부</option>
+					<option value="21410">강릉출</option>
+					<option value="21420">원주출</option>
+					<option value="21430">속초출</option>
+					<option value="21440">영월출</option>
+					<option value="21600">대전지부</option>
+					<option value="21610">홍성출</option>
+					<option value="21620">공주출</option>
+					<option value="21630">논산출</option>
+					<option value="21640">서산출</option>
+					<option value="21650">천안출</option>
+					<option value="21800">청주지부</option>
+					<option value="21810">충주출</option>
+					<option value="21820">제천출</option>
+					<option value="21830">영동출</option>
+					<option value="22000">대구지부</option>
+					<option value="22010">안동출</option>
+					<option value="22020">경주출</option>
+					<option value="22030">김천출</option>
+					<option value="22040">상주출</option>
+					<option value="22050">의성출</option>
+					<option value="22060">영덕출</option>
+					<option value="22070">포항출</option>
+					<option value="22200">부산지부</option>
+					<option value="22210">동부(부산)</option>
+					<option value="22400">울산지부</option>
+					<option value="22600">창원지부</option>
+					<option value="22610">진주출</option>
+					<option value="22620">통영출</option>
+					<option value="22630">밀양출</option>
+					<option value="22640">거창출</option>
+					<option value="22800">광주지부</option>
+					<option value="22810">목포출</option>
+					<option value="22820">장흥출</option>
+					<option value="22830">순천출</option>
+					<option value="22840">해남출</option>
+					<option value="23000">전주지부</option>
+					<option value="23010">군산출</option>
+					<option value="23020">정읍출</option>
+					<option value="23030">남원출</option>
+					<option value="23200">제주지부</option>
+				</select>
+			</dd>
+			<dt><label for="year">년 도</label></dt>
+			<dd>
+				<select id="year" name="year">
+					<option value="01">2001</option>
+					<option value="02">2002</option>
+					<option value="03">2003</option>
+					<option value="04">2004</option>
+					<option value="05">2005</option>
+					<option value="06">2006</option>
+					<option value="07">2007</option>
+					<option selected="selected" value="08">2008</option>
+				</select>
+			</dd>
+			<dt><label for="catag">분 류</label></dt>
+			<dd>
+				<select id="catag" name="catag">
+					<option selected="selected" value="민가">민가 </option>
+					<option value="민나">민나 </option>
+					<option value="민다">민다 </option>
+					<option value="민집">민집 </option>
+					<option value="민신">민신 </option>
+					<option value="민기">민기 </option>
+					<option value="송가">송가 </option>
+					<option value="송나">송나 </option>
+					<option value="송다">송다 </option>
+					<option value="송기">송기 </option>
+					<option value="행심">행심 </option>
+					<option value="행심신">행심신 </option>
+					<option value="행심기">행심기 </option>
+					<option value="행가">행가 </option>
+					<option value="행나">행나 </option>
+					<option value="행집">행집 </option>
+					<option value="행신">행신 </option>
+					<option value="행기">행기 </option>
+					<option value="헌가">헌가 </option>
+					<option value="헌신">헌신 </option>
+					<option value="헌기">헌기 </option>
+					<option value="헌국가">헌국가 </option>
+					<option value="헌국신">헌국신 </option>
+					<option value="헌국기">헌국기 </option>
+					<option value="형수">형수 </option>
+					<option value="형가">형가 </option>
+					<option value="형나">형나 </option>
+					<option value="형다">형다 </option>
+					<option value="형소">형소 </option>
+					<option value="국수">국수 </option>
+					<option value="국가">국가 </option>
+					<option value="국나">국나 </option>
+					<option value="국다">국다 </option>
+					<option value="국소">국소 </option>
+					<option value="국기">국기 </option>
+				</select>
+			</dd>
+			<dt><label for="">번 호</label></dt>
+			<dd><input maxlength="15" size="15" class="input" name="acci_num"/></dd>
+			<dt><label for="">성 명</label></dt>
+			<dd><input maxlength="15" size="15" class="input" name="acci_name"/></dd>
+		</dl>
+
+		<p>
+			<span><input type="image" src="" alt="조회" /></span>
+			<span><a href="#" onclick="" onkeypress="" title="인쇄하기">인쇄하기</a></span>
+		</p>
+	</fieldset>
+</form>
+
+<table summary="조회하신 결과를 보여드립니다.">
+	<caption></caption>
+	<thead>
+		<tr>
+			<th>연번</th>
+			<th>접수기관명</th>
+			<th>접수일</th>
+			<th>의뢰자명</th>
+			<th>사건번호</th>
+		</tr>
+	</thead>
+	<tbody>
+	<!-- 검색 결과가 없을 때 -->
+		<tr>
+			<td colspan="5">등록된 자료가 없습니다.</td>
+		</tr>
+	<!-- 검색 결과가 있을 때-->
+		<tr>
+			<td>12312</td>
+			<td>본부</td>
+			<td>2008-11-21</td>
+			<td>tester</td>
+			<td>135-6516-156</td>
+		</tr>
+	</tbody>
+</table>

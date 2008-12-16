@@ -1,0 +1,172 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="ko" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=euc-kr"/>
+	<meta name="description" content="KOREA LEGAL AID CORPORATION" />
+	<meta name="keyword" content="법률구조공단" />
+	<title>법률구조공단 &gt; </title>
+	<link rel="stylesheet" type="text/css" href="/klac/css/kl_xxx.css" />
+
+	<script type="text/javascript" language="javascript" src="/klac/jscript/common.js"></script>
+	
+</head>
+
+<body>
+	<div id="skipMenu">
+		<!-- #include virtual = /klac/common/comm/skip.vm-->
+	</div>
+
+	<div id="wrapper">
+		<div id="header">
+		<!-- header	   -->
+			<!-- #include virtual = /klac/common/include/header.vm -->			
+		</div>
+
+		<div id="contentWrapper">
+		<!-- contentWrapper -->
+			<!-- subvisual -->
+			<p class="subVisual"></p>
+		
+			<div id="leftMenu">
+			<!-- leftmenu -->
+				<!-- #include virtual = /klac/common/include/leftMenu_xxx.vm -->				
+			</div>
+
+			<div id="content" class="content-type1">
+			<!-- content -->
+				<div id="pageLocation">
+					<!-- include -->
+				</div>
+				<h1>page title</h1>
+
+<h2>생활법률 자동계산</h2>
+
+<p>분류를 선택하세요.</p>
+
+<h3>본안사건 인지 및 송달료 계산</h3>
+
+<form>
+	<ul>
+		<li><label for="frm1txt1">소송물가액(청구금액)</label><input type="text" name="frm1txt1" id="frm1txt1"/>원</li>
+		<li><label for="frm1sel">종류</label>
+		<select name="frm1sel" id="frm1sel">
+			<option value="01">소장</option>
+			<option value="02">항소장</option>
+			<option value="03">상고장</option>
+			<option value="04">지급명령</option>
+			<option value="05">조정신청</option>
+		</select></li>
+		<li><label for="frm1txt2">원고(채권자,신청자)</label><input type="text" name="frm1txt2" id="frm1txt2"/>명</li>
+		<li><label for="frm1txt3">피고(채무자,피신청인)</label><input type="text" name="frm1txt3" id="frm1txt3"/>명</li>
+	</ul>
+</form>
+
+<p>변호사를 선임한 경우의 인원수는 1명으로, 대표자를 당사자로 선정한 경우의 인원수는 선정당사자 수를 기재하시기 바랍니다.</p>
+
+<p>계산</p>
+
+<h3>보전사건 비용계산</h3>
+
+<h4>부동산가압류</h4>
+
+<form>
+	<ul>
+		<li><label for="frm2txt1">청구금액</label><input type="text" style="" name="frm2txt1" id="frm2txt1"/>원</li>
+		<li><label for="frm2txt2">채권자</label><input type="text" style="" name="frm2txt2" id="frm2txt2"/>명</li>
+		<li><label for="frm2txt3">채무자</label><input type="text" style="" name="frm2txt3" id="frm2txt3"/>명</li>
+		<li><label for="frm2txt4">부동산 건수</label><input type="text" style="" name="frm2txt4" id="frm2txt4"/>건</li>
+		<li>청구금액, 당사자 수, 부동산 건수를 입력하시면 소요비용이 계산됩니다.</li>
+		<li>변호사를 선임한 경우의 인원수는 1명으로, 대표자를 당사자로 선정한 경우의 인원수는 선정당사자 수를 기재하시기 바랍니다.</li>
+	</ul>
+</form>
+
+<p>계산</p>
+
+<h4>채권가압류</h4>
+
+<form>
+	<ul>
+		<li><label for="frm3txt1">청구금액</label><input type="text" style="" name="frm3txt1" id="frm3txt1"/>원</li>
+		<li><label for="frm3txt2">채권자</label><input type="text" style="" name="frm3txt2" id="frm3txt2"/>명</li>
+		<li><label for="frm3txt3">채무자</label><input type="text" style="" name="frm3txt3" id="frm3txt3"/>명</li>
+		<li><label for="frm3txt4">제3채무자</label><input type="text" style="" name="frm3txt4" id="frm3txt4"/>명</li>
+		<li>청구금액, 당사자 수를 입력하시면 소요비용이 계산됩니다.</li>
+		<li>변호사를 선임한 경우의 인원수는 1명으로, 대표자를 당사자로 선정한 경우의 인원수는 선정당사자 수를 기재하시기 바랍니다.</li>
+	</ul>
+</form>
+
+<p>계산</p>
+
+<h3>일수계산</h3>
+
+<form>
+	<ul>
+		<li>시작일<input type="text" name="frm4_1_yy" name="frm4_1_yy" title="연도"/><label for="frm4_1_yy">년</label> <input type="text" name="frm4_1_mm" id="frm4_1_mm"/><label for="frm4_1_mm">월</label> <input type="text" name="frm4_1_dd" id="frm4_1_dd"/><label for="frm4_1_dd">일</label></li>
+		<li>종료일<input type="text" name="frm4_2_yy" id="frm4_2_yy"/><label for="frm4_2_yy">년</label> <input type="text" name="frm4_2_mm" id="frm4_2_mm"/><label for="frm4_2_mm">월</label> <input type="text" name="frm4_2_dd" id="frm4_2_dd"/><label for="frm4_2_dd">일</label></li>
+		<li>일수 계산의 결과값은 민법 제157조의 규정에 따라 초일을 산압하지 않은 값입니다.</li>
+		<li>이자 계산을 위해 일수 계산이 필요한 경우는 아래의 이자 계산 프로그램을 이용해 주시기 바랍니다.</li>
+	</ul>
+</form>
+
+<p>계산</p>
+
+<h3>이자계산</h3>
+
+<form>
+	<ul>
+		<li>원 금<input type="text" name="frm5_txt1" id="frm5_txt1"/><label for="frm5_txt1">원</label>  	  	 </li>
+		<li>1차 이율<input type="text" name="frm5_txt2" id="frm5_txt2"/><label for="frm5_txt2">%</label></li>
+		<li>시작일<input type="text" style="" onkeypress="NumObj(this)" name="frm5_1_1_yy" id="frm5_1_1_yy"/><label for="frm5_1_1_yy">년</label> <input type="text" name="frm5_1_1_mm" id="frm5_1_1_mm"/><label for="frm5_1_1_mm">월</label> <input type="text" name="frm5_1_1_dd" id="frm5_1_1_dd"/><label for="frm5_1_1_dd">일</label></li>
+		<li>종료일<input type="text" name="frm5_1_2_yy" id="frm5_1_2_yy"/><label for="frm5_1_2_yy">년</label> <input type="text" name="frm5_1_2_mm" id="frm5_1_2_mm"/><label for="frm5_1_2_mm">월</label> <input type="text" name="frm5_1_2_dd" id=""/>일</li>
+		<li>2차 이율<input type="text" name="frm5_txt3" id="frm5_txt3"/><label for="frm5_txt3">%</label></li>
+		<li>시작일<input type="text" name="frm5_2_1_yy" id="frm5_2_1_yy"/><label for="frm5_2_1_yy">년</label> <input type="text" name="frm5_2_1_mm" id="frm5_2_1_mm"/><label for="frm5_2_1_mm">월</label> <input type="text" name="frm5_2_1_dd" id="frm5_2_1_dd"/><label for="frm5_2_1_dd">일</label></li>
+		<li>종료일<input type="text" name="frm5_2_2_yy" id="frm5_2_2_yy"/><label for="frm5_2_2_yy">년</label> <input type="text" name="frm5_2_2_mm" id="frm5_2_2_mm"/><label for="frm5_2_2_mm">월</label> <input type="text" name="frm5_2_2_dd" id="frm5_2_2_dd"/><label for="frm5_2_2_dd">일</label></li>
+		<li>이율의 변동이 없는 경우는 '1차 이율, 시작일, 종료일'에만 입력하시면 됩니다.</li>
+	</ul>
+</form>
+
+<p>계산</p>
+
+<h3>건물소가산정</h3>
+
+<form>
+	<ul>
+		<li><label for="frm6_str_bd1">신축건물기준가액</label><input type="text" name="frm6_str_bd1" id="frm6_str_bd1"/>원</li>
+		<li>적용지수
+			<ul>
+				<li><label for="frm6_str_bd2">구조지수</label>*<input type="text" name="frm6_str_bd2" id="frm6_str_bd2"/></li>
+				<li><label for="frm6_str_bd3">용도지수</label>*<input type="text" name="frm6_str_bd3" id="frm6_str_bd3"/></li>
+				<li><label for="frm6_str_bd4">위치지수</label>*<input type="text" name="frm6_str_bd4" id="frm6_str_bd4"/></li>
+			</ul>
+		</li>
+		<li>경과년수별잔가율
+			<ul>
+				<li><label for="frm6_str_bd5">건물구조</label>*<input type="text" name="frm6_str_bd5" id="frm6_str_bd5"/></li>
+				<li><label for="frm6_str_bd6">건축년도</label><input type="text" name="frm6_str_bd6" id="frm6_str_bd6"/>년도(XXXX)</li>
+			</ul>
+		</li>
+		<li><label for="frm6_str_bd7">면 적</label><input type="text" name="frm6_str_bd7" id="frm6_str_bd7"/>㎡</li>
+		<li><label for="frm6_str_bd8">가감산특례</label>*<input type="text" name="frm6_str_bd8" id="frm6_str_bd8"/></li>
+		<li>건물가액 산정비율 0.3</li>
+		<li><label for="frm6_str_bd9">권리 및 소의 종류에 따른 산정기준</label>*(1/<input type="text" name="frm6_str_bd9" id="frm6_str_bd9"/>)</li>
+		<li>별표(*) 항의 글쓰기 박스를 클릭하면, 선택항목 팝업창이 표출되며 알맞은 항을 선택하면 됩니다.</li>
+	</ul>
+</form>
+
+<p>계산</p>
+
+
+			</div>
+		</div>
+
+		<div id="footer">
+		<!-- footer -->		
+		</div>
+
+		<div id="quickMenu">
+		<!-- quick menu -->
+			<!-- #include virtual = /klac/common/comm/quickMenu.vm -->			
+		</div>		
+	</div>
+</body>
+</html>

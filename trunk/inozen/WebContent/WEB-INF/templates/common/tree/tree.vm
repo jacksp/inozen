@@ -1,0 +1,45 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+#set($target=$req.getParameter("target"))
+#set($src=$req.getParameter("src"))
+#set($kind=$req.getParameter("kind"))
+#set($form=$req.getParameter("form"))
+#set($name=$req.getParameter("name"))
+#set($value=$req.getParameter("value"))
+#set($retval=$req.getParameter("retval"))
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=EUC-KR">
+<title>Insert title here</title>
+<link rel="stylesheet" media="screen" type="text/css" href="/css/base.css" />
+<script language="JavaScript" src="/js/prototype-1.6.x.js"></script>
+<script language="JavaScript" src="/js/osaf.js"></script>
+</head>
+<script type="text/javascript">
+	function setRight(nodeid) {
+		parent.window.frames['$target'].location.href="$src?type=1&code="+nodeid;
+	}
+
+	function setValue() {
+		
+	}
+</script>
+<body>
+#set($nbsp="&nbsp;=>")
+#set($br="<br>")
+#if($list)
+	#foreach($tree in $list)
+		#foreach($i in [0..$tree.level])
+			$nbsp
+		#end
+		#if($tree.isLeaf)
+			$tree.name;
+		#else
+			#set($link="<a href='javascript:setRight("+$tree.nodeId+")'>"+$tree.name+"</a>") 
+			$link
+		#end
+		$br
+	#end
+#end
+
+</body>
+</html>

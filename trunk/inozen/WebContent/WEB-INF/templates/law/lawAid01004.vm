@@ -1,0 +1,77 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="ko" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=euc-kr"/>
+	<meta name="description" content="KOREA LEGAL AID CORPORATION" />
+	<meta name="keyword" content="법률구조공단" />
+	<title>비용은 걱정하지 않아도 되는지</title>
+	<link rel="stylesheet" type="text/css" href="/klac/css/kl_law.css" />
+
+	<script type="text/javascript" language="javascript" src="/klac/jscript/common.js"></script>
+	
+</head>
+
+<body>
+	<div id="skipMenu">
+		<!-- #include virtual = /klac/common/comm/skip.vm-->
+	</div>
+
+	<div id="wrapper">
+		<div id="header">
+		<!-- header	  -->
+			<!-- #include virtual = /klac/common/include/header.vm -->			
+		</div>
+
+		<div id="contentWrapper">
+		<!-- contentWrapper -->
+			<!-- subvisual -->
+			<p class="subVisual"><img src="/Images/common/klcomm_imgSubVisual03.jpg" width="865" height="128" alt="가족처럼 따뜻하게 친구처럼 편안하게 대한법률구조공단의 약속입니다," /></p>
+		
+			<div id="leftMenu">
+			<!-- leftmenu -->
+				<!-- #include virtual = /klac/common/include/leftMenu_xxx.vm -->				
+			</div>
+
+			<div id="content" class="content-type2">
+			<!-- content -->
+				<div id="pageLocation">
+					<!-- include -->
+				</div>
+				<h1><img src="/Images/common/contitle/conTit0301.gif" width="150" height="25" alt="공단이용안내" /></h1>
+
+				<ul id="commTabnavi">
+					<li><a href="/klac/law/lawAid01.html" onmouseover="jsTabnaviSwap(1,event);" onfocus="jsTabnaviSwap(1,event);" onmouseout="jsTabnaviSwap(1,event);" onblur="jsTabnaviSwap(1,event);"><img src="/Images/tabMenu/kltab_law0101_off.gif" width="95" height="30" alt="대한법률구조공단" id="tabImg1" /></a></li>
+					<li><a href="/klac/law/lawAid01002.html" onmouseover="jsTabnaviSwap(2,event);" onfocus="jsTabnaviSwap(2,event);" onmouseout="jsTabnaviSwap(2,event);" onblur="jsTabnaviSwap(2,event);"><img src="/Images/tabMenu/kltab_law0102_off.gif" width="81" height="30" alt="공단이 하는 일" id="tabImg2" /></a></li>
+					<li><a href="/klac/law/lawAid01003.html" onmouseover="jsTabnaviSwap(3,event);" onfocus="jsTabnaviSwap(3,event);" onmouseout="jsTabnaviSwap(3,event);" onblur="jsTabnaviSwap(3,event);"><img src="/Images/tabMenu/kltab_law0103_off.gif" width="160" height="30" alt="공단의 도움을 받을 수 있는 경우" id="tabImg3" /></a></li>
+					<li><img src="/Images/tabMenu/kltab_law0104_on.gif" width="155" height="30" alt="비용은 걱정하지 않아도 되는지" id="tabImg4" /></li>
+					<li class="noMg"><a href="/klac/law/lawAid01005.html" onmouseover="jsTabnaviSwap(5,event);" onfocus="jsTabnaviSwap(5,event);" onmouseout="jsTabnaviSwap(5,event);" onblur="jsTabnaviSwap(5,event);"><img src="/Images/tabMenu/kltab_law0105_off.gif" width="155" height="30" alt="법률구조 신청절차 및 구비서류" id="tabImg5" /></a></li>
+				</ul>				
+
+				<h2 class="styleH2-type2">비용은 걱정하지 않아도 되는지</h2>
+
+				<p class="descTitle">공단에서의 법률구조라 하더라도 변호사나 공익법무관을 소송대리인으로 선임하여 소송 등을 하는 경우에는 법원에 납부하는 인지대&middot;송달료 등 소송실비와 소정의 변호사 비용을 공단에 상환(납부)해야 합니다.</p>
+
+				<p class="descTitle">그러나 공단에 지급해야 하는 변호사 비용은 대법원규칙에서 정한 변호사 비용의 절반정도에 불과하며 시중의 일반 변호사비용에 비하면 극히 저렴한 금액입니다. 따라서 공단의 법률구조를 받게 되면 개인적으로 변호사를 선임하는 경우에 비해서 소송비용에 대한 부담이 아주 작습니다.</p>
+
+				<p class="descTitle">더욱이 도시영세민이나 장애인과 같이 특별한 보호가 필요한 분들에게는 공단에 상환하여야 할 소송비용도 면제시켜주는 &quot;무료법률구조제도&quot; 가 있고, 형사사건에 대하여도 모두 무료변호를 하고 있습니다.</p>
+
+				<h3 class="styleH3-type2">무료법률구조제도</h3>
+				<div class="freeLawAid">
+					<p>소송종료 후 일정비용을 상환해야 하는 일반 법률구조 외에 도시영세민이나 농·어민과 같이 특별한 지원이 필요한 분들을 위한 무료법률구조제도가 있습니다.</p>
+					<p class="noMg">무료법률구조를 받게 되면 변호사비용은 물론 법원에 납부하는 인지대나 송달료와 같은<br /> 소송실비까지도 공단에서 부담하지만 승소금액이 2억원을 초과한 고액사건은 무료법률구조에서<br /> 제외됩니다.</p>
+				</div>
+
+			</div>
+		</div>
+
+		<div id="footer">
+		<!-- footer -->		
+		</div>
+
+		<div id="quickMenu">
+		<!-- quick menu -->
+			<!-- #include virtual = /klac/common/comm/quickMenu.vm -->			
+		</div>		
+	</div>
+</body>
+</html>

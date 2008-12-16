@@ -1,0 +1,75 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="ko" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=euc-kr"/>
+	<meta name="description" content="KOREA LEGAL AID CORPORATION" />
+	<meta name="keyword" content="법률구조공단" />
+	<title>법률구조안내 &gt; 신청사건 처리절차</title>
+	<link rel="stylesheet" type="text/css" href="/klac/css/kl_law.css" />
+
+	<script type="text/javascript" language="javascript" src="/klac/jscript/common.js"></script>
+	
+</head>
+
+<body>
+	<div id="skipMenu">
+		<!-- #include virtual = /klac/common/comm/skip.vm-->
+	</div>
+
+	<div id="wrapper">
+		<div id="header">
+		<!-- header	    -->
+			<!-- #include virtual = /klac/common/include/header.vm -->			
+		</div>
+
+		<div id="contentWrapper">
+		<!-- contentWrapper -->
+			<!-- subvisual -->
+			<p class="subVisual"><img src="/Images/common/klcomm_imgSubVisual03.jpg" width="865" height="128" alt="가족처럼 따뜻하게 친구처럼 편안하게 대한법률구조공단의 약속입니다," /></p>
+		
+			<div id="leftMenu">
+			<!-- leftmenu -->
+				<!-- #include virtual = /klac/common/include/leftMenu_xxx.vm -->				
+			</div>
+
+			<div id="content" class="content-type2">
+			<!-- content -->
+				<div id="pageLocation">
+					<!-- include -->
+				</div>
+				<h1><img src="/Images/common/contitle/conTit030302.gif" width="150" height="25" alt="법률구조안내" /></h1>
+
+				<ul id="commTabnavi">
+					<li><a href="/klac/law/lawAid03002.html" onmouseover="jsTabnaviSwap(1,event);" onfocus="jsTabnaviSwap(1,event);" onmouseout="jsTabnaviSwap(1,event);" onblur="jsTabnaviSwap(1,event);"><img src="/Images/tabMenu/kltab_law0201_off.gif" width="84" height="30" alt="법률구조대상" id="tabImg1" /></a></li>
+					<li><a href="/klac/law/lawAid03002002.html" onmouseover="jsTabnaviSwap(2,event);" onfocus="jsTabnaviSwap(2,event);" onmouseout="jsTabnaviSwap(2,event);" onblur="jsTabnaviSwap(2,event);"><img src="/Images/tabMenu/kltab_law0202_off.gif" width="63" height="30" alt="신청절차" id="tabImg2" /></a></li>
+					<li><img src="/Images/tabMenu/kltab_law0203_on.gif" width="112" height="30" alt="신청사건 처리절차" id="tabImg3" /></li>
+					<li><a href="/klac/law/lawAid03002004.html" onmouseover="jsTabnaviSwap(4,event);" onfocus="jsTabnaviSwap(4,event);" onmouseout="jsTabnaviSwap(4,event);" onblur="jsTabnaviSwap(4,event);"><img src="/Images/tabMenu/kltab_law0204_off.gif" width="63" height="30" alt="소송비용" id="tabImg4" /></a></li>					
+				</ul>
+
+				<h2 class="styleH2-type2">신청사건 처리절차</h2>
+
+				<p class="descTitle">법률구조 신청서가 접수되면 공단에서는 곧바로 사실조사에 착수하게 됩니다.<br />공단은 사실조사가 일정단계에 이르면 당사자에게 분쟁에 대한 법률적인 문제점과 그 해결방법을 제시하여 당사자간에 원만히 화해를 이룰 수 있도록 권유하거나, 구조의 타당성, 승소가능성, 집행사능성을 심사하여 &quot;소송&quot;을 할 것인지 여부를 결정합니다.<br />그리고 소송을 하기로 결정된 사건은 소속변호사나 공익법무관이 소송을 수행하게 됩니다.<br />구조결정된 사안의 진행과정에 대하여 궁금하신 경우에는 홈페이지 '나의 사건 검색'을 통해 검색하실 수 있습니다.</p>
+
+				<p class="alignR"><a href=""><img src="/Images/law/kllaw_btnShortMyCase.gif" width="148" height="20" alt="나의 사건 검색 바로가기" /></a></p>
+
+				<h3 class="styleH3-type2">민사, 가사사건등 처리절차</h3>
+				<p class="descTitle"><img src="/Images/law/kllaw_imgProcessing1.gif" width="635" height="315" longdesc="lawDescProcessing.html" alt="민사, 가사사건등 처리 순서도" /></p>				
+
+				<h3 class="styleH3-type2">형사사건 처리절차</h3>
+				<p class="descTitle"><img src="/Images/law/kllaw_imgProcessing2.gif" width="635" height="185" longdesc="lawDescProcessing.html" alt="형사사건 처리 순서도" /></p>
+				<p class="descTitle">한편, 공단에서 구조기각으로 결정된 사건이라 하더라도 의뢰자가 이에 불복할 경우 공단에 이의신청을 할 수 있도록 하고 있으며, 이의신청된 사건은 재검토하여 구조여부를 다시 결정하게 됩니다. 다만 구조대상자나 구조대상사건이 아니라는 이유로 구조기각된 사건은 제외됩니다.</p>
+
+			</div>
+		</div>
+
+		<div id="footer">
+		<!-- footer -->		
+		</div>
+
+		<div id="quickMenu">
+		<!-- quick menu -->
+			<!-- #include virtual = /klac/common/comm/quickMenu.vm -->			
+		</div>		
+	</div>
+</body>
+</html>

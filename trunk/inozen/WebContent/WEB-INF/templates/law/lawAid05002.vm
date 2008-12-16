@@ -1,0 +1,268 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="ko" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=euc-kr"/>
+	<meta name="description" content="KOREA LEGAL AID CORPORATION" />
+	<meta name="keyword" content="법률구조공단" />
+	<title>준법강연 &gt; 주요활동</title>
+	<link rel="stylesheet" type="text/css" href="/klac/css/kl_law.css" />
+
+	<script type="text/javascript" language="javascript" src="/klac/jscript/common.js"></script>
+	
+</head>
+
+<body>
+	<div id="skipMenu">
+		<!-- #include virtual = /klac/common/comm/skip.vm-->
+	</div>
+
+	<div id="wrapper">
+		<div id="header">
+		<!-- header	    -->
+			<!-- #include virtual = /klac/common/include/header.vm -->			
+		</div>
+
+		<div id="contentWrapper">
+		<!-- contentWrapper -->
+			<!-- subvisual -->
+			<p class="subVisual"><img src="/Images/common/klcomm_imgSubVisual03.jpg" width="865" height="128" alt="가족처럼 따뜻하게 친구처럼 편안하게 대한법률구조공단의 약속입니다," /></p>
+		
+			<div id="leftMenu">
+			<!-- leftmenu -->
+				<!-- #include virtual = /klac/common/include/leftMenu_xxx.vm -->				
+			</div>
+
+			<div id="content" class="content-type2">
+			<!-- content -->
+				<div id="pageLocation">
+					<!-- include -->
+				</div>
+				<h1><img src="/Images/common/contitle/conTit030502.gif" width="150" height="25" alt="주요활동" /></h1>
+
+				<h2 class="styleH2-type2">언론매체를 통한 생활법률강연&middot;법률상담</h2>
+				<ul class="list-btype02">
+					<li>TV, 라디오, 유선방송 등의 미디어에 소속 변호사나 직원들이 출연하여 준법강연, 생활법률상담 등을 실시</li>
+					<li>신문 및 잡지 등에 생활법률상담사례를 제공 · 기사화하여 국민의 준법의식 고취</li>
+				</ul>
+
+				<h2 class="styleH2-type2">교정시설 및 노동사무소&middot;구청 등 출장강연&middot;법률상담</h2>
+				<ul class="list-btype02">
+					<li>전국의 교도소 및 구치소 등의 교정시설에 소속변호사 또는 법무관이 정기적으로 출장상담을 실시하여 수감자들의 수사·재판과정에서의 적법한 권리보장 및 인권옹호</li>
+					<li>관할지역의 노동사무소 및 구청에 정기적으로 출장강연 및 상담을 실시하여 임금체불근로자나 지역주민들을 위한 법률서비스 실시</li>
+				</ul>
+
+				<h2 class="styleH2-type2">소외지역 주민을 위한 출장강연&middot;상담</h2>
+				<p class="descTitle">농·어촌 등 법률서비스 소외지역에 대한 출장강연 및 상담을 실시하여 준법계몽활동 추진</p>
+
+				<h2 class="styleH2-type2">생활법률관련 간행물 발간&middot;배포</h2>
+				<p class="descTitle">법률상담사례집 &quot;알기쉬운 생활법률&quot; 등 실생활에서 유용하게 활용할 수 있는 간행물 발간·배포</p>
+
+				<h2 class="styleH2-type2">준법생활화운동 추진실적</h2>
+				<p class="alignR">(단위:건)</p>
+				<table summary="준법생활화운동 연도, 합계, 보도매체활동, 강연회/좌담회 건수" class="tab-layout lawtype2" width="645">
+					<thead>
+						<tr>
+							<th rowspan="2" scope="col" class="noBd-left">연도</th>
+							<th rowspan="2" scope="col">합계</th>
+							<th colspan="4" scope="colgroup">보도매체활용</th>
+							<th colspan="5" scope="colgroup" class="noBd-right">강연회 &middot; 좌담회 등 </th>
+						</tr>
+						<tr>
+							<th scope="col" class="noBd-left">신문</th>
+							<th scope="col">방송</th>
+							<th scope="col">기타</th>
+							<th scope="col">계</th>
+							<th scope="col">강연회</th>
+							<th scope="col">좌담회</th>
+							<th scope="col">출장상담</th>
+							<th scope="col">기타</th>
+							<th scope="col" class="noBd-right">계</th>
+						</tr>
+					</thead>
+					<tbody class="alignC">
+						<tr>
+							<td class="noBd-left">'96.7~12</td>
+							<td>446</td>
+							<td>113</td>
+							<td>166</td>
+							<td>-</td>
+							<td>279</td>
+							<td>36</td>
+							<td>131</td>
+							<td>-</td>
+							<td>-</td>
+							<td class="noBd-right">167</td>
+						</tr>
+						<tr>
+							<td class="noBd-left">1997</td>
+							<td>4,061</td>
+							<td>1,194</td>
+							<td>699</td>
+							<td>425</td>
+							<td>2,318</td>
+							<td>582</td>
+							<td>1,161</td>
+							<td>-</td>
+							<td>-</td>
+							<td class="noBd-right">1,743</td>
+						</tr>
+						<tr>
+							<td class="noBd-left">1998</td>
+							<td>4,381</td>
+							<td>526</td>
+							<td>1,623</td>
+							<td>708</td>
+							<td>2,857</td>
+							<td>518</td>
+							<td>15</td>
+							<td>986</td>
+							<td>5</td>
+							<td class="noBd-right">1,524</td>
+						</tr>
+						<tr>
+							<td class="noBd-left">1999</td>
+							<td>5,837</td>
+							<td>643</td>
+							<td>2,564</td>
+							<td>1,131</td>
+							<td>4,338</td>
+							<td>487</td>
+							<td>6</td>
+							<td>987</td>
+							<td>19</td>
+							<td class="noBd-right">1,499</td>
+						</tr>
+						<tr>
+							<td class="noBd-left">2000</td>
+							<td>8,161</td>
+							<td>782</td>
+							<td>3,975</td>
+							<td>1,995</td>
+							<td>6,752</td>
+							<td>460</td>
+							<td>16</td>
+							<td>926</td>
+							<td>7</td>
+							<td class="noBd-right">1,409</td>
+						</tr>
+						<tr>
+							<td class="noBd-left">2001</td>
+							<td>10,565</td>
+							<td>770</td>
+							<td>4,509</td>
+							<td>3,232</td>
+							<td>8,511</td>
+							<td>465</td>
+							<td>12</td>
+							<td>1,576</td>
+							<td>1</td>
+							<td class="noBd-right">2,054</td>
+						</tr>
+						<tr>
+							<td class="noBd-left">2002</td>
+							<td>15,183</td>
+							<td>802</td>
+							<td>6,469</td>
+							<td>5,874</td>
+							<td>13,145</td>
+							<td> 647</td>
+							<td>8</td>
+							<td>1,381</td>
+							<td>2</td>
+							<td class="noBd-right">2,038</td>
+						</tr>
+						<tr>
+							<td class="noBd-left">2003</td>
+							<td>11,782</td>
+							<td>868</td>
+							<td>4,026</td>
+							<td>4,547</td>
+							<td>9,441</td>
+							<td>426</td>
+							<td>28</td>
+							<td>1,881</td>
+							<td>6</td>
+							<td class="noBd-right">2,341</td>
+						</tr>
+						<tr>
+							<td class="noBd-left">2004</td>
+							<td>13,741</td>
+							<td>1,222</td>
+							<td>4,768</td>
+							<td>5,000</td>
+							<td>10,990</td>
+							<td>434</td>
+							<td>37</td>
+							<td>2,278</td>
+							<td>2</td>
+							<td class="noBd-right">2,751</td>
+						</tr>
+						<tr>
+							<td class="noBd-left">2005</td>
+							<td>13,724</td>
+							<td>977</td>
+							<td>5,503</td>
+							<td>4,506</td>
+							<td>10,986</td>
+							<td>459</td>
+							<td>33</td>
+							<td>2,233</td>
+							<td>13</td>
+							<td class="noBd-right">2,738</td>
+						</tr>
+						<tr>
+							<td class="noBd-left">2006</td>
+							<td>12,907</td>
+							<td>1,109</td>
+							<td>4,904</td>
+							<td>4,066</td>
+							<td>10,079</td>
+							<td>474</td>
+							<td>50</td>
+							<td>2,299</td>
+							<td>5</td>
+							<td class="noBd-right">2,828</td>
+						</tr>
+						<tr>
+							<td class="noBd-left">2007</td>
+							<td>16,606</td>
+							<td>1,792</td>
+							<td>4,718</td>
+							<td>7,547</td>
+							<td>14,057</td>
+							<td>564</td>
+							<td>43</td>
+							<td>1,928</td>
+							<td>14</td>
+							<td class="noBd-right">2,549</td>
+						</tr>
+						<tr class="strong">
+							<th class="noBd-left">총계</th>
+							<td>117,394</td>
+							<td>10,798</td>
+							<td>43,924</td>
+							<td>39,031</td>
+							<td>93,753</td>
+							<td>5,552</td>
+							<td>1,540</td>
+							<td>16,475</td>
+							<td>74</td>
+							<td class="noBd-right">23,641</td>
+						</tr>
+					</tbody>
+				</table>
+
+			</div>
+		</div>
+
+		<div id="footer">
+		<!-- footer -->		
+		</div>
+
+		<div id="quickMenu">
+		<!-- quick menu -->
+			<!-- #include virtual = /klac/common/comm/quickMenu.vm -->			
+		</div>		
+	</div>
+</body>
+</html>

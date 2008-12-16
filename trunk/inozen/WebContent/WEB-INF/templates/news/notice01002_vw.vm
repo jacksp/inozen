@@ -1,0 +1,115 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="ko" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=euc-kr"/>
+	<meta name="description" content="KOREA LEGAL AID CORPORATION" />
+	<meta name="keyword" content="법률구조공단" />
+	<title>법률구조공단 &gt; </title>
+	<link rel="stylesheet" type="text/css" href="/klac/css/kl_xxx.css" />
+
+	<script type="text/javascript" language="javascript" src="/klac/jscript/common.js"></script>
+	
+</head>
+
+<body>
+	<div id="skipMenu">
+		<!-- #include virtual = /klac/common/comm/skip.vm-->
+	</div>
+
+	<div id="wrapper">
+		<div id="header">
+		<!-- header	   -->
+			<!-- #include virtual = /klac/common/include/header.vm -->			
+		</div>
+
+		<div id="contentWrapper">
+		<!-- contentWrapper -->
+			<!-- subvisual -->
+			<p class="subVisual"></p>
+		
+			<div id="leftMenu">
+			<!-- leftmenu -->
+				<!-- #include virtual = /klac/common/include/leftMenu_xxx.vm -->				
+			</div>
+
+			<div id="content" class="content-type2">
+			<!-- content -->
+				<div id="pageLocation">
+					<!-- include -->
+				</div>
+				<h1>page title</h1>
+
+<h2>공지사항(Notice)</h2>
+
+<div>
+	<dl>
+		<dt>번호</dt>
+		<dd>1446</dd>
+	</dl>
+
+	<dl>
+		<dt>파일</dt>
+		<dd></dd>
+	</dl>
+
+	<dl>
+		<dt>제목</dt>
+		<dd>08년 제5회 임시 이사회 개최 </dd>
+	</dl>
+
+	<dl>
+		<dt>날짜</dt>
+		<dd>2008-09-09</dd>
+	</dl>
+
+	<dl>
+		<dt>조회</dt>
+		<dd>206</dd>
+	</dl>
+</div>
+
+<div title="내용">
+	<p>- 정관 일부 개정(안) 등 부의 안건 2건 의결 -
+
+공단은 9일 서울 서초동 본부 소회의실에서 정홍원 이사장 등 8명 이사와 감사 1명 등이 참석한 가운
+데 임시이사회를 가졌다.
+
+정 이사장 취임 후 첫 번째로 개최된 이번 이사회에서는 법률구조법에서 위임한 지부, 출장소와 지소
+의 설치 및 운영에 관한 사항을 정하기 위한 정관 일부개정(안)을 가결했으며 공단 이사장의 직무청
+렴계약 및 책임경영 강화를 위해 성과계약 체결을 위한 당사자로 박은정 이사를 선임했다
+
+한편, 이번 이사회에는 지난 8. 31자로 임명된 이사 박은정 교수(서울대 법대), 조양일 논설고문(연
+합뉴스), 조흥식 교수(서울대 사회복지학과)와 신임 감사인 신남규 변호사(법무법인 에이스)가 참석
+했다.</p>
+</div>
+
+<div>
+	<dl>
+		<dt>이전글</dt>
+		<dd>이전글이 없습니다.</dd>
+	</dl>
+
+	<dl>
+		<dt>다음글</dt>
+		<dd> 공단 창설 21주년 기념, 직원 6명 표창</dd>
+	</dl>
+</div>
+
+<ul>
+	<li>목록보기</li>
+</ul>
+
+			</div>
+		</div>
+
+		<div id="footer">
+		<!-- footer -->		
+		</div>
+
+		<div id="quickMenu">
+		<!-- quick menu -->
+			<!-- #include virtual = /klac/common/comm/quickMenu.vm -->			
+		</div>		
+	</div>
+</body>
+</html>

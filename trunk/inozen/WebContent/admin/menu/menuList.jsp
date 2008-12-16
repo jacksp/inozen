@@ -38,7 +38,7 @@ body {
 			alert("메뉴를 선택하세요.");
 			return;
 		}
-		popup("saveMenu.do?pMenuCode="+pMenuCode, "popup", 700, 400, "yes", "yes");
+		document.location.href = "saveMenu.do?pMenuCode="+pMenuCode;
 	}
 
 	function searchCategory () {

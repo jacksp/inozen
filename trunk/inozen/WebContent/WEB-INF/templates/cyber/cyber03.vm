@@ -1,0 +1,331 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="ko" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=euc-kr"/>
+	<meta name="description" content="KOREA LEGAL AID CORPORATION" />
+	<meta name="keyword" content="법률구조공단" />
+	<title>법률구조공단 &gt; </title>
+	<link rel="stylesheet" type="text/css" href="/klac/css/kl_cyber.css" />
+
+	<script type="text/javascript" language="javascript" src="/klac/jscript/common.js"></script>
+	
+</head>
+
+<body>
+	<div id="skipMenu">
+		<!-- #include virtual = /klac/common/comm/skip.vm-->
+	</div>
+
+	<div id="wrapper">
+		<div id="header">
+		<!-- header	    -->
+			<!-- #include virtual = /klac/common/include/header.vm -->			
+		</div>
+
+		<div id="contentWrapper">
+		<!-- contentWrapper -->
+			<!-- subvisual -->
+			<p class="subVisual"></p>
+		
+			<div id="leftMenu">
+			<!-- leftmenu -->
+				<!-- #include virtual = /klac/common/include/leftMenu_xxx.vm -->				
+			</div>
+
+			<div id="content" class="content-type1">
+			<!-- content -->
+				<div id="pageLocation">
+					<!-- include -->
+				</div>
+				<h1><img src="/Images/common/contitle/conTit0203.gif" width="150" height="25" alt="유사사례찾기" /></h1>
+
+				<div id="consult-m">
+					<div class="consult-t">
+						<div class="consult-b">
+							<div class="consult-icon4">
+								<p>과거 6개월간의 <span class="fcolorR strong">사이버상담자료를 17개의 대분류와 136개의 중분류로 정리</span>하여 모아둔 곳입니다. 각 분류항목을 클릭하시면 주제와 관련된 상담자료를 볼 수 있으므로 상담신청전에 질의하고자 하는 상담과 <span class="strong">유사한 사례가 있는지 먼저 검색</span>해 보시기 바랍니다.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<h2 class="styleH2-type1">분류를 선택하세요(2002년 1월 이후 분류 기준)</h2>
+
+				<table summary="사이버상담자료를 유사한 사례별로 분류하여 알려드립니다." width="635" class="tab-layout cyberTabtype1">
+					<colgroup span="2">
+						<col width="145" />
+						<col width="490" />
+					</colgroup>
+					<caption>유사사례 분류</caption>
+					<tbody>
+						<tr>
+							<th scope="row">민사일반</th>
+							<td>
+								<ul>
+									<li><a href="" onclick="" onkeypress="">소멸시효</a></li>
+									<li><a href="" onclick="" onkeypress="">대리행위</a></li>
+									<li><a href="" onclick="" onkeypress="">금전대차</a></li>
+									<li><a href="" onclick="" onkeypress="">채권·채무</a></li>
+									<li><a href="" onclick="" onkeypress="">계약·해제</a></li>
+									<li><a href="" onclick="" onkeypress="">매매·증여</a></li>
+									<li><a href="" onclick="" onkeypress="">변제·공탁</a></li>
+									<li><a href="" onclick="" onkeypress="">공증</a></li>
+									<li><a href="" onclick="" onkeypress="">기타</a></li>
+								</ul>
+							</td>
+						</tr>
+						<tr>
+							<th scope="row">민사소송</th>
+							<td>
+								<ul>
+									<li><a href="" onclick="" onkeypress="">소송절차</a></li>
+									<li><a href="" onclick="" onkeypress="">소송비용</a></li>
+									<li><a href="" onclick="" onkeypress="">항소·상고·재심</a></li>
+									<li><a href="" onclick="" onkeypress="">민사조정</a></li>
+									<li><a href="" onclick="" onkeypress="">소액심판·이행권고</a></li>
+									<li><a href="" onclick="" onkeypress="">지급명령</a></li>
+									<li><a href="" onclick="" onkeypress="">공시최고</a></li>
+									<li><a href="" onclick="" onkeypress="">소비자파산</a></li>
+									<li><a href="" onclick="" onkeypress="">기타</a></li>
+								</ul>
+							</td>
+						</tr>
+						<tr>
+							<th scope="row">강제집행</th>
+							<td>
+								<ul>
+									<li><a href="" onclick="" onkeypress="">부동산경매</a></li>
+									<li><a href="" onclick="" onkeypress="">유체동산경매</a></li>
+									<li><a href="" onclick="" onkeypress="">채권압류·전부·추심</a></li>
+									<li><a href="" onclick="" onkeypress="">배당이의</a></li>
+									<li><a href="" onclick="" onkeypress="">강제집행의</a> 구제절차</li>
+									<li><a href="" onclick="" onkeypress="">가압류·가처분</a></li>
+									<li><a href="" onclick="" onkeypress="">재산관계명시</a></li>
+									<li><a href="" onclick="" onkeypress="">기타</a></li>
+								</ul>
+							</td>
+						</tr>
+						<tr>
+							<th scope="row">부동산일반</th>
+							<td>
+								<ul>
+									<li><a href="" onclick="" onkeypress="">소유권</a></li>
+									<li><a href="" onclick="" onkeypress="">이웃관계</a></li>
+									<li><a href="" onclick="" onkeypress="">공유관계</a></li>
+									<li><a href="" onclick="" onkeypress="">지상권</a></li>
+									<li><a href="" onclick="" onkeypress="">담보물권</a></li>
+									<li><a href="" onclick="" onkeypress="">매매·분양</a></li>
+									<li><a href="" onclick="" onkeypress="">전세·임대차</a></li>
+									<li><a href="" onclick="" onkeypress="">공동주택</a></li>
+									<li><a href="" onclick="" onkeypress="">부동산등기</a></li>
+									<li><a href="" onclick="" onkeypress="">부동산세무</a></li>
+									<li><a href="" onclick="" onkeypress="">부동산중개</a></li>
+									<li><a href="" onclick="" onkeypress="">기타</a></li>
+								</ul>
+							</td>
+						</tr>
+						<tr>
+							<th scope="row">부동산개발</th>
+							<td>
+								<ul>
+									<li><a href="" onclick="" onkeypress="">건축</a></li>
+									<li><a href="" onclick="" onkeypress="">재건축</a></li>
+									<li><a href="" onclick="" onkeypress="">재개발</a></li>
+									<li><a href="" onclick="" onkeypress="">수용·보상</a></li>
+									<li><a href="" onclick="" onkeypress="">기타</a></li>
+								</ul>
+							</td>
+						</tr>
+						<tr>
+							<th scope="row">주택임대차</th>
+							<td>
+								<ul>
+									<li><a href="" onclick="" onkeypress="">적용범위</a></li>
+									<li><a href="" onclick="" onkeypress="">대항력</a></li>
+									<li><a href="" onclick="" onkeypress="">우선변제권</a></li>
+									<li><a href="" onclick="" onkeypress="">임대차기간</a></li>
+									<li><a href="" onclick="" onkeypress="">하자·보수</a></li>
+									<li><a href="" onclick="" onkeypress="">보증금반환·건물명도</a></li>
+									<li><a href="" onclick="" onkeypress="">임차주택경매·배당요구</a></li>
+									<li><a href="" onclick="" onkeypress="">임차권등기명령</a></li>
+									<li><a href="" onclick="" onkeypress="">기타</a></li>
+								</ul>
+							</td>
+						</tr>
+						<tr>
+							<th scope="row">상가건물임대차</th>
+							<td>
+								<ul>
+									<li><a href="" onclick="" onkeypress="">적용범위</a></li>
+									<li><a href="" onclick="" onkeypress="">대항력</a></li>
+									<li><a href="" onclick="" onkeypress="">우선변제권</a></li>
+									<li><a href="" onclick="" onkeypress="">임대차기간</a></li>
+									<li><a href="" onclick="" onkeypress="">하자·보수</a></li>
+									<li><a href="" onclick="" onkeypress="">보증금반환·건물명도</a></li>
+									<li><a href="" onclick="" onkeypress="">경매·배당요구</a></li>
+									<li><a href="" onclick="" onkeypress="">임차권등기명령</a></li>
+									<li><a href="" onclick="" onkeypress="">기타</a></li>
+								</ul>
+							</td>
+						</tr>
+						<tr>
+							<th scope="row">손해배상</th>
+							<td>
+								<ul>
+									<li><a href="" onclick="" onkeypress="">교통사고</a></li>
+									<li><a href="" onclick="" onkeypress="">의료과오</a></li>
+									<li><a href="" onclick="" onkeypress="">환경</a></li>
+									<li><a href="" onclick="" onkeypress="">지적재산권</a> 침해</li>
+									<li><a href="" onclick="" onkeypress="">기타</a></li>
+								</ul>
+							</td>
+						</tr>
+						<tr>
+							<th scope="row">노동</th>
+							<td>
+								<ul>
+									<li><a href="" onclick="" onkeypress="">근로계약</a></li>
+									<li><a href="" onclick="" onkeypress="">임금·퇴직금</a></li>
+									<li><a href="" onclick="" onkeypress="">해고</a></li>
+									<li><a href="" onclick="" onkeypress="">산업재해</a></li>
+									<li><a href="" onclick="" onkeypress="">고용보험</a></li>
+									<li><a href="" onclick="" onkeypress="">노동조합·노동쟁의</a></li>
+									<li><a href="" onclick="" onkeypress="">기타</a></li>
+								</ul>
+							</td>
+						</tr>
+						<tr>
+							<th scope="row">소비자피해</th>
+							<td>
+								<ul>
+									<li><a href="" onclick="" onkeypress="">약관규제</a></li>
+									<li><a href="" onclick="" onkeypress="">방문판매</a></li>
+									<li><a href="" onclick="" onkeypress="">할부거래</a></li>
+									<li><a href="" onclick="" onkeypress="">통신판매</a></li>
+									<li><a href="" onclick="" onkeypress="">다단계판매</a></li>
+									<li><a href="" onclick="" onkeypress="">공정거래</a></li>
+									<li><a href="" onclick="" onkeypress="">신용카드</a></li>
+									<li><a href="" onclick="" onkeypress="">기타</a></li>
+								</ul>
+							</td>
+						</tr>
+						<tr>
+							<th scope="row">가사</th>
+							<td>
+								<ul>
+									<li><a href="" onclick="" onkeypress="">약혼·혼인</a></li>
+									<li><a href="" onclick="" onkeypress="">이혼·위자료·재산분할</a></li>
+									<li><a href="" onclick="" onkeypress="">부양</a></li>
+									<li><a href="" onclick="" onkeypress="">유언·상속</a></li>
+									<li><a href="" onclick="" onkeypress="">호적</a></li>
+									<li><a href="" onclick="" onkeypress="">가정폭력</a></li>
+									<li><a href="" onclick="" onkeypress="">기타</a></li>
+								</ul>
+							</td>
+						</tr>
+						<tr>
+							<th scope="row">형사</th>
+							<td>
+								<ul>
+									<li><a href="" onclick="" onkeypress="">고소관련</a></li>
+									<li><a href="" onclick="" onkeypress="">공소시효</a></li>
+									<li><a href="" onclick="" onkeypress="">불기소처분</a></li>
+									<li><a href="" onclick="" onkeypress="">체포·구속·적부심</a></li>
+									<li><a href="" onclick="" onkeypress="">보석</a></li>
+									<li><a href="" onclick="" onkeypress="">국선변호</a></li>
+									<li><a href="" onclick="" onkeypress="">합의·공탁</a></li>
+									<li><a href="" onclick="" onkeypress="">즉결심판</a></li>
+									<li><a href="" onclick="" onkeypress="">소송절차</a></li>
+									<li><a href="" onclick="" onkeypress="">배상명령</a></li>
+									<li><a href="" onclick="" onkeypress="">형사보상</a></li>
+									<li><a href="" onclick="" onkeypress="">범죄피해자 구제제도</a></li>
+									<li><a href="" onclick="" onkeypress="">기타</a></li>
+								</ul>
+							</td>
+						</tr>
+						<tr>
+							<th scope="row">형사범죄</th>
+							<td>
+								<ul>
+									<li><a href="" onclick="" onkeypress="">명예훼손·모욕죄</a></li>
+									<li><a href="" onclick="" onkeypress="">배임·횡령죄</a></li>
+									<li><a href="" onclick="" onkeypress="">사기·공갈죄</a></li>
+									<li><a href="" onclick="" onkeypress="">폭행·상해죄</a></li>
+									<li><a href="" onclick="" onkeypress="">절도·강도죄</a></li>
+									<li><a href="" onclick="" onkeypress="">성관련범죄</a></li>
+									<li><a href="" onclick="" onkeypress="">컴퓨터 관련 범죄</a></li>
+									<li><a href="" onclick="" onkeypress="">교통사고처리특례법위반</a></li>
+									<li><a href="" onclick="" onkeypress="">도로교통법위반</a></li>
+									<li><a href="" onclick="" onkeypress="">부정수표</a> 단속법위반</li>
+									<li><a href="" onclick="" onkeypress="">기타</a></li>
+								</ul>
+							</td>
+						</tr>
+						<tr>
+							<th scope="row">행정&middot;국가배상&middot;헌법</th>
+							<td>
+								<ul>
+									<li><a href="" onclick="" onkeypress="">행정절차</a></li>
+									<li><a href="" onclick="" onkeypress="">행정처분</a></li>
+									<li><a href="" onclick="" onkeypress="">정보공개제도</a></li>
+									<li><a href="" onclick="" onkeypress="">행정벌</a></li>
+									<li><a href="" onclick="" onkeypress="">행정심판</a></li>
+									<li><a href="" onclick="" onkeypress="">행정소송</a></li>
+									<li><a href="" onclick="" onkeypress="">국가배상</a></li>
+									<li><a href="" onclick="" onkeypress="">헌법소원</a></li>
+									<li><a href="" onclick="" onkeypress="">기타</a></li>
+								</ul>
+							</td>
+						</tr>
+						<tr>
+							<th scope="row">상사</th>
+							<td>
+								<ul>
+									<li><a href="" onclick="" onkeypress="">보험</a></li>
+									<li><a href="" onclick="" onkeypress="">어음·수표</a></li>
+									<li><a href="" onclick="" onkeypress="">전자상거래</a></li>
+									<li><a href="" onclick="" onkeypress="">회사정리·화의·파산</a></li>
+									<li><a href="" onclick="" onkeypress="">증권·금융</a></li>
+									<li><a href="" onclick="" onkeypress="">정보통신</a></li>
+									<li><a href="" onclick="" onkeypress="">기타</a></li>
+								</ul>
+							</td>
+						</tr>
+						<tr>
+							<th scope="row">지적재산권</th>
+							<td>
+								<ul>
+									<li><a href="" onclick="" onkeypress="">저작권</a></li>
+									<li><a href="" onclick="" onkeypress="">상표</a></li>
+									<li><a href="" onclick="" onkeypress="">실용신안</a></li>
+									<li><a href="" onclick="" onkeypress="">의장</a></li>
+									<li><a href="" onclick="" onkeypress="">특허</a></li>
+									<li><a href="" onclick="" onkeypress="">기타</a></li>
+								</ul>
+							</td>
+						</tr>
+						<tr>
+							<th scope="row">기타</th>
+							<td>
+								<ul>
+									<li><a href="" onclick="" onkeypress="">기타</a></li>
+								</ul>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+
+			</div>
+		</div>
+
+		<div id="footer">
+		<!-- footer -->		
+		</div>
+
+		<div id="quickMenu">
+		<!-- quick menu -->
+			<!-- #include virtual = /klac/common/comm/quickMenu.vm -->			
+		</div>		
+	</div>
+</body>
+</html>

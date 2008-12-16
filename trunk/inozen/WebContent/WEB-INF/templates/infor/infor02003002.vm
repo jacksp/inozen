@@ -1,0 +1,256 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="ko" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=euc-kr"/>
+	<meta name="description" content="KOREA LEGAL AID CORPORATION" />
+	<meta name="keyword" content="법률구조공단" />
+	<title>법률구조공단 &gt; </title>
+	<link rel="stylesheet" type="text/css" href="/klac/css/kl_xxx.css" />
+
+	<script type="text/javascript" language="javascript" src="/klac/jscript/common.js"></script>
+	
+</head>
+
+<body>
+	<div id="skipMenu">
+		<!-- #include virtual = /klac/common/comm/skip.vm-->
+	</div>
+
+	<div id="wrapper">
+		<div id="header">
+		<!-- header	   -->
+			<!-- #include virtual = /klac/common/include/header.vm -->			
+		</div>
+
+		<div id="contentWrapper">
+		<!-- contentWrapper -->
+			<!-- subvisual -->
+			<p class="subVisual"></p>
+		
+			<div id="leftMenu">
+			<!-- leftmenu -->
+				<!-- #include virtual = /klac/common/include/leftMenu_xxx.vm -->				
+			</div>
+
+			<div id="content" class="content-type1">
+			<!-- content -->
+				<div id="pageLocation">
+					<!-- include -->
+				</div>
+				<h1>page title</h1>
+
+<h2>법률상식</h2>
+
+<ul>
+	<li>생활법률상식</li>
+	<li>재외동포를 위한 생활법률</li>
+</ul>
+
+<h3>재외동포를 위한 생활법률</h3>
+
+<p>일상생활에서 흔히 만날 수 있는 법률문제를 알기 쉽게 풀이하였습니다.</p>
+
+<form>
+	<fieldset>
+		<label for="search">SEARCH</label>
+		<input type="text" id="search" title="검색어 입력"/>
+		<input type="images" alt="검색하기"/>
+	</fieldset>
+</form>
+
+<p>분류를 선택하세요.</p>
+
+<h4>국적</h4>
+
+<ul>
+	<li>머릿말</li>
+	<li>국적법에 의한 국적의 취득과 상실</li>
+	<li>후천적 이중국적을 불허하는 이유</li>
+	<li>국적변동에 따른 호적정리</li>
+</ul>
+
+<h4>재외 국민의 호적신고</h4>
+
+<ul>
+	<li>머릿말</li>
+	<li>호적법상 신고장소의 특칙</li>
+	<li>재외국민을 위한 특례절차</li>
+</ul>
+
+<h4>출입국 및 체류절차</h4>
+
+<ul>
+	<li>재외동포의 출입국과 법적 지위에 관한 법률</li>
+	<li>재외국민의 출입국 및 체류절차</li>
+	<li>외국국적을 취득한 자의 출입국 및 체류절차</li>
+	<li>국내거소</li>
+	<li>재외동포법상의 특례</li>
+</ul>
+
+<h4>가족관계법</h4>
+
+<ul>
+	<li>친족제도</li>
+	<li>호주제도</li>
+	<li>상속제도</li>
+	<li>혼인에 관한 섭외사법</li>
+	<li>재외국민에 대한 이혼관계 특칙</li>
+</ul>
+
+<h4>외국인의 토지획득</h4>
+
+<ul>
+	<li>기본원칙</li>
+	<li>취득할 수 있는 경우</li>
+	<li>국적상실자의 계속보유: 신고대상</li>
+	<li>외국국적동포에 대한 특례</li>
+	<li>부동산 매각대금의 반출</li>
+</ul>
+
+<h4>외국인 및 재외 국민의 부동산 등기절차</h4>
+
+<ul>
+	<li>외국국적 취득자</li>
+	<li>재외국민</li>
+</ul>
+
+<h4>부동산 실명제</h4>
+
+<ul>
+	<li>부동산실명제 실시 배경</li>
+	<li>실권리자명의 등기의무</li>
+	<li>명의신탁 약정의 효력</li>
+	<li>위반시의 제재</li>
+	<li>종중 및 배우자에 대한 특례</li>
+	<li>장기 미등기에 대한 제재</li>
+	<li>기존 명의신탁의 실명등기의무</li>
+	<li>기존 양도담보권자의 서면제출의무</li>
+	<li>재외동포법에 의한 특례</li>
+</ul>
+
+<h4>사업투자와 증권투자</h4>
+
+<ul>
+	<li>사업투자</li>
+	<li>증권투자</li>
+	<li>외화의 반출과 반입</li>
+</ul>
+
+<h4>금융거래</h4>
+
+<ul>
+	<li>재외동포법상의 특례</li>
+	<li>금융실명거래</li>
+</ul>
+
+<h4>병역제도</h4>
+
+<ul>
+	<li>병역제도 개요</li>
+	<li>제1국민역 편입자 관리</li>
+	<li>징병검사</li>
+	<li>병역처분 기준</li>
+	<li>병역의무 연기</li>
+	<li>국외여행허가</li>
+	<li>국외여행기간 연장허가</li>
+	<li>국외여행 관련규정 위반시의 제재</li>
+	<li>외국영주권자에 대한 특칙</li>
+</ul>
+
+<h4>형사사건 처리절차</h4>
+
+<ul>
+	<li>형사사건과 수사</li>
+	<li>수사개시</li>
+	<li>고 소</li>
+	<li>입 건</li>
+	<li>체 포</li>
+	<li>구속과 불구속</li>
+	<li>송 치</li>
+	<li>체포와 구속의 적부심사제도</li>
+	<li>기 소</li>
+	<li>불기소</li>
+	<li>보 석</li>
+	<li>재 판</li>
+	<li>형의 집행</li>
+	<li>가석방과 형집행정지</li>
+	<li>전과 관리 및 형의 실효</li>
+	<li>형사사건과 피해보상</li>
+	<li>배상명령제도</li>
+	<li>민원의 실질적 해소방안</li>
+	<li>범죄인인도 및 형사사법공조</li>
+</ul>
+
+<h4>민사사건처리절차</h4>
+
+<ul>
+	<li>개요</li>
+	<li>민사소송 제기방법</li>
+	<li>민사소송의 진행</li>
+	<li>소송절차의 종료</li>
+	<li>상 소</li>
+	<li>확정과 강제집행</li>
+	<li>송 치</li>
+	<li>기타 소송 관련 제도</li>
+</ul>
+
+<h4>법률구조제도</h4>
+
+<ul>
+	<li>법률구조제도</li>
+	<li>대한법률구조공단</li>
+	<li>공단의 법률서비스</li>
+	<li>대한법률구조공단 제공(ARS·FAX 법률정보) 이용방법</li>
+	<li>한국가정법률상담소</li>
+</ul>
+
+<h4>공증제도</h4>
+
+<ul>
+	<li>공증의 의의</li>
+	<li>공증기관</li>
+	<li>공증의 필요성</li>
+	<li>공증의 종류</li>
+	<li>공증시 준비사항</li>
+</ul>
+
+<h4>상속세 및 증여세</h4>
+
+<ul>
+	<li>상속세</li>
+	<li>증여세</li>
+</ul>
+
+<h4>어음&middot;수표 제도</h4>
+
+<ul>
+	<li>어음·수표의 기능</li>
+	<li>어음·수표 발행시 유의사항</li>
+	<li>어음·수표 취득시 유의사항</li>
+	<li>어음·수표 양도시 유의사항</li>
+	<li>어음·수표 사고시의 조치</li>
+	<li>형사책임</li>
+</ul>
+
+<h4>주요상담사례 및 부록</h4>
+
+<ul>
+	<li>주요상담사례</li>
+	<li>부록</li>
+</ul>
+
+
+			</div>
+		</div>
+
+		<div id="footer">
+		<!-- footer -->		
+		</div>
+
+		<div id="quickMenu">
+		<!-- quick menu -->
+			<!-- #include virtual = /klac/common/comm/quickMenu.vm -->			
+		</div>		
+	</div>
+</body>
+</html>

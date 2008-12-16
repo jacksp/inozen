@@ -7,4 +7,7 @@ import com.inozen.app.admin.menu.support.MenuParams;
 import com.inozen.app.model.Menu;
 
 public interface MenuService extends GenericService<Menu, MenuDao, MenuParams>{
+	int countChildren(long pMenuCode);
+	
+	Menu getMenuInfo(long menuCode);
 }

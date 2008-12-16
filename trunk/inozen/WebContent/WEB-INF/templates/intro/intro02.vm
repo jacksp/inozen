@@ -1,0 +1,71 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="ko" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=euc-kr"/>
+	<meta name="description" content="KOREA LEGAL AID CORPORATION" />
+	<meta name="keyword" content="법률구조공단" />
+	<title>법률구조공단 &gt; </title>
+	<link rel="stylesheet" type="text/css" href="/klac/css/kl_xxx.css" />
+
+	<script type="text/javascript" language="javascript" src="/klac/jscript/common.js"></script>
+	
+</head>
+
+<body>
+	<div id="skipMenu">
+		<!-- #include virtual = /klac/common/comm/skip.vm-->
+	</div>
+
+	<div id="wrapper">
+		<div id="header">
+		<!-- header	   -->
+			<!-- #include virtual = /klac/common/include/header.vm -->			
+		</div>
+
+		<div id="contentWrapper">
+		<!-- contentWrapper -->
+			<!-- subvisual -->
+			<p class="subVisual"></p>
+		
+			<div id="leftMenu">
+			<!-- leftmenu -->
+				<!-- #include virtual = /klac/common/include/leftMenu_xxx.vm -->				
+			</div>
+
+			<div id="content" class="content-type2">
+			<!-- content -->
+				<div id="pageLocation">
+					<!-- include -->
+				</div>
+				<h1>page title</h1>
+
+<h1>공단현황</h1>
+
+<h3>공단개요</h3>
+
+<ul>
+	<li>설립연도: 1987.9.1</li>
+	<li>조직: 본부(3부 3실 8팀), 18개 지부 38개 출장소</li>
+	<li>직원수: 642명(2008.4.1 현재)</li>
+	<li>주요사업: 법률구조, 준법계몽, 법률구조제도의 조사&middot;연구</li>
+	<li>근거법령: 법률구조법</li>
+</ul>
+
+<p>대한법률구조공단은 법률지식이 부족하면서도 경제적으로 어려워 법의 보호를 충분히 받지 못하는 사람들에게 법률상담, 변호사에 의한 소송대리 및 형사변호 등의 법률적 지원을 하기 위하여 설립된 공공기관입니다.</p>
+
+<p>국민과 함께하는 법률구조사업의 추진으로 세계 우수의 법률복지기관으로 우뚝 선 대한법률구조공단은 1987.9.1 법률구조법에 의해 설립되어, 법률구조사업을 통한 국민의 기본권 옹호와 법률복지의 증진에 이바지하고 그 밖에도 법률구조제도에 관한 조사&middot;연구, 준법정신의 양양을 위한 계몽사업을 하고 있습니다.</p>
+
+			</div>
+		</div>
+
+		<div id="footer">
+		<!-- footer -->		
+		</div>
+
+		<div id="quickMenu">
+		<!-- quick menu -->
+			<!-- #include virtual = /klac/common/comm/quickMenu.vm -->			
+		</div>		
+	</div>
+</body>
+</html>

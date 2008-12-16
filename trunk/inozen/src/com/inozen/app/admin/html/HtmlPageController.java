@@ -3,6 +3,8 @@ package com.inozen.app.admin.html;
 import java.util.Date;
 import java.util.List;
 
+import javax.servlet.http.HttpServletRequest;
+
 import com.inozen.framework.data.support.OrderPage;
 import com.inozen.framework.web.GenericController;
 import com.inozen.framework.web.support.CommonPages;
@@ -41,8 +43,8 @@ public class HtmlPageController extends GenericController<HtmlPage, HtmlPageServ
 		return new ModelAndView(this.urlbase.substring(1) + "/htmlList");
 	}
 	
-	@RequestMapping(method=RequestMethod.GET)
-	public void htmlList(ModelMap model, HtmlPageParams params, OrderPage orderPage) {
+	@RequestMapping(value={"htmlList.do", "popHtmlList.do"}, method=RequestMethod.GET)
+	public void htmlList(HttpServletRequest req, ModelMap model, HtmlPageParams params, OrderPage orderPage) {
 		
 		if (orderPage.getOrder() == null) {
 			orderPage.setOrder(this.order);
@@ -56,7 +58,7 @@ public class HtmlPageController extends GenericController<HtmlPage, HtmlPageServ
 		
 		model.addAttribute("orderPage", orderPage);
 		model.addAttribute("list", list);
-		
+		model.addAttribute("req", req);
 		model.addAttribute("message", _message);
 	}
 	
