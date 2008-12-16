@@ -1,0 +1,96 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="ko" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=euc-kr"/>
+	<meta name="description" content="KOREA LEGAL AID CORPORATION" />
+	<meta name="keyword" content="법률구조공단" />
+	<title>법률구조공단 &gt; </title>
+	<link rel="stylesheet" type="text/css" href="/klac/css/kl_xxx.css" />
+
+	<script type="text/javascript" language="javascript" src="/klac/jscript/common.js"></script>
+	
+</head>
+
+<body>
+	<div id="skipMenu">
+		<!-- #include virtual = /klac/common/comm/skip.vm-->
+	</div>
+
+	<div id="wrapper">
+		<div id="header">
+		<!-- header	   -->
+			<!-- #include virtual = /klac/common/include/header.vm -->			
+		</div>
+
+		<div id="contentWrapper">
+		<!-- contentWrapper -->
+			<!-- subvisual -->
+			<p class="subVisual"></p>
+		
+			<div id="leftMenu">
+			<!-- leftmenu -->
+				<!-- #include virtual = /klac/common/include/leftMenu_xxx.vm -->				
+			</div>
+
+			<div id="content" class="content-type2">
+			<!-- content -->
+				<div id="pageLocation">
+					<!-- include -->
+				</div>
+				<h1>page title</h1>
+
+<h2>Live Poll</h2>
+
+<h3>공단의 개인회생 파산 공개강연에 바라는 점은?</h3>
+
+<form>
+	<fieldset>
+	<legend>공단의 개인회생 파산 공개강연에 바라는 점은?</legend>
+	<ul>
+		<li><input type="radio" value="1" name="poll_check" id="poll01"/><label for="poll01">전국적인 강연 실시</label></li>
+		<li><input type="radio" value="2" name="poll_check" id="poll02"/><label for="poll02">보다 많은(주 2~3회) 강연</label></li>
+		<li><input type="radio" value="3" name="poll_check" id="poll03"/><label for="poll03">온라인 동영상 서비스</label></li>
+		<li><input type="radio" value="4" name="poll_check" id="poll04"/><label for="poll04">시청각 자료 보충</label></li>
+		<li><input type="image" alt="결과보기"/></li>
+	</ul>
+	</fieldset>
+</form>
+
+<h4>지난 온라인 설문</h4>
+
+<table width="100%" cellpadding="0" cellspacing="0" summary="">
+<caption></caption>
+	<thead>
+		<tr>
+			<th>번호</th>
+			<th>제목</th>
+			<th>기간</th>
+			<th>진행상태</th>
+			<th>조회</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>7</td>
+			<td>공단의 개인회생 파산 공개강연에 바라는 점은?</td>
+			<td>2007-07-10 ~ 2007-08-31</td>
+			<td>기간종료</td>
+			<td>67</td>
+		</tr>
+	</tbody>
+</table>
+
+			</div>
+		</div>
+
+		<div id="footer">
+		<!-- footer -->		
+		</div>
+
+		<div id="quickMenu">
+		<!-- quick menu -->
+			<!-- #include virtual = /klac/common/comm/quickMenu.vm -->			
+		</div>		
+	</div>
+</body>
+</html>

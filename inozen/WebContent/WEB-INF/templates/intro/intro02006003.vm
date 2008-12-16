@@ -1,0 +1,107 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="ko" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=euc-kr"/>
+	<meta name="description" content="KOREA LEGAL AID CORPORATION" />
+	<meta name="keyword" content="법률구조공단" />
+	<title>법률구조공단 &gt; </title>
+	<link rel="stylesheet" type="text/css" href="/klac/css/kl_xxx.css" />
+
+	<script type="text/javascript" language="javascript" src="/klac/jscript/common.js"></script>
+	
+</head>
+
+<body>
+	<div id="skipMenu">
+		<!-- #include virtual = /klac/common/comm/skip.vm-->
+	</div>
+
+	<div id="wrapper">
+		<div id="header">
+		<!-- header	   -->
+			<!-- #include virtual = /klac/common/include/header.vm -->			
+		</div>
+
+		<div id="contentWrapper">
+		<!-- contentWrapper -->
+			<!-- subvisual -->
+			<p class="subVisual"></p>
+		
+			<div id="leftMenu">
+			<!-- leftmenu -->
+				<!-- #include virtual = /klac/common/include/leftMenu_xxx.vm -->				
+			</div>
+
+			<div id="content" class="content-type2">
+			<!-- content -->
+				<div id="pageLocation">
+					<!-- include -->
+				</div>
+				<h1>page title</h1>
+
+<p>국민과 함께하는 대한법률구조공단의 희망과 행복 창조의 정신을 표현한 CI입니다.</p>
+
+<h2>CI소개</h2>
+
+<ul>
+	<li>심볼 및 로고</li>
+	<li>시그니쳐</li>
+	<li>응용CI</li>
+</ul>
+
+<h3>응용CI</h3>
+
+<ul>
+	<li>간판
+		<ul>
+			<li>대한법률구조공단 창원지부 상담전화 132 www.klac.or.kr 간판</li>
+		</ul>
+	</li>
+	<li>입간판
+		<ul>
+			<li>대한법률구조공단 입간판</li>
+		</ul>
+	</li>
+	<li>봉투
+		<ul>
+			<li>Size: 220 x 105mm 봉투</li>
+			<li>Size: 330 x 240mm 봉투</li>
+		</ul>
+	</li>
+	<li>레터헤드
+		<ul>
+			<li>Size: 210 x 297mm 레터헤드</li>
+		</ul>
+	</li>
+	<li>팩스표지
+		<ul>
+			<li>Size: 210 x 297mm 팩스표지</li>
+		</ul>
+	</li>
+	<li>보도자료
+		<ul>
+			<li>Size: 210 x 297mm 보도자료</li>
+		</ul>
+	</li>
+	<li>명함
+		<ul>
+			<li>Size: 88 x 50mm 명함</li>
+		</ul>
+	</li>
+	<li>한글파일 DOWNLOAD</li>
+</ul>
+
+			</div>
+		</div>
+
+		<div id="footer">
+		<!-- footer -->		
+		</div>
+
+		<div id="quickMenu">
+		<!-- quick menu -->
+			<!-- #include virtual = /klac/common/comm/quickMenu.vm -->			
+		</div>		
+	</div>
+</body>
+</html>

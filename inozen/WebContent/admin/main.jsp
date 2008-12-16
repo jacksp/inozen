@@ -3,7 +3,7 @@
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=euc-kr" />
 		<title></title>
-		<link rel="stylesheet" media="screen" type="text/css" href="css/base.css" />
+		<link rel="stylesheet" media="screen" type="text/css" href="/css/base.css" />
 	</head>
 	<frameset rows="80,*" framespacing="1" frameborder="0">
 		<frame name="top" src="top.jsp" frameborder="0" marginheight="0" marginwidth="0" scrolling="no" />

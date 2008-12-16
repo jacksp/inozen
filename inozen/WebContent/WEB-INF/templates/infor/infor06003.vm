@@ -1,0 +1,153 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="ko" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=euc-kr"/>
+	<meta name="description" content="KOREA LEGAL AID CORPORATION" />
+	<meta name="keyword" content="법률구조공단" />
+	<title>법률구조공단 &gt; </title>
+	<link rel="stylesheet" type="text/css" href="/klac/css/kl_xxx.css" />
+
+	<script type="text/javascript" language="javascript" src="/klac/jscript/common.js"></script>
+	
+</head>
+
+<body>
+	<div id="skipMenu">
+		<!-- #include virtual = /klac/common/comm/skip.vm-->
+	</div>
+
+	<div id="wrapper">
+		<div id="header">
+		<!-- header	   -->
+			<!-- #include virtual = /klac/common/include/header.vm -->			
+		</div>
+
+		<div id="contentWrapper">
+		<!-- contentWrapper -->
+			<!-- subvisual -->
+			<p class="subVisual"></p>
+		
+			<div id="leftMenu">
+			<!-- leftmenu -->
+				<!-- #include virtual = /klac/common/include/leftMenu_xxx.vm -->				
+			</div>
+
+			<div id="content" class="content-type1">
+			<!-- content -->
+				<div id="pageLocation">
+					<!-- include -->
+				</div>
+				<h1>page title</h1>
+
+<h2>법령용어사전</h2>
+
+<p>어려웠던 '법률용어'를 알기 쉽게 설명해 드립니다.<span>자료제공 : 법률신문사</span></p>
+
+<form id="" method="" action="" onsubmit="return">
+	<fieldset>
+		<legend>법령용어사전검색</legend>
+		<ul>
+			<li>
+				<span>한글찾기</span>
+				<ul>
+					<li>ㄱ</li>
+					<li>ㄴ</li>
+					<li>ㄷ</li>
+					<li>ㄹ</li>
+					<li>ㅁ</li>
+					<li>ㅂ</li>
+					<li>ㅅ</li>
+					<li>ㅇ</li>
+					<li>ㅈ</li>
+					<li>ㅊ</li>
+					<li>ㅋ</li>
+					<li>ㅌ</li>
+					<li>ㅍ</li>
+					<li>ㅎ</li>
+				</ul>
+			</li>
+			<li>
+				<span>영어찾기</span>
+				<ul>
+					<li>A</li>
+					<li>B</li>
+					<li>C</li>
+					<li>D</li>
+					<li>E</li>
+					<li>F</li>
+					<li>G</li>
+					<li>H</li>
+					<li>I</li>
+					<li>J</li>
+					<li>K</li>
+					<li>L</li>
+					<li>M</li>
+					<li>N</li>
+					<li>O</li>
+					<li>P</li>
+					<li>Q</li>
+					<li>R</li>
+					<li>S</li>
+					<li>T</li>
+					<li>U</li>
+					<li>V</li>
+					<li>W</li>
+					<li>X</li>
+					<li>Y</li>
+					<li>Z</li>
+				</ul>
+			</li>
+			<li>
+				<label for="skey">용어검색</label>
+				<input type="text" name="skey" id="skey"/>
+				<input type="image" alt="검색하기"/>
+			</li>
+		</ul>
+	</fieldset>
+</form>
+
+<div>
+
+	<h3>긴급동의 </h3>
+
+	<p>會議에 있어서 豫定 議題 이외의 議題를 제안하는 動議를 말한다. 國會에 있어서는 그 會議에 부의될 案件은 의사일정으로써 미리 國會에 보고되는 것이나(國會法 76①), 議員 20人 이상의 連署에 의한 動議로 本會議의 議決이 있거나 議長이 각 交涉團體代表議員과 협의하여 필요하다고 인정할 때에는 議長은 議事日程의 순서를 변경하거나, 다른 案件을 議事日程에 추가할 수 있다(國會法 77).</p>
+
+	<h3>긴급명령</h3>
+
+	<p>현행 憲法은 제76조제2항에 [國家의 安危에 관계되는 중대한 交戰狀態에 있어서 국가를 보위하기 위하여 긴급한 措置가 필요하고 國會의 集會가 불가능한 때에 한하여] 大統領令의 緊急命令權 發動을 인정하고 있다. 이와 같이 緊急命令은 法律로써 정하여야 할 사항을 명령으로 규정하는 것이므로 國會의 立法權을 침해하고 국민의 基本的 人權의 보장에 중대한 위협을 가져 오는 제도이다. 따라서 憲法上 이러한 緊急命令은 인정하지 않는 것이 3權分立에 입각한 歐美諸國의 태도이나, 우리는 위기가 존재하고 실제의 경우에 緊急을 요하여 도저히 權力分立의 엄격성을 고집할 수 없는 사태가 있을 수 있기 때문에 부득이 인정하고 있는 것이다. 大統領이 緊急命令을 한 때에는 지체없이 國會에 보고하여 그 승인을 얻어야 한다. 만일 승인을 얻지 못한 때에는 緊急命令은 그때부터 효력을 상실한다. 이 경우 그 명령에 의하여 改正 또는 廢止되었던 法律은 그 명령이 승인을 얻지 못한 때부터 당연히 효력을 회복한다. 이 때 大統領은 위의 사유를 지체없이 公布하여야 한다(憲 76③&middot;④&middot;⑤).</p>
+
+	<h3>긴급사무관리</h3>
+
+	<p>管理者가 타인의 생명&middot;신체&middot;명예 또는 재산에 대한 급박한 위해를 면하기 위하여 하는 事務管理를 말한다. 본래 事務管理者는 그 사무의 성질에 좇아 가장 본인에게 이익되는 방법으로 이를 관리하여야 하며, 또 본인의 의사를 알거나 알 수 있는 때에는 그 의사에 적합하도록 관리하여야 하는바, 이에 위반하여 사무를 관리한 경우에는 過失이 없는 때에도 이로 인한 손해를 배상할 책임이 있으나(民 734), 緊急事務管理의 경우에는 故意나 중대한 過失이 없으면 이로 인한 손해를 배상할 책임이 없다고 하여(民 735) 管理者의 注意義務를 輕減시키고 있다.</p>
+
+</div>
+
+<ul>
+	<li>1</li>
+	<li>2</li>
+	<li>3</li>
+	<li>4</li>
+	<li>5</li>
+	<li>6</li>
+	<li>7</li>
+	<li>8</li>
+	<li>9</li>
+	<li>10</li>
+	<li>NEXT</li>
+	<li>마지막 페이지</li>
+</ul>
+
+			</div>
+		</div>
+
+		<div id="footer">
+		<!-- footer -->		
+		</div>
+
+		<div id="quickMenu">
+		<!-- quick menu -->
+			<!-- #include virtual = /klac/common/comm/quickMenu.vm -->			
+		</div>		
+	</div>
+</body>
+</html>

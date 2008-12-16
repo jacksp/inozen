@@ -1,0 +1,128 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="ko" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=euc-kr"/>
+	<meta name="description" content="KOREA LEGAL AID CORPORATION" />
+	<meta name="keyword" content="법률구조공단" />
+	<title>법률구조공단 &gt; </title>
+	<link rel="stylesheet" type="text/css" href="/klac/css/kl_cyber.css" />
+
+	<script type="text/javascript" language="javascript" src="/klac/jscript/common.js"></script>
+	
+</head>
+
+<body>
+	<div id="skipMenu">
+		<!-- #include virtual = /klac/common/comm/skip.vm-->
+	</div>
+
+	<div id="wrapper">
+		<div id="header">
+		<!-- header	    -->
+			<!-- #include virtual = /klac/common/include/header.vm -->			
+		</div>
+
+		<div id="contentWrapper">
+		<!-- contentWrapper -->
+			<!-- subvisual -->
+			<p class="subVisual"><img src="/Images/common/klcomm_imgSubVisual02.jpg" width="865" height="128" alt="가족처럼 따뜻하게 친구처럼 편안하게 대한법률구조공단의 약속입니다," /></p>
+		
+			<div id="leftMenu">
+			<!-- leftmenu -->
+				<!-- #include virtual = /klac/common/include/leftMenu_xxx.vm -->				
+			</div>
+
+			<div id="content" class="content-type1">
+			<!-- content -->
+				<div id="pageLocation">
+					<!-- include -->
+				</div>
+				<h1><img src="/Images/common/contitle/conTit0202.gif" width="150" height="25" alt="상담신청" /></h1>
+
+				<h2 class="styleH2-type1">상담</h2>
+				
+				<table class="tab-view question" width="640" summary="상담 신청">
+					<colgroup span="8">
+						<col width="10%" />
+						<col width="15%" />
+						<col width="10%" />
+						<col width="15%" />
+						<col width="10%" />
+						<col width="15%" />
+						<col width="10%" />
+						<col width="15%" />
+					</colgroup>
+					<tbody>
+						<tr>
+							<th>제 목</th>
+							<td colspan="7">1</td>
+						</tr>
+						<tr>
+							<th>상담번호</th>
+							<td>5109900</td>
+							<th>신청일</th>
+							<td>2008-12-09</td>
+							<th>작성자</th>
+							<td>tester</td>
+							<th>조 회</th>
+							<td>2</td>
+						</tr>
+					</tbody>
+				</table>
+				<div class="qNa-texture">
+					<p>부모님집 3층에 월세로 사는분(가정집)이 있는데...보증금도 모두 까먹은 상태에서 월세도 몇달째 차일피일 미루기만 할뿐 월세를 주지 않고 있다고 합니다.....도저히 대화로는 안될거 같아서 법적인 조치를 취했으면 하시는데...어떻게 해야 할지 몰라 이곳에 문의를 드립니다...바쁘시겠지만....자세한 법적인 절차에 대해서 설명 부탁드립니다....</p>
+				</div>
+
+				<h2 class="styleH2-type1">답변</h2>
+				<table class="tab-view answer" width="640" summary="상담 답변">
+					<colgroup span="8">
+						<col width="10%" />
+						<col width="15%" />
+						<col width="10%" />
+						<col width="15%" />
+						<col width="10%" />
+						<col width="15%" />
+						<col width="10%" />
+						<col width="15%" />
+					</colgroup>
+					<tbody>
+						<tr>
+							<th>제 목</th>
+							<td colspan="7">1</td>
+						</tr>
+						<tr>
+							<th>상담번호</th>
+							<td>5109900</td>
+							<th>파 일</th>
+							<td><a href=""><img src="/Images/common/klcomm_iconFiledown.gif" width="14" height="14" alt="첨부파일" /></a></td>
+							<th>답변일자</th>
+							<td>2008-12-10</td>
+							<th>답변인</th>
+							<td>tester</td>
+						</tr>
+					</tbody>
+				</table>
+				<div class="qNa-texture">
+					<p>본 상담실의 답변은 질문에 나타난 사실관계를 기초로 한 답변자 개인의 법률적 의견이므로 참고자료로만 활용하시기 바랍니다.<br />
+---------------------------------------------------------------------------------------------<br />
+위와 같은 경우에는 임차인을 상대로 임대차계약해지 및 임대목적물반환청구 그리고 인도시까지의 차임지급청구를 등을 해 보시기 바랍니다.<br />
+
+이에 대한 신청양식이나 절차등은 공단홈페이지 법률서식란을 참고하시면 될 듯 합니다.<br />
+
+만약 귀하가 혼자서 위 절차를 진행하시기 곤란하시다 판단되시면 수고스러우시더라도 가까운 공단을 방문하시어 절차진행에 도움을 받으시길 바랍니다.</p>
+				</div>
+
+			</div>
+		</div>
+
+		<div id="footer">
+		<!-- footer -->		
+		</div>
+
+		<div id="quickMenu">
+		<!-- quick menu -->
+			<!-- #include virtual = /klac/common/comm/quickMenu.vm -->			
+		</div>		
+	</div>
+</body>
+</html>

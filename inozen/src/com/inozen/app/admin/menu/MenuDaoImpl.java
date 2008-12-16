@@ -21,4 +21,11 @@ public class MenuDaoImpl extends HibernateGenericDao<Menu, MenuParams> implement
 		return c;
 	}
 
+	@Override
+	public int countMenuByPMenuCode(long menuCode) {
+		Long count = (Long)getSession().createQuery("select count(*) from tbl_menu a where a.pMenuCode=:pMenuCode")
+		.setParameter("pMenuCode", menuCode).uniqueResult();
+		return count.intValue();
+	}
+
 }

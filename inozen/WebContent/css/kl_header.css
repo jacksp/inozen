@@ -1,0 +1,92 @@
+/*
+Discription	:	매인 스타일시트 정의
+
+Author		:	choi kyoung ho
+Date			:	2008.	11.24
+*/
+
+#header{
+	width:100%;
+	height:78px;
+	padding:14px 0 0 0;
+}
+
+#KLAC-logo{
+	float:left;
+	margin:19px 14px 0 0;
+}
+
+#localMenu{
+	font-size:0px;
+	line-height:0px;
+	float:right;
+	width:218px;
+	margin:0 11px 5px 0;
+	display:inline;
+}
+
+#localMenu li{
+	float:left;
+}
+
+#GNB{
+	width:677px;
+	height:35px !important;
+	padding:5px 0 0 19px;
+	float:left;
+	font-size:0px;
+	line-height:0px;
+	position:relative;
+	background:url(../../images/include/header/klhd_bgGNB.gif) no-repeat left top;
+}
+
+#GNB .gnbDepth1{
+	float:left;
+	margin-right:15px;
+}
+
+#GNB .gnbDistance{
+	margin-right:52px;
+}
+
+#GNB ul{
+	position:absolute;
+	height:15px;
+	top:45px;
+	left:0px;
+	display:none;
+}
+
+#GNB ul li{
+	float:left;
+}
+
+#GNB #gnbMn1{
+	width:461px;
+	left:27px;
+}
+
+#GNB #gnbMn2{
+	width:209px;
+	left:120px;	
+}
+
+#GNB #gnbMn3{
+	width:380px;
+	left:280px;	
+}
+
+#GNB #gnbMn4{
+	width:475px;
+	left:202px;	
+}
+
+#GNB #gnbMn5{
+	width:475px;
+	left:190px;	
+}
+
+#GNB #gnbMn6{
+	width:370px;
+	left:289px;	
+}

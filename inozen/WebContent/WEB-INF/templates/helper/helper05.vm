@@ -1,0 +1,99 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="ko" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=euc-kr"/>
+	<meta name="description" content="KOREA LEGAL AID CORPORATION" />
+	<meta name="keyword" content="법률구조공단" />
+	<title>법률구조공단 &gt; </title>
+	<link rel="stylesheet" type="text/css" href="/klac/css/kl_xxx.css" />
+
+	<script type="text/javascript" language="javascript" src="/klac/jscript/common.js"></script>
+	
+</head>
+
+<body>
+	<div id="skipMenu">
+		<!-- #include virtual = /klac/common/comm/skip.vm-->
+	</div>
+
+	<div id="wrapper">
+		<div id="header">
+		<!-- header	   -->
+			<!-- #include virtual = /klac/common/include/header.vm -->			
+		</div>
+
+		<div id="contentWrapper">
+		<!-- contentWrapper -->
+			<!-- subvisual -->
+			<p class="subVisual"></p>
+		
+			<div id="leftMenu">
+			<!-- leftmenu -->
+				<!-- #include virtual = /klac/common/include/leftMenu_xxx.vm -->				
+			</div>
+
+			<div id="content" class="content-type2">
+			<!-- content -->
+				<div id="pageLocation">
+					<!-- include -->
+				</div>
+				<h1>page title</h1>
+
+<h1>오시는 길</h1>
+
+<h2>공단본부약도</h2>
+
+<p>약도: 교대역 10번 출구에서 서울상호저축은행 방향으로 나오셔서 국민은행 앞에서 서울중앙지법 방향</p>
+
+<h3>오시는 길</h3>
+
+<dl>
+	<dt>주소</dt>
+	<dd>서울시 서초구 서초3동 1703-10 대한법률구조공단빌딩</dd>
+
+	<dt>교통편</dt>
+	<dd>
+		<ul>
+			<li>전철: 2, 3호선 교대역 10번 출구에서 도보로 3분</li>
+			<li>버스: 지선 4423, 간선 363</li>
+		</ul>
+	</dd>	
+</ul>
+
+
+<h3>연락처</h3>
+<ul>
+	<li>
+		<dl>
+			<dt>상담&nbsp;</dt>
+			<dd>:&nbsp;국번없이 132</dd>
+		</dl>
+	</li>
+	<li>
+		<dl>
+			<dt>업무&nbsp;</dt>
+			<dd>:&nbsp; 대표전화 02)532-0132 / 서울중앙지부 02)3482-0871~2</dd>
+		</dl>
+	</li>
+	<li>
+		<dl>
+			<dt>FAX&nbsp;</dt>
+			<dd>:&nbsp;본부 02)3482-6556 / 서울중앙지부 02)3482-6446</dd>
+		</dl>
+	</li>
+</ul>
+
+			</div>
+		</div>
+
+		<div id="footer">
+		<!-- footer -->		
+		</div>
+
+		<div id="quickMenu">
+		<!-- quick menu -->
+			<!-- #include virtual = /klac/common/comm/quickMenu.vm -->			
+		</div>		
+	</div>
+</body>
+</html>

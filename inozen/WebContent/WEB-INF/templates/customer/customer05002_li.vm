@@ -1,0 +1,156 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="ko" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=euc-kr"/>
+	<meta name="description" content="KOREA LEGAL AID CORPORATION" />
+	<meta name="keyword" content="법률구조공단" />
+	<title>법률구조공단 &gt; </title>
+	<link rel="stylesheet" type="text/css" href="/klac/css/kl_xxx.css" />
+
+	<script type="text/javascript" language="javascript" src="/klac/jscript/common.js"></script>
+	
+</head>
+
+<body>
+	<div id="skipMenu">
+		<!-- #include virtual = /klac/common/comm/skip.vm-->
+	</div>
+
+	<div id="wrapper">
+		<div id="header">
+		<!-- header	   -->
+			<!-- #include virtual = /klac/common/include/header.vm -->			
+		</div>
+
+		<div id="contentWrapper">
+		<!-- contentWrapper -->
+			<!-- subvisual -->
+			<p class="subVisual"></p>
+		
+			<div id="leftMenu">
+			<!-- leftmenu -->
+				<!-- #include virtual = /klac/common/include/leftMenu_xxx.vm -->				
+			</div>
+
+			<div id="content" class="content-type2">
+			<!-- content -->
+				<div id="pageLocation">
+					<!-- include -->
+				</div>
+				<h1>page title</h1>
+
+<h2>부조리신고센터</h2>
+
+<p>깨끗하고 투명한 조직문화 건설에 최선을 다하겠습니다.<br/>
+신고하실 때에는 신고자의 성명, 주민등록번호, 전화번호, E-mail 및 주소를 정확히 입력하셔야 하며 이것은 사실확인 및 답변회신을 위하여 꼭 필요한 내용입니다. 답변은 신고자의  E-mail, 전화 또는 우편으로 회신되며 게시판에서는 주민등록번호를 입력하시면 처리과장을 확인하실 수 있습니다.</p>
+
+<h3>이용안내</h3>
+
+<p>대한법률구조공단 부조리 신고센터입니다.<br/>
+부조리 신고센터로 신고되는 내용은 공단 감사실에서 전담 처리하고, 신고자 및 신고내용에 대하여는 절대 비밀이 보장됩니다.</p>
+
+<h3>신고대상</h3>
+
+<p>대한법률구조공단에서는 소속 직원의 직무와 관련한 금품수수 등의 부조리 또는 개인 비리에 대한 신고를 받습니다.</p>
+
+<h3>유의사항</h3>
+
+<p>신고내용이 대한법률구조공단 직원의 직무와 관련한 금품수수 등의 부조리 또는 개인 비리가 아닌 내용이거나 신고자가 익명(가명), 허위주소, 허위전화번호 등일 경우에는 신고내용에 관계없이 별도의 사실확인 또는 조사절차나 신고내용에 대한 회신없이 종결처리함을 알려드립니다.</p>
+
+<form>
+	<fieldset>
+	<legend>부조리 신고하기</legend>
+
+		<div>
+
+			<dl>
+				<dt><label for="p_name">성명</label></dt>
+				<dd><input type="text" maxlength="40" name="p_name" id="p_name"/></dd>
+			</dl>
+
+			<dl>
+				<dt><label for="p_jumin1">주민번호</label></dt>
+				<dd><input type="text" maxlength="6" name="p_jumin1" id="p_jumin1" title="주민등록번호 앞자리"/>-<input type="text" maxlength="7" name="p_jumin2" id="p_jumin2" title="주민등록번호 뒤사자리"/></dd>
+			</dl>
+
+			<dl>
+				<dt><label for="p_tel_num1">전화번호</label></dt>
+				<dd>
+					<select name="p_tel_num1" id="p_tel_num1">
+						<option>02</option>
+						<option>031</option>
+						<option>032</option>
+						<option>033</option>
+						<option>041</option>
+						<option>042</option>
+						<option>043</option>
+						<option>051</option>
+						<option>052</option>
+						<option>053</option>
+						<option>054</option>
+						<option>055</option>
+						<option>061</option>
+						<option>062</option>
+						<option>063</option>
+						<option>064</option>
+					</select>
+					-<input type="text" maxlength="4" name="p_tel_num2" id="p_tel_num2" title="전화번호 두번째"/>-<input type="text" maxlength="4" name="p_tel_num3" id="p_tel_num3" title="전화번호 세번째"/>
+				</dd>
+				<dt><label for="p_mo_num1">이동전화</label></dt>
+				<dd>
+					<select name="p_mo_num1" id="p_mo_num1">
+						<option>010</option>
+						<option>011</option>
+						<option>016</option>
+						<option>017</option>
+						<option>018</option>
+						<option>019</option>
+					</select>
+					-<input type="text" maxlength="4" name="p_mo_num2" id="p_mo_num2" title="이동전화 두번째"/>-<input type="text" maxlength="4" name="p_mo_num3" id="p_mo_num3" title="이동전화 세번째"/>
+				</dd>
+			</dl>
+
+			<dl>
+				<dt><label for="p_email">이메일</label></dt>
+				<dd><input type="text" maxlength="100" name="p_email" id="p_email"/>※ E-Mail을 입력하시면 답변글이 있을 경우 E-Mail로 통보</dd>
+			</dl>
+
+			<dl>
+				<dt><label for="p_address">주소</label></dt>
+				<dd><input type="text" maxlength="100" name="p_address" id="p_address"/></dd>
+			</dl>
+
+			<dl>
+				<dt><label for="p_title">제목</label></dt>
+				<dd><input type="text" maxlength="100" name="p_title" id="p_title"/></dd>
+			</dl>
+
+			<dl>
+				<dt><label for="p_cont">내용</label></dt>
+				<dd><textarea rows="15" name="p_cont" id="p_cont"/></dd>
+			</dl>
+
+		</div>
+
+		<ul>
+			<li><input type="image" alt="확인"/></li>
+			<li>취소하기</li>
+		</ul>
+
+	</fieldset>
+</form>
+
+			</div>
+		</div>
+
+		<div id="footer">
+		<!-- footer -->		
+		</div>
+
+		<div id="quickMenu">
+		<!-- quick menu -->
+			<!-- #include virtual = /klac/common/comm/quickMenu.vm -->			
+		</div>		
+	</div>
+</body>
+</html>

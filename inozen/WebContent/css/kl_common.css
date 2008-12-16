@@ -1,0 +1,76 @@
+/*
+Discription	:	공통 스타일시트 정의
+
+Author		:	최경호
+Date			:	2008.	11.14
+*/
+
+html, body{
+	width:100%;
+	height:100%;
+}
+
+body{
+	margin:0px;
+	padding:0px;
+	font-size:78%;
+	color:#666666;
+	line-height:1.3;
+	font-family:돋움,굴림,arial,serif,sans-serif,
+}
+
+h1,h2,h3,h4,h5,h6{
+	margin:0px;
+	padding:0px;
+	color:#333333;
+	font-size:100%;
+}
+
+strong{
+	color:#333333;
+}
+
+ul,ol,dl,dt,dd,p{
+	margin:0px;
+	padding:0px;
+}
+
+li{
+	margin:0px;
+	padding:0px;
+	list-style:none;
+}
+
+form,table{
+	margin:0px;
+	padding:0px;
+	font-size:100%;
+}
+
+fieldset{
+	margin:0px;
+	padding:0px;
+	border:none;
+}
+
+address{
+	margin:0px;
+	padding:0px;
+	font-style:normal;
+}
+
+legend,hr,caption{
+	display:none;
+}
+
+input,select{
+	vertical-align:middle;
+}
+
+img{
+	border:none;
+}
+
+a:link{ text-decoration:none; color:#333333;}
+a:visited{ text-decoration:none;color:#333333;}
+a:hover{ text-decoration:underline;color:#0165CA;}

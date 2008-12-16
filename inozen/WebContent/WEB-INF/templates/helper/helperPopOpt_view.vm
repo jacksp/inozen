@@ -1,0 +1,46 @@
+<h1>공단 사무소 안내</h1>
+
+<ul>
+	<li>사무소 소개</li>
+	<li>위치 및 연락처</li>
+	<li>공지사항</li>
+</ul>
+
+<div>
+	<h2>지부명</h2>
+
+	<table summary="">
+		<thead>
+			<tr>
+				<th>번호</th>
+				<th>파일</th>
+				<th>제목</th>
+				<th>날짜</th>
+				<th>조회</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>1</td>
+				<td></td>
+				<td>법률구조공단 소개</td>
+				<td>2008-11-21</td>
+				<td>12</td>
+			</tr>
+		</tbody>
+	</table>
+
+	<div>
+		소개글(DB load)
+	</div>
+
+	<dl>
+		<dt>이전글</dt>
+		<dd>이전글이 없습니다.</dd>
+		<dt>다음글</dt>
+		<dd>다음글이 없습니다.</dd>
+	</dl>	
+	<p><a href="" title="공지사항 목록보기">목록보기</a></p>
+</div>
+
+<p><a href="" title="팝업창 닫기">닫기</a></p>

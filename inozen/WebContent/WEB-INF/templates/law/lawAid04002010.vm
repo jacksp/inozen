@@ -1,0 +1,186 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="ko" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=euc-kr"/>
+	<meta name="description" content="KOREA LEGAL AID CORPORATION" />
+	<meta name="keyword" content="법률구조공단" />
+	<title>대상자별 도움정보 &gt; 소상공자영업자</title>
+	<link rel="stylesheet" type="text/css" href="/klac/css/kl_law.css" />
+
+	<script type="text/javascript" language="javascript" src="/klac/jscript/common.js"></script>
+	
+</head>
+
+<body>
+	<div id="skipMenu">
+		<!-- #include virtual = /klac/common/comm/skip.vm-->
+	</div>
+
+	<div id="wrapper">
+		<div id="header">
+		<!-- header	    -->
+			<!-- #include virtual = /klac/common/include/header.vm -->			
+		</div>
+
+		<div id="contentWrapper">
+		<!-- contentWrapper -->
+			<!-- subvisual -->
+			<p class="subVisual"><img src="/Images/common/klcomm_imgSubVisual03.jpg" width="865" height="128" alt="가족처럼 따뜻하게 친구처럼 편안하게 대한법률구조공단의 약속입니다," /></p>
+		
+			<div id="leftMenu">
+			<!-- leftmenu -->
+				<!-- #include virtual = /klac/common/include/leftMenu_xxx.vm -->				
+			</div>
+
+			<div id="content" class="content-type2">
+			<!-- content -->
+				<div id="pageLocation">
+					<!-- include -->
+				</div>
+				<h1><img src="/Images/common/contitle/conTit030402.gif" width="150" height="25" alt="대상자별 도움정보" /></h1>
+
+				<div id="freelawAidInfor">
+					<div class="freelawAidInfor-t">
+						<ul class="freelawAidInfor-b">
+							<li>
+								<ul>
+									<li><a href="/klac/law/lawAid04002.html">소년/소녀가장</a></li>
+									<li><a href="/klac/law/lawAid04002002.html">생활보장수급자</a></li>
+									<li><a href="/klac/law/lawAid04002003.html">장애인</a></li>
+									<li><a href="/klac/law/lawAid04002004.html">국가보훈대상자</a></li>
+									<li><a href="/klac/law/lawAid04002005.html">농어민</a></li>
+									<li><a href="/klac/law/lawAid04002006.html">임금체불근로자</a></li>
+								</ul>
+							</li>
+							<li>
+								<ul>
+									<li class="currP">소상공자영업자</li>
+									<li><a href="/klac/law/lawAid04002007.html">가정폭력 성폭력 피해여성</a></li>
+									<li><a href="/klac/law/lawAid04002008.html">한부모가족</a></li>
+									<li><a href="/klac/law/lawAid04002009.html">범죄피해자</a></li>							
+									<li><a href="/klac/law/lawAid04002011.html">담배소매인</a></li>
+									<li><a href="/klac/law/lawAid04002012.html">선원</a></li>
+								</ul>
+							</li>
+							<li>
+								<ul class="noBd">
+									<li><a href="/klac/law/lawAid04002013.html">기타영세민</a></li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+				</div>
+
+				<h2 class="styleH2-type2">소상공자영업자</h2>
+				<p id="descFreeAid" class="iconFreeAid10">외환위기 이후 금융시장의 격변 등으로 인해 영업 및 생산활동이 위축되어 사업에 어려움을 겪게 된 소상공자영업자들이 많아지게 되었습니다. <br /><br  />이에 공단은 소상공자영업자에 대한 무료법률구조를 통해 권익보호와 활발한 영업 및 생산활동을 보호해주기 위하여 2005. 8. 18. 중소기업청과 협약을 체결하고 2005. 9. 1.부터 소상공자영업자에게 상거래관련 민사소송, 파산·개인회생 신청 등의 무료법률구조를 실시하고 있습니다.</p>
+
+				<h3 class="styleH3-type2">지원대상</h3>
+				<p class="descTitle2">소상공자영업자(부가가치세법에서 정한 간이과세자)</p>
+
+				<h3 class="styleH3-type2">대상자 증빙서류</h3>
+				<p class="descTitle2">세무서에서 발행하는 간이과세용 사업자등록증 또는 그 사본</p>
+
+				<h3 class="styleH3-type2">무료법률구조 범위</h3>
+				<p class="descTitle2">물품대금이나 상가임대차 보증금과 같은 상거래와 관련된 민사사건, 개인회생 및 파산·면책사건</p>
+
+				<h3 class="styleH3-type2">법률구조 신청서류</h3>
+				<ul class="list-btype02">
+					<li>법률구조대상자 증빙서류</li>
+					<li>세무서에서 발행하는 간이과세용 사업자등록증 또는 그 사본</li>
+				</ul>
+
+				<h3 class="styleH3-type2">법률구조실적</h3>
+				<p class="alignR">(단위 : 건, 백만원)</p>
+				<table summary="법률구조실적 년도별 실적" width="630" class="tab-layout2 lawtype2">
+					<colgroup span="5">
+						<col width="16%" />
+						<col width="14%" />
+						<col width="14%" />
+						<col width="14%" />
+						<col width="14%" />
+						<col width="14%" />
+						<col width="14%" />
+					</colgroup>
+					<thead>
+						<tr>
+							<th scope="col" colspan="3" class="noBd-left">구분</th>
+							<th scope="col">2005. 9. 1.<br />~ 12. 31.</p>
+							<th scope="col">2006</th>
+							<th scope="col">2007</th>
+							<th scope="col" class="noBd-right">계</th>
+						</tr>
+					</thead>
+					<tbody class="alignC">
+						<tr>
+							<td rowspan="2" class="noBd-left">소상공자영업자</td>
+							<td rowspan="2">민사 등 </td>
+							<td>건</td>
+							<td>26</td>
+							<td>104</td>
+							<td>104</td>
+							<td class="noBd-right strong">234</td>
+						</tr>
+						<tr>
+							<td class="noBd-left">금액</td>
+							<td>238</td>
+							<td>1,675 </td>
+							<td>2,308</td>
+							<td class="noBd-right strong">4,221</td>
+						</tr>
+					</tbody>
+				</table>
+
+				<h3 class="styleH3-type2">지원기관</h3>
+				<p class="descTitle2">중소기업청(<a href="www.smba.go.kr" target="_blank" title="새창으로 열립니다.">www.smba.go.kr</a>) 자영업지원팀 ☎ 042-472-0551</p>
+
+				<h3 class="styleH3-type2">사건처리절차</h3>
+				<p class="descTitle2">법률구조를 받고자 하는 분은 공단 소정양식의 법률구조신청서와 함께 본인의 주민등록등본과 법률구조대상자임을 소명할 자료, 그리고 주장사실을 입증할 자료를 해당지역의 공단사무실에 제출하면 됩니다.<br />법률구조신청서가 접수되면 공단에서는 즉시 사실조사에 착수하며 사실조사 과정에서 미비된 서류를 보완하도록 하기도 합니다.</p>
+
+				<p class="descTitle2">공단은 사실조사가 일정단계에 이르면 당사자에게 분쟁에 대한 법률적인문제점과 그 해결방법을 제시하여 당사자간에 원만히 화해를 이룰 수 있도록 권유하고, 이러한 노력에도 불구하고 화해가 성립하지 않을 경우에는 구조의 타당성, 승소가능성, 집행가능성을 심사하여 '소송'을 할 것인지 여부를 결정합니다. 그리고 소송을 하기로 결정된 사건은 공단 소속변호사나 공익법무관이 소송을 수행하게 됩니다.</p>
+
+				<h3 class="styleH3-type2">기타</h3>
+				<p class="descTitle2">무료법률구조사업이란 농협, 수협, 신한은행, KT&G, 여성가족부, 노동부, 중소기업청, 국무총리 복권위원회와
+				각각 협약을 맺고 동 협약에 따라 이들 기관이 공단에 출연한 적립금을 재원으로 하여 각각 농업인,
+				어업인, 축산인, 도시영세민, 담배소매인, 가정폭력으로 인한 피해여성, 범죄피해자, 체불근로자,
+				소상공자영업자 등에게 무료로 법률구조를 해주는 사업입니다.</p>
+				<p class="alignR">(2008. 3. 1.기준)</p>
+				<table summary="출연기관, 대상자, 누적출연금, 사업개시일" width="630" class="tab-layout2 lawtype2">
+					<caption>무료법률구조사업 출연상황</caption>
+					<colgroup span="4">
+						<col width="20%" />
+						<col width="40%" />
+						<col width="20%" />
+						<col width="20%" />
+					</colgroup>
+					<thead>
+						<tr>
+							<th scope="col" class="noBd-left">출연기관</th>
+							<th scope="col">대상자</th>
+							<th scope="col">누적출연금</th>
+							<th scope="col" class="noBd-right">사업개시일</th>
+						</tr>
+					</thead>
+					<tbody class="alignC">
+						<tr>
+							<td class="noBd-left">중소기업청</td>
+							<td>소상공자영업자</td>
+							<td>3천3백만원</td>
+							<td class="noBd-right">2005. 9. 1</td>
+						</tr>
+					</tbody>
+				</table>
+
+			</div>
+		</div>
+
+		<div id="footer">
+		<!-- footer -->		
+		</div>
+
+		<div id="quickMenu">
+		<!-- quick menu -->
+			<!-- #include virtual = /klac/common/comm/quickMenu.vm -->			
+		</div>		
+	</div>
+</body>
+</html>

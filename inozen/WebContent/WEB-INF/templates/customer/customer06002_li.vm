@@ -1,0 +1,181 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="ko" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=euc-kr"/>
+	<meta name="description" content="KOREA LEGAL AID CORPORATION" />
+	<meta name="keyword" content="법률구조공단" />
+	<title>법률구조공단 &gt; </title>
+	<link rel="stylesheet" type="text/css" href="/klac/css/kl_xxx.css" />
+
+	<script type="text/javascript" language="javascript" src="/klac/jscript/common.js"></script>
+	
+</head>
+
+<body>
+	<div id="skipMenu">
+		<!-- #include virtual = /klac/common/comm/skip.vm-->
+	</div>
+
+	<div id="wrapper">
+		<div id="header">
+		<!-- header	   -->
+			<!-- #include virtual = /klac/common/include/header.vm -->			
+		</div>
+
+		<div id="contentWrapper">
+		<!-- contentWrapper -->
+			<!-- subvisual -->
+			<p class="subVisual"></p>
+		
+			<div id="leftMenu">
+			<!-- leftmenu -->
+				<!-- #include virtual = /klac/common/include/leftMenu_xxx.vm -->				
+			</div>
+
+			<div id="content" class="content-type2">
+			<!-- content -->
+				<div id="pageLocation">
+					<!-- include -->
+				</div>
+				<h1>page title</h1>
+
+<h2>칭찬합시다</h2>
+
+<p>칭찬하고 싶은 공단 사무소나 직원이 있으시면 널리 홍보해 주시기 바랍니다.</p>
+
+<p>상담신청바로가기. 법률상담은 사이버상담실에서!!</p>
+
+<form>
+	<fieldset>
+		<label for="search">SEARCH</label>
+		<input type="text" id="search" title="검색어 입력"/>
+		<input type="images" alt="검색하기"/>
+	</fieldset>
+</form>
+
+<table width="100%" cellpadding="0" cellspacing="0" summary="논단 목록">
+<caption>논단</caption>
+	<thead>
+		<tr>
+			<th>번호</th>
+			<th>등록일</th>
+			<th>제목</th>
+			<th>작성자</th>
+			<th>답변일</th>
+			<th>조회</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>6415</td>
+			<td>08.09.18</td>
+			<td>고향 개발 관련 </td>
+			<td>오병문</td>
+			<td>-</td>
+			<td>8</td>
+		</tr>
+		<tr>
+			<td>6415</td>
+			<td>08.09.18</td>
+			<td>고향 개발 관련 </td>
+			<td>오병문</td>
+			<td>-</td>
+			<td>8</td>
+		</tr>
+		<tr>
+			<td>6415</td>
+			<td>08.09.18</td>
+			<td>고향 개발 관련 </td>
+			<td>오병문</td>
+			<td>-</td>
+			<td>8</td>
+		</tr>
+		<tr>
+			<td>6415</td>
+			<td>08.09.18</td>
+			<td>고향 개발 관련 </td>
+			<td>오병문</td>
+			<td>-</td>
+			<td>8</td>
+		</tr>
+		<tr>
+			<td>6415</td>
+			<td>08.09.18</td>
+			<td>고향 개발 관련 </td>
+			<td>오병문</td>
+			<td>-</td>
+			<td>8</td>
+		</tr>
+		<tr>
+			<td>6415</td>
+			<td>08.09.18</td>
+			<td>고향 개발 관련 </td>
+			<td>오병문</td>
+			<td>-</td>
+			<td>8</td>
+		</tr>
+		<tr>
+			<td>6415</td>
+			<td>08.09.18</td>
+			<td>고향 개발 관련 </td>
+			<td>오병문</td>
+			<td>-</td>
+			<td>8</td>
+		</tr>
+		<tr>
+			<td>6415</td>
+			<td>08.09.18</td>
+			<td>고향 개발 관련 </td>
+			<td>오병문</td>
+			<td>-</td>
+			<td>8</td>
+		</tr>
+		<tr>
+			<td>6415</td>
+			<td>08.09.18</td>
+			<td>고향 개발 관련 </td>
+			<td>오병문</td>
+			<td>-</td>
+			<td>8</td>
+		</tr>
+		<tr>
+			<td>6415</td>
+			<td>08.09.18</td>
+			<td>고향 개발 관련 </td>
+			<td>오병문</td>
+			<td>-</td>
+			<td>8</td>
+		</tr>
+		<tr>
+			<td>6415</td>
+			<td>08.09.18</td>
+			<td>고향 개발 관련 </td>
+			<td>오병문</td>
+			<td>-</td>
+			<td>8</td>
+		</tr>
+	</tbody>
+</table>
+
+<ul>
+	<li>1</li>
+	<li>2</li>
+	<li>3</li>
+	<li>4</li>
+	<li>5</li>
+</ul>
+
+			</div>
+		</div>
+
+		<div id="footer">
+		<!-- footer -->		
+		</div>
+
+		<div id="quickMenu">
+		<!-- quick menu -->
+			<!-- #include virtual = /klac/common/comm/quickMenu.vm -->			
+		</div>		
+	</div>
+</body>
+</html>

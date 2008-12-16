@@ -1,0 +1,135 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="ko" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=euc-kr"/>
+	<meta name="description" content="KOREA LEGAL AID CORPORATION" />
+	<meta name="keyword" content="법률구조공단" />
+	<title>법률구조공단 &gt; </title>
+	<link rel="stylesheet" type="text/css" href="/klac/css/kl_xxx.css" />
+
+	<script type="text/javascript" language="javascript" src="/klac/jscript/common.js"></script>
+	
+</head>
+
+<body>
+	<div id="skipMenu">
+		<!-- #include virtual = /klac/common/comm/skip.vm-->
+	</div>
+
+	<div id="wrapper">
+		<div id="header">
+		<!-- header	   -->
+			<!-- #include virtual = /klac/common/include/header.vm -->			
+		</div>
+
+		<div id="contentWrapper">
+		<!-- contentWrapper -->
+			<!-- subvisual -->
+			<p class="subVisual"></p>
+		
+			<div id="leftMenu">
+			<!-- leftmenu -->
+				<!-- #include virtual = /klac/common/include/leftMenu_xxx.vm -->				
+			</div>
+
+			<div id="content" class="content-type1">
+			<!-- content -->
+				<div id="pageLocation">
+					<!-- include -->
+				</div>
+				<h1>page title</h1>
+
+<h2><!-- parameter --></h2>
+
+<p>동영상으로 보는 알기 쉬운 생활법률강의 입니다.</p>
+
+<ul>
+	<li>
+		<dl>
+			<dt>방송매체 :</dt>
+			<dd>공단사내방송(Bizworks) </dd>
+		</dl>
+	</li>
+	<li>
+		<dl>
+			<dt>프로그램 :</dt>
+			<dd>동영상교육자료</dd>
+		</dl>
+	</li>
+	<li>
+		<dl>
+			<dt>강 사 :</dt>
+			<dd>허진호 前이사장</dd>
+		</dl>
+	</li>
+	 <li>
+		 <dl>
+			<dt>내용 :</dt>
+			<dd>민사소송법 서론</dd>
+		 </dl>
+	 </li>
+</ul>
+
+<ul>
+	<li>재생</li>
+	<li>강의자료다운로드</li>
+</ul>
+
+<object id="left_wmv" width="166" height="98" data="http://www.klac.or.kr/movie.wmv" type="type=application/x-mplayer2">
+	<param value="http://www.klac.or.kr/movie.wmv" name="filename"/>
+	<param value="-1" name="autostart"/>
+	<param value="-1" name="autosize"/>
+	<param value="-1" name="displaymode"/>
+	<param value="-1" name="showcontrols"/>
+	<param value="-1" name="showaudiocontrols"/>
+	<param value="0" name="showdisplay"/>
+	<param value="0" name="showgotobar"/>
+	<param value="-1" name="showpositioncontrols"/>
+	<param value="-1" name="showstatusbar"/>
+	<param value="0" name="transparentatstart"/>
+	<param value="true" name="AllowChangeDisplaySize"/>
+	<param value="-1" name="AudioStream"/>
+	<param value="-1" name="CurrentPosition"/>
+	<param value="-1" name="CurrentMarker"/>
+	<param value="false" name="Mute"/>
+	<param value="0" name="Volume"/>
+	<param value="captin" name="captioningID"/>
+	<param value="0" name="CurrentPosition"/>
+</object>
+
+<table width="100%" cellpadding="0" cellspacing="0" summary="민사소송관련 동영상강의 목록 ">
+	<caption>민사소송</caption>
+	<thead>
+		<tr>
+			<th>번호</th>
+			<th>제목</th>
+			<th>날짜</th>
+			<th>조회</th>
+		</tr>
+	</thead>
+	<tbody>
+	<!-- loop	//start -->
+		<tr>
+			<td>1</td>
+			<td><a href="/infor/infor04001.html?p_type=02&p_num=34&mode=">민사소송법 서론</a></td>
+			<td>06.08.10</td>
+			<td>30477</td>
+		</tr>	
+	<!-- loop	//end	 -->
+	</tbody>
+</table>
+
+			</div>
+		</div>
+
+		<div id="footer">
+		<!-- footer -->		
+		</div>
+
+		<div id="quickMenu">
+		<!-- quick menu -->
+			<!-- #include virtual = /klac/common/comm/quickMenu.vm -->			
+		</div>		
+	</div>
+</body>
+</html>

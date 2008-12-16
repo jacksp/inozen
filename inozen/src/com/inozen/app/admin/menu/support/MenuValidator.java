@@ -20,6 +20,7 @@ public class MenuValidator implements Validator {
 	public void validate(Object target, Errors errors) {
 		ValidationUtils.rejectIfEmpty(errors, "menuName", "required", "입력하세요.");
 		ValidationUtils.rejectIfEmpty(errors, "menuType", "required", "선택하세요.");
+		ValidationUtils.rejectIfEmpty(errors, "menuKind", "required", "선택하세요.");
 	}
 
 }

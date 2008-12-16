@@ -1,0 +1,85 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=euc-kr" />
+<title>Untitled Document</title>
+<link rel="stylesheet" media="screen" type="text/css" href="/css/base.css" />
+<script language="JavaScript" src="/js/prototype-1.6.x.js"></script>
+<script language="JavaScript" src="/js/osaf.js"></script>
+
+<!-- calendar -->
+<link rel="stylesheet" type="text/css" media="all" href="/js/jscalendar-1.0/calendar-blue2.css" title="win2k-cold-1" />
+<script type="text/javascript" src="/js/jscalendar-1.0/calendar.js"></script>
+<script type="text/javascript" src="/js/jscalendar-1.0/lang/calendar-en.js"></script>
+<script type="text/javascript" src="/js/jscalendar-1.0/calendar-setup.js"></script>
+
+<style>
+body {
+	margin-right: 2px;
+}
+</style>
+
+</head>
+#set($code=$req.code)
+#set($message=$req.message)
+<body>
+
+<div id="buttons">
+<script type="text/javascript">
+	function addHtml () {
+		popup("saveHtml.do", "popup", 700, 400, "yes", "yes");
+	}
+
+	function searchHtml () {
+		document.forms.searchform.method="POST";
+		document.forms.searchform.action="htmlList.do";
+		document.forms.searchform.submit();
+	}
+
+</script>
+## ===================================================================================== --%>
+##                               Button Anchor                                           --%>
+## ===================================================================================== --%>
+<a href="javascript:void(1)" onClick="searchHtml()" id="searchbtn" class="searchbtn">검색</a>
+<a href="javascript:void(1)" onclick="addHtml()" id="addbtn" class="addbtn">추가</a>
+</div>
+
+<form id="searchform" method="get">
+	<label>이름 :</label>
+	<input id="name" name="pageName" type="text" size="20" maxlength="30" value="" />
+</form>
+	<table border="1">
+		<tr>
+			<td>페이지코드</td>
+			<td>페이지이름</td>
+			<td>페이지경로</td>
+			<td>페이지상태</td>
+			<td>생성일</td>
+			<td>생성자아이디</td>
+			<td>생성자이름</td>
+			<td>수정일</td>
+			<td>수정자아이디</td>
+			<td>수정자이름</td>
+		</tr>
+#if($list)
+	#foreach($page in $list)
+		<tr>
+			<td>$!page.pageCode</td>
+			<td>$!page.pageName</td>
+			<td>$!page.pageLocation</td>
+			<td>$!page.pageStatus</td>
+			<td>$!page.createdDate</td>
+			<td>$!page.createdUserID</td>
+			<td>$!page.createdUserName</td>
+			<td>$!page.modifiedDate</td>
+			<td>$!page.modifiedUserID</td>
+			<td>$!page.modifiedUserName</td>
+		</tr>
+	#end
+#end
+		<tr>
+			<td colspan="10"><font color="red">$message</font></td>
+		</tr>
+	</table>
+</body>
+</html>

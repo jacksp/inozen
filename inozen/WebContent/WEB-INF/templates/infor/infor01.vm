@@ -1,0 +1,151 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="ko" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=euc-kr"/>
+	<meta name="description" content="KOREA LEGAL AID CORPORATION" />
+	<meta name="keyword" content="법률구조공단" />
+	<title>법률구조공단 &gt; </title>
+	<link rel="stylesheet" type="text/css" href="/klac/css/kl_xxx.css" />
+
+	<script type="text/javascript" language="javascript" src="/klac/jscript/common.js"></script>
+	
+</head>
+
+<body>
+	<div id="skipMenu">
+		<!-- #include virtual = /klac/common/comm/skip.vm-->
+	</div>
+
+	<div id="wrapper">
+		<div id="header">
+		<!-- header	   -->
+			<!-- #include virtual = /klac/common/include/header.vm -->			
+		</div>
+
+		<div id="contentWrapper">
+		<!-- contentWrapper -->
+			<!-- subvisual -->
+			<p class="subVisual"></p>
+		
+			<div id="leftMenu">
+			<!-- leftmenu -->
+				<!-- #include virtual = /klac/common/include/leftMenu_xxx.vm -->				
+			</div>
+
+			<div id="content" class="content-type1">
+			<!-- content -->
+				<div id="pageLocation">
+					<!-- include -->
+				</div>
+				<h1>page title</h1>
+
+<h2>법률서식</h2>
+
+<p>급변하는 사회속에서 예상치 못하게 부딪히게 되는 각종 분쟁. 법률서식은 국민의 권리구제를 위한 좋은 길잡이가 될 것입니다.</p>
+
+<form id="searchLawForm" method="post" action="return ">
+	<fieldset>
+		<label for="search">SEARCH</label>
+		<input type="text" id="search" name="query" title="검색어 입력"/>
+		<input type="image" alt="검색하기"/>
+	</fieldset>
+</form>
+
+<p>분류를 선택하세요</p>
+
+<h3>헌법소원</h3>
+
+<ul>
+	<li>개요</li>
+	<li>심판청구의 절차</li>
+	<li>국선대리인 제도</li>
+	<li>헌법소원의 대상</li>
+	<li>헌법소원의 적법요건</li>
+	<li>종국결정</li>
+	<li>서식</li>
+</ul>
+
+<h3>민사소송</h3>
+
+<ul>
+	<li>법원</li>
+	<li>당사자</li>
+	<li>소송비용</li>
+	<li>소송절차</li>
+	<li>소의 제기</li>
+	<li>변론과 그 준비</li>
+	<li>증거</li>
+	<li>상소 및 재심</li>
+	<li>조정신청</li>
+	<li>독촉절차 및 공시최고</li>
+</ul>
+
+<h3>강제집행</h3>
+
+<ul>
+	<li>총칙</li>
+	<li>강제집행</li>
+	<li>가압류.가처분</li>
+</ul>
+
+<h3>가사소송 및 가족관계등록비송</h3>
+
+<ul>
+	<li>가사소송</li>
+	<li>신고서</li>
+</ul>
+
+<h3>행정심판,행정소송</h3>
+
+<ul>
+	<li>행정심판 및 소송 실무</li>
+	<li>서식</li>
+</ul>
+
+<h3>형사소송</h3>
+
+<ul>
+	<li>총칙</li>
+	<li>제1심</li>
+	<li>상소</li>
+	<li>특별소송절차 및 형의 소멸</li>
+	<li>소송실무자료</li>
+</ul>
+
+<h3>등기,공탁</h3>
+
+<ul>
+	<li>부동산등기</li>
+	<li>공탁</li>
+</ul>
+
+<h3>계약</h3>
+
+<ul>
+	<li>매매계약</li>
+	<li>임대차계약</li>
+	<li>소비대차계약</li>
+	<li>임치.화해.보증.기타계약</li>
+	<li>기타</li>
+</ul>
+
+<h3>소송실무자료</h3>
+
+<ul>
+	<li>소송실무자료</li>
+</ul>	
+
+			</div>
+		</div>
+
+		<div id="footer">
+		<!-- footer -->		
+		</div>
+
+		<div id="quickMenu">
+		<!-- quick menu -->
+			<!-- #include virtual = /klac/common/comm/quickMenu.vm -->			
+		</div>		
+	</div>
+</body>
+</html>

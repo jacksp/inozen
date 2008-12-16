@@ -1,0 +1,67 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="ko" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=euc-kr"/>
+	<meta name="description" content="KOREA LEGAL AID CORPORATION" />
+	<meta name="keyword" content="법률구조공단" />
+	<title>법률구조공단 &gt; </title>
+	<link rel="stylesheet" type="text/css" href="/klac/css/kl_xxx.css" />
+
+	<script type="text/javascript" language="javascript" src="/klac/jscript/common.js"></script>
+	
+</head>
+
+<body>
+	<div id="skipMenu">
+		<!-- #include virtual = /klac/common/comm/skip.vm-->
+	</div>
+
+	<div id="wrapper">
+		<div id="header">
+		<!-- header	   -->
+			<!-- #include virtual = /klac/common/include/header.vm -->			
+		</div>
+
+		<div id="contentWrapper">
+		<!-- contentWrapper -->
+			<!-- subvisual -->
+			<p class="subVisual"></p>
+		
+			<div id="leftMenu">
+			<!-- leftmenu -->
+				<!-- #include virtual = /klac/common/include/leftMenu_xxx.vm -->				
+			</div>
+
+			<div id="content" class="content-type2">
+			<!-- content -->
+				<div id="pageLocation">
+					<!-- include -->
+				</div>
+				<h1>page title</h1>
+
+<h2>고객만족도 조사</h2>
+
+<p>안녕하십니까? 우리 공단에서는 국민들에게 보다 나은 법률서비스를 제공하기 위하여, 국민들의 공단에 대한 인식&middot;평가를 조사하고 있으며 귀하의 소중한 응답은 향후 우리나라 법률구조제도의 발전에 큰 도움이 될 것입니다.</p>
+
+<p>귀하의 개인정보는 법에 의하여 보호되며, 이 조사는 무기명으로 처리되고, 응답내용은 100% 비밀이 보장됩니다.</p>
+
+<p>우편으로 송부한 설문지의 설문문항도 &quot;인터넷 설문조사&quot;메뉴와 동일내용으므로 이 조사에 참여하신 분은 별도로 설문지를 회신할 필요가 없습니다.</p>
+
+<p>바쁘시더라도 잠시 시간을 내시어 의견을 보내주시면 대단히 감사하겠습니다.</p>
+
+<p>작성하시면서 궁금한 사항이 있으면, 우리 공단 홍보실(전화 02-3482-0674-5)로 연락하여 주시기 바랍니다.</p>
+
+			</div>
+		</div>
+
+		<div id="footer">
+		<!-- footer -->		
+		</div>
+
+		<div id="quickMenu">
+		<!-- quick menu -->
+			<!-- #include virtual = /klac/common/comm/quickMenu.vm -->			
+		</div>		
+	</div>
+</body>
+</html>

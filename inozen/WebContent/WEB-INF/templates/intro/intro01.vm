@@ -1,0 +1,71 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="ko" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=euc-kr"/>
+	<meta name="description" content="KOREA LEGAL AID CORPORATION" />
+	<meta name="keyword" content="법률구조공단" />
+	<title>법률구조공단 &gt; </title>
+	<link rel="stylesheet" type="text/css" href="/klac/css/kl_xxx.css" />
+
+	<script type="text/javascript" language="javascript" src="/klac/jscript/common.js"></script>
+	
+</head>
+
+<body>
+	<div id="skipMenu">
+		<!-- #include virtual = /klac/common/comm/skip.vm-->
+	</div>
+
+	<div id="wrapper">
+		<div id="header">
+		<!-- header	   -->
+			<!-- #include virtual = /klac/common/include/header.vm -->			
+		</div>
+
+		<div id="contentWrapper">
+		<!-- contentWrapper -->
+			<!-- subvisual -->
+			<p class="subVisual"></p>
+		
+			<div id="leftMenu">
+			<!-- leftmenu -->
+				<!-- #include virtual = /klac/common/include/leftMenu_xxx.vm -->				
+			</div>
+
+			<div id="content" class="content-type2">
+			<!-- content -->
+				<div id="pageLocation">
+					<!-- include -->
+				</div>
+				<h1>page title</h1>
+
+<h1>인사말</h1>
+
+<p>&quot;최상의 법률복지 서비스로 희망과 행복을 드리겠습니다.&quot;</p>
+
+<p>공단 홈페이지를 방문해주신 여러분들을 진심으로 환영합니다.</p>
+
+<p>저희 공단은 법률문제로 어려움을 겪는 국민을 위하여 무료법률상담과 소송대리 등을 통해 국민들의 행복한 삶 추구에 앞장서고 있습니다.</p>
+
+<p>특히 사회적 관심과 배려가 필요한 농&middot;어민, 생활보장수급자, 소년&middot;소녀가장, 장애인 및 국내거주 외국인 등 소외계층에 대하여 무료법률서비스를 하는 등 국민의 권익보호를 위해 최선을 다하고 있습니다.</p>
+
+<p>나아가 공단은 법률복지의 사각지대인 시&middot;군 법원 소재지에도 지소를 설치, 구조대상자의 범위를 지속적으로 확대하는 등 법률복지 서비스 기관으로서 사회적 역할을 다하는데 노력을 게을리 하지 않을 것입니다.</p>
+
+<p>감사합니다.</p>
+
+<p>대한법률구조공단 이사장 정홍원</p>
+
+			</div>
+		</div>
+
+		<div id="footer">
+		<!-- footer -->		
+		</div>
+
+		<div id="quickMenu">
+		<!-- quick menu -->
+			<!-- #include virtual = /klac/common/comm/quickMenu.vm -->			
+		</div>		
+	</div>
+</body>
+</html>

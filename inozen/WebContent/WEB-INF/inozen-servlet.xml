@@ -19,9 +19,43 @@
 	<!-- ============================================================= -->
 	<!--  View Resolver(jstl)                                          -->
 	<!-- ============================================================= -->
-	<bean id="viewResolver"
+	<!-- bean id="viewResolver1"
 		class="org.springframework.web.servlet.view.InternalResourceViewResolver"
-		p:prefix="/" p:suffix=".jsp" />
+		p:prefix="/" p:suffix=".jsp" p:order="1"/-->
+		
+	<!-- bean id="viewResolver1"
+		class="org.springframework.web.servlet.view.ResourceBundleViewResolver">
+		<property name="basename" value="views"/>
+		<property name="order" value="1"/>
+	</bean-->
+		
+	<!-- ============================================================= -->
+	<!--  View Resolver Velocity                                                    -->
+	<!-- ============================================================= -->
+	<bean id="viewResolver"
+		class="org.springframework.web.servlet.view.velocity.VelocityViewResolver">
+		<property name="order" value="1" />
+		<property name="cache" value="true" />
+		<property name="prefix" value="/" />
+		<property name="suffix" value=".vm" />
+		<property name="contentType" value="text/html; charset=EUC-KR" />
+		<property name="numberToolAttribute"><value>numbertool</value></property>
+		<property name="dateToolAttribute"><value>datetool</value></property>
+		<property name="exposeSpringMacroHelpers" value="true" />
+	</bean>
+	
+	<bean id="velocityConfig"
+		class="org.springframework.web.servlet.view.velocity.VelocityConfigurer">
+		<property name="resourceLoaderPath" value="/WEB-INF/templates/" />
+		<property name="velocityProperties">
+			<props>
+				<prop key="directive.foreach.counter.name">loopCounter</prop>
+				<prop key="directive.foreach.counter.initial.value">0</prop>
+				<prop key="input.encoding">EUC-KR</prop>
+				<prop key="output.encoding">EUC-KR</prop>
+			</props>
+		</property>
+	</bean>
 
 	<context:component-scan base-package="com.inozen.app"
 		use-default-filters="false">
@@ -57,31 +91,6 @@
 		<property name="webBindingInitializer">
 			<bean class="com.inozen.app.web.AppBindingInitializer" />
 		</property>
-	</bean>
-	
-	<!-- ============================================================= -->
-	<!--  Velocity                                                    -->
-	<!-- ============================================================= -->
-	<bean id="velocityViewResolver"
-		class="org.springframework.web.servlet.view.velocity.VelocityViewResolver">
-		<property name="cache" value="true" />
-		<property name="prefix" value="/WEB-INF/vm/" />
-		<property name="suffix" value=".vm" />
-		<property name="contentType" value="text/html; charset=EUC-KR" />
-	</bean>
-	
-	<bean id="velocityConfig"
-		class="org.springframework.web.servlet.view.velocity.VelocityConfigurer">
-		<property name="resourceLoaderPath" value="/WEB-INF/vm/" />
-		<property name="velocityProperties">
-			<props>
-				<prop key="directive.foreach.counter.name">loopCounter</prop>
-				<prop key="directive.foreach.counter.initial.value">0</prop>
-				<prop key="input.encoding">EUC-KR</prop>
-				<prop key="output.encoding">EUC-KR</prop>
-			</props>
-		</property>
-	</bean>
-	
+	</bean>	
 
 </beans>

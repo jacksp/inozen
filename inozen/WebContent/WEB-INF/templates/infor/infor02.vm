@@ -1,0 +1,231 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="ko" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=euc-kr"/>
+	<meta name="description" content="KOREA LEGAL AID CORPORATION" />
+	<meta name="keyword" content="법률구조공단" />
+	<title>법률구조공단 &gt; </title>
+	<link rel="stylesheet" type="text/css" href="/klac/css/kl_xxx.css" />
+
+	<script type="text/javascript" language="javascript" src="/klac/jscript/common.js"></script>
+	
+</head>
+
+<body>
+	<div id="skipMenu">
+		<!-- #include virtual = /klac/common/comm/skip.vm-->
+	</div>
+
+	<div id="wrapper">
+		<div id="header">
+		<!-- header	   -->
+			<!-- #include virtual = /klac/common/include/header.vm -->			
+		</div>
+
+		<div id="contentWrapper">
+		<!-- contentWrapper -->
+			<!-- subvisual -->
+			<p class="subVisual"></p>
+		
+			<div id="leftMenu">
+			<!-- leftmenu -->
+				<!-- #include virtual = /klac/common/include/leftMenu_xxx.vm -->				
+			</div>
+
+			<div id="content" class="content-type1">
+			<!-- content -->
+				<div id="pageLocation">
+					<!-- include -->
+				</div>
+				<h1>page title</h1>
+
+<h2>법률상담사례</h2>
+
+<p>공단이 지난 19년 동안 적국의 사무소에서 상담하고 소송을 수행했던 실제 사례들과 예상가능한 사항들을 바탕으로 구성한 법률상담사례입니다. 각 사례에는 최근 제&bull;개정된 법령관 최신판례를 반영하고 있습니다.</p>
+
+<form>
+	<fieldset>
+		<label for="search">SEARCH</label>
+		<input type="text" id="search" name="query" title="검색어 입력"/>
+		<input type="images" alt="검색하기"/>
+	</fieldset>
+</form>
+
+<p>분류를 선택하세요</p>
+<table summary="" border="1">
+	<caption>상담사례 분류</caption>
+	<tbody>
+		<tr>
+			<th>헌 법</th>
+			<td>
+				<ul>
+					<li>헌법소원심판청구의 대상</li>
+					<li>헌법소원심판청구권자의 범위</li>
+					<li>헌법소원심판청구권의 행사기간</li>
+					<li>헌법소원심판청구의 절차</li>
+					<li>헌법소원심판청구에 있어서 보충성의 원칙</li>
+					<li>헌법소원심판청구권의 권리보호이익</li>
+					<li>위헌법률심판</li>
+					<li>위헌여부가 문제된 구체적 사례</li>
+				</ul>
+			</td>
+		</tr>
+		<tr>
+			<th>행정법</th>
+			<td>
+				<ul>
+					<li>행정작용</li>
+					<li>행정구제(행정심판 및 행정소송절차)</li>
+					<li>부동산 관련 행정</li>
+					<li>질서행정(교통 관련 행정)</li>
+					<li>건축 관련 행정</li>
+					<li>영업 관련 행정</li>
+					<li>조세 관련 행정</li>
+				</ul>
+			</td>
+		</tr>
+		<tr>
+			<th>형 법</th>
+			<td>
+				<ul>
+					<li>법원</li>
+					<li>당사자</li>
+					<li>소송비용</li>	
+				</ul>
+			</td>
+		</tr>
+		<tr>
+			<th>형사소송법</th>
+			<td>
+				<ul>
+					<li>고소·고발</li>
+					<li>구속피의자의 석방 및 보석</li>
+					<li>불기소처분과 기소중지</li>
+					<li>형사소송절차</li>
+				</ul>
+			</td>
+		</tr>
+		<tr>
+			<th>상 법</th>
+			<td>
+				<ul>
+					<li>상사일반</li>
+					<li>회사</li>
+					<li>보험</li>
+					<li>어음/수표</li>
+					<li>지적재산권</li>
+				</ul>
+			</td>
+		</tr>
+		<tr>
+			<th>민 법</th>
+			<td>
+				<ul>
+					<li>민법총칙</li>
+					<li>물권</li>
+					<li>채권</li>
+					<li>계약</li>
+					<li>불법행위</li>
+				</ul>
+			</td>
+		</tr>
+		<tr>
+			<th>파산/회생</th>
+			<td>
+				<ul>
+					<li>개인파산</li>
+					<li>면책</li>
+					<li>개인회생</li>
+				</ul>
+			</td>
+		</tr>
+		<tr>
+			<th>친족/상속법</th>
+			<td>
+				<ul>
+					<li>친족</li>
+					<li>유언과 상속</li>
+					<li>가족관계등록</li>
+				</ul>
+			</td>
+		</tr>
+		<tr>
+			<th>주택임대차보호법</th>
+			<td>
+				<ul>
+					<li>주택임대차보호법의 적용범위</li>
+					<li>주택임차인의 대항력</li>
+					<li>임대차기간 및 보증금의 증액</li>
+					<li>주택임차인의 우선변제권</li>
+					<li>임차권등기명령제도</li>
+					<li>소액임차인의 최우선변제권</li>
+					<li>기타 주택임대차문제</li>
+				</ul>
+			</td>
+		</tr>
+		<tr>
+			<th>상가건물임대차보호법</th>
+			<td>
+				<ul>
+					<li>상가건물임대차보호법의 적용범위</li>
+					<li>상가임차인의 대항력</li>
+					<li>상가임대차기간 및 임차료</li>
+					<li>상가임차인의 우선변제권</li>
+					<li>상가임차권의 양도</li>
+					<li>상가임대차계약의 종료</li>
+					<li>기타 상가임대차문제</li>
+				</ul>
+			</td>
+		</tr>
+		<tr>
+			<th>민사소송법</th>
+			<td>
+				<ul>
+					<li>관할</li>
+					<li>당사자</li>
+					<li>소송절차</li>
+					<li>상소</li>
+					<li>간이소송절차</li>
+					<li>소송비용</li>
+				</ul>
+			</td>
+		</tr>
+		<tr>
+			<th>민사집행법</th>
+			<td>
+				<ul>
+					<li>강제집행일반</li>
+					<li>금전채권에 대한 강제집행</li>
+					<li>유체동산에 대한 강제집행</li>
+					<li>부동산에 대한 강제집행</li>
+					<li>가압류와 가처분</li>
+				</ul>
+			</td>
+		</tr>
+		<tr>
+			<th>노동법</th>
+			<td>
+				<ul>
+					<li>근로일반</li>
+					<li>임금 및 퇴직금</li>
+					<li>산업재해</li>
+				</ul>
+			</td>
+		</tr>	
+	</tbody>
+<table>
+
+			</div>
+		</div>
+
+		<div id="footer">
+		<!-- footer -->		
+		</div>
+
+		<div id="quickMenu">
+		<!-- quick menu -->
+			<!-- #include virtual = /klac/common/comm/quickMenu.vm -->			
+		</div>		
+	</div>
+</body>
+</html>

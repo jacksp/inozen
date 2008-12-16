@@ -1,0 +1,104 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="ko" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=euc-kr"/>
+	<meta name="description" content="KOREA LEGAL AID CORPORATION" />
+	<meta name="keyword" content="법률구조공단" />
+	<title>법률구조안내 &gt; 법률구조대상</title>
+	<link rel="stylesheet" type="text/css" href="/klac/css/kl_law.css" />
+
+	<script type="text/javascript" language="javascript" src="/klac/jscript/common.js"></script>
+	
+</head>
+
+<body>
+	<div id="skipMenu">
+		<!-- #include virtual = /klac/common/comm/skip.vm-->
+	</div>
+
+	<div id="wrapper">
+		<div id="header">
+		<!-- header	    -->
+			<!-- #include virtual = /klac/common/include/header.vm -->			
+		</div>
+
+		<div id="contentWrapper">
+		<!-- contentWrapper -->
+			<!-- subvisual -->
+			<p class="subVisual"><img src="/Images/common/klcomm_imgSubVisual03.jpg" width="865" height="128" alt="가족처럼 따뜻하게 친구처럼 편안하게 대한법률구조공단의 약속입니다," /></p>
+		
+			<div id="leftMenu">
+			<!-- leftmenu -->
+				<!-- #include virtual = /klac/common/include/leftMenu_xxx.vm -->				
+			</div>
+
+			<div id="content" class="content-type2">
+			<!-- content -->
+				<div id="pageLocation">
+					<!-- include -->
+				</div>
+				<h1><img src="/Images/common/contitle/conTit030302.gif" width="150" height="25" alt="법률구조안내" /></h1>
+
+				<ul id="commTabnavi">
+					<li><img src="/Images/tabMenu/kltab_law0201_on.gif" width="84" height="30" alt="법률구조대상" id="tabImg1" /></li>
+					<li><a href="/klac/law/lawAid03002002.html" onmouseover="jsTabnaviSwap(2,event);" onfocus="jsTabnaviSwap(2,event);" onmouseout="jsTabnaviSwap(2,event);" onblur="jsTabnaviSwap(2,event);"><img src="/Images/tabMenu/kltab_law0202_off.gif" width="63" height="30" alt="신청절차" id="tabImg2" /></a></li>
+					<li><a href="/klac/law/lawAid03002003.html" onmouseover="jsTabnaviSwap(3,event);" onfocus="jsTabnaviSwap(3,event);" onmouseout="jsTabnaviSwap(3,event);" onblur="jsTabnaviSwap(3,event);"><img src="/Images/tabMenu/kltab_law0203_off.gif" width="112" height="30" alt="신청사건 처리절차" id="tabImg3" /></a></li>
+					<li><a href="/klac/law/lawAid03002004.html" onmouseover="jsTabnaviSwap(4,event);" onfocus="jsTabnaviSwap(4,event);" onmouseout="jsTabnaviSwap(4,event);" onblur="jsTabnaviSwap(4,event);"><img src="/Images/tabMenu/kltab_law0204_off.gif" width="63" height="30" alt="소송비용" id="tabImg4" /></a></li>					
+				</ul>
+
+				<h2 class="styleH2-type2">법률구조대상</h2>
+
+				<p class="descTitle">공단이 법률구조를 해드리는 구조대상사건과 구조대상자는 다음과 같습니다.</p>
+
+				<h3 class="styleH3-type2">구조대상사건</h3>
+
+				<ul class="aidTarget list-btype02">
+					<li>민사 &middot; 가사사건 - 국가를 상대로 하는 민사사건은 제외</li>
+					<li>형사사건</li>
+					<li>행정심판사건과 행정소송사건 - 행정심판사건은 국무총리실 및 각 시&middot;도 행정심판위원회 사건에 한정</li>
+					<li>헌법소원사건</li>
+				</ul>
+
+				<h3 class="styleH3-type2">구조대상자</h3>
+
+				<h4 class="styleH4-type2">민사&middot;가사사건, 행정심판&middot;행정소송사건, 헌법소원사건의 경우</h4>
+				<ul class="list2-btype02">
+					<li>월평균 수입 260만원 이하의 국민 및 국내 거주 외국인</li>
+					<li>6급 또는 6급 상당 이하의 공무원</li>
+					<li>위관급 장교 이하의 군인</li>
+					<li>국가보훈대상자 및 5.18민주유공자, 참전유공자</li>
+					<li>물품의 사용 및 용역의 이용으로 인한 피해를 입은 소비자</li>
+					<li>헌법재판소가 공단 소속변호사 또는 공익법무관을 국선대리인으로 선정한 사건의 청구인</li>
+					<li>법원으로부터 소송구조결정(개인회생, 파산사건 포함)을 받은 사람- 인지대 등 소송비용에 대해서만 소송구조결정을 받은 사람은 제외</li>
+					<li>가정폭력&middot; 성폭력으로 인한 피해를 입은 여성(국내 거주 외국인 여성 포함)</li>
+					<li>국내 거주 북한이탈주민</li>
+					<li>농어민, 장애인, 생활보장수급자, 영세담배소매인, 체불임금근로자, 범죄피해자, 소상공인과 같이 특별한 지원이 필요하여 무료법률구조대상자로 지정된 사람</li>
+					<li>기타 생활이 어렵고 법을 몰라 스스로 법적 수단을 강구하지 못하는 국민 </li>
+				</ul>
+
+				<h4 class="styleH4-type2">형사사건의 경우</h4>
+				<ul class="list2-btype02">
+					<li>월평균 수입 260만원 이하의 국민 및 국내 거주 외국인</li>
+					<li>6급 또는 6급 상당 이하의 공무원</li>
+					<li>국가보훈대상자 및 5.18민주유공자, 참전유공자</li>
+					<li>가정폭력&middot; 성폭력과 관련된 형사사건의 구속피의자 또는 피고인인 여성(국내 거주 외국인 여성 포함)</li>
+					<li>국선변호사건(법원이 소속변호사나 공익법무관을 국선변호인으로 선정한 사건)의 피의자 또는 피고인</li>
+					<li>국내 거주 북한이탈주민</li>
+					<li>농 &middot; 어민, 장애인, 생활보장수급자, 영세담배소매인 등 무료법률구조대상자로 지정된 사람</li>
+					<li>기타 생활이 어렵고 법을 몰라 스스로 법적 수단을 강구하지 못하는 국민</li>
+				</ul>
+
+			</div>
+		</div>
+
+		<div id="footer">
+		<!-- footer -->		
+		</div>
+
+		<div id="quickMenu">
+		<!-- quick menu -->
+			<!-- #include virtual = /klac/common/comm/quickMenu.vm -->			
+		</div>		
+	</div>
+</body>
+</html>

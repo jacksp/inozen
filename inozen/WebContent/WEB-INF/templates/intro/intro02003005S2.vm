@@ -1,0 +1,104 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="ko" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=euc-kr"/>
+	<meta name="description" content="KOREA LEGAL AID CORPORATION" />
+	<meta name="keyword" content="법률구조공단" />
+	<title>법률구조공단 &gt; </title>
+	<link rel="stylesheet" type="text/css" href="/klac/css/kl_xxx.css" />
+
+	<script type="text/javascript" language="javascript" src="/klac/jscript/common.js"></script>
+	
+</head>
+
+<body>
+	<div id="skipMenu">
+		<!-- #include virtual = /klac/common/comm/skip.vm-->
+	</div>
+
+	<div id="wrapper">
+		<div id="header">
+		<!-- header	   -->
+			<!-- #include virtual = /klac/common/include/header.vm -->			
+		</div>
+
+		<div id="contentWrapper">
+		<!-- contentWrapper -->
+			<!-- subvisual -->
+			<p class="subVisual"></p>
+		
+			<div id="leftMenu">
+			<!-- leftmenu -->
+				<!-- #include virtual = /klac/common/include/leftMenu_xxx.vm -->				
+			</div>
+
+			<div id="content" class="content-type2">
+			<!-- content -->
+				<div id="pageLocation">
+					<!-- include -->
+				</div>
+				<h1>page title</h1>
+
+<p>윤리경영 공공기관의 경영활동에 있어서 지켜야 할 '윤리'를 최우선의 가치로 법적&middot;경제적 책임은 물론 사회 통념상 기대되는 윤리적 책임을 다함으로써 고객에게 신뢰를 얻을 수 있도록 경영하는 것을 의미합니다. 대한법률구조공단은 윤리경영의 실천으로 깨끗하고 투명한 기관 만들기에 최신을 다하고 있습니다.</p>
+
+<h2>윤리경영</h2>
+
+<ul>
+	<li>윤리경영철학</li>
+	<li>윤리규범</li>
+	<li>윤리경영메뉴얼</li>
+	<li>윤리경영자료실</li>
+	<li>추진활동
+		<ul>
+			<li>클린신고</li>
+			<li>부조리신고</li>
+			<li>내부공익신고</li>
+			<li>청렴서약제</li>
+			<li>클린행정협조문</li>
+			<li>기타추진실적</li>
+		</ul>
+	</li>
+</ul>
+
+<h3>추진활동</h3>
+
+<h4>부조리신고</h4>
+
+<p>부조리 신고센터를 설치&middot;운영하고 있습니다.</p>
+
+<h5>Ⅰ.목적</h5>
+
+<p>소속직원의 직무와 관련한 금품수수 행위, 구조적 부조리 등 관행적 부조리에 대하여 신고센터를 설치·운영함으로써 부패척결을 통한 조직투명성 제고</p>
+
+<h5>Ⅱ. 운영방법</h5>
+
+<h6>안내문 게시 및 홈페이지에 신고센터 운영</h6>
+
+<p>민원인 대기실 등에 신고안내문을 게시하고, 홈페이지상에 부조리 신고센터를 설치·운영</p>
+
+<h6>신고방법</h6>
+
+<p>신고내용과 함께 반드시 신고자의 성명, E-mail주소, 거주지 주소, 전화번호를 기재하여 아래 감사실 전화번호 및 E-mail로 신고</p>
+
+<p>※ 신고자 및 신고내용에 대하여는 비밀보장</p>
+
+<h5>Ⅲ. 시행시기</h5>
+
+<p>1998. 5. 13.부터 시행 중</p>
+
+<p>연락처 : 부조리신고센터 TEL. 02)3482-1676∼7, E-mail : gamsa@klac.or.kr</p>
+
+			</div>
+		</div>
+
+		<div id="footer">
+		<!-- footer -->		
+		</div>
+
+		<div id="quickMenu">
+		<!-- quick menu -->
+			<!-- #include virtual = /klac/common/comm/quickMenu.vm -->			
+		</div>		
+	</div>
+</body>
+</html>

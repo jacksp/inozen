@@ -1,0 +1,144 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="ko" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=euc-kr"/>
+	<meta name="description" content="KOREA LEGAL AID CORPORATION" />
+	<meta name="keyword" content="법률구조공단" />
+	<title>법률구조공단 &gt; </title>
+	<link rel="stylesheet" type="text/css" href="/klac/css/kl_xxx.css" />
+
+	<script type="text/javascript" language="javascript" src="/klac/jscript/common.js"></script>
+	
+</head>
+
+<body>
+	<div id="skipMenu">
+		<!-- #include virtual = /klac/common/comm/skip.vm-->
+	</div>
+
+	<div id="wrapper">
+		<div id="header">
+		<!-- header	   -->
+			<!-- #include virtual = /klac/common/include/header.vm -->			
+		</div>
+
+		<div id="contentWrapper">
+		<!-- contentWrapper -->
+			<!-- subvisual -->
+			<p class="subVisual"></p>
+		
+			<div id="leftMenu">
+			<!-- leftmenu -->
+				<!-- #include virtual = /klac/common/include/leftMenu_xxx.vm -->				
+			</div>
+
+			<div id="content" class="content-type2">
+			<!-- content -->
+				<div id="pageLocation">
+					<!-- include -->
+				</div>
+				<h1>page title</h1>
+
+<h2>홍보영상</h2>
+
+<ul>
+	<li>홍보영상</li>
+	<li>광고리뷰
+		<ul>
+			<li>TV광고</li>
+			<li>전광판광고</li>
+			<li>인쇄광고</li>
+			<li>리플렛</li>
+		</ul>
+	</li>
+</ul>
+
+<h3>광고리뷰</h3>
+
+<h4>TV광고</h4>
+
+<div>
+
+	<div>
+		<h3>2006 TV 광고</h3>
+
+		<ul>
+			<li>내용 : 2006 TV 광고</li>
+			<li>매체 : KBS 1.2 TV</li>
+			<li>시간 : 40초</li>
+		</ul>
+
+	</div>
+
+	<object id="" width="" height="" type="application/x-mplayer2" standby="Loading Microsoft?Windows?Media Player components..." classid="CLSID:22D6f312-B0F6-11D0-94AB-0080C74C7E95">
+		<param value="" name="filename"/>
+		<param value="True" name="transparentAtStart"/>
+		<param value="True" name="transparentAtStop"/>
+		<param value="True" name="AnimationAtStart"/>
+		<param value="0" name="AutoStart"/>
+		<param value="false" name="AutoRewind"/>
+		<param value="0" name="DisplaySize"/>
+		<param value="false" name="AutoSize"/>
+		<param value="false" name="ShowDisplay"/>
+		<param value="false" name="ShowStatusBar"/>
+		<param value="false" name="ShowControls"/>
+		<param value="False" name="EnableContextMenu"/>
+		<param value="0" name="Volume"/>
+		<p>체불근로자 무료법률구조 안내 동영상</p>
+	</object>
+</div>
+
+<div>
+
+	<h4>2008</h4>
+
+	<form>
+		<label for="select">년도별 TV광고</label>
+		<select name="select" id="select">
+			<option selected="selected" value="2008">2008</option>
+			<option value="2007">2007</option>
+			<option value="2006">2006</option>
+			<option value="2005">2005</option>
+			<option value="2004">2004</option>
+			<option value="2003">2003</option>
+			<option value="2002">2002</option>
+		</select>
+		<input type="image" alt="이동"/>
+	</form>
+
+</div>
+
+<div>
+	<div>
+		<h3>체불근로자 무료법률구조 ..</h3>
+
+		<ul>
+			<li>체불근로자 무료법률구조 .. 이미지</li>
+			<li><a href="">PLAY</a></li>
+		</ul>
+	</div>
+
+	<div>
+		<h3>체불근로자 무료법률구조 ..</h3>
+
+		<ul>
+			<li>체불근로자 무료법률구조 .. 이미지</li>
+			<li><a href="">PLAY</a></li>
+		</ul>
+	</div>
+</div>
+
+			</div>
+		</div>
+
+		<div id="footer">
+		<!-- footer -->		
+		</div>
+
+		<div id="quickMenu">
+		<!-- quick menu -->
+			<!-- #include virtual = /klac/common/comm/quickMenu.vm -->			
+		</div>		
+	</div>
+</body>
+</html>

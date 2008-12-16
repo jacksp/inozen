@@ -1,0 +1,164 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="ko" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=euc-kr"/>
+	<meta name="description" content="KOREA LEGAL AID CORPORATION" />
+	<meta name="keyword" content="법률구조공단" />
+	<title>상담신청</title>
+	<link rel="stylesheet" type="text/css" href="/klac/css/kl_cyber.css" />
+
+	<script type="text/javascript" language="javascript" src="/klac/jscript/common.js"></script>
+	<script type="text/javascript" language="javascript">
+	//<![CDATA[
+		function jsExceed(ev){
+			if(validateKey(ev)){
+				alert("오늘의 신청건수가 초과되어 \n오늘은 상담신청을 하실 수 없습니다.");
+
+				return false;
+			}
+		}
+	//]]>
+	</script>
+	
+</head>
+
+<body>
+	<div id="skipMenu">
+		<!-- #include virtual = /klac/common/comm/skip.vm-->
+	</div>
+
+	<div id="wrapper">
+		<div id="header">
+		<!-- header	    -->
+			<!-- #include virtual = /klac/common/include/header.vm -->			
+		</div>
+
+		<div id="contentWrapper">
+		<!-- contentWrapper -->
+			<!-- subvisual -->
+			<p class="subVisual"><img src="/Images/common/klcomm_imgSubVisual02.jpg" width="865" height="128" alt="가족처럼 따뜻하게 친구처럼 편안하게 대한법률구조공단의 약속입니다," /></p>
+		
+			<div id="leftMenu">
+			<!-- leftmenu -->
+				<!-- #include virtual = /klac/common/include/leftMenu_xxx.vm -->				
+			</div>
+
+			<div id="content" class="content-type1">
+			<!-- content -->
+				<div id="pageLocation">
+					<!-- include -->
+				</div>
+				<h1><img src="/Images/common/contitle/conTit0202.gif" width="150" height="25" alt="상담신청" /></h1>
+
+				<div id="consult-m">
+					<div class="consult-t">
+						<div class="consult-b">
+							<div class="consult-icon2">
+								<p><span class="fcolorR strong">하루 상담 제한건수가 170건으로 제한</span>되어 있습니다. 유사사례찾기에서 신청할 사례를 검색 후 상담신청 해 주세요.</p>
+								<p class="noMg">
+									<!-- 상담건수 170건 미만 -->
+									<a href=""><img src="/Images/cyber/klcyb_btnAppConsultation.gif" width="85" height="20" alt="상담신청하기" /></a>
+									<!-- 상담건수 170건 초과 -->
+									<a href="#" onclick="return jsExceed(event);" onkeypress="return jsExceed(event);" title=""><img src="/Images/cyber/klcyb_btnAppConsultationOff.gif" width="85" height="20" alt="제한건수 초과" /></a><span class="strong">제한건수 170건을 초과 하였습니다.</span>
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div id="bbs-search">
+					<form id="search_form" method="post" action="" onsubmit="return">
+						<fieldset>
+							<label for="s_colum"><img src="/Images/common/klcomm_imgBbsSearch.gif" width="40" height="20" alt="Search" /></label>
+							<select id="s_colum" name="s_colum">
+								<option selected="selected" value="">제목</option>
+								<option value="">신청인</option>
+								<option value="">신청일</option>
+								<option value="">답변일</option>
+								<option value="">상담번호</option>
+								<option value="">주민번호</option>
+								<option value="">답변내용</option>
+							</select>
+							<input type="text" maxlength="20" value="" size="17" id="p_search" name="p_search" title="검색어 입력" />
+							<input type="image" src="/Images/common/klcomm_btnBbsSearch.gif" alt="검색하기"/>
+						</fieldset>
+					</form>
+				</div>
+	
+				<table width="655" summary="사이버 상담신청 목록을 보여드립니다." id="bbs-list">
+					<caption>상담신청</caption>
+					<colgroup span="6">
+						<col width="10%" />
+						<col width="12%" />
+						<col width="50%" />
+						<col width="10%" />
+						<col width="10%" />
+						<col width="8%" />
+					</colgroup>
+					<thead>
+						<tr>
+							<th scope="col">상담번호</th>
+							<th scope="col">신청일</th>
+							<th scope="col">제목</th>
+							<th scope="col">진행사항</th>
+							<th scope="col">공개</th>
+							<th scope="col">조회</th>
+						</tr>
+					</thead>
+					<tbody class="alignC">
+					<!-- for(var i=1; i <xx.length; i++){ //start -->
+						<!-- if(i%2==1){ -->
+						<tr>
+						<!-- else if(i%2==0){ -->
+					<!--	<tr class="lineGray">	-->
+						<!-- }-->
+							<td>501653</td>
+							<td>2008-09-17</td>
+							<td class="alignL"><a href="">수술 위로금 받을 수 없나요? (약관해석)</a></td>
+							<td>접수완료</td>
+							<td></td>
+							<td>0</td>
+						</tr>
+					<!-- } //end -->
+						<tr class="lineGray">
+							<td>501653</td>
+							<td>2008-09-17</td>
+							<td class="alignL"><a href="">수술 위로금 받을 수 없나요? (약관해석)</a></td>
+							<td>접수완료</td>
+							<td></td>
+							<td>0</td>
+						</tr>						
+					</tbody>
+				</table>
+
+				<ul id="paging">
+					<li><a href="" title="처음 페이지"><img src="/Images/common/klcomm_pageFirst.gif" width="12" height="11" alt="처음 페이지" /></a></li>
+					<li><a href="" title="이전 페이지"><img src="/Images/common/klcomm_pageBefore.gif" width="7" height="11" alt="이전 페이지" /></a></li>
+					<li class="curPage"><span class="">1</span></li>
+					<li><a href="" title="2 페이지">2</a></li>
+					<li><a href="" title="3 페이지">3</a></li>
+					<li><a href="" title="4 페이지">4</a></li>
+					<li><a href="" title="5 페이지">5</a></li>
+					<li><a href="" title="6 페이지">6</a></li>
+					<li><a href="" title="7 페이지">7</a></li>
+					<li><a href="" title="8 페이지">8</a></li>
+					<li><a href="" title="9 페이지">9</a></li>
+					<li><a href="" title="10 페이지">10</a></li>
+					<li><a href="" title="다음페이지"><img src="/Images/common/klcomm_pageNext.gif" width="7" height="11" alt="다음페이지" /></a></li>
+					<li><a href="" title="마지막 페이지"><img src="/Images/common/klcomm_pageEnd.gif" width="12" height="11" alt="마지막 페이지" /></a></li>
+				</ul>
+
+			</div>
+		</div>
+
+		<div id="footer">
+		<!-- footer -->		
+		</div>
+
+		<div id="quickMenu">
+		<!-- quick menu -->
+			<!-- #include virtual = /klac/common/comm/quickMenu.vm -->			
+		</div>		
+	</div>
+</body>
+</html>

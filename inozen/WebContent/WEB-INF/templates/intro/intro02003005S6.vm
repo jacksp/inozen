@@ -1,0 +1,101 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="ko" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=euc-kr"/>
+	<meta name="description" content="KOREA LEGAL AID CORPORATION" />
+	<meta name="keyword" content="법률구조공단" />
+	<title>법률구조공단 &gt; </title>
+	<link rel="stylesheet" type="text/css" href="/klac/css/kl_xxx.css" />
+
+	<script type="text/javascript" language="javascript" src="/klac/jscript/common.js"></script>
+	
+</head>
+
+<body>
+	<div id="skipMenu">
+		<!-- #include virtual = /klac/common/comm/skip.vm-->
+	</div>
+
+	<div id="wrapper">
+		<div id="header">
+		<!-- header	   -->
+			<!-- #include virtual = /klac/common/include/header.vm -->			
+		</div>
+
+		<div id="contentWrapper">
+		<!-- contentWrapper -->
+			<!-- subvisual -->
+			<p class="subVisual"></p>
+		
+			<div id="leftMenu">
+			<!-- leftmenu -->
+				<!-- #include virtual = /klac/common/include/leftMenu_xxx.vm -->				
+			</div>
+
+			<div id="content" class="content-type2">
+			<!-- content -->
+				<div id="pageLocation">
+					<!-- include -->
+				</div>
+				<h1>page title</h1>
+
+<p>윤리경영 공공기관의 경영활동에 있어서 지켜야 할 '윤리'를 최우선의 가치로 법적&middot;경제적 책임은 물론 사회 통념상 기대되는 윤리적 책임을 다함으로써 고객에게 신뢰를 얻을 수 있도록 경영하는 것을 의미합니다. 대한법률구조공단은 윤리경영의 실천으로 깨끗하고 투명한 기관 만들기에 최신을 다하고 있습니다.</p>
+
+<h2>윤리경영</h2>
+
+<ul>
+	<li>윤리경영철학</li>
+	<li>윤리규범</li>
+	<li>윤리경영메뉴얼</li>
+	<li>윤리경영자료실</li>
+	<li>추진활동
+		<ul>
+			<li>클린신고</li>
+			<li>부조리신고</li>
+			<li>내부공익신고</li>
+			<li>청렴서약제</li>
+			<li>클린행정협조문</li>
+			<li>기타추진실적</li>
+		</ul>
+	</li>
+</ul>
+
+<h3>추진활동</h3>
+
+<h4>기타추진실적</h4>
+
+<table width="100%" cellpadding="0" cellspacing="0" summary="기타추진실적 목록">
+	<thead>
+		<tr>
+			<th>번호</th>
+			<th>파일</th>
+			<th>제목</th>
+			<th>날짜</th>
+			<th>조회</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>43</td>
+			<td></td>
+			<td>임직원 행동강령(개정 08. 5. 30)</td>
+			<td>2008-07-02</td>
+			<td>26</td>
+		</tr>
+	</tbody>
+</table>
+
+			</div>
+		</div>
+
+		<div id="footer">
+		<!-- footer -->		
+		</div>
+
+		<div id="quickMenu">
+		<!-- quick menu -->
+			<!-- #include virtual = /klac/common/comm/quickMenu.vm -->			
+		</div>		
+	</div>
+</body>
+</html>

@@ -1,0 +1,89 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="ko" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=euc-kr"/>
+	<meta name="description" content="KOREA LEGAL AID CORPORATION" />
+	<meta name="keyword" content="법률구조공단" />
+	<title>공단의 도움을 받을 수 있는 경우</title>
+	<link rel="stylesheet" type="text/css" href="/klac/css/kl_law.css" />
+
+	<script type="text/javascript" language="javascript" src="/klac/jscript/common.js"></script>
+	
+</head>
+
+<body>
+	<div id="skipMenu">
+		<!-- #include virtual = /klac/common/comm/skip.vm-->
+	</div>
+
+	<div id="wrapper">
+		<div id="header">
+		<!-- header	  -->
+			<!-- #include virtual = /klac/common/include/header.vm -->			
+		</div>
+
+		<div id="contentWrapper">
+		<!-- contentWrapper -->
+			<!-- subvisual -->
+			<p class="subVisual"><img src="/Images/common/klcomm_imgSubVisual03.jpg" width="865" height="128" alt="가족처럼 따뜻하게 친구처럼 편안하게 대한법률구조공단의 약속입니다," /></p>
+		
+			<div id="leftMenu">
+			<!-- leftmenu -->
+				<!-- #include virtual = /klac/common/include/leftMenu_xxx.vm -->				
+			</div>
+
+			<div id="content" class="content-type2">
+			<!-- content -->
+				<div id="pageLocation">
+					<!-- include -->
+				</div>
+				<h1><img src="/Images/common/contitle/conTit0301.gif" width="150" height="25" alt="공단이용안내" /></h1>
+
+				<ul id="commTabnavi">
+					<li><a href="/klac/law/lawAid01.html" onmouseover="jsTabnaviSwap(1,event);" onfocus="jsTabnaviSwap(1,event);" onmouseout="jsTabnaviSwap(1,event);" onblur="jsTabnaviSwap(1,event);"><img src="/Images/tabMenu/kltab_law0101_off.gif" width="95" height="30" alt="대한법률구조공단" id="tabImg1" /></a></li>
+					<li><a href="/klac/law/lawAid01002.html" onmouseover="jsTabnaviSwap(2,event);" onfocus="jsTabnaviSwap(2,event);" onmouseout="jsTabnaviSwap(2,event);" onblur="jsTabnaviSwap(2,event);"><img src="/Images/tabMenu/kltab_law0102_off.gif" width="81" height="30" alt="공단이 하는 일" id="tabImg2" /></a></li>
+					<li><img src="/Images/tabMenu/kltab_law0103_on.gif" width="160" height="30" alt="공단의 도움을 받을 수 있는 경우" id="tabImg3" /></li>
+					<li><a href="/klac/law/lawAid01004.html" onmouseover="jsTabnaviSwap(4,event);" onfocus="jsTabnaviSwap(4,event);" onmouseout="jsTabnaviSwap(4,event);" onblur="jsTabnaviSwap(4,event);"><img src="/Images/tabMenu/kltab_law0104_off.gif" width="155" height="30" alt="비용은 걱정하지 않아도 되는지" id="tabImg4" /></a></li>
+					<li class="noMg"><a href="/klac/law/lawAid01005.html" onmouseover="jsTabnaviSwap(5,event);" onfocus="jsTabnaviSwap(5,event);" onmouseout="jsTabnaviSwap(5,event);" onblur="jsTabnaviSwap(5,event);"><img src="/Images/tabMenu/kltab_law0105_off.gif" width="155" height="30" alt="법률구조 신청절차 및 구비서류" id="tabImg5" /></a></li>
+				</ul>				
+
+				<h2 class="styleH2-type2">공단의 도움을 받을 수 있는 경우</h2>
+
+				<p class="styleH3-type2">법률상담은 누구나 무료로 받을 수 있습니다. 그러나 공단에서 직접 소송대리를 하거나 형사변호를<br /> 하여 주는 법률구조는 다음과 같은 분들로 제한을 하고 있습니다.</p>
+				<ul class="descTitle2 list-btype02">
+					<li>월평균 수입 260만원 이하의 국민 및 국내 거주 외국인</li>
+					<li>국가보훈대상자 및 5· 18민주유공자, 참전유공자</li>
+					<li>6급 또는 6급 상당 이하의 공무원</li>
+					<li>위관급 장교 이하의 군인(형사는 제외)</li>
+					<li>물품의 사용 및 용역의 이용으로 인한 피해를 입은 소비자</li>
+					<li>헌법재판소가 소속변호사 또는 공익법무관을 국선대리인으로 선정한 사건의 청구인</li>
+					<li>법원으로부터 소송구조결정(개인회생·개인파산사건 포함)을 받은 사람. 다만, 인지대 등 소송비용에 대해서만 소송구조결정을 받은 사람은 제외.</li>
+					<li>법원이 소속변호사 또는 공익법무관을 국선변호인으로 선정한 사건의 피의자 또는 피고인</li>
+					<li>가정폭력· 성폭력으로 인한 피해를 입은 여성(단, 국내 거주 외국인 여성 포함)</li>
+					<li>국내 거주 북한이탈주민</li>
+					<li>농· 어민, 장애인, 생활보장수급자, 체불임금근로자, 범죄피해자, 소상공인과 같이 특별한 지원이 필요하여 무료법률구조 대상자로 지정된 사람</li>
+					<li>기타 생활이 어렵고 법을 몰라 혼자서는 법률문제를 처리할 수 없는 국민</li>
+				</ul>
+
+				<p class="styleH3-type2">법률구조 대상사건은 다음과 같습니다.</p>
+				<ul class="descTitle2 list-btype02">
+					<li>민사·가사사건(단, 국가를 상대로 하는 민사소송사건은 제외)</li>
+					<li>형사사건</li>
+					<li>행정심판사건과 행정소송사건(행정심판사건은 국무총리실 및 각 시·도 행정심판위원회 사건에 한정)</li>
+					<li>헌법소원사건</li>
+				</ul>
+
+			</div>
+		</div>
+
+		<div id="footer">
+		<!-- footer -->		
+		</div>
+
+		<div id="quickMenu">
+		<!-- quick menu -->
+			<!-- #include virtual = /klac/common/comm/quickMenu.vm -->			
+		</div>		
+	</div>
+</body>
+</html>

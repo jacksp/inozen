@@ -1,0 +1,86 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="ko" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=euc-kr"/>
+	<meta name="description" content="KOREA LEGAL AID CORPORATION" />
+	<meta name="keyword" content="법률구조공단" />
+	<title>법률구조공단 &gt; </title>
+	<link rel="stylesheet" type="text/css" href="/klac/css/kl_xxx.css" />
+
+	<script type="text/javascript" language="javascript" src="/klac/jscript/common.js"></script>
+	
+</head>
+
+<body>
+	<div id="skipMenu">
+		<!-- #include virtual = /klac/common/comm/skip.vm-->
+	</div>
+
+	<div id="wrapper">
+		<div id="header">
+		<!-- header	   -->
+			<!-- #include virtual = /klac/common/include/header.vm -->			
+		</div>
+
+		<div id="contentWrapper">
+		<!-- contentWrapper -->
+			<!-- subvisual -->
+			<p class="subVisual"></p>
+		
+			<div id="leftMenu">
+			<!-- leftmenu -->
+				<!-- #include virtual = /klac/common/include/leftMenu_xxx.vm -->				
+			</div>
+
+			<div id="content" class="content-type2">
+			<!-- content -->
+				<div id="pageLocation">
+					<!-- include -->
+				</div>
+				<h1>page title</h1>
+
+<p>공단은 국민으로부터 받은 신뢰와 사랑을 되돌려 드리고 함께하는 사회를 만들기 위해 지속적인 '사랑나눔 실천운동'을 펼치고 있습니다.</p>
+
+<h2>사회공헌</h2>
+
+<ul>
+	<li>사회공헌소개</li>
+	<li>추진활동</li>
+</ul>
+
+<h3>사회공헌소개</h3>
+
+<h4>소외지역&middot;소외계층을 위한 출장상담</h4>
+
+<p>교도소&middot;구치소 등 수용시설의 수용자들을 위한 출장 무료법률상담을 실시하고 있습니다. 또한 지방노동사무소 출장상담을 통해 임금체불 등으로 고통받는 근로자들에 법률지원을 해드리고 있으며, 시&middot;군법원 지역의 농어민 등 소외지역 주민들을 위한 출장강연 및 이동상담을 실시하고 있습니다.</p>
+
+<h4>이웃과 함께하는 자원봉사단 운영</h4>
+
+<p>이웃과 함께하는 자원봉사단 운영을 통해 소년소녀가장, 결손아동 등 불우아동과 결연을 맺고 후원하고 있습니다. 명절에는 불우가정, 불우청소년, 위기가정, 장애우들이 쉬고 있는 보호기관에 위문금을 전달하고 있습니다.</p>
+
+<h4>사랑의 생명나눔운동 참여</h4>
+
+<p>치료지 부담 등으로 적절한 치료를 받지 못하고 있는 어려운 이웃을 사랑의 생명나눔운동에 전 임직원이 참여하여 각종 희귀병 등으로 고통받고 있는 환자들이 치료비 부담없이 적절한 치료를 받을 수 있도록 지원하고 있습니다.</p>
+
+<h4>전직원 자원봉사제 실시</h4>
+
+<p>자발적 자원봉사제를 통해 임&middot;직원 모두가 솔선수범하여 지역사회를 위한 자원봉사를 실시하고, 부서단위로 조성한 위로금 등을 불우이웃세대에 전달하고 있습니다.</p>
+
+<h4>공익 기획소송 추진</h4>
+
+<p>일상 곳곳에서 발생하고 있는 국민의 안녕과 권익의 문제를 찾아내고 기획하여 소송을 수행함으로서 법적 보호를 받기 어려운 국민을 정당한 법적 절차에 의해 그 권리를 보호하고, 사회 제 영역의 낡고 불합리한 제도와 관행&middot;현실을 개선하여 사회발전을 도모하고 있습니다.</p>
+
+			</div>
+		</div>
+
+		<div id="footer">
+		<!-- footer -->		
+		</div>
+
+		<div id="quickMenu">
+		<!-- quick menu -->
+			<!-- #include virtual = /klac/common/comm/quickMenu.vm -->			
+		</div>		
+	</div>
+</body>
+</html>

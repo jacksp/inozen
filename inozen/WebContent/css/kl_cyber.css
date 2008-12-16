@@ -1,0 +1,233 @@
+/*
+Source		:	kl_cyber.css
+Discription	:	사이버상담 스타일시트 정의
+
+Date			:	2008.	12.10
+Author		:	choi kyoung ho
+*/
+
+@import "kl_common.css";
+@import "kl_header.css";
+@import "kl_layout.css";
+@import "kl_board.css";
+
+#stipulation{
+	width:626px;
+	border:5px solid #cccccc;
+	padding:7px;
+	margin:0px 0px 10px;
+}
+
+#stipulation div{
+	border:1px solid #c7c7c7;
+	padding:10px;
+	height:150px;	
+}
+
+#stipulation div pre{
+	margin:0px;
+	height:150px;
+	overflow-y:scroll;
+}
+
+.agree{
+	color:#333333;
+	text-align:right;
+	margin:0px 5px 25px 0;
+}
+
+.agree label input{
+	margin-bottom:3px;
+}
+
+#writeForm{
+	table-layout:fixed;
+	border-top:2px solid #cccccc;
+	border-bottom:2px solid #cccccc;
+}
+
+#writeForm td{
+	padding:5px 0px 3px 8px;
+	border-bottom:1px solid #cccccc;
+}
+
+#writeForm td.strong{
+	color:#333;
+	background-color:#F4F4F4;
+}
+
+#writeForm #p_phone1{
+	background-color:#F6F8F8;
+}
+
+#writeForm td .p_input{
+	border:1px solid #DADADA;
+}
+
+#writeForm #textByte{
+	border:none;
+	color:red;
+	text-align:right;
+	margin:0px 3px;
+}
+
+#writeForm td p.alignC{
+	color:#333333;
+	margin:8px 0px 4px;
+}
+
+#writeForm #p_title{
+	width:535px;
+	padding:2px 6px 1px;
+}
+
+#writeForm #message{
+	width:535px;
+	height:224px;
+	white-space:normal;
+	padding:3px 6px;
+	font-size:100%;
+}
+
+#writeForm td.specificCharacter a{
+	text-decoration:none;
+}
+
+.tab-view{
+	margin:0px 0px 10px 10px;
+}
+
+.tab-view th{
+	color:#333;
+	background-color:#F4F4F4;
+	padding:5px 2px 3px;
+	border-bottom:1px solid #cccccc;
+}
+
+.tab-view td{
+	padding:5px 0px 3px 10px;
+	border-bottom:1px solid #cccccc;
+}
+
+.question{
+	border-top:2px solid #cccccc;
+	border-bottom:2px solid #cccccc;
+}
+
+.answer{
+	border-top:2px solid #99B8C5;
+	border-bottom:2px solid #99B8C5;
+}
+
+.qNa-texture{
+	width:620px;
+	padding:10px;
+	margin:0px 0px 20px 10px;
+}
+
+#consult-m{
+	width:650px;
+	margin:15px 0px 20px 5px;
+	background:url(/images/common/klcomm_bgConsult_mid.jpg) repeat-y left top;
+}
+
+.consult-t{
+	width:650px;
+	background:url(/images/common/klcomm_bgConsult_top.jpg) no-repeat left top;
+}
+
+.consult-b{
+	background:url(/images/common/klcomm_bgConsult_btm.jpg) no-repeat left bottom;
+}
+
+.consult-icon1{
+	background:url(/images/cyber/klcyb_bgConsult_icon1.gif) no-repeat 4px 8px;
+	padding:35px 0 35px 164px;
+}
+
+.consult-icon1 h2{
+	margin: 0 0 8px;
+}
+
+h3.descTitle{
+	font-weight:normal;
+}
+
+.consult-icon2{
+	background:url(/images/cyber/klcyb_bgConsult_icon2.gif) no-repeat 4px 8px;
+	padding:25px 40px 20px 164px;
+}
+
+.consult-icon2 p{
+	margin:0 0 14px;
+}
+
+.consult-icon2 p.noMg a{
+	margin-right:10px;
+}
+
+.consult-icon2 p.noMg img{
+	vertical-align:text-bottom;	
+}
+
+.consult-icon3{
+	background:url(/images/cyber/klcyb_bgConsult_icon3.gif) no-repeat 4px 6px;
+	padding:30px 40px 0px 164px;
+	min-height:78px;
+	_height:78px;
+}
+
+.juminNum-search{
+	color:#499EC6;
+	padding-left:14px;
+	margin:0px 0px 10px 5px;
+	background:url(/images/common/klcomm_bgBulletCircle003.gif) no-repeat left 2px;
+}
+
+.search-jumin{
+	padding:7px 0px 0px;
+	text-align:center;
+	height:28px;
+	margin:0 0 17px 5px;
+	background:url(/images/common/klcomm_bgBbsSearch.gif) no-repeat left top;
+}
+
+.search-jumin input{
+	border:1px solid #6699CC;
+}
+
+.consult-icon4{
+	padding:22px 22px 0 164px;
+	min-height:88px;
+	_height:88px;
+	background:url(/images/cyber/klcyb_bgConsult_icon4.gif) no-repeat 10px 3px;
+}
+
+.tab-layout{
+	margin:0 0 0 20px;	
+}
+
+.cyberTabtype1{
+	border-top:2px solid #B8D4E1;
+	border-bottom:2px solid #B8D4E1;
+}
+
+.cyberTabtype1 th{
+	background-color:#F1F1F1;
+	padding:5px 0px 3px;
+	border-bottom:1px solid #B8D4E1;
+}
+
+.cyberTabtype1 td{
+	padding:5px 8px 3px;
+	border-bottom:1px solid #B8D4E1;
+}
+
+.cyberTabtype1 td li{
+	float:left;
+	display:inline;
+	padding:3px 0px 3px 8px;
+	white-space:nowrap;
+	margin-right:12px;
+	background:url(/images/common/klcomm_bgBulletList2001.gif) no-repeat left 8px;
+}

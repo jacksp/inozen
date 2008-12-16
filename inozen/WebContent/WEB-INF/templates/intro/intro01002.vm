@@ -1,0 +1,78 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="ko" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=euc-kr"/>
+	<meta name="description" content="KOREA LEGAL AID CORPORATION" />
+	<meta name="keyword" content="법률구조공단" />
+	<title>법률구조공단 &gt; </title>
+	<link rel="stylesheet" type="text/css" href="/klac/css/kl_xxx.css" />
+
+	<script type="text/javascript" language="javascript" src="/klac/jscript/common.js"></script>
+	
+</head>
+
+<body>
+	<div id="skipMenu">
+		<!-- #include virtual = /klac/common/comm/skip.vm-->
+	</div>
+
+	<div id="wrapper">
+		<div id="header">
+		<!-- header	   -->
+			<!-- #include virtual = /klac/common/include/header.vm -->			
+		</div>
+
+		<div id="contentWrapper">
+		<!-- contentWrapper -->
+			<!-- subvisual -->
+			<p class="subVisual"></p>
+		
+			<div id="leftMenu">
+			<!-- leftmenu -->
+				<!-- #include virtual = /klac/common/include/leftMenu_xxx.vm -->				
+			</div>
+
+			<div id="content" class="content-type2">
+			<!-- content -->
+				<div id="pageLocation">
+					<!-- include -->
+				</div>
+				<h1>page title</h1>
+
+<h1>프로필</h1>
+
+<h2>주요경력</h2>
+
+<ul>
+	<li>1972 제14회 사법시험 합격</li>
+	<li>1974 서울지방검찰청 남부지청 검사</li>
+	<li>1986 마산지방검찰청 거창지청장</li>
+	<li>1990 대검찰청 중앙수사부 과장</li>
+	<li>1995.09 부산지방검찰청 울산지청장</li>
+	<li>1997.09 서울지방검찰청 제3차장 검사</li>
+	<li>1998.03 서울지방검찰청 남부지청장</li>
+	<li>1999.06 대검찰청 감찰부장</li>
+	<li>2000.07 광주지방검찰청 검사장</li>
+	<li>2002.02 부산지방검찰청 검사장</li>
+	<li>2003.03 법무연수원장(고등검사장)</li>
+	<li>2004.07 법무법인 로고스 대표 변호사</li>
+	<li>2004.09 중앙선거관리위원회 상임위원(장관급)</li>
+	<li>2006.10 법무법인 로고스 상임고문변호사</li>
+	<li>2008.06 대한법률구조공단 제9대 이사장 취임</li>
+</ul>
+
+
+			</div>
+		</div>
+
+		<div id="footer">
+		<!-- footer -->		
+		</div>
+
+		<div id="quickMenu">
+		<!-- quick menu -->
+			<!-- #include virtual = /klac/common/comm/quickMenu.vm -->			
+		</div>		
+	</div>
+</body>
+</html>

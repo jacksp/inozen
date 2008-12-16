@@ -1,0 +1,256 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="ko" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=euc-kr"/>
+	<meta name="description" content="KOREA LEGAL AID CORPORATION" />
+	<meta name="keyword" content="법률구조공단" />
+	<title>대상자별 도움정보 &gt; 한부모가족</title>
+	<link rel="stylesheet" type="text/css" href="/klac/css/kl_law.css" />
+
+	<script type="text/javascript" language="javascript" src="/klac/jscript/common.js"></script>
+	
+</head>
+
+<body>
+	<div id="skipMenu">
+		<!-- #include virtual = /klac/common/comm/skip.vm-->
+	</div>
+
+	<div id="wrapper">
+		<div id="header">
+		<!-- header	    -->
+			<!-- #include virtual = /klac/common/include/header.vm -->			
+		</div>
+
+		<div id="contentWrapper">
+		<!-- contentWrapper -->
+			<!-- subvisual -->
+			<p class="subVisual"><img src="/Images/common/klcomm_imgSubVisual03.jpg" width="865" height="128" alt="가족처럼 따뜻하게 친구처럼 편안하게 대한법률구조공단의 약속입니다," /></p>
+		
+			<div id="leftMenu">
+			<!-- leftmenu -->
+				<!-- #include virtual = /klac/common/include/leftMenu_xxx.vm -->				
+			</div>
+
+			<div id="content" class="content-type2">
+			<!-- content -->
+				<div id="pageLocation">
+					<!-- include -->
+				</div>
+				<h1><img src="/Images/common/contitle/conTit030402.gif" width="150" height="25" alt="대상자별 도움정보" /></h1>
+
+				<div id="freelawAidInfor">
+					<div class="freelawAidInfor-t">
+						<ul class="freelawAidInfor-b">
+							<li>
+								<ul>
+									<li><a href="/klac/law/lawAid04002.html">소년/소녀가장</a></li>
+									<li><a href="/klac/law/lawAid04002002.html">생활보장수급자</a></li>
+									<li><a href="/klac/law/lawAid04002003.html">장애인</a></li>
+									<li><a href="/klac/law/lawAid04002004.html">국가보훈대상자</a></li>
+									<li><a href="/klac/law/lawAid04002005.html">농어민</a></li>
+									<li><a href="/klac/law/lawAid04002006.html">임금체불근로자</a></li>
+								</ul>
+							</li>
+							<li>
+								<ul>
+									<li><a href="/klac/law/lawAid04002010.html">소상공자영업자</a></li>
+									<li><a href="/klac/law/lawAid04002007.html">가정폭력 성폭력 피해여성</a></li>
+									<li class="currP">한부모가족</li>
+									<li><a href="/klac/law/lawAid04002009.html">범죄피해자</a></li>							
+									<li><a href="/klac/law/lawAid04002011.html">담배소매인</a></li>
+									<li><a href="/klac/law/lawAid04002012.html">선원</a></li>
+								</ul>
+							</li>
+							<li>
+								<ul class="noBd">
+									<li><a href="/klac/law/lawAid04002013.html">기타영세민</a></li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+				</div>
+
+				<h2 class="styleH2-type2">한부모가족</h2>
+				<div id="descFreeAid" class="iconFreeAid8">
+					<p>한부모가족 무료법률구조란 한부모가족 즉 모·부자가정, 미혼모· 미혼부가족 기타 한부모가족 또는 조손가족이 자녀 양육비 청구나 인지 등의 청구를 할 경우 공단이 무료로 법률구조를 해드리는 사업입니다.<br />점차 증가하고 있는 한부모가족은 경제적 빈곤, 자녀양육 문제로 어려움을 겪고 있으나 자녀 양육에 관한 권리 분쟁을 스스로 처리할 경제적 능력이 없거나 타인으로부터 적극적으로 도움을 받기 어려워 자녀양육·보호를 위한 제도 마련이 필요합니다.</p>
+
+					<ul class="list2-btype02">
+						<li>한부모가구수 : 889천 가구('90) → 1,370천 가구('05)</li>
+						<li>한부모가족 중 이혼에 의한 가구 비율 : 9.6%('90) → 29.1%('05) (통계청, 2005)</li>
+					</ul>
+
+					<p>이에 공단은 여성가족부와 2007. 1. 29. 협약을 맺고 여성가족부가 공단에 출연한 적립금을 재원으로 하여 2007. 2. 1.부터 한부모가족 무료법률구조사업을 실시함으로써 아동의 양육받을 권리 보장, 한부모가족 등의 생활안정 등 기본적 인권옹호와 법률복지 증진을 도모하고 있습니다.</p>
+				</div>
+
+				<h3 class="styleH3-type2">지원대상</h3>
+				<ul class="list-btype02">
+					<li>
+						<dl>
+							<dt>한부모가족(Single-Parent Families)</dt>
+							<dd>모자(母子)가정</dd>
+							<dd>부자(父子)가정</dd>
+							<dd>미혼모(未婚母)가족</dd>
+							<dd>미혼부(未婚父)가족</dd>
+							<dd>기타 한부모가족</dd>
+							<dd>조손(祖孫)가족</dd>
+						</dl>
+					</li>
+				</ul>
+
+				<h3 class="styleH3-type2">대상자 증빙서류</h3>
+				<ul class="list-btype02">
+					<li>
+						<dl>
+							<dt>모·부자가정</dt>
+							<dd>모·부자가정증명서(모·부자복지법시행규칙 제9조의 2) </dd>
+						</dl>
+					</li>
+					<li>
+						<dl>
+							<dt>미혼모·부가족, 기타 한부모가족</dt>
+							<dd>가족관계등록부, 주민등록등본, 한부모가족임을 증명하는 증인진술서 등 </dd>
+						</dl>
+					</li>
+					<li>
+						<dl>
+							<dt>조부모가족</dt>
+							<dd>(외)조부모 및 손자녀 가족관계등록부, 주민등록등본, 조손가족임을 증명하는 증인진술서 등</dd>
+						</dl>
+					</li>
+				</ul>
+
+
+				<h3 class="styleH3-type2">무료법률구조 범위</h3>
+
+				<h4 class="styleH4-type2">자녀양육비 청구</h4>
+				<p class="descTitle3">이혼가족 등 한부모가족의 자녀양육비 확보가 가능하도록 법률상담, 사건조사, 화해권유 및 소송대리 등 법률적 지원</p>
+
+				<div class="exam">
+					<p>&lt;예&gt;</p>
+					<ul>
+						<li>1. 이혼 후 자녀를 양육한 모의 과거 양육비 청구 - 양육에 소요된 과거 및 장래의 양육비 청구 가능</li>
+						<li class="noMg">2. 어머니가 포기한 양육비를 자녀가 청구 - 미성년 자녀의 생부에 대한 양육비 청구는 어머니의 동의없이 직접청구 가능</li>
+					</ul>
+				</div>
+
+				<h4 class="styleH4-type2">자녀양육비 이행 확보 지원(이행명령, 감치처분 등)</h4>
+				<div class="exam">
+					<p>&lt;예&gt;</p>
+					<p class="noMg">승소 후 또는 이혼시 합의한 자녀양육비 지급의무를 불이행한 경우 - 강제집행, 이행명령, 감치처분 신청 등으로 자녀양육비 이행확보 가능</p>
+				</div>
+
+				<h4 class="styleH4-type2">인지(친자확인) 청구</h4>
+				<ul class="list2-btype02">
+					<li>친자관계입증을 위한 법률상담, 유전자 검사 및 소송지원</li>
+					<li>친생자관계 부존재 확인 소송지원</li>
+				</ul>
+				<div class="exam">
+					<p>&lt;예&gt;</p>
+					<ul>
+						<li>1. 호적등본에 아버지 란이 공란이나 아버지가 따로 있는 경우- 생모가 아이의 법정대리인으로서 생부를 상대로 인지청구 가능</li>
+						<li class="noMg">2. 생부가 사망하고 외삼촌 호적에 그의 딸로 출생신고 되어 있는 경우- 호적상 부모를 상대로 친생자관계부존재 확인판결을 받고 어머니의 호적에 입적 등을 한 다음 검사 상대 인지청구의 소 제기(생부의 家에 입적 가능)</li>
+					</ul>
+				</div>
+
+				<h3 class="styleH3-type2">법률구조 신청서류</h3>
+				<ul class="list-btype02">
+					<li>주민등록등본</li>
+					<li>호적등본</li>
+					<li>주장사실 입증자료</li>
+				</ul>
+
+				<h3 class="styleH3-type2">법률구조실적</h3>
+				<p class="alignR">(단위: 건, 억원)</p>
+				<table summary="법률구조실적 년도별 실적" width="630" class="tab-layout2 lawtype2">
+					<colgroup span="5">
+						<col width="20%" />
+						<col width="15%" />
+						<col width="15%" />
+						<col width="25%" />
+						<col width="25%" />
+					</colgroup>
+					<thead>
+						<tr>
+							<th scope="col" colspan="3" class="noBd-left">구분</th>
+							<th scope="col">2007</th>
+							<th scope="col" class="noBd-right">계</th>
+						</tr>
+					</thead>
+					<tbody class="alignC">
+						<tr>
+							<td rowspan="3" class="noBd-left">한부모가족</td>
+							<td rowspan="2">민사 등 </td>
+							<td>건</td>
+							<td>325</td>
+							<td class="noBd-right strong">325</td>
+						</tr>
+						<tr>
+							<td class="noBd-left">금액</td>
+							<td>178</td>
+							<td class="noBd-right strong">178</td>
+						</tr>
+						<tr>
+							<td class="noBd-left">형사등</td>
+							<td>건</td>
+							<td>31</td>
+							<td class="noBd-right strong">31</td>
+						</tr>
+					</tbody>
+				</table>
+
+				<h3 class="styleH3-type2">지원기관</h3>
+				<ul class="list2-btype02">
+					<li>보건복지가족부(<a href="www.mw.go.kr" target="_blank" title="새창으로 열립니다.">www.mw.go.kr</a>)</li>
+					<li>담당부서 : 가족정책관 가족지원과 ☎ 02)2023-8608</li>
+				</ul>
+
+				<h3 class="styleH3-type2">사건처리절차</h3>
+				<p class="descTitle2">법률구조를 받고자 하는 분은 공단 소정양식의 법률구조신청서와 함께 본인의 주민등록등본과 법률구조대상자임을 소명할 자료, 그리고 주장사실을 입증할 자료를 해당지역의 공단사무실에 제출하면 됩니다.<br />법률구조신청서가 접수되면 공단에서는 즉시 사실조사에 착수하며 사실조사 과정에서 미비된 서류를 보완하도록 하기도 합니다.</p>
+
+				<p class="descTitle2">공단은 사실조사가 일정단계에 이르면 당사자에게 분쟁에 대한 법률적인 문제점과 그 해결방법을 제시하여 당사자간에 원만히 화해를 이룰 수 있도록 권유하고, 이러한 노력에도 불구하고 화해가 성립하지 않을 경우에는 구조의 타당성, 승소가능성, 집행가능성을 심사하여 '소송'을 할 것인지 여부를 결정합니다. 그리고 소송을 하기로 결정된 사건은 공단 소속변호사나 공익법무관이 소송을 수행하게 됩니다.</p>
+
+				<h3 class="styleH3-type2">기타</h3>
+				<p class="descTitle2">무료법률구조사업이란 농협, 수협, 신한은행, KT&amp;G, 여성가족부, 노동부, 중소기업청, 국무총리 복권위원회와 각각 협약을 맺고 동 협약에 따라 이들 기관이 공단에 출연한 적립금을 재원으로 하여 각각 농업인, 어업인, 축산인, 도시영세민, 담배소매인, 가정폭력으로 인한 피해여성, 범죄피해자, 체불근로자, 소상공자영업자 등에게 무료로 법률구조를 해주는 사업입니다.</p>
+				<p class="alignR">(2008. 3. 1.기준)</p>
+				<table summary="출연기관, 대상자, 누적출연금, 사업개시일" width="630" class="tab-layout2 lawtype2">
+					<caption>무료법률구조사업 출연상황</caption>
+					<colgroup span="4">
+						<col width="20%" />
+						<col width="40%" />
+						<col width="20%" />
+						<col width="20%" />
+					</colgroup>
+					<thead>
+						<tr>
+							<th scope="col" class="noBd-left">출연기관</th>
+							<th scope="col">대상자</th>
+							<th scope="col">누적출연금</th>
+							<th scope="col" class="noBd-right">사업개시일</th>
+						</tr>
+					</thead>
+					<tbody class="alignC">
+						<tr>
+							<td class="noBd-left">보건복지가족부</td>
+							<td>한부모가족</td>
+							<td>4억 3천 육백만</td>
+							<td class="noBd-right">2007.2.1</td>
+						</tr>
+					</tbody>
+				</table>
+
+
+			</div>
+		</div>
+
+		<div id="footer">
+		<!-- footer -->		
+		</div>
+
+		<div id="quickMenu">
+		<!-- quick menu -->
+			<!-- #include virtual = /klac/common/comm/quickMenu.vm -->			
+		</div>		
+	</div>
+</body>
+</html>

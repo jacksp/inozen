@@ -1,0 +1,359 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="ko" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=euc-kr"/>
+	<meta name="description" content="KOREA LEGAL AID CORPORATION" />
+	<meta name="keyword" content="법률구조공단" />
+
+	<title>법률구조공단</title>
+
+	<link rel="stylesheet" type="text/css" href="/css/kl_index.css" />
+	<script type="text/javascript" language="javascript" src="/jscript/common.js"></script>
+	<script type="text/javascript" language="javascript">
+	//<![CDATA[
+		function jsCheckValue(){
+			var sForm = document.getElementById("uniSearchForm");
+
+			if(sForm.query.value==""){
+				alert("검색어를 입력해주세요.");
+				sForm.query.focus();
+				return false;
+			}
+		}
+
+		function jsCheckType(type,ev){
+			if(validateKey(ev)){
+				var sForm = document.getElementById("uniSearchForm");
+				var objList = sForm.getElementsByTagName("ul")[0].getElementsByTagName("img");
+				var swapImg = document.getElementById(type);
+
+				for(var i=0;i<objList.length;i++){
+					objList[i].src = objList[i].src.replace("on.gif","off.gif");
+				}
+
+				swapImg.src = swapImg.src.replace("off.gif","on.gif");	
+				sForm.search_type.value = type;
+			
+				return false;
+			}
+		}
+
+		function jsSwapNavi(stats,ev){
+			if(validateKey(ev)){
+				var changeImg = document.getElementById("swapILink");			
+				if(stats=="hide"){
+					document.getElementById("navigator-b").style.paddingBottom = 12+"px";
+					changeImg.getElementsByTagName("a")[0].style.display="none";
+					changeImg.getElementsByTagName("a")[1].style.display="inline";
+					changeImg.getElementsByTagName("a")[1].focus();
+				}else if(stats=="display"){
+					changeImg.getElementsByTagName("a")[0].style.display="inline";
+					changeImg.getElementsByTagName("a")[1].style.display="none";
+					changeImg.getElementsByTagName("a")[0].focus();
+				}
+
+				var objHide = document.getElementById("menuList");
+				
+				hideUL = objHide.getElementsByTagName("ul");
+				hideLi = objHide.getElementsByTagName("li")
+
+				if(stats=="hide"){
+					for(var i=0; i<hideUL.length; i++){
+						hideUL[i].style.display = "none";					
+					}
+				}else if(stats=="display"){
+					for(var i=0; i<hideUL.length; i++){
+						hideUL[i].style.display = "";					
+					}
+				}
+
+				if(stats=="hide"){
+					for(var k=0; k<hideLi.length;k++){
+						if(hideLi[k].className=="subNavi" || hideLi[k].className=="subNavi noBg"){						
+							hideLi[k].style.height = 22+"px";
+						}
+					}
+				}else if(stats=="display"){
+					for(var k=0; k<hideLi.length;k++){
+						if(hideLi[k].className=="subNavi" || hideLi[k].className=="subNavi noBg"){						
+							hideLi[k].style.height = 168+"px";
+						}
+					}
+				}
+				return false;
+			}
+		}
+
+		function jsnewsSwap(idx,ev){
+			if(validateKey(ev)){				
+				for(var i=1;i<=3;i++){
+					if(i!=idx){
+						document.getElementById("newsList"+i).style.display = "none";
+						changImg = document.getElementById("newsTabimg"+i);
+						changImg.src = changImg.src.replace("on.gif","off.gif");
+					}
+					else if(i==idx){
+						document.getElementById("newsList"+i).style.display = "block";
+						changImg = document.getElementById("newsTabimg"+i);
+						changImg.src = changImg.src.replace("off.gif","on.gif");
+					}					
+				}
+				return false;
+			}
+		}
+	//]]>
+	</script>
+</head>
+
+<body>		
+	<div id="wrapper">
+		<div id="header">
+			#include("/common/include/header.vm")
+		</div>
+
+		<hr class="hidden" />
+
+		<div id="mContent">
+			<div id="mContent-top">
+				<div id="notice-search">
+					<div class="noticeBoard">
+						<div>
+							<h1><img src="/images/index/klmain_titNoticeboard.gif" width="42" height="19" alt="알림판" /></h1>
+							<ul class="eventPage">
+								<li><a href=""><img src="/images/index/klmain_btnNoticeNum1_off.gif" width="15" height="13" alt="1" /></a></li>
+								<li><a href=""><img src="/images/index/klmain_btnNoticeNum2_off.gif" width="15" height="13" alt="2" /></a></li>
+								<li><a href=""><img src="/images/index/klmain_btnNoticeNum3_off.gif" width="15" height="13" alt="3" /></a></li>
+								<li><a href=""><img src="/images/index/klmain_btnNoticeNum4_off.gif" width="15" height="13" alt="4" /></a></li>
+								<li><a href=""><img src="/images/index/klmain_btnNoticeNum5_off.gif" width="15" height="13" alt="5" /></a></li>
+								<li class="viewAll"><a href=""><img src="/images/index/klmain_btnNoticeAllview.gif" width="44" height="13" alt="전체보기" /></a></li>
+							</ul>
+						</div>
+						<ul class="eventTexture">
+							<li><img src="/images/index/klmain_imgEventEXM.gif" width="231" height="106" alt="알림내용 1" /></li>
+							<li><img src="/images/index/klmain_imgEventEXM.gif" width="231" height="106" alt="알림내용 2" /></li>
+							<li><img src="/images/index/klmain_imgEventEXM.gif" width="231" height="106" alt="알림내용 3" /></li>
+							<li><img src="/images/index/klmain_imgEventEXM.gif" width="231" height="106" alt="알림내용 4" /></li>
+							<li><img src="/images/index/klmain_imgEventEXM.gif" width="231" height="106" alt="알림내용 5" /></li>
+						</ul>
+					</div>
+					<ul class="query">
+						<li><a href=""><img src="/images/index/klmain_imgQuiryMyCase.gif" width="136" height="64" alt="사건조회시스템 - 나의 사건검색" /></a></li>
+						<li><a href=""><img src="/images/index/klmain_imgAutoCalc.gif" width="131" height="64" alt="생활법률자동계산" /></a></li>
+					</ul>
+				</div>
+
+				<div id="visual">
+					<p><img src="/images/index/klmain_imgVisual.gif" width="590" height="265" alt="가족처럼 따뜻하게 친구처럼 편안한게 - 대한법률구조공단의 약속입니다." /></p>
+				</div>
+			</div>
+
+			<div id="mContent-mid">
+				<div id="notice-news">
+					<!-- 뉴스그룹 -->
+					<ul class="news">
+						<li class="newsTitle"><a href="" onclick="return jsnewsSwap('1',event);" onkeypress="return jsnewsSwap('1',event);"><img src="/images/index/klmain_btnNewsGroup1_on.gif" width="60" height="22" alt="공단소식" id="newsTabimg1" /></a>
+							<ul id="newsList1">
+								<li><a href="">뉴스 그룹 (공단소식)</a></li>
+								<li><a href="">뉴스 그룹 (공단소식)</a></li>
+								<li><a href="">뉴스 그룹 (공단소식)</a></li>
+								<li><a href="">뉴스 그룹 (공단소식)</a></li>
+								<li><a href="">뉴스 그룹 (공단소식)</a></li>
+								<li class="moreView"><a href="" title="공단소식 더보기"><img src="/images/index/klmain_btnMoreView.gif" width="40" height="11" alt="더보기" /></a></li>
+							</ul>
+						</li>
+						<li class="newsTitle"><a href="" onclick="return jsnewsSwap('2',event);" onkeypress="return jsnewsSwap('2',event);"><img src="/images/index/klmain_btnNewsGroup2_off.gif" width="71" height="22" alt="뉴스브리핑" id="newsTabimg2"/></a>
+							<ul  id="newsList2">
+								<li><a href="">뉴스 그룹 (뉴스브리핑)</a></li>
+								<li><a href="">뉴스 그룹 (뉴스브리핑)</a></li>
+								<li><a href="">뉴스 그룹 (뉴스브리핑)</a></li>
+								<li><a href="">뉴스 그룹 (뉴스브리핑)</a></li>
+								<li><a href="">뉴스 그룹 (뉴스브리핑)</a></li>
+								<li class="moreView"><a href="" title="공단소식 더보기"><img src="/images/index/klmain_btnMoreView.gif" width="40" height="11" alt="더보기" id="newsImg3"/></a></li>
+							</ul>
+						</li>
+						<li class="newsTitle"><a href="" onclick="return jsnewsSwap('3',event);" onkeypress="return jsnewsSwap('3',event);"><img src="/images/index/klmain_btnNewsGroup3_off.gif" width="60" height="22" alt="보도자료" id="newsTabimg3"/></a>
+							<ul  id="newsList3">
+								<li><a href="">뉴스 그룹 (보도자료)</a></li>
+								<li><a href="">뉴스 그룹 (보도자료)</a></li>
+								<li><a href="">뉴스 그룹 (보도자료)</a></li>
+								<li><a href="">뉴스 그룹 (보도자료)</a></li>
+								<li><a href="">뉴스 그룹 (보도자료)</a></li>
+								<li class="moreView"><a href="" title="공단소식 더보기"><img src="/images/index/klmain_btnMoreView.gif" width="40" height="11" alt="더보기" /></a></li>
+							</ul>
+						</li>
+					</ul>
+					<!-- 뉴스그룹 // -->
+
+					<div id="prMovie">
+						<h2><span><img src="/images/index/klmain_titPRmovie.gif" width="64" height="18" alt="홍보동영상" /></span><a href="" title="홍보동영상 보기"><img src="/images/index/klmain_btnPlayMovie.gif" width="44" height="13" alt="play" /></a></h2>
+						<dl>
+							<dt><a href="">제9대 정홍원 이사장 취임</a></dt>
+							<dd>2008년 6월 20일</dd>
+							<dd>재생시간 : 51초</dd>
+							<dd class="prImg"><img src="/images/index/klmain_imgPRexample.gif" width="75" height="49" alt="홍보영상 이미지" /></dd>
+						</dl>
+					</div>
+					
+					<p><a href=""><img src="/images/index/klmain_btnWorkPlan.gif" width="265" height="63" alt="국민과 함께하는 법률구조사업 추진 - 2008년 이렇게 일하겠습니다." /></a></p>
+				</div>
+
+				<div id="mContent-mid-R">
+					<div id="uni-search">
+						<form id="uniSearchForm" method="post" action="" onsubmit="return jsCheckValue();">
+							<input type="hidden" name="search_type" value="total" />
+							
+							<ul class="searchTab">					
+								<li><a href="" onclick="return jsCheckType('total',event);" onkeypress="return jsCheckType('total',event);"><img src="/images/index/klmain_btnSearchTab1_on.gif" width="59" height="24" alt="통합검색" id="total"/></a></li>
+								<li><a href="" onclick="return jsCheckType('form',event);" onkeypress="return jsCheckType('form',event);"><img src="/images/index/klmain_btnSearchTab2_off.gif" width="58" height="24" alt="법률서식" id="form"/></a></li>
+								<li><a href="" onclick="return jsCheckType('consult',event);" onkeypress="return jsCheckType('consult',event);"><img src="/images/index/klmain_btnSearchTab3_off.gif" width="76" height="24" alt="법률상담사례" id="consult"/></a></li>
+								<li><a href="" onclick="return jsCheckType('aid',event);" onkeypress="return jsCheckType('aid',event);"><img src="/images/index/klmain_btnSearchTab4_off.gif" width="76" height="24" alt="법률구조사례" id="aid"/></a></li>
+								<li><a href="" onclick="return jsCheckType('sense',event);" onkeypress="return jsCheckType('sense',event);"><img src="/images/index/klmain_btnSearchTab5_off.gif" width="58" height="24" alt="법률상식" id="sense"/></a></li>
+								<li><a href="" onclick="return jsCheckType('cyber',event);" onkeypress="return jsCheckType('cyber',event);"><img src="/images/index/klmain_btnSearchTab6_off.gif" width="86" height="24" alt="사이버상담사례" id="cyber"/></a></li>
+							</ul>	
+							<fieldset>
+								<legend>통합검색</legend>								
+								<input type="text" name="query" id="keyword" value="" title="검색어를 입력해주세요." />
+								<input type="image" id="btnSubmit" src="/images/index/klmain_btnSearchKeyword.gif" alt="검색하기" />
+								<dl>
+									<dt><img src="/images/index/klmain_txtRecommendKeyword.gif" width="64" height="22" alt="추춴키워드" /></dt>
+									<dd><a href="">개인회생</a>, <a href="">파산지원</a>, <a href="">법률상담</a></dd>
+								</dl>								
+							</fieldset>
+						</form>
+					</div>
+
+					<div id="easylawAid">
+						<div>
+							<h2><img src="/images/index/klmain_titEasylawAid.gif" width="120" height="33" alt="알기쉬운 법률구조" /></h2>
+							<ul class="inforList1">
+								<li><a href=""><img src="/images/index/klmain_btnInforList101.gif" width="79" height="20" alt="법률구조제도란" /></a></li>
+								<li><a href=""><img src="/images/index/klmain_btnInforList102.gif" width="79" height="20" alt="법률구조대상" /></a></li>
+								<li><a href=""><img src="/images/index/klmain_btnInforList103.gif" width="79" height="20" alt="법률구조절차" /></a></li>
+								<li><a href=""><img src="/images/index/klmain_btnInforList104.gif" width="79" height="20" alt="소송비용안내" /></a></li>
+							</ul>
+							<ul class="inforList2">
+								<li><a href=""><img src="/images/index/klmain_btnInforList201.gif" width="87" height="60" alt="공단이용안내" /></a></li>
+								<li><a href=""><img src="/images/index/klmain_btnInforList202.gif" width="87" height="60" alt="무료상담안내" /></a></li>
+								<li><a href=""><img src="/images/index/klmain_btnInforList203.gif" width="87" height="60" alt="법률구조안내" /></a></li>
+								<li><a href=""><img src="/images/index/klmain_btnInforList204.gif" width="87" height="60" alt="무료구조대상" /></a></li>
+							</ul>
+						</div>
+						<ul class="lawSense">
+							<li><a href=""><img src="/images/index/klmain_imgCinemaLawsense.gif" width="191" height="63" alt="시네마 법률상식" /></a></li>
+							<li><a href=""><img src="/images/index/klmain_imgLifeLawsense.gif" width="189" height="63" alt="생활속 법률상식" /></a></li>
+						</ul>
+					</div>
+					<ul id="helpCustom">
+						<li><a href=""><img src="/images/index/klmain_imgAppCyberConsult.gif" width="209" height="92" alt="사이버 상담신청" /></a></li>
+						<li><a href=""><img src="/images/index/klmain_imgSupportCenter.gif" width="198" height="68" alt="개인회생/파산지원센터" /></a></li>
+						<li class="find-LawOffice"><img src="/images/index/klmain_imgFindOffice.gif" width="198" height="63" usemap="#findOffice" alt="전국사무소 찾기 - 지부/출장소 연락처안내" />
+							<map id="findOffice" name="findOffice">
+								<area shape="rect" href="" coords="46,3,158,20" alt="전국 법률공단 사무소 찾기" />
+								<area shape="rect" href="" coords="46,37,168,56" alt="법률공단 지부/출장소 연락처 안내" />
+							</map>
+						</li>
+					</ul>					
+				</div>
+			</div>
+
+			<div id="mContent-btm">
+				<div id="navigator-t">
+					<h3><img src="/images/index/klmain_titNavigator.gif" width="96" height="16" alt="전체메뉴보기" /></h3>
+					<p id="swapILink">
+						<a href="#menuList" onclick="return jsSwapNavi('hide',event);" onkeypress="return jsSwapNavi('hide',event);" title="메뉴 감추기"><img src="/images/index/klmain_imgNaviHide_off.gif" width="30" height="16" alt="메뉴 감추기" /></a>
+						<a href="#menuList" onclick="return jsSwapNavi('display',event);" onkeypress="return jsSwapNavi('display',event);" title="메뉴 펼치기" style="display:none;"><img src="/images/index/klmain_imgNaviHide_on.gif" width="30" height="16" alt="메뉴 펼치기" /></a>
+					</p>
+				</div>
+				<div id="navigator-m">
+					<div id="navigator-b">
+						<ul id="menuList">
+					<!-- loop -->
+							<li class="subNavi">
+								<h4><a href=""><img src="/images/index/klmain_titSub01.gif" width="122" height="22" alt="법룰정보" /></a></h4>
+								<ul>
+								<!-- loop -->
+									<li><a href="">법률서식</a></li>
+									<li><a href="">법률서식</a></li>
+									<li><a href="">법률서식</a></li>
+									<li><a href="">법률서식</a></li>
+								<!-- loop end -->
+								</ul>
+							</li>
+						<!-- loop end -->
+							<li class="subNavi">
+								<h4><a href=""><img src="/images/index/klmain_titSub02.gif" width="122" height="22" alt="사이버상담실" /></a></h4>
+								<ul>
+									<li><a href="">상담안내</a></li>
+									<li><a href="">상담안내</a></li>
+									<li><a href="">상담안내</a></li>
+									<li><a href="">상담안내</a></li>
+									<li><a href="">상담안내</a></li>
+								</ul>
+							</li>
+							<li class="subNavi">
+								<h4><a href=""><img src="/images/index/klmain_titSub03.gif" width="122" height="22" alt="법률구조안내" /></a></h4>
+								<ul>
+									<li><a href="">법률상담안내</a></li>
+									<li><a href="">법률상담안내</a></li>
+									<li><a href="">법률상담안내</a></li>
+								</ul>
+							</li>
+							<li class="subNavi">
+								<h4><a href=""><img src="/images/index/klmain_titSub04.gif" width="122" height="22" alt="고객광장" /></a></h4>
+								<ul>
+									<li><a href="">자유발언대</a></li>
+									<li><a href="">자유발언대</a></li>
+									<li><a href="">자유발언대</a></li>
+									<li><a href="">자유발언대</a></li>
+								</ul>
+							</li>
+							<li class="subNavi">
+								<h4><a href=""><img src="/images/index/klmain_titSub05.gif" width="122" height="22" alt="알림광장" /></a></h4>
+								<ul>
+									<li><a href="">News&amp;Notice</a></li>
+									<li><a href="">News&amp;Notice</a></li>
+									<li><a href="">News&amp;Notice</a></li>
+									<li><a href="">News&amp;Notice</a></li>
+									<li><a href="">News&amp;Notice</a></li>
+								</ul>
+							</li>
+							<li class="subNavi noBg">
+								<h4><a href="html.do?code="><img src="/images/index/klmain_titSub06.gif" width="122" height="22" alt="공단소개" /></a></h4>
+								<ul>
+									<li><a href="/html/view.do?code=2">인사말</a></li>
+									<li><a href="">인사말</a></li>
+									<li><a href="">인사말</a></li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+				</div>
+
+				<div id="banner">
+					<p class="prew"><a href=""><img src="/images/index/klmain_btnBannerPrev.gif" width="13" height="13" alt="이전 배너" /></a></p>
+					<ul>
+						<li><a href="">배너 1</a></li>
+						<li><a href="">배너 2</a></li>
+						<li><a href="">배너 3</a></li>
+						<li><a href="">배너 4</a></li>
+						<li><a href="">배너 5</a></li>
+					</ul>
+					<p class="next"><a href=""><img src="/images/index/klmain_btnBannerNext.gif" width="13" height="13" alt="다음 배너" /></a></p>
+				</div>
+			</div>
+		</div>
+
+		<hr class="hidden" />
+
+		<div id="footer">
+			#include("/common/include/footer.vm")
+		</div>
+
+		<div id="quickMenu">
+			#include("/common/include/quickMenu.vm")
+		</div>
+		
+	</div>
+	
+</body>
+</html>

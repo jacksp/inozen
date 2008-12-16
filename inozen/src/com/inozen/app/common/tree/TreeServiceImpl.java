@@ -12,6 +12,7 @@ import com.inozen.app.common.tree.dao.TreeDao;
 import com.inozen.app.common.tree.domain.Tree;
 import com.inozen.app.model.Board;
 import com.inozen.app.model.Category;
+import com.inozen.app.model.Menu;
 
 @Service
 @Transactional
@@ -81,13 +82,13 @@ public class TreeServiceImpl implements TreeService {
 		Tree tree = null;
 		int _count = dao.getChildCount(code);
 		long _code = -1;
-		List<Category> _list = null;
+		List<Menu> _list = null;
 		if(_count>0) {
 			_list = dao.getChildren(code);
 			for(int i=0; i<_list.size(); i++) {
-				_code = _list.get(i).getCateCode();
+				_code = _list.get(i).getMenuCode();
 				tree = new Tree();
-				tree.setName(_list.get(i).getCateName());
+				tree.setName(_list.get(i).getMenuName());
 				tree.setNodeId(Long.toString(_code));
 				tree.setParentId(Long.toString(code));
 				tree.setHasChild(false);

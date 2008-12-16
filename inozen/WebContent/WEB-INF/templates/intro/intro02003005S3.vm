@@ -1,0 +1,104 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="ko" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=euc-kr"/>
+	<meta name="description" content="KOREA LEGAL AID CORPORATION" />
+	<meta name="keyword" content="법률구조공단" />
+	<title>법률구조공단 &gt; </title>
+	<link rel="stylesheet" type="text/css" href="/klac/css/kl_xxx.css" />
+
+	<script type="text/javascript" language="javascript" src="/klac/jscript/common.js"></script>
+	
+</head>
+
+<body>
+	<div id="skipMenu">
+		<!-- #include virtual = /klac/common/comm/skip.vm-->
+	</div>
+
+	<div id="wrapper">
+		<div id="header">
+		<!-- header	   -->
+			<!-- #include virtual = /klac/common/include/header.vm -->			
+		</div>
+
+		<div id="contentWrapper">
+		<!-- contentWrapper -->
+			<!-- subvisual -->
+			<p class="subVisual"></p>
+		
+			<div id="leftMenu">
+			<!-- leftmenu -->
+				<!-- #include virtual = /klac/common/include/leftMenu_xxx.vm -->				
+			</div>
+
+			<div id="content" class="content-type2">
+			<!-- content -->
+				<div id="pageLocation">
+					<!-- include -->
+				</div>
+				<h1>page title</h1>
+
+<p>윤리경영 공공기관의 경영활동에 있어서 지켜야 할 '윤리'를 최우선의 가치로 법적&middot;경제적 책임은 물론 사회 통념상 기대되는 윤리적 책임을 다함으로써 고객에게 신뢰를 얻을 수 있도록 경영하는 것을 의미합니다. 대한법률구조공단은 윤리경영의 실천으로 깨끗하고 투명한 기관 만들기에 최신을 다하고 있습니다.</p>
+
+<h2>윤리경영</h2>
+
+<ul>
+	<li>윤리경영철학</li>
+	<li>윤리규범</li>
+	<li>윤리경영메뉴얼</li>
+	<li>윤리경영자료실</li>
+	<li>추진활동
+		<ul>
+			<li>클린신고</li>
+			<li>부조리신고</li>
+			<li>내부공익신고</li>
+			<li>청렴서약제</li>
+			<li>클린행정협조문</li>
+			<li>기타추진실적</li>
+		</ul>
+	</li>
+</ul>
+
+<h3>추진활동</h3>
+
+<h4>내부공익신고</h4>
+
+<p>내부공익신고자 보호&middot;보상에 관한 지침을 제정했습니다.</p>
+
+<h5>Ⅰ. 제정목적</h5>
+
+<p>내부사정을 잘 알고 있는 내부자에 의한 공익신고는 일반신고에 비하여 내용이 구체적이고 사실적이어서 부패예방과 처벌에 가장 효율적인 제도이므로 신고자가 안심하고 신고할 수 있도록 신고자에 대한 비밀보장·신분보장 등의 보호장치와 보상 등의 지침을 마련·운용함으로써 조직청렴도 및 투명성 제고를 통한 신뢰받는 공직사회 구축</p>
+
+<p>※ 2005. 6. 16.자 제정·시행</p>
+
+<h5>Ⅱ. 주요내용</h5>
+
+<ul>
+	<li>①신고대상 행위 규정(제2조)</li>
+	<li>②신고의 의무 및 방법 명시(제3조)</li>
+	<li>③신고자의 신분보장 명시(제5조)</li>
+	<li>④신고자의 신변보호 명시(제6조)</li>
+	<li>⑤신고자에 대한 보복행위 금지 규정(제7조)</li>
+	<li>⑥신고자에 대한 보상금 지급 규정(제10조)</li>
+	<li>⑦보상금 지금제외 규정 명시(제13조)</li>
+</ul>
+
+<h5>Ⅲ. 내부공익신고센터 설치·운영</h5>
+
+<p>비위행위를 목격 또는 인지한 임직원이 편리한 방법으로 신고할 수 있도록 동 지침 제3조에 의거 공단 그룹웨어 게시판에 내부공익신고센터를 2005. 5. 16.부터 설치·운영함</p>
+
+			</div>
+		</div>
+
+		<div id="footer">
+		<!-- footer -->		
+		</div>
+
+		<div id="quickMenu">
+		<!-- quick menu -->
+			<!-- #include virtual = /klac/common/comm/quickMenu.vm -->			
+		</div>		
+	</div>
+</body>
+</html>

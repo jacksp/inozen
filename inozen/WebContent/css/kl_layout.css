@@ -1,0 +1,393 @@
+/*
+Discription	:	레이아웃 스타일시트 정의
+
+Author		:	choi kyoung ho
+Date			:	2008.	11.14
+*/
+
+#skipMenu{
+	position:absolute;
+	left:-5000px;
+	top:-1000px;
+}
+
+#wrapper{
+	width:880px;
+	margin:0 auto;
+	position:relative;
+}
+
+/* contentwrapper */
+#contentWrapper{
+	width:865px;
+	overflow:hidden;
+	margin:0px 0px 40px;
+}
+
+#contentWrapper .subVisual{
+	font-size:0px;
+	line-height:0px;
+}
+
+#leftMenu{
+	width:185px;
+	float:left;
+}
+
+#mList{
+	width:175px;
+	margin:0px 0px 20px;
+}
+
+#mList li{
+	margin:0px 0px 5px;
+	line-height:100%;
+}
+
+#mList li img{
+	vertical-align:text-bottom;
+	position:relative;
+}
+
+#mList li li{
+	width:139px;
+	height:18px;
+	line-height:130%;
+	padding:4px 0px 0px 18px;
+	margin:0px;
+	background:url(/images/include/leftMenu/klleft_bgBulletRectOff.gif) no-repeat 9px 9px;
+}
+
+#mList li li a{
+	text-decoration:none;
+}
+
+#mList .depthTW-mid1 li.posCurOn a{
+	color:#628DAE;
+}
+
+#mList .depthTW-mid2 li.posCurOn a{	
+	color:#9176DC;
+}
+
+#mList .depthTW-mid1 li.posCurOn{	
+	font-weight:bold;	
+	letter-spacing:-1px;
+	background:#E4F0F8 url(/images/include/leftMenu/klleft_bgBulletRectOn1.gif) no-repeat 9px 9px;
+}
+
+#mList .depthTW-mid2 li.posCurOn{	
+	font-weight:bold;	
+	letter-spacing:-1px;
+	background:#E7E3F2 url(/images/include/leftMenu/klleft_bgBulletRectOn2.gif) no-repeat 9px 9px;
+}
+
+#mList .depth2On{
+	display:block;
+	margin:2px 0px 0px;	
+}
+
+#mList .depth2Off{
+	display:none;
+}
+
+#mList .depthTW-mid1{	
+	width:175px;
+	background:url(/images/include/leftMenu/klleft_bgDepth2_mid1.gif) repeat-y left top;
+}
+
+#mList .depthTW-top1{	
+	width:175px;
+	background:url(/images/include/leftMenu/klleft_bgDepth2_top1.gif) no-repeat left top;
+}
+
+#mList .depthTW-btm1{	
+	width:157px;
+	padding:8px 9px;
+	background:url(/images/include/leftMenu/klleft_bgDepth2_btm1.gif) no-repeat left bottom;
+}
+
+#mList .depthTW-mid2{	
+	width:175px;
+	background:url(/images/include/leftMenu/klleft_bgDepth2_mid2.gif) repeat-y left top;
+}
+
+#mList .depthTW-top2{
+	width:175px;
+	background:url(/images/include/leftMenu/klleft_bgDepth2_top2.gif) no-repeat left top;
+}
+
+#mList .depthTW-btm2{	
+	padding:8px 9px;
+	width:157px;
+	background:url(/images/include/leftMenu/klleft_bgDepth2_btm2.gif) no-repeat left bottom;
+}
+
+#content{
+	position:relative;
+	width:655px;
+	float:right;
+	min-height:470px;
+	_height:470px;
+	padding:20px 0px 0px 25px;
+}
+
+#content h1{
+	height:25px;
+	font-size:0px;
+	line-height:0px;
+	padding:0px 0px 2px;
+	margin:0px 0px 10px;
+	border-bottom:1px solid #CCCCCC;
+}
+
+div.content-type1{
+	background:url(/images/common/klcomm_bgContentType1.gif) no-repeat left top;
+}
+
+div.content-type2{
+	background:url(/images/common/klcomm_bgContentType2.gif) no-repeat left top;
+}
+
+#pageLocation{
+	text-align:right;
+	padding:0px 0px 0px 10px;
+	height:35px;
+}
+
+#pageLocation p{
+	float:left;
+}
+
+#commTabnavi{
+	width:650px;
+	font-size:0px;
+	line-height:0px;
+	overflow:hidden;
+	margin:0px 0px 22px 5px;
+	background:url(/images/common/klcomm_bgTabNaviLine.gif) repeat-x left bottom;
+}
+
+#commTabnavi li{
+	float:left;
+	margin-right:1px;
+}
+
+/* footer */
+#footer{
+	width:865px;
+	height:120px;
+}
+
+#footer .helpCustomer{
+	width:835px;
+	height:15px;
+	font-size:0px;
+	line-height:0px;
+	padding:8px 15px;
+	margin:0px 0px 16px;
+	background-color:#F2F2F1;
+}
+
+#footer .helpCustomer li{
+	float:left;
+}
+
+#footer .footerLogo {
+	float:left;	
+	font-size:0px;
+	line-height:0px;
+}
+
+#footer address{
+	font-size:0px;
+	line-height:0px;
+	float:left;
+	margin:0px 0px 0px 15px;
+	display:inline;
+}
+
+/* quick menu */
+#quickMenu{
+	position:absolute;
+	width:70px;
+	top:92px;
+	left:880px;
+	font-size:0px;
+	line-height:0px;
+}
+
+#quickMenu ul{
+	width:56px;
+	padding:21px 7px 4px;
+	overflow:hidden;
+	background:url(/images/include/quick/klquick_bgMenu.gif) no-repeat left top;
+}
+
+
+/* content 공통 class 정의 */
+.hidden{
+	position:absolute;
+	left:-5000px;
+}
+
+.floatR{
+	float:right;
+}
+
+.floatL{
+	float:left;
+}
+
+.alignR{
+	text-align:right;
+}
+
+.alignL{
+	text-align:left;
+}
+
+.alignC{
+	text-align:center;
+}
+
+.noBg{
+	background:none !important;
+}
+
+.noBd{
+	border:none !important;
+}
+
+.noMg{
+	margin:0px !important;
+}
+
+.styleH2-type1{
+	font-size:100%;
+	padding-left:14px;
+	color:#499EC6;
+	margin:8px 0px 12px 5px;
+	background:url(/images/common/klcomm_bgBulletCircle001.gif) no-repeat left 2px;
+}
+
+.styleH2-type2{
+	font-size:100%;
+	padding-left:14px;
+	color:#8969E2;
+	margin:8px 0px 12px 5px;
+	background:url(/images/common/klcomm_bgBulletCircle002.gif) no-repeat left 2px;
+}
+
+.styleH3-type1{
+	padding-left:12px;
+	margin:15px 0px 8px 15px;
+	color:#333333;
+	font-weight:bold;
+	background:url(/images/common/klcomm_bgBulletArrow003.gif) no-repeat 1px 4px;
+}
+
+.styleH3-type2{
+	padding-left:12px;
+	margin:15px 0px 8px 15px;
+	color:#333333;
+	font-weight:bold;
+	background:url(/images/common/klcomm_bgBulletArrow002.gif) no-repeat 1px 3px;
+}
+
+.styleH4-type1{
+	padding-left:12px;
+	margin:15px 0px 8px 25px;
+	font-weight:bold;
+	background:url(/images/common/klcomm_bgBulletList001.gif) no-repeat 1px 3px;
+}
+
+.styleH4-type2{
+	padding-left:12px;
+	margin:15px 0px 8px 25px;
+	font-weight:bold;
+	background:url(/images/common/klcomm_bgBulletList002.gif) no-repeat 1px 6px;
+}
+
+.list-btype01 li{
+	padding-left:10px;
+	background:url(/images/common/klcomm_bgBulletList001.gif) no-repeat left 6px;;
+}
+
+.list-btype02 li{
+	padding-left:10px;
+	background:url(/images/common/klcomm_bgBulletList002.gif) no-repeat left 6px;;
+}
+
+.list2-btype01 li{
+	padding-left:10px;
+	background:url(/images/common/klcomm_bgBulletList2001.gif) no-repeat left 5px;
+}
+
+.list2-btype02 li{
+	padding-left:10px;
+	background:url(/images/common/klcomm_bgBulletList2002.gif) no-repeat left 5px;
+}
+
+.list2-btype02 p{
+	padding-left:10px;
+	margin:0px 0px 8px;
+	background:url(/images/common/klcomm_bgBulletList2002.gif) no-repeat left 5px;
+}
+
+.list-btype01 dd{
+	padding-left:10px;
+	background:url(/images/common/klcomm_bgBulletList2001.gif) no-repeat left 6px;;
+}
+
+.list-btype02 dd{
+	padding-left:10px;
+	background:url(/images/common/klcomm_bgBulletList2002.gif) no-repeat left 6px;;
+}
+
+.descTitle{
+	margin:8px 0px 8px 15px;
+}
+
+.descTitle2{
+	margin:8px 5px 8px 25px;
+}
+
+.descTitle3{
+	margin:8px 5px 8px 30px;
+}
+
+.strong{
+	font-weight:bold;
+}
+
+.fcolorR{
+	color:#FF6600;
+}
+
+
+/* table 공통 속성*/
+table{
+	border-collapse:collapse;
+}
+
+/* 페이징 */
+#paging{
+	text-align:center;
+	padding:5px 0px 3px;
+}
+
+#paging li{
+	display:inline;
+	margin-right:3px;
+}
+
+#paging li.curPage span{
+	color:#FF3300;
+	font-weight:bold;
+	text-decoration:underline;
+}
+
+#paging li img{
+	vertical-align:text-top;
+}

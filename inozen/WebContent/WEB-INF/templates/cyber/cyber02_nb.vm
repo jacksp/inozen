@@ -1,0 +1,77 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="ko" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=euc-kr"/>
+	<meta name="description" content="KOREA LEGAL AID CORPORATION" />
+	<meta name="keyword" content="법률구조공단" />
+	<title>상담안내</title>
+	<link rel="stylesheet" type="text/css" href="/klac/css/kl_cyber.css" />
+
+	<script type="text/javascript" language="javascript" src="/klac/jscript/common.js"></script>
+	
+</head>
+
+<body>
+	<div id="skipMenu">
+		<!-- #include virtual = /klac/common/comm/skip.vm-->
+	</div>
+
+	<div id="wrapper">
+		<div id="header">
+		<!-- header	    -->
+			<!-- #include virtual = /klac/common/include/header.vm -->			
+		</div>
+
+		<div id="contentWrapper">
+		<!-- contentWrapper -->
+			<!-- subvisual -->
+			<p class="subVisual"><img src="/Images/common/klcomm_imgSubVisual02.jpg" width="865" height="128" alt="가족처럼 따뜻하게 친구처럼 편안하게 대한법률구조공단의 약속입니다," /></p>
+		
+			<div id="leftMenu">
+			<!-- leftmenu -->
+				<!-- #include virtual = /klac/common/include/leftMenu_xxx.vm -->				
+			</div>
+
+			<div id="content" class="content-type1">
+			<!-- content -->
+				<div id="pageLocation">
+					<!-- include -->
+				</div>
+				<h1><img src="/Images/common/contitle/conTit0201.gif" width="150" height="25" alt="상담안내" /></h1>
+				
+				<div id="consult-m">
+					<div class="consult-t">
+						<div class="consult-b">
+							<div class="consult-icon3">
+								<p>상담신청 후 <span class="fcolorR strong">답변완료전까지는 비공개</span>입니다.<br />질문내용의 수정/삭제를 원하시면, <span class="strong">신청인의 주민등록번호를 입력</span>하여 주시기 바랍니다.</p>
+							</div>
+						</div>
+					</div>
+				</div>	
+				
+				<h2 class="styleH2-type1">주민등록번호 검색</h2>
+
+				<form id="write_frm" method="post" action="" onsubmit="return">
+					<fieldset class="search-jumin">
+						<legend>주민등록번호 검색</legend>
+						<input type="text" name="ju1" size="10" maxlength="6" title="주민등록번호 앞자리" />
+						- <input type="text" name="ju2" size="10" maxlength="7" title="주민등록번호 뒷자리" />
+						<input type="image" src="/Images/common/klcomm_btnConfirm.gif" alt="확인" class="noBd" />
+					</fieldset>
+					<p class="alignC"><a href=""><img src="/Images/common/klcomm_btnViewList.gif" width="60" height="20" alt="목록보기" /></a></p>
+				</form>
+
+			</div>
+		</div>
+
+		<div id="footer">
+		<!-- footer -->		
+		</div>
+
+		<div id="quickMenu">
+		<!-- quick menu -->
+			<!-- #include virtual = /klac/common/comm/quickMenu.vm -->			
+		</div>		
+	</div>
+</body>
+</html>

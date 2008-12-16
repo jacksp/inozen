@@ -38,7 +38,20 @@ public class TreeController {
 	}
 
 	@RequestMapping
-	public ModelAndView tree(ModelMap model, @RequestParam("type") int type
+	public ModelAndView tree(HttpServletRequest req, HttpServletResponse res, ModelMap model, @RequestParam("type") int type
+			, @RequestParam(value="code", required=false) String code, SessionStatus status) throws Exception {
+		long _code = 0l;
+		model.addAttribute("type", type);
+		if(code!=null) _code=Long.parseLong(code);
+		List<Tree> tree = service.tree(type, _code);
+		model.addAttribute("list", tree);
+		model.addAttribute("req", req);
+		model.addAttribute("res", res);
+		return new ModelAndView("/common/tree/tree", model);
+	}
+	
+	@RequestMapping
+	public ModelAndView popTree(ModelMap model, @RequestParam("type") int type
 			, @RequestParam(value="code", required=false) String code, SessionStatus status) throws Exception {
 		long _code = 0l;
 		model.addAttribute("type", type);
@@ -46,9 +59,7 @@ public class TreeController {
 		List<Tree> tree = service.tree(type, _code);
 		model.addAttribute("list", tree);
 		
-		return new ModelAndView("/common/tree/tree", model);
+		return new ModelAndView("/common/tree/popTree", model);
 	}
-	
-	
 
 }

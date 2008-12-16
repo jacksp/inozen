@@ -1,0 +1,231 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="ko" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=euc-kr"/>
+	<meta name="description" content="KOREA LEGAL AID CORPORATION" />
+	<meta name="keyword" content="법률구조공단" />
+	<title>법률구조공단 &gt; </title>
+	<link rel="stylesheet" type="text/css" href="/klac/css/kl_xxx.css" />
+
+	<script type="text/javascript" language="javascript" src="/klac/jscript/common.js"></script>
+	
+</head>
+
+<body>
+	<div id="skipMenu">
+		<!-- #include virtual = /klac/common/comm/skip.vm-->
+	</div>
+
+	<div id="wrapper">
+		<div id="header">
+		<!-- header	   -->
+			<!-- #include virtual = /klac/common/include/header.vm -->			
+		</div>
+
+		<div id="contentWrapper">
+		<!-- contentWrapper -->
+			<!-- subvisual -->
+			<p class="subVisual"></p>
+		
+			<div id="leftMenu">
+			<!-- leftmenu -->
+				<!-- #include virtual = /klac/common/include/leftMenu_xxx.vm -->				
+			</div>
+
+			<div id="content" class="content-type2">
+			<!-- content -->
+				<div id="pageLocation">
+					<!-- include -->
+				</div>
+				<h1>page title</h1>
+
+<h2>서비스표준 이행실적</h2>
+
+<p>서비스 이행실적(2006. 12. 1 ~ 2007. 11. 30)</p>
+
+<table summary="서비스 이행실적 민원명, 종류, 서비스기준, 접수건수, 일정준수, 일정조과, 준수율">
+	<thead>
+		<tr>
+			<th>민원명</th>
+			<th>종류</th>
+			<th>서비스기준</th>
+			<th>접수건수</th>
+			<th>일정준수</th>
+			<th>일정조과</th>
+			<th>준수율</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td rowspan="4">법률상담</td>
+			<td>면 접</td>
+			<td>접수즉시</td>
+			<td>474,778건</td>
+			<td>474,778건</td>
+			<td>0건</td>
+			<td>100%</td>
+		</tr>
+		<tr>
+			<td>전 화</td>
+			<td>연결순서</td>
+			<td>549,476건</td>
+			<td>549,176건</td>
+			<td>0건</td>
+			<td>100%</td>
+		</tr>
+		<tr>
+			<td>서 신</td>
+			<td>15일</td>
+			<td>2,627건</td>
+			<td>2,580건</td>
+			<td>47건</td>
+			<td>98.2%</td>
+		</tr>
+		<tr>
+			<td>사이버 </td>
+			<td>5일</td>
+			<td>61,298건</td>
+			<td>52,660건</td>
+			<td>10,293건</td>
+			<td>85.9%</td>
+		</tr>
+		<tr>
+			<td rowspan="4">민·가사사건 등 법률구조</td>
+			<td rowspan="2">구조결정</td>
+			<td>15일(단순)</td>
+			<td>10,895건</td>
+			<td>10,673건</td>
+			<td>223건</td>
+			<td>97.9%</td>
+		</tr>
+		<tr>
+			<td>30일(합의,조사 사건)</td>
+			<td>66,881건</td>
+			<td>66,596건</td>
+			<td>285건</td>
+			<td>99.6%</td>
+		</tr>
+		<tr>
+			<td>소 제 기</td>
+			<td>10일</td>
+			<td>66,881건</td>
+			<td>44,858건</td>
+			<td>22,023건</td>
+			<td>67%</td>
+		</tr>
+		<tr>
+			<td>중간통지</td>
+			<td>7일</td>
+			<td>-</td>
+			<td>-</td>
+			<td>-</td>
+			<td>-</td>
+		</tr>
+		<tr>
+			<td>이의신청</td>
+			<td>60일</td>
+			<td>56건</td>
+			<td>56건</td>
+			<td>0건</td>
+			<td>100%</td>
+		</tr>
+		<tr>
+			<td rowspan="3">형사법률구조</td>
+			<td rowspan="2">구조결정</td>
+			<td>10일(구속)</td>
+			<td>4,244건</td>
+			<td>4,171건</td>
+			<td>53건</td>
+			<td>98.3%</td>
+		</tr>
+		<tr>
+			<td>15일(불구속)</td>
+			<td>18,357건</td>
+			<td>18,133건</td>
+			<td>224건</td>
+			<td>98.8%</td>
+		</tr>
+		<tr>
+			<td>이의신청</td>
+			<td>7일</td>
+			<td>8건</td>
+			<td>8건</td>
+			<td>0건</td>
+			<td>100%</td>
+		</tr>
+		<tr>
+			<td rowspan="3">법률구조 관련민원</td>
+			<td>진정, 탄원 등 </td>
+			<td>20일</td>
+			<td>7,232건</td>
+			<td>6,875건</td>
+			<td>357건</td>
+			<td>95.1%</td>
+		</tr>
+		<tr>
+			<td>이의신청·건의</td>
+			<td>15일</td>
+			<td>-</td>
+			<td>-</td>
+			<td>-</td>
+			<td>-</td>
+		</tr>
+		<tr>
+			<td>민원 및 법률구조접수, 발급, 기록복사 신청 등</td>
+			<td>즉시</td>
+			<td>1</td>
+			<td>1</td>
+			<td>0</td>
+			<td>100%</td>
+		</tr>
+	</tbody>
+</table>
+
+<h2>개인별친절도점검 결과</h2>
+
+<table width="100%" cellpadding="0" cellspacing="0" summary="개인별친절도점검 2007년도 하반기 평균, 2008년도 상반기 평균">
+	<thead>
+		<tr>
+			<th>2007년도 하반기 평균</th>
+			<th>2008년도 상반기 평균</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>98 점</td>
+			<td>96 점</td>
+		</tr>
+	</tbody>
+</table>
+
+<h2>고객만족도조사 결과</h2>
+
+<table width="100%" cellpadding="0" cellspacing="0" summary="고객만족도조사 2006년, 2007년">
+	<thead>
+		<tr>
+			<th>2006</th>
+			<th>2007</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>77.3 점</td>
+			<td>83 점</td>
+		</tr>
+	</tbody>
+</table>
+
+			</div>
+		</div>
+
+		<div id="footer">
+		<!-- footer -->		
+		</div>
+
+		<div id="quickMenu">
+		<!-- quick menu -->
+			<!-- #include virtual = /klac/common/comm/quickMenu.vm -->			
+		</div>		
+	</div>
+</body>
+</html>

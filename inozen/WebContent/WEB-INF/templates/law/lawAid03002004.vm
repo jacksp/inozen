@@ -1,0 +1,141 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="ko" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=euc-kr"/>
+	<meta name="description" content="KOREA LEGAL AID CORPORATION" />
+	<meta name="keyword" content="법률구조공단" />
+	<title>법률구조안내 &gt; 소송비용</title>
+	<link rel="stylesheet" type="text/css" href="/klac/css/kl_law.css" />
+
+	<script type="text/javascript" language="javascript" src="/klac/jscript/common.js"></script>
+	
+</head>
+
+<body>
+	<div id="skipMenu">
+		<!-- #include virtual = /klac/common/comm/skip.vm-->
+	</div>
+
+	<div id="wrapper">
+		<div id="header">
+		<!-- header	    -->
+			<!-- #include virtual = /klac/common/include/header.vm -->			
+		</div>
+
+		<div id="contentWrapper">
+		<!-- contentWrapper -->
+			<!-- subvisual -->
+			<p class="subVisual"><img src="/Images/common/klcomm_imgSubVisual03.jpg" width="865" height="128" alt="가족처럼 따뜻하게 친구처럼 편안하게 대한법률구조공단의 약속입니다," /></p>
+		
+			<div id="leftMenu">
+			<!-- leftmenu -->
+				<!-- #include virtual = /klac/common/include/leftMenu_xxx.vm -->				
+			</div>
+
+			<div id="content" class="content-type2">
+			<!-- content -->
+				<div id="pageLocation">
+					<!-- include -->
+				</div>
+				<h1><img src="/Images/common/contitle/conTit030302.gif" width="150" height="25" alt="법률구조안내" /></h1>
+
+				<ul id="commTabnavi">
+					<li><a href="/klac/law/lawAid03002.html" onmouseover="jsTabnaviSwap(1,event);" onfocus="jsTabnaviSwap(1,event);" onmouseout="jsTabnaviSwap(1,event);" onblur="jsTabnaviSwap(1,event);"><img src="/Images/tabMenu/kltab_law0201_off.gif" width="84" height="30" alt="법률구조대상" id="tabImg1" /></a></li>
+					<li><a href="/klac/law/lawAid03002002.html" onmouseover="jsTabnaviSwap(2,event);" onfocus="jsTabnaviSwap(2,event);" onmouseout="jsTabnaviSwap(2,event);" onblur="jsTabnaviSwap(2,event);"><img src="/Images/tabMenu/kltab_law0202_off.gif" width="63" height="30" alt="신청절차" id="tabImg2" /></a></li>
+					<li><a href="/klac/law/lawAid03002003.html" onmouseover="jsTabnaviSwap(3,event);" onfocus="jsTabnaviSwap(3,event);" onmouseout="jsTabnaviSwap(3,event);" onblur="jsTabnaviSwap(3,event);"><img src="/Images/tabMenu/kltab_law0203_off.gif" width="112" height="30" alt="신청사건 처리절차" id="tabImg3" /></a></li>
+					<li><img src="/Images/tabMenu/kltab_law0204_on.gif" width="63" height="30" alt="소송비용" id="tabImg4" /></li>					
+				</ul>
+
+				<h2 class="styleH2-type2">소송비용</h2>
+
+				<h3 class="styleH3-type2">민사,가사,행정,헌법소원사건</h3>
+
+				<p class="descTitle2">소송을 하지 않고 화해로 끝난 사건은 비용을 받지 않습니다.<br/>
+				그러나 일단 소송에 들어간 사건에 대해서는 소송이 종료된 후에 공단에서 지출한 인지대 등 소송비용을 의뢰자로부터 상환받습니다. 이렇게 상환받은 비용은 다른 분들을 위한 법률구조사업에 다시 쓰이게 됩니다.</p>
+
+				<p class="descTitle2">그러나 의뢰자는 공단에 상환할 비용을 법원의 소송비용 확정절차를 거쳐 패소한 상대방으로부터 회수할수 있을 뿐만 아니라, 공단에서도 의뢰자의 구체적인 사정을 고려하여 경우에 따라서는 분할상환하도록 하거나 상환을 면제하여 드리기도 합니다. 특히, 법률구조대상자 중 『무료법률구조사업』에서 정한 대상자는 무료로 법률구조를 받을 수 있습니다. </p>
+
+				<h3 class="styleH3-type2">형사사건</h3>
+
+				<p class="descTitle2">형사사건과 관련된 일체의 비용(기록등사료, 접견료 등)은 공단에서 부담하고 의뢰자로부터는 비용을 징수하지 않습니다. 다만 보석보증금 또는 보석보증 보험증권 수수료는 의뢰자가 부담합니다.</p>
+
+				<h3 class="styleH3-type2">공단변호사 보수비용 기준표</h3>
+
+				<table summary="공단변호사 보수비용 가액[계산방법], 보수비용 비율" width="630" class="tab-layout2 lawtype2">	
+					<caption>공단변호사 보수비용 기준표</caption>
+					<colgroup span="2">
+						<col width="65%" />
+						<col width="35%" />
+					</colgroup>
+					<thead>
+						<tr>
+							<th scope="col">가액 [계산방법]</th>
+							<th scope="col">변호사보수비용 비율</th>
+						</tr>
+					</thead>
+					<tbody class="alignC">
+						<tr>
+							<td>1,000만원까지 [가액×2.6/100]</td>
+							<td>2.6%</td>
+						</tr>
+						<tr>
+							<td>1,000만원초과 2,000만원까지 <br />[26만원+(가액-1,000만원)×2.2/100]</td>
+							<td>2.2%</td>
+						</tr>
+						<tr>
+							<td>2,000만원초과 3,000만원까지 <br />[48만원+(가액-2,000만원)×2/100]</td>
+							<td>2%</td>
+						</tr>
+						<tr>
+							<td>3,000만원초과 4,000만원까지 <br />[68만원+(가액-3,000만원)×1.6/100]</td>
+							<td>1.6%</td>
+						</tr>
+						<tr>
+							<td>4,000만원초과 5,000만원까지 <br />[84만원+(가액-4,000만원)×1.8/100]</td>
+							<td>1.8%</td>
+						</tr>
+						<tr>
+							<td>5,000만원초과 6,000만원까지 <br />[102만원+(가액-5,000만원)×1.7/100]</td>
+							<td>1.7%</td>
+						</tr>
+						<tr>
+							<td>6,000만원초과 7,000만원까지 <br />[119만원+(가액-6,000만원)×1.6/100]</td>
+							<td>1.6%</td>
+						</tr>
+						<tr>
+							<td>7,000만원초과 8,000만원까지 <br />[135만원+(가액-7,000만원)×1.7/100]</td>
+							<td>1.7%</td>
+						</tr>
+						<tr>
+							<td>8,000만원초과 9,000만원까지 <br />[152만원+(가액-8,000만원)×1.9/100]</td>
+							<td>1.9%</td>
+						</tr>
+						<tr>
+							<td>9,000만원초과 1억원까지 <br />[171만원+(가액-9,000만원)×2/100]</td>
+							<td>2%</td>
+						</tr>
+						<tr>
+							<td>1억원초과 2억원까지 <br />[191만원+(가액-1억원)×1/100]</td>
+							<td>1%</td>
+						</tr>
+						<tr>
+							<td> 2억원초과 <br />[291만원+(가액-2억원)×0.5/100]</td>
+							<td>0.5%</td>
+						</tr>
+					</tbody>
+				</table>
+
+			</div>
+		</div>
+
+		<div id="footer">
+		<!-- footer -->		
+		</div>
+
+		<div id="quickMenu">
+		<!-- quick menu -->
+			<!-- #include virtual = /klac/common/comm/quickMenu.vm -->			
+		</div>		
+	</div>
+</body>
+</html>

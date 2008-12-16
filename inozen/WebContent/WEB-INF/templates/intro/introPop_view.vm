@@ -1,0 +1,40 @@
+<h1>공단 사무소 안내</h1>
+
+<ul>
+	<li><a href="" title="사무실 소개">사무실 소개</a></li>
+	<li><a href="" title="위치 및 연락처">위치 및 연락처</a></li>
+	<li><a href="" title="공지사항">공지사항</a></li>
+</ul>
+
+<h2>기관명</h2>
+
+<table>
+	<thead>
+		<tr>
+			<th>번호</th>
+			<th>파일</th>
+			<th>제목</th>
+			<th>날짜</th>
+			<th>조회</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>1</td>
+			<td></td>
+			<td>xxx</td>
+			<td>2008-11-21</td>
+			<td>11</td>
+		</tr>
+	</tbody>
+</table>
+<div id="texture">
+</div>
+
+<dl>
+	<dt>이전글</dt>
+	<dd>xxxxx</dd>
+	<dt>다음글</dt>
+	<dd>xxxx</dd>
+</dl>
+<p><a href="" title="목록보기">목록보기</a></p>

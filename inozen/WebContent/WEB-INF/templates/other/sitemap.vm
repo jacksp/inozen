@@ -1,0 +1,250 @@
+<p>고객의 행복을 위해 환한 미소와 아름다은 손길이 되겠습니다.</p>
+
+<h1>사이트 맵</h1>
+
+<div id="pageLocation">
+	<!-- include -->
+</div>
+
+<ul>
+	<li class="menuTitle">법률정보
+		<ul>
+			<li><a href="">법률서식</a></li>
+			<li><a href="">법률상담사례</a>
+				<ul>
+					<li><a href="">법률상담사례</a></li>
+					<li><a href="">법률구조사례</a></li>					
+					<li><a href="">법률상식</a></li>
+					<li><a href="">방송상담사례</a></li>
+				</ul>
+			</li>
+			<li><a href="">동영상법률교실</a>
+				<ul>
+					<li><a href="">동영상 법률교실</a></li>
+					<li><a href="">시네마 법률상식</a></li>
+					<li><a href="">생확속 법률상식</a></li>					
+				</ul>
+			</li>			
+			<li><a href="">파산회생종합정보</a></li>
+			<li><a href="">판례/법률정보</a>
+				<ul>
+					<li><a href="">판례검색/판례속보</a></li>
+					<li><a href="">법령정보</a></li>
+					<li><a href="">법률용어사전</a></li>
+				</ul>
+			</li>
+			<li><a href="">전문자료실</a>
+				<ul>
+					<li><a href="">각국의 법률구조제도</a></li>
+					<li><a href="">논단</a></li>
+				</ul>
+			</li>
+		</ul>
+	</li>
+
+	<li class="menuTitle">사이버상담실
+		<ul>
+			<li><a href="">상담안내</a></li>
+			<li><a href="">상담신청</a></li>
+			<li><a href="">유사사례찾기</a>
+				<ul>
+					<li><a href="">분류전체보기</a></li>
+					<li><a href="">상세조회</a></li>
+				</ul>
+			</li>
+			<li><a href="">FAQ</a></li>
+		</ul>
+	</li>
+
+	<li class="menuTitle">법률구조안내
+		<ul>
+			<li><a href="">공단이용안내</a></li>
+			<li><a href="">법률상담안내</a>
+				<ul>
+					<li><a href="">면접상담</a></li>
+					<li><a href="">132전화상담</a></li>
+					<li><a href="">사이버상담</a></li>
+					<li><a href="">법률상담실적</a></li>
+				</ul>
+			</li>
+			<li><a href="">법률구조안내</a>
+				<ul>
+					<li><a href="">법률구조제도 소개</a></li>
+					<li><a href="">법률구조안내</a></li>
+					<li><a href="">법률구조실적</a></li>
+				</ul>
+			</li>
+			<li><a href="">무료법률구조안내</a>
+				<ul>
+					<li><a href="">개요</a></li>
+					<li><a href="">대상자별 도움정보</a></li>
+					<li><a href="">협약기관소개</a></li>
+				</ul>
+			</li>
+			<li><a href="">준법강연</a>
+				<ul>
+					<li><a href="">개요</a></li>
+					<li><a href="">주요활동</a></li>
+				</ul>
+			</li>			
+		</ul>
+	</li>	
+
+	<li class="menuTitle">고객광장
+		<ul>
+			<li><a href="">고객제안마당</a>
+				<ul>
+					<li><a href="">안내</a></li>
+					<li><a href="">참여하기</a></li>
+				</ul>
+			</li>
+			<li><a href="">설문조사</a>
+				<ul>
+					<li><a href="">Live Poll</a></li>
+					<li><a href="">고객만족도조사</a></li>
+				</ul>
+			</li>
+			<li><a href=""><a href="">공단견학</a></a>
+				<ul>
+					<li><a href="">견학안내</a></li>
+					<li><a href="">견학신청</a></li>
+				</ul>
+			</li>			
+			<li><a href="">정보공개</a>
+				<ul>
+					<li><a href="">절차안내</a></li>
+					<li><a href="">정보목록</a></li>
+				</ul>
+			</li>			
+			<li><a href="">공단신문고</a>
+				<ul>
+					<li><a href="">민원/불친절 신고</a></li>
+					<li><a href="">부조리 신고센터</a></li>
+				</ul>
+			</li>
+			<li><a href="">자유발언대</a>
+				<ul>
+					<li><a href="">자유게시판</a></li>
+					<li><a href="">칭찬합시다</a></li>
+				</ul>
+			</li>
+			<li><a href="">홈페이지 개선의견</a></li>
+		</ul>
+	</li>
+
+	<li class="menuTitle">알림광장
+		<ul>
+			<li><a href="">News &amp; Notice</a>
+				<ul>
+					<li><a href="">공단소식(News)</a></li>
+					<li><a href="">공지사항(Notice)</a></li>
+				</ul>
+			</li>
+			<li><a href="">보도자료</a>
+				<ul>
+					<li><a href="">보도자료</a></li>
+					<li><a href="">뉴스브리핑</a></li>
+				</ul>
+			</li>
+			<li><a href="">e-뉴스레터</a></li>
+			<li><a href="">혁신소식</a>
+				<ul>
+					<li><a href="">혁신소개</a></li>
+					<li><a href="">혁신News</a></li>
+					<li><a href="">규제혁신</a></li>
+				</ul>
+			</li>
+			<li><a href="">경영공시</a></li>
+			<li><a href="">국정감사</a>
+				<ul>
+					<li><a href="">정책자료</a></li>
+					<li><a href="">국정감사 업무보고</a></li>
+				</ul>
+			</li>
+			<li><a href=""><a href="">고객서비스헌장</a></a>
+				<ul>
+					<li><a href="">고객서비스헌장</a></li>
+					<li><a href="">서비스표준이행실적</a></li>
+				</ul>
+			</li>
+		</ul>
+	</li>
+
+	<li class="menuTitle">공단소개
+		<ul>
+			<li><a href="">인사말</a>
+				<ul>
+					<li><a href="">인사말</a></li>
+					<li><a href="">프로필</a></li>
+					<li><a href="">역대이사장</a></li>
+				</ul>
+			</li>
+			<li><a href="">공단현황</a>
+				<ul>
+					<li><a href="">공단개요</a></li>
+					<li><a href="">미션, 비전</a></li>
+					<li><a href="">윤리경영</a></li>
+					<li><a href="">사회공헌</a></li>
+					<li><a href="">연혁</a></li>
+					<li><a href="">CI소개</a></li>
+				</ul>
+			</li>
+			<li><a href="">조직소개</a>
+				<ul>
+					<li><a href="">조직도</a></li>
+					<li><a href="">지부/출장소 안내</a></li>
+				</ul>
+			</li>
+			<li><a href="">채용안내</a>
+				<ul>
+					<li><a href="">채용공지</a></li>
+					<li><a href="">채용정보</a></li>
+				</ul>
+			</li>
+			<li><a href="">사이버 홍보관</a>
+				<ul>
+					<li><a href="">홍보영상</a></li>
+					<li><a href="">동영상뉴스</a></li>
+					<li><a href="">공단포토</a></li>
+					<li><a href="">간행물소개</a></li>
+				</ul>
+			</li>
+			<li><a href="">주요일정안내</a></li>
+		</ul>
+	</li>
+
+	<li class="menuTitle">홈페이지
+		<ul>
+			<li><a href="">홈페이지 이용안내</a>
+				<ul>
+					<li><a href="">이용안내</a></li>
+					<li><a href="">FAQ</a></li>
+					<li><a href="">공단배너안내</a></li>
+					<li><a href="">뷰어다운로드</a></li>
+				</ul>
+			</li>
+			<li><a href="">개인정보보호방침</a>
+				<ul>
+					<li><a href="">개인정보보호방침</a></li>
+					<li><a href="">저작권정책</a></li>
+					<li><a href="">이메일 무단수집거부</a></li>
+				</ul>
+			</li>
+			<li><a href="">관련사이트</a>
+				<ul>
+					<li><a href="">국가관련</a></li>
+					<li><a href="">법률관련 공공기관</a></li>
+					<li><a href="">국내유관기관</a></li>
+					<li><a href="">해외유관기관</a></li>
+				</ul>
+			</li>
+			<li><a href="">검색도움말</a></li>
+			<li><a href="">오시는길</a>
+				<ul>
+					<li><a href="">공단본부약도</a></li>
+					<li><a href="">공단사무소 안내</a></li>
+				</ul>
+			</li>
+		</ul>
+	</li>
+</ul>

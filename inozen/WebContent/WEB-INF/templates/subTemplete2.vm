@@ -1,0 +1,235 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="ko" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=euc-kr"/>
+	<meta name="description" content="KOREA LEGAL AID CORPORATION" />
+	<meta name="keyword" content="법률구조공단" />
+	<title>법률구조공단 - subtemplate</title>
+	<link rel="stylesheet" type="text/css" href="/klac/css/kl_infor.css" />
+
+	<script type="text/javascript" language="javascript" src="/klac/jscript/common.js"></script>
+	<script type="text/javascript" language="javascript">
+	//<![CDATA[
+		var timer; //settimeout		
+
+		//GNB on, off image swap
+		function jsGnbOn(idx){
+			window.clearTimeout(timer);
+			var objBlock = document.getElementById("gnbMn"+idx);
+			var onImg = document.getElementById("gImg"+idx);
+			for(var i=1; i<7; i++){
+				document.getElementById("gnbMn"+i).style.display = "none";
+				document.getElementById("gImg"+i).src = document.getElementById("gImg"+i).src.replace("on","off");
+			}			
+			objBlock.style.display = "block";
+			onImg.src = onImg.src.replace("off","on");
+		}
+
+		function jsGnbOff(idx){
+			var onImg = document.getElementById("gImg"+idx);
+			onImg.src = onImg.src.replace("on","off");
+			document.getElementById("gnbMn"+idx).style.display = "none";
+		}
+
+		function jsTimeout(idx){
+			timer = window.setTimeout("jsGnbOff("+idx+")",1500);
+		}
+
+		function jsGnbSubOn(idx){
+			window.clearTimeout(timer);
+			var onImg = document.getElementById("gImg"+idx);			
+			onImg.src = onImg.src.replace("off","on");
+		}
+
+		function jsGnbSubOff(idx){			
+			var onImg = document.getElementById("gImg"+idx);			
+			onImg.src = onImg.src.replace("on","off");
+		}
+			
+	//]]>
+	</script>
+</head>
+
+<body>
+	<div id="skipMenu">
+		<!-- #include virtual = /klac/common/comm/skip.vm-->
+	</div>
+
+	<div id="wrapper">
+		<div id="header">
+		<!-- header	  -->
+			<!-- #include virtual = /klac/common/include/header.vm -->
+			<p id="KLAC-logo"><a href="http://www.klac.or.kr"><img src="/Images/include/header/klhd_logo.gif" width="170" height="42" alt="대한법률구조공단" /></a></p>
+			<ul id="localMenu">
+				<li><a href=""><img src="/Images/include/header/klhd_home.gif" width="50" height="14" alt="처음으로" /></a></li>
+				<li><a href=""><img src="/Images/include/header/klhd_sitemap.gif" width="51" height="14" alt="SITEMAP" /></a></li>
+				<li><a href=""><img src="/Images/include/header/klhd_routemap.gif" width="68" height="14" alt="찾아오시는길" /></a></li>
+				<li><a href=""><img src="/Images/include/header/klhd_englishSite.gif" width="49" height="14" alt="ENGLISH" /></a></li>
+			</ul>
+
+			<ul id="GNB">
+				<li class="gnbDepth1"><a href="" onmouseover="jsGnbOn(1);" onfocus="jsGnbOn(1);" onmouseout="jsTimeout(1);" onblur="jsTimeout(1);"><img src="/Images/include/header/klhd_imgGNB01_on.gif" width="83" height="27" alt="법률정보" id="gImg1"/></a>
+					<ul id="gnbMn1">
+						<li><a href="" onmouseover="jsGnbSubOn(11);" onfocus="jsGnbSubOn(11);" onmouseout="jsGnbSubOff(11);jsTimeout(1);" onblur="jsGnbSubOff(11);jsTimeout(1);"><img src="/Images/include/header/klhd_GNB1_sub1_off.gif" width="57" height="15" alt="법률서식" id="gImg11"/></a></li>
+						<li><a href="" onmouseover="jsGnbSubOn(12);" onfocus="jsGnbSubOn(12);" onmouseout="jsGnbSubOff(12);jsTimeout(1);" onblur="jsGnbSubOff(12);jsTimeout(1);"><img src="/Images/include/header/klhd_GNB1_sub2_off.gif" width="75" height="15" alt="법률상담사례" id="gImg12" /></a></li>	
+						<li><a href="" onmouseover="jsGnbSubOn(13);" onfocus="jsGnbSubOn(13);" onmouseout="jsGnbSubOff(13);jsTimeout(1);" onblur="jsGnbSubOff(13);jsTimeout(1);"><img src="/Images/include/header/klhd_GNB1_sub3_off.gif" width="87" height="15" alt="동영상법률교실" id="gImg13" /></a></li>
+						<li><a href="" onmouseover="jsGnbSubOn(14);" onfocus="jsGnbSubOn(14);" onmouseout="jsGnbSubOff(14);jsTimeout(1);" onblur="jsGnbSubOff(14);jsTimeout(1);"><img src="/Images/include/header/klhd_GNB1_sub4_off.gif" width="96" height="15" alt="파산회생종합정보" id="gImg14" /></a></li>
+						<li><a href="" onmouseover="jsGnbSubOn(15);" onfocus="jsGnbSubOn(15);" onmouseout="jsGnbSubOff(15);jsTimeout(1);" onblur="jsGnbSubOff(15);jsTimeout(1);"><img src="/Images/include/header/klhd_GNB1_sub5_off.gif" width="81" height="15" alt="판례/법령정보" id="gImg15" /></a></li>
+						<li><a href="" onmouseover="jsGnbSubOn(16);" onfocus="jsGnbSubOn(16);" onmouseout="jsGnbSubOff(16);jsTimeout(1);" onblur="jsGnbSubOff(16);jsTimeout(1);"><img src="/Images/include/header/klhd_GNB1_sub6_off.gif" width="65" height="15" alt="전문자료실" id="gImg16" /></a></li>
+					</ul>
+				</li>
+				<li class="gnbDepth1 gnbDistance"><a href="" onmouseover="jsGnbOn(2);" onfocus="jsGnbOn(2);" onmouseout="jsTimeout(2);" onblur="jsTimeout(2);"><img src="/Images/include/header/klhd_imgGNB02_off.gif" width="102" height="27" alt="사이버상담실" id="gImg2" /></a>
+					<ul id="gnbMn2">
+						<li><a href="" onmouseover="jsGnbSubOn(21);" onfocus="jsGnbSubOn(21);" onmouseout="jsGnbSubOff(21);jsTimeout(2);" onblur="jsGnbSubOff(21);jsTimeout(2);"><img src="/Images/include/header/klhd_GNB2_sub1_off.gif" width="58" height="15" alt="상담안내" id="gImg21" /></a></li>
+						<li><a href="" onmouseover="jsGnbSubOn(22);" onfocus="jsGnbSubOn(22);" onmouseout="jsGnbSubOff(22);jsTimeout(2);" onblur="jsGnbSubOff(22);jsTimeout(2);"><img src="/Images/include/header/klhd_GNB2_sub2_off.gif" width="55" height="15" alt="상담신청" id="gImg22" /></a></li>
+						<li><a href="" onmouseover="jsGnbSubOn(23);" onfocus="jsGnbSubOn(23);" onmouseout="jsGnbSubOff(23);jsTimeout(2);" onblur="jsGnbSubOff(23);jsTimeout(2);"><img src="/Images/include/header/klhd_GNB2_sub3_off.gif" width="57" height="15" alt="유사사례" id="gImg23" /></a></li>
+						<li><a href="" onmouseover="jsGnbSubOn(24);" onfocus="jsGnbSubOn(24);" onmouseout="jsGnbSubOff(24);jsTimeout(2);" onblur="jsGnbSubOff(24);jsTimeout(2);"><img src="/Images/include/header/klhd_GNB2_sub4_off.gif" width="39" height="15" alt="FAQ" id="gImg24" /></a></li>
+					</ul>
+				</li>
+				<li class="gnbDepth1"><a href="" onmouseover="jsGnbOn(3);" onfocus="jsGnbOn(3);" onmouseout="jsTimeout(3);" onblur="jsTimeout(3);"><img src="/Images/include/header/klhd_imgGNB03_off.gif" width="102" height="27" alt="법률구조안내" id="gImg3" /></a>
+					<ul id="gnbMn3">
+						<li><a href="" onmouseover="jsGnbSubOn(31);" onfocus="jsGnbSubOn(31);" onmouseout="jsGnbSubOff(31);jsTimeout(3);" onblur="jsGnbSubOff(31);jsTimeout(3);"><img src="/Images/include/header/klhd_GNB3_sub1_off.gif" width="76" height="15" alt="공단이용안내" id="gImg31" /></a></li>
+						<li><a href="" onmouseover="jsGnbSubOn(32);" onfocus="jsGnbSubOn(32);" onmouseout="jsGnbSubOff(32);jsTimeout(3);" onblur="jsGnbSubOff(32);jsTimeout(3);"><img src="/Images/include/header/klhd_GNB3_sub2_off.gif" width="76" height="15" alt="법률상담안내" id="gImg32" /></a></li>
+						<li><a href="" onmouseover="jsGnbSubOn(33);" onfocus="jsGnbSubOn(33);" onmouseout="jsGnbSubOff(33);jsTimeout(3);" onblur="jsGnbSubOff(33);jsTimeout(3);"><img src="/Images/include/header/klhd_GNB3_sub3_off.gif" width="77" height="15" alt="법률구조안내" id="gImg33" /></a></li>
+						<li><a href="" onmouseover="jsGnbSubOn(34);" onfocus="jsGnbSubOn(34);" onmouseout="jsGnbSubOff(34);jsTimeout(3);" onblur="jsGnbSubOff(34);jsTimeout(3);"><img src="/Images/include/header/klhd_GNB3_sub4_off.gif" width="96" height="15" alt="무료법률구조안내" id="gImg34" /></a></li>
+						<li><a href="" onmouseover="jsGnbSubOn(35);" onfocus="jsGnbSubOn(35);" onmouseout="jsGnbSubOff(3);jsTimeout(3);" onblur="jsGnbSubOff(35);jsTimeout(3);"><img src="/Images/include/header/klhd_GNB3_sub5_off.gif" width="55" height="15" alt="준법강연" id="gImg35" /></a></li>						
+					</ul>
+				</li>
+				<li class="gnbDepth1"><a href="" onmouseover="jsGnbOn(4);" onfocus="jsGnbOn(4);" onmouseout="jsTimeout(4);" onblur="jsTimeout(4);"><img src="/Images/include/header/klhd_imgGNB04_off.gif" width="81" height="27" alt="고객광장" id="gImg4" /></a>
+					<ul id="gnbMn4">						
+						<li><a href="" onmouseover="jsGnbSubOn(41);" onfocus="jsGnbSubOn(41);" onmouseout="jsGnbSubOff(41);jsTimeout(4);" onblur="jsGnbSubOff(41);jsTimeout(4);"><img src="/Images/include/header/klhd_GNB4_sub1_off.gif" width="76" height="15" alt="고객제안마당"id="gImg41" /></a></li>
+						<li><a href="" onmouseover="jsGnbSubOn(42);" onfocus="jsGnbSubOn(42);" onmouseout="jsGnbSubOff(42);jsTimeout(4);" onblur="jsGnbSubOff(42);jsTimeout(4);"><img src="/Images/include/header/klhd_GNB4_sub2_off.gif" width="56" height="15" alt="설문조사" id="gImg42" /></a></li>
+						<li><a href="" onmouseover="jsGnbSubOn(43);" onfocus="jsGnbSubOn(43);" onmouseout="jsGnbSubOff(43);jsTimeout(4);" onblur="jsGnbSubOff(43);jsTimeout(4);"><img src="/Images/include/header/klhd_GNB4_sub3_off.gif" width="56" height="15" alt="공단견학" id="gImg43" /></a></li>	
+						<li><a href="" onmouseover="jsGnbSubOn(44);" onfocus="jsGnbSubOn(44);" onmouseout="jsGnbSubOff(44);jsTimeout(4);" onblur="jsGnbSubOff(44);jsTimeout(4);"><img src="/Images/include/header/klhd_GNB4_sub4_off.gif" width="55" height="15" alt="정보공개" id="gImg44" /></a></li>					
+						<li><a href="" onmouseover="jsGnbSubOn(45);" onfocus="jsGnbSubOn(45);" onmouseout="jsGnbSubOff(45);jsTimeout(4);" onblur="jsGnbSubOff(45);jsTimeout(4);"><img src="/Images/include/header/klhd_GNB4_sub5_off.gif" width="67" height="15" alt="공단신문고" id="gImg45" /></a></li>
+						<li><a href="" onmouseover="jsGnbSubOn(46);" onfocus="jsGnbSubOn(46);" onmouseout="jsGnbSubOff(46);jsTimeout(4);" onblur="jsGnbSubOff(46);jsTimeout(4);"><img src="/Images/include/header/klhd_GNB4_sub6_off.gif" width="66" height="15" alt="자유발언대" id="gImg46" /></a></li>
+						<li><a href="" onmouseover="jsGnbSubOn(47);" onfocus="jsGnbSubOn(47);" onmouseout="jsGnbSubOff(47);jsTimeout(4);" onblur="jsGnbSubOff(47);jsTimeout(4);"><img src="/Images/include/header/klhd_GNB4_sub7_off.gif" width="97" height="15" alt="홈페이지개선의견" id="gImg47" /></a></li>
+					</ul>
+				</li>
+				<li class="gnbDepth1"><a href="" onmouseover="jsGnbOn(5);" onfocus="jsGnbOn(5);" onmouseout="jsTimeout(5);" onblur="jsTimeout(5);"><img src="/Images/include/header/klhd_imgGNB05_off.gif" width="82" height="27" alt="알림광장" id="gImg5" /></a>
+					<ul id="gnbMn5">
+						<li><a href="" onmouseover="jsGnbSubOn(51);" onfocus="jsGnbSubOn(51);" onmouseout="jsGnbSubOff(51);jsTimeout(5);" onblur="jsGnbSubOff(51);jsTimeout(5);"><img src="/Images/include/header/klhd_GNB5_sub1_off.gif" width="96" height="15" alt="News &amp; Notice" id="gImg51" /></a></li>
+						<li><a href="" onmouseover="jsGnbSubOn(52);" onfocus="jsGnbSubOn(52);" onmouseout="jsGnbSubOff(52);jsTimeout(5);" onblur="jsGnbSubOff(52);jsTimeout(5);"><img src="/Images/include/header/klhd_GNB5_sub2_off.gif" width="55" height="15" alt="보도자료" id="gImg52" /></a></li>
+						<li><a href="" onmouseover="jsGnbSubOn(53);" onfocus="jsGnbSubOn(53);" onmouseout="jsGnbSubOff(53);jsTimeout(5);" onblur="jsGnbSubOff(53);jsTimeout(5);"><img src="/Images/include/header/klhd_GNB5_sub3_off.gif" width="69" height="15" alt="e-뉴스레터" id="gImg53" /></a></li>
+						<li><a href="" onmouseover="jsGnbSubOn(54);" onfocus="jsGnbSubOn(54);" onmouseout="jsGnbSubOff(54);jsTimeout(5);" onblur="jsGnbSubOff(54);jsTimeout(5);"><img src="/Images/include/header/klhd_GNB5_sub4_off.gif" width="55" height="15" alt="혁신소식" id="gImg54" /></a></li>
+						<li><a href="" onmouseover="jsGnbSubOn(55);" onfocus="jsGnbSubOn(55);" onmouseout="jsGnbSubOff(55);jsTimeout(5);" onblur="jsGnbSubOff(55);jsTimeout(5);"><img src="/Images/include/header/klhd_GNB5_sub5_off.gif" width="56" height="15" alt="경영공시" id="gImg55" /></a></li>
+						<li><a href="" onmouseover="jsGnbSubOn(56);" onfocus="jsGnbSubOn(56);" onmouseout="jsGnbSubOff(56);jsTimeout(5);" onblur="jsGnbSubOff(56);jsTimeout(5);"><img src="/Images/include/header/klhd_GNB5_sub6_off.gif" width="56" height="15" alt="국정감사" id="gImg56" /></a></li>
+						<li><a href="" onmouseover="jsGnbSubOn(57);" onfocus="jsGnbSubOn(57);" onmouseout="jsGnbSubOff(57);jsTimeout(5);" onblur="jsGnbSubOff(57);jsTimeout(5);"><img src="/Images/include/header/klhd_GNB5_sub7_off.gif" width="87" height="15" alt="고객서비스현장" id="gImg57" /></a></li>
+					</ul>
+				</li>
+				<li class="gnbDepth1"><a href="" onmouseover="jsGnbOn(6);" onfocus="jsGnbOn(6);" onmouseout="jsTimeout(6);" onblur="jsTimeout(6);"><img src="/Images/include/header/klhd_imgGNB06_off.gif" width="80" height="27" alt="공단소개" id="gImg6" /></a>
+					<ul id="gnbMn6">
+						<li><a href="" onmouseover="jsGnbSubOn(61);" onfocus="jsGnbSubOn(61);" onmouseout="jsGnbSubOff(61);jsTimeout(6);" onblur="jsGnbSubOff(61);jsTimeout(6);"><img src="/Images/include/header/klhd_GNB6_sub1_off.gif" width="46" height="15" alt="인사말" id="gImg61" /></a></li>
+						<li><a href="" onmouseover="jsGnbSubOn(62);" onfocus="jsGnbSubOn(62);" onmouseout="jsGnbSubOff(62);jsTimeout(6);" onblur="jsGnbSubOff(62);jsTimeout(6);"><img src="/Images/include/header/klhd_GNB6_sub2_off.gif" width="56" height="15" alt="공단현황" id="gImg62" /></a></li>
+						<li><a href="" onmouseover="jsGnbSubOn(63);" onfocus="jsGnbSubOn(63);" onmouseout="jsGnbSubOff(63);jsTimeout(6);" onblur="jsGnbSubOff(63);jsTimeout(6);"><img src="/Images/include/header/klhd_GNB6_sub3_off.gif" width="56" height="15" alt="조직소개" id="gImg63" /></a></li>
+						<li><a href="" onmouseover="jsGnbSubOn(64);" onfocus="jsGnbSubOn(64);" onmouseout="jsGnbSubOff(64);jsTimeout(6);" onblur="jsGnbSubOff(64);jsTimeout(6);"><img src="/Images/include/header/klhd_GNB6_sub4_off.gif" width="55" height="15" alt="채용안내" id="gImg64" /></a></li>
+						<li><a href="" onmouseover="jsGnbSubOn(65);" onfocus="jsGnbSubOn(65);" onmouseout="jsGnbSubOff(65);jsTimeout(6);" onblur="jsGnbSubOff(65);jsTimeout(6);""><img src="/Images/include/header/klhd_GNB6_sub5_off.gif" width="76" height="15" alt="사이버 홍보관" id="gImg65" /></a></li>
+						<li><a href="" onmouseover="jsGnbSubOn(66);" onfocus="jsGnbSubOn(66);" onmouseout="jsGnbSubOff(66);jsTimeout(6);" onblur="jsGnbSubOff(66);jsTimeout(6);"><img src="/Images/include/header/klhd_GNB6_sub6_off.gif" width="75" height="15" alt="주요일정안내" id="gImg66" /></a></li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+
+		<div id="contentWrapper">
+		<!-- contentWrapper -->
+			<!-- subvisual -->
+			<p class="subVisual"><img src="/Images/common/klcomm_imgSubVisual03.jpg" width="865" height="128" alt="가족처럼 따뜻하게 친구처럼 편안하게 대한법률구조공단의 약속입니다." /></p>
+		
+			<div id="leftMenu">
+			<!-- leftmenu -->
+				<!-- #include virtual = /klac/common/include/leftMenu_xxx.vm -->
+				<h1><img src="/Images/include/leftMenu/klleft_txtSubTitle1.gif" width="175" height="55" alt="" /></h1>
+				<ul id="mList">
+					<li><a href=""><img src="/Images/include/leftMenu/klleft_txtDepth0101_off.gif" width="175" height="25" alt="" /></a></li>
+					<li><a href=""><img src="/Images/include/leftMenu/klleft_txtDepth0102_on.gif" width="175" height="25" alt="" /></a>	
+						<div class="depthTW-mid1 depth2On">
+							<div class="depthTW-top1">
+								<ul class="depthTW-btm1">
+									<li class="posCurOn"><a href="">법률상담사례<!-- text --></a></li>
+									<li><a href="">법률상식</a></li>
+								</ul>
+							</div>
+						</div>
+					</li>
+					<li><a href=""><img src="/Images/include/leftMenu/klleft_txtDepth0301_off.gif" width="175" height="25" alt="" /></a></li>
+					<li><a href=""><img src="/Images/include/leftMenu/klleft_txtDepth0302_on.gif" width="175" height="25" alt="" /></a>
+						<div class="depthTW-mid2 depth2On">
+							<div class="depthTW-top2">
+								<ul class="depthTW-btm2">
+									<li class="posCurOn"><a href="">법률구조제도 소개</a></li>
+									<li><a href="">법률구조안내</a></li>
+								</ul>
+							</div>
+						</div>
+					</li>
+				</ul>
+
+				<ul id="searchTotal">
+					<li>
+						<form id="" method="post" action="">
+							<fieldset>
+								<legend>통합검색</legend>
+								<select>
+									<option value="">통합검색</option>
+								</select>
+								<input type="text" value="" name="" title="검색하실 단어를 입력하세요." />
+								<input type="image" src="" alt="통합검색하기"/>
+							</fieldset>
+						</form>
+					</li>
+					<li>
+						<form id="" method="post" action="">
+							<fieldset>
+								<legend>직원검색</legend>
+								<label id=""></label>								
+								<input type="text" value="" id="" name="" title="검색하실 단어를 입력하세요." />
+								<input type="image" src="" alt="직원검색하기"/>
+							</fieldset>
+						</form>
+					</li>
+				</ul>
+			</div>
+
+			<div id="content" class="type1">
+			<!-- content -->
+			
+			</div>
+		</div>
+
+		<div id="footer">
+		<!-- footer -->
+			<!-- #include virtual = /klac/common/include/footer.vm -->
+			<ul class="helpCustomer">
+				<li><a href=""><img src="/Images/include/footer/klfoot_txtHelpCustom01.gif" width="103" height="15" alt="전국 공단 사무소 전화번호 안내" /></a></li>
+				<li><a href=""><img src="/Images/include/footer/klfoot_txtHelpCustom02.gif" width="103" height="15" alt="홈페이지 개선의견" /></a></li>
+				<li><a href=""><img src="/Images/include/footer/klfoot_txtHelpCustom03.gif" width="101" height="15" alt="홈페이지 이용안내" /></a></li>
+				<li><a href=""><img src="/Images/include/footer/klfoot_txtHelpCustom04.gif" width="67" height="15" alt="관련사이트" /></a></li>
+				<li><a href=""><img src="/Images/include/footer/klfoot_txtHelpCustom05.gif" width="96" height="15" alt="개인정보보호정책" /></a></li>
+				<li><a href=""><img src="/Images/include/footer/klfoot_txtHelpCustom06.gif" width="76" height="15" alt="찾아오시는길" /></a></li>
+				<li><a href=""><img src="/Images/include/footer/klfoot_txtHelpCustom07.gif" width="79" height="15" alt="뷰어다운로드" /></a></li>
+			</ul>
+			<p class="footerLogo"><img src="/Images/include/footer/klfoot_imgFooterLogo.gif" width="160" height="37" alt="대한법률구조공단" /></p>
+			<address>
+				<img src="/Images/include/footer/klfoot_imgAddress.gif" width="386" height="15" alt="137-883 서울시 서초구 법원4길 9 대한법률구조공단빌딩 / 고유번호 213-82-02329" /><br />
+				<img src="/Images/include/footer/klfoot_txtTelnum_Email.gif" width="530" height="17" alt="대표전화 : 02)532-0132 / 팩스 : 02)3482-6556 / 법률상담 : 국번없이 132 / 이메일 : webmaster@klac.go.kr" usemap="#mail" /><br />
+				<img src="/Images/include/footer/klfoot_txtFooterCopyright.gif" width="347" height="16" alt="copyright 2001~2006 Korea Legal Aid Corporation. All rights reserved." />
+			</address>
+			<map id="mail" name="mail">
+				<area shape="rect" href="" coords="400,1,516,16" alt="이메일 상담" />
+			</map>
+		</div>
+
+		<div id="quickMenu">
+		<!-- quick menu -->
+			<!-- #include virtual = /klac/common/comm/quickMenu.vm -->
+			<ul>
+				<li><a href=""><img src="/Images/include/quick/klquick_imgMenu01.gif" width="56" height="48" alt="공단이용안내" /></a></li>
+				<li><a href=""><img src="/Images/include/quick/klquick_imgMenu02.gif" width="56" height="50" alt="사이버상담" /></a></li>
+				<li><a href=""><img src="/Images/include/quick/klquick_imgMenu03.gif" width="56" height="50" alt="나의사건검색" /></a></li>
+				<li><a href=""><img src="/Images/include/quick/klquick_imgMenu04.gif" width="56" height="50" alt="서식/상담사례" /></a></li>
+				<li><a href=""><img src="/Images/include/quick/klquick_imgMenu05.gif" width="56" height="50" alt="사무소안내" /></a></li>
+			</ul>
+		</div>		
+	</div>
+</body>
+</html>

@@ -1,0 +1,96 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="ko" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=euc-kr"/>
+	<meta name="description" content="KOREA LEGAL AID CORPORATION" />
+	<meta name="keyword" content="법률구조공단" />
+	<title>법률구조공단 &gt; </title>
+	<link rel="stylesheet" type="text/css" href="/klac/css/kl_xxx.css" />
+
+	<script type="text/javascript" language="javascript" src="/klac/jscript/common.js"></script>
+	
+</head>
+
+<body>
+	<div id="skipMenu">
+		<!-- #include virtual = /klac/common/comm/skip.vm-->
+	</div>
+
+	<div id="wrapper">
+		<div id="header">
+		<!-- header	   -->
+			<!-- #include virtual = /klac/common/include/header.vm -->			
+		</div>
+
+		<div id="contentWrapper">
+		<!-- contentWrapper -->
+			<!-- subvisual -->
+			<p class="subVisual"></p>
+		
+			<div id="leftMenu">
+			<!-- leftmenu -->
+				<!-- #include virtual = /klac/common/include/leftMenu_xxx.vm -->				
+			</div>
+
+			<div id="content" class="content-type1">
+			<!-- content -->
+				<div id="pageLocation">
+					<!-- include -->
+				</div>
+				<h1>page title</h1>
+
+<h2>시네마 법률상식</h2>
+
+<p>재미있는 영화도 보고 영화속 알쏭달쏭한 상황을 유익한 법률상식으로 만나보시기 바랍니다.</p>
+
+<ul>
+	<li>
+		<dl>
+			<dt>방송매체:</dt>
+			<dd>강원민방(GTB)</dd>
+		</dl>
+	</li>
+	<li>
+		<dl>
+			<dt>프로그램:</dt>
+			<dd>생방송 GTB 열린아침</dd>
+		</dl>
+	</li>
+	<li>
+		<dl>
+			<dt>출연:</dt>
+			<dd>손정호 변호사</dd>
+		</dl>
+	</li>
+</ul>
+
+<ul>
+<!-- loop	//start -->
+	<li><span>"S다이어리"를 통해 본 법률상식</span><a href="">동영상</a></li>
+<!-- loop	//end -->
+	<li><span>"파송송 계란탁"의 미혼부</span><a href="">동영상</a></li>
+	<li><span>"간 큰 가족"의 상속</span><a href="">동영상</a></li>
+	<li><span>"연애의 목적" 직장내 성희롱</span><a href="">동영상</a></li>
+	<li><span>"장화홍련"의 아동학대</span><a href="">동영상</a></li>
+</ul>
+
+<ul>
+	<li>1</li>
+	<li>2</li>
+</ul>
+
+
+			</div>
+		</div>
+
+		<div id="footer">
+		<!-- footer -->		
+		</div>
+
+		<div id="quickMenu">
+		<!-- quick menu -->
+			<!-- #include virtual = /klac/common/comm/quickMenu.vm -->			
+		</div>		
+	</div>
+</body>
+</html>

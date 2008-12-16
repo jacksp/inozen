@@ -1,0 +1,188 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="ko" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=euc-kr"/>
+	<meta name="description" content="KOREA LEGAL AID CORPORATION" />
+	<meta name="keyword" content="법률구조공단" />
+	<title>법률상담실적</title>
+	<link rel="stylesheet" type="text/css" href="/klac/css/kl_law.css" />
+
+	<script type="text/javascript" language="javascript" src="/klac/jscript/common.js"></script>
+	
+</head>
+
+<body>
+	<div id="skipMenu">
+		<!-- #include virtual = /klac/common/comm/skip.vm-->
+	</div>
+
+	<div id="wrapper">
+		<div id="header">
+		<!-- header	  -->
+			<!-- #include virtual = /klac/common/include/header.vm -->			
+		</div>
+
+		<div id="contentWrapper">
+		<!-- contentWrapper -->
+			<!-- subvisual -->
+			<p class="subVisual"><img src="/Images/common/klcomm_imgSubVisual03.jpg" width="865" height="128" alt="가족처럼 따뜻하게 친구처럼 편안하게 대한법률구조공단의 약속입니다," /></p>
+		
+			<div id="leftMenu">
+			<!-- leftmenu -->
+				<!-- #include virtual = /klac/common/include/leftMenu_xxx.vm -->				
+			</div>
+
+			<div id="content" class="content-type2">
+			<!-- content -->
+				<div id="pageLocation">
+					<!-- include -->
+				</div>
+				<h1><img src="/Images/common/contitle/conTit030204.gif" width="150" height="25" alt="법률상담실적" /></h1>
+				
+				<p class="descLAresult">대한법률구조공단은 창설된 후 국민 여러분께 아래와 같이 40,016,281건의 무료법률상담을 해드렸습니다.(2007년 말 기준)</p>
+
+				<h2 class="styleH2-type2">법률상담실적 년도별 통계</h2>
+
+				<table summary="법류상담 연도별 직접상담 건수, 132음성/팩스정보제공 건수, 인터넷정보제공 건수" width="650" class="tab-layout lawtype2">
+					<caption>연도별 법률상담 실적</caption>
+					<colgroup span="5">
+						<col width="76" />
+						<col width="104" />
+						<col width="178" />
+						<col width="183" />
+						<col width="109" />
+					</colgroup>
+					<thead>
+						<tr>
+							<th class="noBd-left">연도</th>
+							<th>직접상담</th>
+							<th>132음성,팩스정보제공</th>
+							<th>인터넷정보제공</th>
+							<th class="noBd-right">계</th>
+						</tr>
+					</thead>
+					<tfoot class="alignC">
+						<tr>
+							<td class="noBd-left">계</td>
+							<td>12,867,219</td>
+							<td>4,059,989</td>
+							<td>26,411,154</td>
+							<td class="noBd-right">43,338,362</td>
+						</tr>
+					</tfoot>
+					<tbody class="alignC">
+						<tr>
+							<td class="noBd-left">1987~1994</td>
+							<td>2,035,163</td>
+							<td>327,964</td>
+							<td>114,346</td>
+							<td class="noBd-right">2,477,473</td>
+						</tr>
+						<tr>
+							<td class="noBd-left">1995</td>
+							<td>365,142</td>
+							<td>231,256</td>
+							<td>86,936</td>
+							<td class="noBd-right">683,334</td>
+						</tr>
+						<tr>
+							<td class="noBd-left">1996</td>
+							<td>489,205</td>
+							<td>442,113</td>
+							<td>150,834</td>
+							<td class="noBd-right">1,082,152</td>
+						</tr>
+						<tr>
+							<td class="noBd-left">1997</td>
+							<td>594,777</td>
+							<td>338,620</td>
+							<td>227,834</td>
+							<td class="noBd-right">1,161,231</td>
+						</tr>
+						<tr>
+							<td class="noBd-left">1998</td>
+							<td>804,535</td>
+							<td>379,226</td>
+							<td>407,007</td>
+							<td class="noBd-right">1,590,768</td>
+						</tr>
+						<tr>
+							<td class="noBd-left">1999</td>
+							<td>822,864</td>
+							<td>364,058</td>
+							<td>412,802</td>
+							<td class="noBd-right">1,599,724</td>
+						</tr>
+						<tr>
+							<td class="noBd-left">2000</td>
+							<td>840,283</td>
+							<td>391,745</td>
+							<td>662,200</td>
+							<td class="noBd-right">1,894,228</td>
+						</tr>
+						<tr>
+							<td class="noBd-left">2001</td>
+							<td>894,006</td>
+							<td>405,702</td>
+							<td>1,984,093</td>
+							<td class="noBd-right">3,283,801</td>
+						</tr>
+						<tr>
+							<td class="noBd-left">2002</td>
+							<td>899,285</td>
+							<td>252,803</td>
+							<td>3,558,578</td>
+							<td class="noBd-right">4,710,666</td>
+						</tr>
+						<tr>
+							<td class="noBd-left">2003</td>
+							<td>1,001,370</td>
+							<td>251,500</td>
+							<td>4,682,673</td>
+							<td class="noBd-right">5,935,543</td>
+						</tr>
+						<tr>
+							<td class="noBd-left">2004</td>
+							<td>996,255</td>
+							<td>201,537</td>
+							<td>4,280,237</td>
+							<td class="noBd-right">5,478,029</td>
+						</tr>
+						<tr>
+							<td class="noBd-left">2005</td>
+							<td>1,002,908</td>
+							<td>159,090</td>
+							<td>4,274,940</td>
+							<td class="noBd-right">5,436,938</td>
+						</tr>
+						<tr>
+							<td class="noBd-left">2006</td>
+							<td>1,035,714</td>
+							<td>148,047</td>
+							<td>3,061,695</td>
+							<td class="noBd-right">4,245,456</td>
+						</tr>
+						<tr>
+							<td class="noBd-left">2007</td>
+							<td>1,035,714</td>
+							<td>148,047</td>
+							<td>3,061,695</td>
+							<td class="noBd-right">5,436,938</td>
+						</tr>		
+					</tbody>
+				</table>
+
+			</div>
+		</div>
+
+		<div id="footer">
+		<!-- footer -->		
+		</div>
+
+		<div id="quickMenu">
+		<!-- quick menu -->
+			<!-- #include virtual = /klac/common/comm/quickMenu.vm -->			
+		</div>		
+	</div>
+</body>
+</html>

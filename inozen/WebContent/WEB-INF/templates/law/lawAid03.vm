@@ -1,0 +1,78 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="ko" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=euc-kr"/>
+	<meta name="description" content="KOREA LEGAL AID CORPORATION" />
+	<meta name="keyword" content="법률구조공단" />
+	<title>법률구조제도 소개</title>
+	<link rel="stylesheet" type="text/css" href="/klac/css/kl_law.css" />
+
+	<script type="text/javascript" language="javascript" src="/klac/jscript/common.js"></script>
+	
+</head>
+
+<body>
+	<div id="skipMenu">
+		<!-- #include virtual = /klac/common/comm/skip.vm-->
+	</div>
+
+	<div id="wrapper">
+		<div id="header">
+		<!-- header	  -->
+			<!-- #include virtual = /klac/common/include/header.vm -->			
+		</div>
+
+		<div id="contentWrapper">
+		<!-- contentWrapper -->
+			<!-- subvisual -->
+			<p class="subVisual"><img src="/Images/common/klcomm_imgSubVisual03.jpg" width="865" height="128" alt="가족처럼 따뜻하게 친구처럼 편안하게 대한법률구조공단의 약속입니다," /></p>
+		
+			<div id="leftMenu">
+			<!-- leftmenu -->
+				<!-- #include virtual = /klac/common/include/leftMenu_xxx.vm -->				
+			</div>
+
+			<div id="content" class="content-type2">
+			<!-- content -->
+				<div id="pageLocation">
+					<!-- include -->
+				</div>
+				<h1><img src="/Images/common/contitle/conTit030301.gif" width="150" height="25" alt="법률구조제도 소개" /></h1>
+
+				<div id="consult-m">
+					<div class="consult-t">
+						<div class="consult-b">
+							<div class="consult-icon5">
+								<h3>THE LEGAL AID SYSTEM</h3>
+								<p class="strong">국민의 기본적 인권을 옹호하는 법률분야의 사회복지 제도입니다.</p>
+
+								<p>경제적으로 어렵거나 법을 모르기 때문에 법의 보호를 충분히 받지 못하는 국민들에게<br /> 법률상담, 변호사 또는 공익법무관에 의한 소송대리 및 형사번호 등의 법률적 지원을<br /> 함으로써 정당한 권리를 적법한 절차에 의하여 보호하고 국민의 기본적 인권을 옹호하는<br /> 법률분야의 사회복지제도입니다.</p>
+
+								<p><a href="/klac/infor/infor07001.html"><img src="/Images/law/kllaw_btnViewOtherCountry.gif" width="124" height="20" alt="각국의 법률구조제도" /></a></p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<h2 class="styleH2-type2">법률구조제도란?</h2>
+				<div class="descLawAid">
+					<p>사회의 발전과 더불어 점점 복잡하고 다양해진 각종 법률제도의 혜택을 모든 국민들이 고루 누릴 수 있도록 하기 위해서는 경제적인 이유나 법률지식의 부족으로 사실상의 법의 보호 밖에 놓인 국민을 지원할 수 있는 제도적인 장치가 요망됩니다.</p>
+					<p>법률구조제도는 경제적으로 어렵거나 법을 모르기 때문에 법의 보호를 충분히 받지 못하는 국민들에게 법률상담, 변호사 또는 공익법무관에 의한 소송대리 및 형사변호 등의 법률적 지원을 함으로써 정당한 권리를 적법한 절차에 의하여 보호하고 국민의 기본적 인권을 옹호하는 법률분야의 사회복지제도입니다.</p>
+					<p>대한법률구조공단은 이러한 법률구조사업을 효율적으로 추진하기 위하여 1987년 9월 1일 법률구조법에 의하여 설리되어 국가예산으로 운영되는 공공기관으로, 법률구조사업을 통한 국민의 기본권 옹호와 법률복지의 증진을 위해 힘쓰고 있으며 그 밖에도 법률구조제도에 관한 조사·연구, 준법정신의 양양을 위한 계몽사업 등을 하고 있습니다.</p>
+					<p>우리 공단은 서울특별시에 본부를 두고, 그 아래 18개의 지부와 38개의 출장소를 전국의 법원, 검찰청에 대응하여 설치하고 있습니다.</p>
+				</div>
+
+			</div>
+		</div>
+
+		<div id="footer">
+		<!-- footer -->		
+		</div>
+
+		<div id="quickMenu">
+		<!-- quick menu -->
+			<!-- #include virtual = /klac/common/comm/quickMenu.vm -->			
+		</div>		
+	</div>
+</body>
+</html>

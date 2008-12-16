@@ -1,0 +1,130 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="ko" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=euc-kr"/>
+	<meta name="description" content="KOREA LEGAL AID CORPORATION" />
+	<meta name="keyword" content="법률구조공단" />
+	<title>법률구조공단 &gt; </title>
+	<link rel="stylesheet" type="text/css" href="/klac/css/kl_cyber.css" />
+
+	<script type="text/javascript" language="javascript" src="/klac/jscript/common.js"></script>
+	
+</head>
+
+<body>
+	<div id="skipMenu">
+		<!-- #include virtual = /klac/common/comm/skip.vm-->
+	</div>
+
+	<div id="wrapper">
+		<div id="header">
+		<!-- header	    -->
+			<!-- #include virtual = /klac/common/include/header.vm -->			
+		</div>
+
+		<div id="contentWrapper">
+		<!-- contentWrapper -->
+			<!-- subvisual -->
+			<p class="subVisual"></p>
+		
+			<div id="leftMenu">
+			<!-- leftmenu -->
+				<!-- #include virtual = /klac/common/include/leftMenu_xxx.vm -->				
+			</div>
+
+			<div id="content" class="content-type1">
+			<!-- content -->
+				<div id="pageLocation">
+					<!-- include -->
+				</div>
+				<h1>page title</h1>
+
+<h1>유사사례</h1>
+
+<ul>
+	<li><a href="" title="상담안내">상담안내</a></li>
+	<li><a href="" title="상담신청">상담신청</a></li>
+</ul>
+
+<table summary="" border="1" cellpadding="0" cellspacing="0">
+	<caption></caption>
+	<thead>
+		<tr>
+			<th rowspan="2">상담</th>
+			<th>상담번호</th>
+			<th>신청일</th>
+			<th>제목</th>
+			<th>작성자</th>
+			<th>조회</th>
+		</tr>
+		<tr>
+			<th>1111</th>
+			<th>2008-11-14</th>
+			<th>xxx xxx xxxxxx xx</th>
+			<th>OOO</th>
+			<th>11</th>			
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td colspan="6">xxxxxxxxxxxxxxxxxx</td>
+		</tr>
+	</tbody>
+</table>
+
+<table summary="" border="1" cellpadding="0" cellspacing="0">
+	<caption></caption>
+	<thead>
+		<tr>
+			<th rowspan="2">상담</th>
+			<th>상담번호</th>
+			<th>파일</th>
+			<th>답변일자</th>
+			<th>제목</th>
+			<th>답변인</th>
+		</tr>
+		<tr>
+			<th>1111</th>
+			<th></th>
+			<th>2008-11-14</th>
+			<th>xxx xxx xxxxxx xx</th>
+			<th>법률구조</th>			
+		</tr>
+	</thead>
+	<tbody>
+		<td colspan="6">xxxxxxxxxxxxxxxxxx</td>
+	</tbody>
+</table>
+
+<table summary="" border="1" cellpadding="0" cellspacing="0">
+	<tbody>
+		<tr>
+			<td>이전글</td>
+			<td><a href="">xxxx xxx xx xx xx</a></td>
+		</tr>
+		<tr>
+			<td>다음글</td>
+			<td><a href="">xxxx xxx xx xx xx</a></td>
+		</tr>
+	</tbody>
+</table>
+
+<ul>
+	<li>현재 페이지 인쇄하기</li>
+	<li>상담신청 목록보기</li>
+</ul>
+
+			</div>
+		</div>
+
+		<div id="footer">
+		<!-- footer -->		
+		</div>
+
+		<div id="quickMenu">
+		<!-- quick menu -->
+			<!-- #include virtual = /klac/common/comm/quickMenu.vm -->			
+		</div>		
+	</div>
+</body>
+</html>
