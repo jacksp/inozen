@@ -5,31 +5,31 @@
 	<meta name="description" content="KOREA LEGAL AID CORPORATION" />
 	<meta name="keyword" content="법률구조공단" />
 	<title>사이버 상담</title>
-	<link rel="stylesheet" type="text/css" href="/klac/css/kl_law.css" />
+	<link rel="stylesheet" type="text/css" href="/css/kl_law.css" />
 
-	<script type="text/javascript" language="javascript" src="/klac/jscript/common.js"></script>
+	<script type="text/javascript" language="javascript" src="/jscript/common.js"></script>
 	
 </head>
 
 <body>
 	<div id="skipMenu">
-		<!-- #include virtual = /klac/common/comm/skip.vm-->
+		#include("/common/comm/skip.vm")
 	</div>
 
 	<div id="wrapper">
 		<div id="header">
 		<!-- header	  -->
-			<!-- #include virtual = /klac/common/include/header.vm -->			
+			#include("/common/include/header.vm")			
 		</div>
 
 		<div id="contentWrapper">
 		<!-- contentWrapper -->
 			<!-- subvisual -->
-			<p class="subVisual"><img src="/Images/common/klcomm_imgSubVisual03.jpg" width="865" height="128" alt="가족처럼 따뜻하게 친구처럼 편안하게 대한법률구조공단의 약속입니다," /></p>
+			<p class="subVisual"><img src="/images/common/klcomm_imgSubVisual03.jpg" width="865" height="128" alt="가족처럼 따뜻하게 친구처럼 편안하게 대한법률구조공단의 약속입니다," /></p>
 		
 			<div id="leftMenu">
 			<!-- leftmenu -->
-				<!-- #include virtual = /klac/common/include/leftMenu_xxx.vm -->				
+				#include("/common/include/leftMenu_xxx.vm")				
 			</div>
 
 			<div id="content" class="content-type2">
@@ -37,7 +37,7 @@
 				<div id="pageLocation">
 					<!-- include -->
 				</div>
-				<h1><img src="/Images/common/contitle/conTit030203.gif" width="150" height="25" alt="사이버 상담" /></h1>				
+				<h1><img src="/images/common/contitle/conTit030203.gif" width="150" height="25" alt="사이버 상담" /></h1>				
 
 				<div id="consult-m">
 					<div class="consult-t">
@@ -50,7 +50,7 @@
 									<li>보다 신속하고 정확한 상담을 위해 1일 상담접수건수를 170건으로 제한되어 있습니다.</li>
 									<li>당일 상담을 접수하지 못하신 분들은 다음날 접수 신청 또는 전화상담, 면접상담을<br /> 신청해 주세요.</li>
 								</ul>
-								<p class="noMg"><a href=""><img src="/Images/law/kllaw_btnAppCyber.gif" width="150" height="20" alt="사이버상담신청" /></a></p>
+								<p class="noMg"><a href=""><img src="/images/law/kllaw_btnAppCyber.gif" width="150" height="20" alt="사이버상담신청" /></a></p>
 							</div>
 						</div>
 					</div>
@@ -60,7 +60,7 @@
 				<ul class="alikeCase list-btype02">
 					<li>지난 3년간의 상담사례를 내용별로 분류하여 궁금해 하시는 문제와 유사한 상담사례에 대한 답변내용을 미리 보실 수 있습니다.</li>
 					<li class="noMg">상담을 신청하시기 전에 유사사례 찾기를 이용하시면 많은 정보를 얻으실 수 있습니다.
-						<p><a href="/klac/cyber/cyberCon02.html"><img src="/Images/law/kllaw_btnSearchCase.gif" width="90" height="20" alt="유사사례 찾기" /></a></p>
+						<p><a href="/cyber/cyberCon02.html"><img src="/images/law/kllaw_btnSearchCase.gif" width="90" height="20" alt="유사사례 찾기" /></a></p>
 					</li>
 				</ul>
 
@@ -73,7 +73,7 @@
 
 		<div id="quickMenu">
 		<!-- quick menu -->
-			<!-- #include virtual = /klac/common/comm/quickMenu.vm -->			
+			#include("/common/comm/quickMenu.vm")			
 		</div>		
 	</div>
 </body>

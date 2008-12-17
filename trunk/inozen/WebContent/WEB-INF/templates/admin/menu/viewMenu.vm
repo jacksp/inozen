@@ -1,0 +1,62 @@
+#include("/admin/include/gridheader.vm")
+
+#set($typeList=$ref.menuType)
+#set($kindList=$ref.menuKind)
+#set($typeDescr="")
+#set($kindDescr="")
+#foreach($type in $typeList)
+	#if($type.getValue()==$view.menuType) #set($typeDescr = $type.getDescr())
+	#end
+#end
+#foreach($kind in $kindList)
+	#if($kind.getValue()==$view.menuType) #set($kindDescr = $kind.getDescr())
+	#end
+#end
+<div id="title">
+	<h1>메뉴 보기</h1>
+</div>
+<div id="buttons">
+
+	<script type="text/javascript" language="javascript">
+		var updateHandler = function() {
+			document.location.href="updateMenu.do?code=$req.code";
+		}
+	
+		var cancelHandler = function() {
+			document.location.href="menuList.do";
+		}
+
+	</script>	
+
+	<a href="javascript:void(1)" id="updatebtn" class="updatebtn">수정</a>
+	<a href="javascript:void(1)" id="cancelbtn" class="cancelbtn">취소</a>
+	
+</div>
+<div id="formbox">
+	<form id="form" action="/admin/menu/saveMenu.do" method="post">
+	<input type="hidden" name="menuRelatedCode" id="menuRelatedCode" value=""/>
+		<div class="formblock">
+		<p id="namerow">
+			<label>메뉴 이름 :</label> $view.menuName
+		</p>
+		<p id="namerow">
+			<label>상위 메뉴 : </label> $view.pMenuName
+		</p>
+		<p id="radiorow">
+			<label>메뉴 종류 :</label> $typeDescr
+		</p>
+		<p id="">
+			<label>메뉴 위치 :</label> $kindDescr
+		</p>
+		<p>
+			<label>URL 정보 :</label> $view.menuURL
+		</p>
+		</div>
+	</form>
+</div>
+<script type="text/javascript" language="javascript"> 
+	Event.observe("updatebtn", "click", updateHandler, false);
+	Event.observe("cancelbtn", "click", cancelHandler, false);
+	
+</script>
+#include("/admin/include/gridfooter.vm")

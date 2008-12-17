@@ -5,31 +5,31 @@
 	<meta name="description" content="KOREA LEGAL AID CORPORATION" />
 	<meta name="keyword" content="법률구조공단" />
 	<title>협약기관 소개</title>
-	<link rel="stylesheet" type="text/css" href="/klac/css/kl_law.css" />
+	<link rel="stylesheet" type="text/css" href="/css/kl_law.css" />
 
-	<script type="text/javascript" language="javascript" src="/klac/jscript/common.js"></script>
+	<script type="text/javascript" language="javascript" src="/jscript/common.js"></script>
 	
 </head>
 
 <body>
 	<div id="skipMenu">
-		<!-- #include virtual = /klac/common/comm/skip.vm-->
+		#include("/common/comm/skip.vm")
 	</div>
 
 	<div id="wrapper">
 		<div id="header">
 		<!-- header	    -->
-			<!-- #include virtual = /klac/common/include/header.vm -->			
+			#include("/common/include/header.vm")			
 		</div>
 
 		<div id="contentWrapper">
 		<!-- contentWrapper -->
 			<!-- subvisual -->
-			<p class="subVisual"><img src="/Images/common/klcomm_imgSubVisual03.jpg" width="865" height="128" alt="가족처럼 따뜻하게 친구처럼 편안하게 대한법률구조공단의 약속입니다," /></p>
+			<p class="subVisual"><img src="/images/common/klcomm_imgSubVisual03.jpg" width="865" height="128" alt="가족처럼 따뜻하게 친구처럼 편안하게 대한법률구조공단의 약속입니다," /></p>
 		
 			<div id="leftMenu">
 			<!-- leftmenu -->
-				<!-- #include virtual = /klac/common/include/leftMenu_xxx.vm -->				
+				#include("/common/include/leftMenu_xxx.vm")				
 			</div>
 
 			<div id="content" class="content-type2">
@@ -37,30 +37,30 @@
 				<div id="pageLocation">
 					<!-- include -->
 				</div>
-				<h1><img src="/Images/common/contitle/conTit030403.gif" width="150" height="25" alt="협약기관 소개" /></h1>
+				<h1><img src="/images/common/contitle/conTit030403.gif" width="150" height="25" alt="협약기관 소개" /></h1>
 				
 				<h2 class="styleH2-type2">출연기관 소개</h2>
 				<p class="descTitle">대한법률구조공단과 함께하는 무료법률구조 협약기관(partners)를 소개합니다.</p>
 				<ul class="partners">
-					<li><a href="http://www.nonghyup.com/" target="_blank" title="새창으로 열립니다."><img src="/Images/law/kllaw_imgPartners1.gif" width="115" height="92" alt="농협" /></a></li>
-					<li><a href="http://www.suhyup.co.kr/" target="_blank" title="새창으로 열립니다."><img src="/Images/law/kllaw_imgPartners2.gif" width="115" height="92" alt="수협" /></a></li>
-					<li><a href="http://www.ktng.com/" target="_blank" title="새창으로 열립니다."><img src="/Images/law/kllaw_imgPartners3.gif" width="115" height="92" alt="KT&amp;G" /></a></li>
-					<li><a href="http://www.shinhan.com/intro.html" target="_blank" title="새창으로 열립니다."><img src="/Images/law/kllaw_imgPartners4.gif" width="115" height="92" alt="신한은행" /></a></li>
-					<li><a href="http://www.mgef.go.kr/" target="_blank" title="새창으로 열립니다."><img src="/Images/law/kllaw_imgPartners5.gif" width="115" height="92" alt="여성부" /></a></li>
-					<li><a href="http://www.molab.go.kr/" target="_blank" title="새창으로 열립니다."><img src="/Images/law/kllaw_imgPartners6.gif" width="115" height="92" alt="노동부" /></a></li>
-					<li><a href="http://smba.go.kr/" target="_blank" title="새창으로 열립니다."><img src="/Images/law/kllaw_imgPartners7.gif" width="115" height="92" alt="중소기업청" /></a></li>
-					<li><a href="http://www.koswec.or.kr/" target="_blank" title="새창으로 열립니다."><img src="/Images/law/kllaw_imgPartners8.gif" width="115" height="92" alt="한국선원복지고용센터" /></a></li>
-					<li><a href="http://www.mw.go.kr/" target="_blank" title="새창으로 열립니다."><img src="/Images/law/kllaw_imgPartners9.gif" width="115" height="92" alt="보건복지가족부" /></a></li>
-					<li><a href="" target="_blank" title="새창으로 열립니다."><img src="/Images/law/kllaw_imgPartners10.gif" width="115" height="92" alt="공탁금관리위원회" /></a></li>
-					<li><a href="http://www.sosclinic.co.kr/" target="_blank" title="새창으로 열립니다."><img src="/Images/law/kllaw_imgPartners11.gif" width="115" height="92" alt="서울시 건강가적 지원센터" /></a></li>
+					<li><a href="http://www.nonghyup.com/" target="_blank" title="새창으로 열립니다."><img src="/images/law/kllaw_imgPartners1.gif" width="115" height="92" alt="농협" /></a></li>
+					<li><a href="http://www.suhyup.co.kr/" target="_blank" title="새창으로 열립니다."><img src="/images/law/kllaw_imgPartners2.gif" width="115" height="92" alt="수협" /></a></li>
+					<li><a href="http://www.ktng.com/" target="_blank" title="새창으로 열립니다."><img src="/images/law/kllaw_imgPartners3.gif" width="115" height="92" alt="KT&amp;G" /></a></li>
+					<li><a href="http://www.shinhan.com/intro.html" target="_blank" title="새창으로 열립니다."><img src="/images/law/kllaw_imgPartners4.gif" width="115" height="92" alt="신한은행" /></a></li>
+					<li><a href="http://www.mgef.go.kr/" target="_blank" title="새창으로 열립니다."><img src="/images/law/kllaw_imgPartners5.gif" width="115" height="92" alt="여성부" /></a></li>
+					<li><a href="http://www.molab.go.kr/" target="_blank" title="새창으로 열립니다."><img src="/images/law/kllaw_imgPartners6.gif" width="115" height="92" alt="노동부" /></a></li>
+					<li><a href="http://smba.go.kr/" target="_blank" title="새창으로 열립니다."><img src="/images/law/kllaw_imgPartners7.gif" width="115" height="92" alt="중소기업청" /></a></li>
+					<li><a href="http://www.koswec.or.kr/" target="_blank" title="새창으로 열립니다."><img src="/images/law/kllaw_imgPartners8.gif" width="115" height="92" alt="한국선원복지고용센터" /></a></li>
+					<li><a href="http://www.mw.go.kr/" target="_blank" title="새창으로 열립니다."><img src="/images/law/kllaw_imgPartners9.gif" width="115" height="92" alt="보건복지가족부" /></a></li>
+					<li><a href="" target="_blank" title="새창으로 열립니다."><img src="/images/law/kllaw_imgPartners10.gif" width="115" height="92" alt="공탁금관리위원회" /></a></li>
+					<li><a href="http://www.sosclinic.co.kr/" target="_blank" title="새창으로 열립니다."><img src="/images/law/kllaw_imgPartners11.gif" width="115" height="92" alt="서울시 건강가적 지원센터" /></a></li>
 				</ul>
 
 				<h2 class="styleH2-type2">협약기관 소개</h2>
 				<p class="descTitle">대한법률구조공단과 함께하는 상호업무협약기관을 소개합니다.</p>
 				<ul class="partners">
-					<li><a href="http://www.nps.or.kr/" target="_blank" title="새창으로 열립니다."><img src="/Images/law/kllaw_imgPartners12.gif" width="115" height="92" alt="국민연금공단" /></a></li>
-					<li><a href="http://www.kca.go.kr/" target="_blank" title="새창으로 열립니다."><img src="/Images/law/kllaw_imgPartners13.gif" width="115" height="92" alt="한국소비자원" /></a></li>
-					<li><a href="http://cafe.naver.com/kcva.cafe?iframe_url=/ArticleRead.nhn%3Farticleid=2" target="_blank" title="새창으로 열립니다."><img src="/Images/law/kllaw_imgPartners14.gif" width="115" height="92" alt="전국범죄피해자 지원연합회" /></a></li>
+					<li><a href="http://www.nps.or.kr/" target="_blank" title="새창으로 열립니다."><img src="/images/law/kllaw_imgPartners12.gif" width="115" height="92" alt="국민연금공단" /></a></li>
+					<li><a href="http://www.kca.go.kr/" target="_blank" title="새창으로 열립니다."><img src="/images/law/kllaw_imgPartners13.gif" width="115" height="92" alt="한국소비자원" /></a></li>
+					<li><a href="http://cafe.naver.com/kcva.cafe?iframe_url=/ArticleRead.nhn%3Farticleid=2" target="_blank" title="새창으로 열립니다."><img src="/images/law/kllaw_imgPartners14.gif" width="115" height="92" alt="전국범죄피해자 지원연합회" /></a></li>
 				</ul>
 
 			</div>
@@ -72,7 +72,7 @@
 
 		<div id="quickMenu">
 		<!-- quick menu -->
-			<!-- #include virtual = /klac/common/comm/quickMenu.vm -->			
+			#include("/common/comm/quickMenu.vm")			
 		</div>		
 	</div>
 </body>

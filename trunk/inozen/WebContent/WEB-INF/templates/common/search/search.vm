@@ -16,13 +16,13 @@
 
 <body>
 	<div id="skipMenu">
-		<!-- #include virtual = ../../common/comm/skip.vm-->
+		#include("../../common/comm/skip.vm")
 	</div>
 
 	<div id="wrapper">
 		<div id="header">
 		<!-- header -->
-			<!-- #include virtual = ../../common/include/header.vm -->			
+			#include("../../common/include/header.vm")			
 		</div>
 
 		<div id="contentWrapper">
@@ -282,7 +282,7 @@
 
 		<div id="quickMenu">
 		<!-- quick menu -->
-			<!-- #include virtual = ../../css/common/comm/quickMenu.vm -->			
+			#include("../../css/common/comm/quickMenu.vm")			
 		</div>		
 	</div>
 </body>

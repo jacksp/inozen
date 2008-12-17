@@ -18,6 +18,7 @@ public class MenuDaoImpl extends HibernateGenericDao<Menu, MenuParams> implement
 	@Override
 	protected Criteria addRestrictions(Criteria c, MenuParams params) {
 		CriteriaUtils.ilike(c, "menuName", params.getMenuName(), MatchMode.ANYWHERE);
+		CriteriaUtils.conditionalEq(c, "pMenuCode", params.getPMenuCode());
 		return c;
 	}
 

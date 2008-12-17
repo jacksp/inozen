@@ -5,9 +5,9 @@
 	<meta name="description" content="KOREA LEGAL AID CORPORATION" />
 	<meta name="keyword" content="법률구조공단" />
 	<title>상담신청</title>
-	<link rel="stylesheet" type="text/css" href="/klac/css/kl_cyber.css" />
+	<link rel="stylesheet" type="text/css" href="/css/kl_cyber.css" />
 
-	<script type="text/javascript" language="javascript" src="/klac/jscript/common.js"></script>
+	<script type="text/javascript" language="javascript" src="/jscript/common.js"></script>
 	<script type="text/javascript" language="javascript">
 	//<![CDATA[
 		function jsExceed(ev){
@@ -24,23 +24,23 @@
 
 <body>
 	<div id="skipMenu">
-		<!-- #include virtual = /klac/common/comm/skip.vm-->
+		#include("/common/comm/skip.vm")
 	</div>
 
 	<div id="wrapper">
 		<div id="header">
 		<!-- header	    -->
-			<!-- #include virtual = /klac/common/include/header.vm -->			
+			#include("/common/include/header.vm")			
 		</div>
 
 		<div id="contentWrapper">
 		<!-- contentWrapper -->
 			<!-- subvisual -->
-			<p class="subVisual"><img src="/Images/common/klcomm_imgSubVisual02.jpg" width="865" height="128" alt="가족처럼 따뜻하게 친구처럼 편안하게 대한법률구조공단의 약속입니다," /></p>
+			<p class="subVisual"><img src="/images/common/klcomm_imgSubVisual02.jpg" width="865" height="128" alt="가족처럼 따뜻하게 친구처럼 편안하게 대한법률구조공단의 약속입니다," /></p>
 		
 			<div id="leftMenu">
 			<!-- leftmenu -->
-				<!-- #include virtual = /klac/common/include/leftMenu_xxx.vm -->				
+				#include("/common/include/leftMenu_xxx.vm")				
 			</div>
 
 			<div id="content" class="content-type1">
@@ -48,7 +48,7 @@
 				<div id="pageLocation">
 					<!-- include -->
 				</div>
-				<h1><img src="/Images/common/contitle/conTit0202.gif" width="150" height="25" alt="상담신청" /></h1>
+				<h1><img src="/images/common/contitle/conTit0202.gif" width="150" height="25" alt="상담신청" /></h1>
 
 				<div id="consult-m">
 					<div class="consult-t">
@@ -57,9 +57,9 @@
 								<p><span class="fcolorR strong">하루 상담 제한건수가 170건으로 제한</span>되어 있습니다. 유사사례찾기에서 신청할 사례를 검색 후 상담신청 해 주세요.</p>
 								<p class="noMg">
 									<!-- 상담건수 170건 미만 -->
-									<a href=""><img src="/Images/cyber/klcyb_btnAppConsultation.gif" width="85" height="20" alt="상담신청하기" /></a>
+									<a href=""><img src="/images/cyber/klcyb_btnAppConsultation.gif" width="85" height="20" alt="상담신청하기" /></a>
 									<!-- 상담건수 170건 초과 -->
-									<a href="#" onclick="return jsExceed(event);" onkeypress="return jsExceed(event);" title=""><img src="/Images/cyber/klcyb_btnAppConsultationOff.gif" width="85" height="20" alt="제한건수 초과" /></a><span class="strong">제한건수 170건을 초과 하였습니다.</span>
+									<a href="#" onclick="return jsExceed(event);" onkeypress="return jsExceed(event);" title=""><img src="/images/cyber/klcyb_btnAppConsultationOff.gif" width="85" height="20" alt="제한건수 초과" /></a><span class="strong">제한건수 170건을 초과 하였습니다.</span>
 								</p>
 							</div>
 						</div>
@@ -69,7 +69,7 @@
 				<div id="bbs-search">
 					<form id="search_form" method="post" action="" onsubmit="return">
 						<fieldset>
-							<label for="s_colum"><img src="/Images/common/klcomm_imgBbsSearch.gif" width="40" height="20" alt="Search" /></label>
+							<label for="s_colum"><img src="/images/common/klcomm_imgBbsSearch.gif" width="40" height="20" alt="Search" /></label>
 							<select id="s_colum" name="s_colum">
 								<option selected="selected" value="">제목</option>
 								<option value="">신청인</option>
@@ -80,7 +80,7 @@
 								<option value="">답변내용</option>
 							</select>
 							<input type="text" maxlength="20" value="" size="17" id="p_search" name="p_search" title="검색어 입력" />
-							<input type="image" src="/Images/common/klcomm_btnBbsSearch.gif" alt="검색하기"/>
+							<input type="image" src="/images/common/klcomm_btnBbsSearch.gif" alt="검색하기"/>
 						</fieldset>
 					</form>
 				</div>
@@ -132,8 +132,8 @@
 				</table>
 
 				<ul id="paging">
-					<li><a href="" title="처음 페이지"><img src="/Images/common/klcomm_pageFirst.gif" width="12" height="11" alt="처음 페이지" /></a></li>
-					<li><a href="" title="이전 페이지"><img src="/Images/common/klcomm_pageBefore.gif" width="7" height="11" alt="이전 페이지" /></a></li>
+					<li><a href="" title="처음 페이지"><img src="/images/common/klcomm_pageFirst.gif" width="12" height="11" alt="처음 페이지" /></a></li>
+					<li><a href="" title="이전 페이지"><img src="/images/common/klcomm_pageBefore.gif" width="7" height="11" alt="이전 페이지" /></a></li>
 					<li class="curPage"><span class="">1</span></li>
 					<li><a href="" title="2 페이지">2</a></li>
 					<li><a href="" title="3 페이지">3</a></li>
@@ -144,8 +144,8 @@
 					<li><a href="" title="8 페이지">8</a></li>
 					<li><a href="" title="9 페이지">9</a></li>
 					<li><a href="" title="10 페이지">10</a></li>
-					<li><a href="" title="다음페이지"><img src="/Images/common/klcomm_pageNext.gif" width="7" height="11" alt="다음페이지" /></a></li>
-					<li><a href="" title="마지막 페이지"><img src="/Images/common/klcomm_pageEnd.gif" width="12" height="11" alt="마지막 페이지" /></a></li>
+					<li><a href="" title="다음페이지"><img src="/images/common/klcomm_pageNext.gif" width="7" height="11" alt="다음페이지" /></a></li>
+					<li><a href="" title="마지막 페이지"><img src="/images/common/klcomm_pageEnd.gif" width="12" height="11" alt="마지막 페이지" /></a></li>
 				</ul>
 
 			</div>
@@ -157,7 +157,7 @@
 
 		<div id="quickMenu">
 		<!-- quick menu -->
-			<!-- #include virtual = /klac/common/comm/quickMenu.vm -->			
+			#include("/common/comm/quickMenu.vm")			
 		</div>		
 	</div>
 </body>

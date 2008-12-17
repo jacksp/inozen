@@ -5,31 +5,31 @@
 	<meta name="description" content="KOREA LEGAL AID CORPORATION" />
 	<meta name="keyword" content="법률구조공단" />
 	<title>대상자별 도움정보 &gt; 선원</title>
-	<link rel="stylesheet" type="text/css" href="/klac/css/kl_law.css" />
+	<link rel="stylesheet" type="text/css" href="/css/kl_law.css" />
 
-	<script type="text/javascript" language="javascript" src="/klac/jscript/common.js"></script>
+	<script type="text/javascript" language="javascript" src="/jscript/common.js"></script>
 	
 </head>
 
 <body>
 	<div id="skipMenu">
-		<!-- #include virtual = /klac/common/comm/skip.vm-->
+		#include("/common/comm/skip.vm")
 	</div>
 
 	<div id="wrapper">
 		<div id="header">
 		<!-- header	    -->
-			<!-- #include virtual = /klac/common/include/header.vm -->			
+			#include("/common/include/header.vm")			
 		</div>
 
 		<div id="contentWrapper">
 		<!-- contentWrapper -->
 			<!-- subvisual -->
-			<p class="subVisual"><img src="/Images/common/klcomm_imgSubVisual03.jpg" width="865" height="128" alt="가족처럼 따뜻하게 친구처럼 편안하게 대한법률구조공단의 약속입니다," /></p>
+			<p class="subVisual"><img src="/images/common/klcomm_imgSubVisual03.jpg" width="865" height="128" alt="가족처럼 따뜻하게 친구처럼 편안하게 대한법률구조공단의 약속입니다," /></p>
 		
 			<div id="leftMenu">
 			<!-- leftmenu -->
-				<!-- #include virtual = /klac/common/include/leftMenu_xxx.vm -->				
+				#include("/common/include/leftMenu_xxx.vm")				
 			</div>
 
 			<div id="content" class="content-type2">
@@ -37,34 +37,34 @@
 				<div id="pageLocation">
 					<!-- include -->
 				</div>
-				<h1><img src="/Images/common/contitle/conTit030402.gif" width="150" height="25" alt="대상자별 도움정보" /></h1>
+				<h1><img src="/images/common/contitle/conTit030402.gif" width="150" height="25" alt="대상자별 도움정보" /></h1>
 
 				<div id="freelawAidInfor">
 					<div class="freelawAidInfor-t">
 						<ul class="freelawAidInfor-b">
 							<li>
 								<ul>
-									<li><a href="/klac/law/lawAid04002.html">소년/소녀가장</a></li>
-									<li><a href="/klac/law/lawAid04002002.html">생활보장수급자</a></li>
-									<li><a href="/klac/law/lawAid04002003.html">장애인</a></li>
-									<li><a href="/klac/law/lawAid04002004.html">국가보훈대상자</a></li>
-									<li><a href="/klac/law/lawAid04002005.html">농어민</a></li>
-									<li><a href="/klac/law/lawAid04002006.html">임금체불근로자</a></li>
+									<li><a href="/law/lawAid04002.html">소년/소녀가장</a></li>
+									<li><a href="/law/lawAid04002002.html">생활보장수급자</a></li>
+									<li><a href="/law/lawAid04002003.html">장애인</a></li>
+									<li><a href="/law/lawAid04002004.html">국가보훈대상자</a></li>
+									<li><a href="/law/lawAid04002005.html">농어민</a></li>
+									<li><a href="/law/lawAid04002006.html">임금체불근로자</a></li>
 								</ul>
 							</li>
 							<li>
 								<ul>
-									<li><a href="/klac/law/lawAid04002010.html">소상공자영업자</a></li>
-									<li><a href="/klac/law/lawAid04002007.html">가정폭력 성폭력 피해여성</a></li>
-									<li><a href="/klac/law/lawAid04002008.html">한부모가족</a></li>
-									<li><a href="/klac/law/lawAid04002009.html">범죄피해자</a></li>							
-									<li><a href="/klac/law/lawAid04002011.html">담배소매인</a></li>
+									<li><a href="/law/lawAid04002010.html">소상공자영업자</a></li>
+									<li><a href="/law/lawAid04002007.html">가정폭력 성폭력 피해여성</a></li>
+									<li><a href="/law/lawAid04002008.html">한부모가족</a></li>
+									<li><a href="/law/lawAid04002009.html">범죄피해자</a></li>							
+									<li><a href="/law/lawAid04002011.html">담배소매인</a></li>
 									<li class="currP">선원</li>
 								</ul>
 							</li>
 							<li>
 								<ul class="noBd">
-									<li><a href="/klac/law/lawAid04002013.html">기타영세민</a></li>
+									<li><a href="/law/lawAid04002013.html">기타영세민</a></li>
 								</ul>
 							</li>
 						</ul>
@@ -101,7 +101,7 @@
 				<p class="descTitle2">한국선원복지고용센터(<a href="http://www.koswec.or.kr" target="_blank" title="새창으로 열립니다.">www.koswec.or.kr</a>) 복지사업팀 ☎ 051-465-2151~2 </p>
 
 				<h3 class="styleH3-type2">사건처리절차</h3>
-				<p class="descTitle2"><img src="/Images/law/kllaw_imgProcessing1.gif" width="625" height="310" longdesc="lawDescProcessing.html" alt="사건처리 절차" /></p>
+				<p class="descTitle2"><img src="/images/law/kllaw_imgProcessing1.gif" width="625" height="310" longdesc="lawDescProcessing.html" alt="사건처리 절차" /></p>
 				<p class="descTitle2">법률구조를 받고자 하는 분은 공단 소정양식의 법률구조신청서와 함께 본인의 주민등록등본과 법률구조대상자임을 소명할 자료, 그리고 주장사실을 입증할 자료를 해당지역의 공단사무실에 제출하면 됩니다.<br />법률구조신청서가 접수되면 공단에서는 즉시 사실조사에 착수하며 사실조사 과정에서 미비된 서류를 보완하도록 하기도 합니다.</p>
 
 				<p class="descTitle2">공단은 사실조사가 일정단계에 이르면 당사자에게 분쟁에 대한 법률적인 문제점과 그 해결방법을 제시하여 당사자간에 원만히 화해를 이룰 수 있도록 권유하고, 이러한 노력에도 불구하고 화해가 성립하지 않을 경우에는 구조의 타당성, 승소가능성, 집행가능성을 심사하여 '소송'을 할 것인지 여부를 결정합니다. 그리고 소송을 하기로 결정된 사건은 공단 소속변호사나 공익법무관이 소송을 수행하게 됩니다.</p>
@@ -118,7 +118,7 @@
 
 		<div id="quickMenu">
 		<!-- quick menu -->
-			<!-- #include virtual = /klac/common/comm/quickMenu.vm -->			
+			#include("/common/comm/quickMenu.vm")			
 		</div>		
 	</div>
 </body>
