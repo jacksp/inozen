@@ -15,6 +15,7 @@ public class BoardDaoImpl extends HibernateGenericDao<Board, BoardParams> implem
 	@Override
 	protected Criteria addRestrictions(Criteria c, BoardParams params) {
 		CriteriaUtils.ilike(c, "boardName", params.getBoardName(), MatchMode.ANYWHERE);
+		CriteriaUtils.conditionalEq(c, "category.cateCode", params.getCateCode());
 		return c;
 	}
 

@@ -5,31 +5,31 @@
 	<meta name="description" content="KOREA LEGAL AID CORPORATION" />
 	<meta name="keyword" content="법률구조공단" />
 	<title>면접상담</title>
-	<link rel="stylesheet" type="text/css" href="/klac/css/kl_law.css" />
+	<link rel="stylesheet" type="text/css" href="/css/kl_law.css" />
 
-	<script type="text/javascript" language="javascript" src="/klac/jscript/common.js"></script>
+	<script type="text/javascript" language="javascript" src="/jscript/common.js"></script>
 	
 </head>
 
 <body>
 	<div id="skipMenu">
-		<!-- #include virtual = /klac/common/comm/skip.vm-->
+		#include("/common/comm/skip.vm")
 	</div>
 
 	<div id="wrapper">
 		<div id="header">
 		<!-- header	  -->
-			<!-- #include virtual = /klac/common/include/header.vm -->			
+			#include("/common/include/header.vm")			
 		</div>
 
 		<div id="contentWrapper">
 		<!-- contentWrapper -->
 			<!-- subvisual -->
-			<p class="subVisual"><img src="/Images/common/klcomm_imgSubVisual03.jpg" width="865" height="128" alt="가족처럼 따뜻하게 친구처럼 편안하게 대한법률구조공단의 약속입니다," /></p>
+			<p class="subVisual"><img src="/images/common/klcomm_imgSubVisual03.jpg" width="865" height="128" alt="가족처럼 따뜻하게 친구처럼 편안하게 대한법률구조공단의 약속입니다," /></p>
 		
 			<div id="leftMenu">
 			<!-- leftmenu -->
-				<!-- #include virtual = /klac/common/include/leftMenu_xxx.vm -->				
+				#include("/common/include/leftMenu_xxx.vm")				
 			</div>
 
 			<div id="content" class="content-type2">
@@ -46,8 +46,8 @@
 								<p><strong>면접상담을 희망하시는 경우 상담 가능시간을 참고, 가까운 공단사무실에 <br />내방하여 상담하실 수 있습니다.</strong></p>
 								<p>상담시간 안내 : 평일 (오전 10시~12시 / 오후 1시~5시)</p>
 								<ul>
-									<li><a href="/klac/helper/helper05002001.html"><img src="/Images/law/kllaw_btnSearchOffice.jpg" width="155" height="20" alt="전국 공단 사무소 찾아보기" /></a></li>
-									<li><a href="/klac/helper/helper05002002.html"><img src="/Images/law/kllaw_btnCall132.jpg" width="125" height="20" alt="문의전화 국번없이 132" /></a></li>
+									<li><a href="/helper/helper05002001.html"><img src="/images/law/kllaw_btnSearchOffice.jpg" width="155" height="20" alt="전국 공단 사무소 찾아보기" /></a></li>
+									<li><a href="/helper/helper05002002.html"><img src="/images/law/kllaw_btnCall132.jpg" width="125" height="20" alt="문의전화 국번없이 132" /></a></li>
 								</ul>
 							</div>
 						</div>
@@ -70,7 +70,7 @@
 
 		<div id="quickMenu">
 		<!-- quick menu -->
-			<!-- #include virtual = /klac/common/comm/quickMenu.vm -->			
+			#include("/common/comm/quickMenu.vm")			
 		</div>		
 	</div>
 </body>

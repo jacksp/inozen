@@ -31,8 +31,8 @@
 		#foreach($i in [0..$tree.level])
 			$nbsp
 		#end
-		#if($tree.isLeaf)
-			$tree.name;
+		#if($tree.isLeaf())
+			$tree.name
 		#else
 			#set($link="<a href='javascript:setRight("+$tree.nodeId+")'>"+$tree.name+"</a>") 
 			$link

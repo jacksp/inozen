@@ -81,7 +81,7 @@ body {
 	#foreach($menuList in $list)
 		<tr>
 			<td>$!menuList.menuCode</td>
-			<td>$!menuList.menuName</td>
+			<td><a href="viewMenu.do?code=$menuList.menuCode">$!menuList.menuName</a></td>
 			<td>$!menuList.pMenuCode</td>
 			<td>$!menuList.pMenuName</td>
 			<td>$!menuList.menuKind</td>

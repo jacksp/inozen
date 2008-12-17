@@ -74,10 +74,15 @@ public class MenuController extends GenericController<Menu, MenuService, MenuRef
 		if(result.hasErrors())
 			return this.urlbase + "/saveMenu";
 		else{
-			model.setMenuCode(seqService.getSequence(SeqConstants.SEQ_MENU_ID, SeqConstants.SEQ_MENU_ID));
+			Long menuCode = seqService.getSequence(SeqConstants.SEQ_MENU_ID, SeqConstants.SEQ_MENU_ID);
+			// TODO construct menu URL
+			String menuURL = null;
+			if(model.getMenuType().equalsIgnoreCase("30")) menuURL = "/html/view.do?code="+menuCode;
+			// end construct menu RUL
+			model.setMenuCode(menuCode);
 			model.setCreatedDate(new Date());
 			model.setModifiedDate(new Date());
-			// NEWCODE 이후에 session에서 처리해아야 함.
+			// NEWCODE 이후에 session 에서 처리해아야 함.
 			model.setCreatedUserID("user_id");
 			model.setCreatedUserName("user_name");
 			model.setModifiedUserID("user_id");
@@ -86,6 +91,7 @@ public class MenuController extends GenericController<Menu, MenuService, MenuRef
 			model.setMenuStatus("1");
 			model.setPMenuCode(pMenuCode);
 			model.setPMenuName(pMenuName);
+			model.setMenuURL(menuURL);
 			this.service.add(model);
 			status.setComplete();
 			String returnString = addview(this.urlbase+"/menuList", model);
@@ -129,6 +135,24 @@ public class MenuController extends GenericController<Menu, MenuService, MenuRef
 		
 		ModelAndView returnModelAndView = new ModelAndView(this.urlbase.substring(1) + "/menuList", model);
 		return returnModelAndView;
+	}
+	
+	@RequestMapping
+	public void viewMenu(ModelMap model, @RequestParam("code") String code ) throws Exception {
+		Long _code = null;
+		if(!code.equals(null)) _code = Long.parseLong(code);
+		
+		model.addAttribute("view", service.get(_code));
+		model = addReference(model);
+	}
+	
+	@RequestMapping
+	public void viewMenu(ModelMap model, @RequestParam("code") String code ) throws Exception {
+		Long _code = null;
+		if(!code.equals(null)) _code = Long.parseLong(code);
+		
+		model.addAttribute("view", service.get(_code));
+		model = addReference(model);
 	}
 	
 	

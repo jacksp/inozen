@@ -5,31 +5,31 @@
 	<meta name="description" content="KOREA LEGAL AID CORPORATION" />
 	<meta name="keyword" content="법률구조공단" />
 	<title>대상자별 도움정보 &gt; 담배소매인</title>
-	<link rel="stylesheet" type="text/css" href="/klac/css/kl_law.css" />
+	<link rel="stylesheet" type="text/css" href="/css/kl_law.css" />
 
-	<script type="text/javascript" language="javascript" src="/klac/jscript/common.js"></script>
+	<script type="text/javascript" language="javascript" src="/jscript/common.js"></script>
 	
 </head>
 
 <body>
 	<div id="skipMenu">
-		<!-- #include virtual = /klac/common/comm/skip.vm-->
+		#include("/common/comm/skip.vm")
 	</div>
 
 	<div id="wrapper">
 		<div id="header">
 		<!-- header	    -->
-			<!-- #include virtual = /klac/common/include/header.vm -->			
+			#include("/common/include/header.vm")			
 		</div>
 
 		<div id="contentWrapper">
 		<!-- contentWrapper -->
 			<!-- subvisual -->
-			<p class="subVisual"><img src="/Images/common/klcomm_imgSubVisual03.jpg" width="865" height="128" alt="가족처럼 따뜻하게 친구처럼 편안하게 대한법률구조공단의 약속입니다," /></p>
+			<p class="subVisual"><img src="/images/common/klcomm_imgSubVisual03.jpg" width="865" height="128" alt="가족처럼 따뜻하게 친구처럼 편안하게 대한법률구조공단의 약속입니다," /></p>
 		
 			<div id="leftMenu">
 			<!-- leftmenu -->
-				<!-- #include virtual = /klac/common/include/leftMenu_xxx.vm -->				
+				#include("/common/include/leftMenu_xxx.vm")				
 			</div>
 
 			<div id="content" class="content-type2">
@@ -37,34 +37,34 @@
 				<div id="pageLocation">
 					<!-- include -->
 				</div>
-				<h1><img src="/Images/common/contitle/conTit030402.gif" width="150" height="25" alt="대상자별 도움정보" /></h1>
+				<h1><img src="/images/common/contitle/conTit030402.gif" width="150" height="25" alt="대상자별 도움정보" /></h1>
 
 				<div id="freelawAidInfor">
 					<div class="freelawAidInfor-t">
 						<ul class="freelawAidInfor-b">
 							<li>
 								<ul>
-									<li><a href="/klac/law/lawAid04002.html">소년/소녀가장</a></li>
-									<li><a href="/klac/law/lawAid04002002.html">생활보장수급자</a></li>
-									<li><a href="/klac/law/lawAid04002003.html">장애인</a></li>
-									<li><a href="/klac/law/lawAid04002004.html">국가보훈대상자</a></li>
-									<li><a href="/klac/law/lawAid04002005.html">농어민</a></li>
-									<li><a href="/klac/law/lawAid04002006.html">임금체불근로자</a></li>
+									<li><a href="/law/lawAid04002.html">소년/소녀가장</a></li>
+									<li><a href="/law/lawAid04002002.html">생활보장수급자</a></li>
+									<li><a href="/law/lawAid04002003.html">장애인</a></li>
+									<li><a href="/law/lawAid04002004.html">국가보훈대상자</a></li>
+									<li><a href="/law/lawAid04002005.html">농어민</a></li>
+									<li><a href="/law/lawAid04002006.html">임금체불근로자</a></li>
 								</ul>
 							</li>
 							<li>
 								<ul>
-									<li><a href="/klac/law/lawAid04002010.html">소상공자영업자</a></li>
-									<li><a href="/klac/law/lawAid04002007.html">가정폭력 성폭력 피해여성</a></li>
-									<li><a href="/klac/law/lawAid04002008.html">한부모가족</a></li>
-									<li><a href="/klac/law/lawAid04002009.html">범죄피해자</a></li>							
+									<li><a href="/law/lawAid04002010.html">소상공자영업자</a></li>
+									<li><a href="/law/lawAid04002007.html">가정폭력 성폭력 피해여성</a></li>
+									<li><a href="/law/lawAid04002008.html">한부모가족</a></li>
+									<li><a href="/law/lawAid04002009.html">범죄피해자</a></li>							
 									<li class="currP">담배소매인</li>
-									<li><a href="/klac/law/lawAid04002012.html">선원</a></li>
+									<li><a href="/law/lawAid04002012.html">선원</a></li>
 								</ul>
 							</li>
 							<li>
 								<ul class="noBd">
-									<li><a href="/klac/law/lawAid04002013.html">기타영세민</a></li>
+									<li><a href="/law/lawAid04002013.html">기타영세민</a></li>
 								</ul>
 							</li>
 						</ul>
@@ -173,7 +173,7 @@
 
 		<div id="quickMenu">
 		<!-- quick menu -->
-			<!-- #include virtual = /klac/common/comm/quickMenu.vm -->			
+			#include("/common/comm/quickMenu.vm")			
 		</div>		
 	</div>
 </body>
