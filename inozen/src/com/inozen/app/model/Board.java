@@ -17,7 +17,7 @@ import org.hibernate.annotations.ForeignKey;
 public class Board {
 	@Id
 	@Column(name="board_code")
-	private long boardCode;			// 게시판 아이디
+	private Long boardCode;			// 게시판 아이디
 	@Column(name="board_name")
 	private String boardName;			// 게시판 이름
 	@Column(name="board_type")

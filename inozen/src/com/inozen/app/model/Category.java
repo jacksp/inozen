@@ -15,11 +15,11 @@ import javax.persistence.TemporalType;
 public class Category {
 	@Id
 	@Column(name="cate_code")
-	private long cateCode;				// 카테고리 코드
+	private Long cateCode;				// 카테고리 코드
 	@Column(name="cate_name")
 	private String cateName;				// 카테고리 이름
 	@Column(name="p_cate_code")
-	private long pCateCode;				// 상위 카테고리 코드
+	private Long pCateCode;				// 상위 카테고리 코드
 	@Column(name="p_cate_name")
 	private String pCateName;				// 상위 카테고리 이름
 	@Column(name="created_date")

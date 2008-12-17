@@ -10,11 +10,11 @@ import javax.persistence.Id;
 public class Menu {
 	@Id
 	@Column(name="menu_code")
-	private long menuCode;					// 메뉴 코드
+	private Long menuCode;					// 메뉴 코드
 	@Column(name="menu_name")
 	private String menuName;				// 메뉴 이름
 	@Column(name="p_menu_code")
-	private long pMenuCode;				// 상위 메뉴 코드
+	private Long pMenuCode;				// 상위 메뉴 코드
 	@Column(name="p_menu_name")
 	private String pMenuName;				// 상위 메뉴 이름
 	@Column(name="menu_kind")
@@ -22,7 +22,7 @@ public class Menu {
 	@Column(name="menu_type")
 	private String menuType;				// 메뉴 종류
 	@Column(name="menu_related_code")
-	private long menuRelatedCode;			// 메뉴 관련 코드 (카테고리 코드, 게시판 코드, 페이지 코드)
+	private Long menuRelatedCode;			// 메뉴 관련 코드 (카테고리 코드, 게시판 코드, 페이지 코드)
 	@Column(name="menu_url")
 	private String menuURL;					// 메뉴 url (메뉴가 링크인 경우 url)
 	@Column(name="created_user_id")
@@ -45,7 +45,7 @@ public class Menu {
 	public void setMenuCode(long menuCode) {
 		this.menuCode = menuCode;
 	}
-	public long getMenuCode() {
+	public Long getMenuCode() {
 		return menuCode;
 	}
 	public void setMenuName(String menuName) {
@@ -57,7 +57,7 @@ public class Menu {
 	public void setPMenuCode(long pMenuCode) {
 		this.pMenuCode = pMenuCode;
 	}
-	public long getPMenuCode() {
+	public Long getPMenuCode() {
 		return pMenuCode;
 	}
 	public void setPMenuName(String pMenuName) {

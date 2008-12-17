@@ -9,7 +9,7 @@ import org.springframework.validation.Validator;
  * @author seokhoon
  */
 @Component
-public class AppBoardValidator implements Validator {
+public class ContentValidator implements Validator {
 
 	@Override
 	public boolean supports(Class clazz) {

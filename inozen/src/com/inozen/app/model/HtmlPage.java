@@ -11,7 +11,7 @@ public class HtmlPage {
 	
 	@Id
 	@Column(name="page_code")
-	private long pageCode;					// page's code
+	private Long pageCode;					// page's code
 	@Column(name="page_name")
 	private String pageName;				// page's name
 	@Column(name="page_title")

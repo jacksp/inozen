@@ -6,5 +6,5 @@ import org.springframework.stereotype.Component;
  * @author seokhoon
  */
 @Component
-public class AppBoardRef {
+public class ContentRef {
 }
