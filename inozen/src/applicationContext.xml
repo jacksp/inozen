@@ -53,16 +53,13 @@
 		<property name="sourceList">
 			<list>
 				<value>com.inozen.app.model.Task</value>
-				<value>com.inozen.app.model.Employee
-				</value>
+				<value>com.inozen.app.model.Employee</value>
 				<value>com.inozen.app.model.Board</value>
-				<value>com.inozen.app.model.Category
-				</value>
-				<value>com.inozen.app.model.Sequence
-				</value>
-				<value>com.inozen.app.model.HtmlPage
-				</value>
+				<value>com.inozen.app.model.Category</value>
+				<value>com.inozen.app.model.Sequence</value>
+				<value>com.inozen.app.model.HtmlPage</value>
 				<value>com.inozen.app.model.Menu</value>
+				<value>com.inozen.app.model.Content</value>
 			</list>
 		</property>
 	</bean>
