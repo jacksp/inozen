@@ -17,10 +17,10 @@ public class Sequence {
 	
 	@Id @GeneratedValue(generator="sequence_seqNo_seq")
 	@Column(name="seq_code")
-	private long seqCode;
+	private Long seqCode;
 	
 	@Column(name="seq_no")
-	private long seqNo;
+	private Long seqNo;
 	
 	@Column(name="seq_kind")
 	private String seqKind;

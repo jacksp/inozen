@@ -71,13 +71,15 @@ public class CategoryController extends GenericController<Category, CategoryServ
 	}
 	
 	@RequestMapping(method=RequestMethod.POST)
-	public String saveCategory(@ModelAttribute(value="model") Category model, BindingResult result, @RequestParam("pCateCode") long pCateCode, @RequestParam("pCateName") String pCateName, SessionStatus status) {
+	public String saveCategory(@ModelAttribute(value="model") Category model, BindingResult result, @RequestParam("pCateCode") String pCateCode, @RequestParam("pCateName") String pCateName, SessionStatus status) {
 		validator.validate(model, result);
 		if(result.hasErrors())
 			return this.urlbase + "/saveCategory";
 		else{
+			long _pCateCode = 0l;
+			if(!pCateCode.equals(null)&&pCateCode!="") _pCateCode = Long.parseLong(pCateCode);
 			model.setCateCode(seqService.getSequence(SeqConstants.SEQ_CATEGORY_ID, SeqConstants.SEQ_CATEGORY_ID));
-			model.setCateOrder(service.countChildren(pCateCode));
+			model.setCateOrder(service.countChildren(_pCateCode));
 			model.setCateStatus("1");
 			model.setCreatedDate(new Date());
 			// NEWCODE userID, username을 security에서 받아와서 처리하는 것으로 수정
@@ -86,7 +88,7 @@ public class CategoryController extends GenericController<Category, CategoryServ
 			model.setModifiedDate(new Date());
 			model.setModifiedUserId("userid");
 			model.setModifiedUserName("username");
-			model.setPCateCode(pCateCode);
+			model.setPCateCode(_pCateCode);
 			model.setPCateName(pCateName);
 			
 			this.service.add(model);

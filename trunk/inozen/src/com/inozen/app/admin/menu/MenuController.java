@@ -68,13 +68,15 @@ public class MenuController extends GenericController<Menu, MenuService, MenuRef
 	}
 	
 	@RequestMapping(method=RequestMethod.POST)
-	public String saveMenu(@ModelAttribute(value="model") Menu model, BindingResult result, @RequestParam("pMenuCode") long pMenuCode, @RequestParam("pMenuName") String pMenuName, SessionStatus status) {
+	public String saveMenu(@ModelAttribute(value="model") Menu model, BindingResult result, @RequestParam("pMenuCode") String pMenuCode, @RequestParam("pMenuName") String pMenuName, SessionStatus status) {
 		validator.validate(model, result);
 		
 		if(result.hasErrors())
 			return this.urlbase + "/saveMenu";
 		else{
 			Long menuCode = seqService.getSequence(SeqConstants.SEQ_MENU_ID, SeqConstants.SEQ_MENU_ID);
+			Long _pMenuCode = null;
+			
 			// TODO construct menu URL
 			String menuURL = null;
 			if(model.getMenuType().equalsIgnoreCase("30")) menuURL = "/html/view.do?code="+menuCode;
@@ -87,10 +89,19 @@ public class MenuController extends GenericController<Menu, MenuService, MenuRef
 			model.setCreatedUserName("user_name");
 			model.setModifiedUserID("user_id");
 			model.setModifiedUserName("user_name");
-			model.setMenuOrder(service.countChildren(model.getPMenuCode()));
+			
 			model.setMenuStatus("1");
-			model.setPMenuCode(pMenuCode);
-			model.setPMenuName(pMenuName);
+			if(!pMenuCode.equals(null)&&pMenuCode!="") {
+				_pMenuCode = Long.parseLong(pMenuCode);
+				model.setPMenuCode(_pMenuCode);
+				model.setPMenuName(pMenuName);
+				model.setMenuOrder(service.countChildren(model.getPMenuCode()));
+			}else{
+				model.setMenuOrder(0);
+				model.setPMenuCode(0);
+				model.setPMenuName("");
+			}
+			
 			model.setMenuURL(menuURL);
 			this.service.add(model);
 			status.setComplete();
@@ -135,15 +146,6 @@ public class MenuController extends GenericController<Menu, MenuService, MenuRef
 		
 		ModelAndView returnModelAndView = new ModelAndView(this.urlbase.substring(1) + "/menuList", model);
 		return returnModelAndView;
-	}
-	
-	@RequestMapping
-	public void viewMenu(ModelMap model, @RequestParam("code") String code ) throws Exception {
-		Long _code = null;
-		if(!code.equals(null)) _code = Long.parseLong(code);
-		
-		model.addAttribute("view", service.get(_code));
-		model = addReference(model);
 	}
 	
 	@RequestMapping

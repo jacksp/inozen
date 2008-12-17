@@ -13,7 +13,7 @@ import com.inozen.app.model.HtmlPage;
 import com.inozen.app.model.Menu;
 
 @Controller
-@RequestMapping("/html/*.do")
+@RequestMapping({"/html/*.do","/other/*.do"})
 public class HtmlController {
 	@Autowired
 	MenuService menuService;
@@ -36,6 +36,10 @@ public class HtmlController {
 		
 		model.addAttribute("page", html.getPageLocation());
 		
+	}
+	
+	@RequestMapping
+	public void sitemap() {
 	}
 
 }
