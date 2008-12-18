@@ -42,7 +42,7 @@
 			<p id="KLAC-logo"><a href="http://www.klac.or.kr"><img src="/images/include/header/klhd_logo.gif" width="170" height="42" alt="대한법률구조공단" /></a></p>
 			<ul id="localMenu">
 				<li><a href=""><img src="/images/include/header/klhd_home.gif" width="50" height="14" alt="처음으로" /></a></li>
-				<li><a href=""><img src="/images/include/header/klhd_sitemap.gif" width="51" height="14" alt="SITEMAP" /></a></li>
+				<li><a href="/other/sitemap.do"><img src="/images/include/header/klhd_sitemap.gif" width="51" height="14" alt="SITEMAP" /></a></li>
 				<li><a href=""><img src="/images/include/header/klhd_routemap.gif" width="68" height="14" alt="찾아오시는길" /></a></li>
 				<li><a href=""><img src="/images/include/header/klhd_englishSite.gif" width="49" height="14" alt="ENGLISH" /></a></li>
 			</ul>

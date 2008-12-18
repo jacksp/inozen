@@ -1,6 +1,3 @@
-<%@ page language="java" contentType="text/html; charset=EUC-KR" pageEncoding="EUC-KR"%>
-<%@ page import="com.inozen.app.model.HtmlPage" %>
-<%@ page import="java.util.List" %>
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
 <html>
 <head>
@@ -23,19 +20,18 @@ body {
 </style>
 
 </head>
-<%
-	String cateCode = (String)request.getAttribute("code");
-	String message = (String)request.getAttribute("message");
-%>
 <body>
-
+#set($target = $req.getParameter("target"))
+#set($name = $req.getParameter("name"))
+#set($value = $req.getParameter("value"))
 <div id="buttons">
 <script type="text/javascript">
-	function selectHtml () {
-		popup("saveHtml.do", "popup", 700, 400, "yes", "yes");
+	function selectHandler(name, value) {
+		$target.$('$name').value = name;
+		$target.$('$value').value = value;
 	}
 
-	function searchHtml () {
+	var searchHandler = function() {
 		alert(1);
 		document.forms.searchform.method="POST";
 		document.forms.searchform.action="htmlList.do";
@@ -43,19 +39,16 @@ body {
 	}
 
 </script>
-<%-- ===================================================================================== --%>
-<%--                               Button Anchor                                           --%>
-<%-- ===================================================================================== --%>
-<a href="javascript:void(1)" onClick="searchHtml()" id="searchbtn" class="searchbtn">검색</a>
+##<%-- ===================================================================================== --%>
+##<%--                               Button Anchor                                           --%>
+##<%-- ===================================================================================== --%>
+<a href="javascript:void(1)" id="searchbtn" class="searchbtn">검색</a>
 </div>
 
 <form id="searchform" method="get">
 	<label>이름 :</label>
 	<input id="name" name="pageName" type="text" size="20" maxlength="30" value="" />
 </form>
-<%
-	List<HtmlPage> list = (List<HtmlPage>)request.getAttribute("list");
-%>
 	<table border="1">
 		<tr>
 			<td>페이지코드</td>
@@ -69,29 +62,29 @@ body {
 			<td>수정자아이디</td>
 			<td>수정자이름</td>
 		</tr>
-<%
-	if(list!=null) {
-		for(int i=0; i<list.size(); i++) {
-%>
+#if($list)
+	#foreach($page in $list)
 		<tr>
-			<td><%=list.get(i).getPageCode() %></td>
-			<td><%=list.get(i).getPageName() %></td>
-			<td><%=list.get(i).getPageLocation() %></td>
-			<td><%=list.get(i).getPageStatus() %></td>
-			<td><%=list.get(i).getCreatedDate() %></td>
-			<td><%=list.get(i).getCreatedUserID() %></td>
-			<td><%=list.get(i).getCreatedUserName() %></td>
-			<td><%=list.get(i).getModifiedDate() %></td>
-			<td><%=list.get(i).getModifiedUserID() %></td>
-			<td><%=list.get(i).getModifiedUserName() %></td>
+			<td>$page.pageCode</td>
+			<td><a href="javascript:selectHandler('$page.pageName', '$page.pageCode');" id="select">$page.pageName</a></td>
+			<td>$page.pageLocation</td>
+			<td>$page.pageStatus</td>
+			<td>$page.createdDate</td>
+			<td>$page.createdUserID</td>
+			<td>$page.createdUserName</td>
+			<td>$page.modifiedDate</td>
+			<td>$page.modifiedUserID</td>
+			<td>$page.modifiedUserName</td>
 		</tr>
-<%
-		}
-	}
-%>
+	#end
+#end
 		<tr>
-			<td colspan="10"><font color="red"><%=message %></font></td>
+			<td colspan="10"><font color="red">$message</font></td>
 		</tr>
 	</table>
 </body>
 </html>
+<script type="text/javascript" language="javascript"> 
+	Event.observe("searchbtn", "click", searchHandler, false);
+	
+</script>
