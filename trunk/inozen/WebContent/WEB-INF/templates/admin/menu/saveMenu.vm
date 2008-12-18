@@ -50,11 +50,11 @@
 			<label>메뉴 이름 :</label>
 			<input id="menuName" name="menuName" type="text" value="" size="10" maxlength="15"/>
 			<form:errors path="menuName" cssClass="error"/>
-			<input id="pMenuName" name="pMenuName" type="hidden" value="${model.menuName}" />
-			<input id="pMenuCode" name="pMenuCode" type="hidden" value="${model.menuCode}" />
+			<input id="pMenuName" name="pMenuName" type="hidden" value="$!model.menuName" />
+			<input id="pMenuCode" name="pMenuCode" type="hidden" value="$!model.menuCode" />
 		</p>
 		<p id="namerow">
-			<label>상위 메뉴 : </label> <c:out value="${model.menuName}" default="선택된 상위 메뉴가 없습니다."/>
+			<label>상위 메뉴 : </label> $!model.menuName
 		</p>
 		<p id="radiorow">
 			<label>메뉴 종류 :</label>
