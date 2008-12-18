@@ -6,9 +6,9 @@ import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
-import com.inozen.app.admin.html.HtmlPageService;
-import com.inozen.app.admin.menu.MenuService;
-import com.inozen.app.admin.menu.support.MenuParams;
+import com.inozen.app.html.HtmlPageService;
+import com.inozen.app.menu.MenuService;
+import com.inozen.app.menu.support.MenuParams;
 import com.inozen.app.model.HtmlPage;
 import com.inozen.app.model.Menu;
 

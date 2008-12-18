@@ -14,11 +14,11 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 
-import com.inozen.app.admin.category.CategoryService;
 import com.inozen.app.board.service.ContentService;
 import com.inozen.app.board.support.ContentParams;
 import com.inozen.app.board.support.ContentRef;
 import com.inozen.app.board.support.ContentValidator;
+import com.inozen.app.category.CategoryService;
 import com.inozen.app.common.seq.service.SequenceService;
 import com.inozen.app.model.Content;
 
