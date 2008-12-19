@@ -13,7 +13,7 @@
 
 <body>
 	<div id="skipMenu">
-		#include("/common/comm/skip.vm")
+		#include("/common/include/skip.vm")
 	</div>
 
 	<div id="wrapper">
@@ -29,7 +29,7 @@
 		
 			<div id="leftMenu">
 			<!-- leftmenu -->
-				#include("/common/include/leftMenu_xxx.vm")				
+				#include("/common/include/leftMenu_Cyber.vm")				
 			</div>
 
 			<div id="content" class="content-type1">
@@ -39,6 +39,7 @@
 				</div>
 				<h1><img src="/images/common/contitle/conTit0202.gif" width="150" height="25" alt="상담신청" /></h1>
 				<form id="write_frm" method="post" action="" onsubmit="return">
+					<input type="hidden" name="boardCode" value="$!code"/>
 					<div id="stipulation">
 						<div>
 							<pre>
@@ -89,17 +90,25 @@
 						</colgroup>
 						<tr>
 							<td class="strong"><label for="p_name">성 명</label></td>
-							<td><input type="text" name="p_name" id="p_name" maxlength="20" class="p_input" /></td>
+							<td>
+								#springBind("formEntity.name")
+								<input type="text" name="${status.expression}" id="p_name" maxlength="20" class="p_input" />
+								#foreach($error in $status.errorMessages) <br/><span class="fcolorR strong">$error</span> <br/> #end
+							</td>
 							<td class="strong"><label for="p_jumin1">주민등록번호</label></td>							
 							<td>
-								<input type="text" name="p_jumin1" size="6" maxlength="6" id="p_jumin1" title="주민번호 앞자리" class="p_input" />
-								<input type="text" name="p_jumin2" size="7" maxlength="7" title="주민번호 뒷자리" class="p_input" />
+								#springBind("formEntity.socialNumber1")
+								<input type="text" name="${status.expression}" size="6" maxlength="6" id="p_jumin1" title="주민번호 앞자리" class="p_input" />
+								#foreach($error in $status.errorMessages) <br/><span class="fcolorR strong">$error</span> <br/> #end
+								#springBind("formEntity.socialNumber2")
+								<input type="text" name="${status.expression}" size="7" maxlength="7" title="주민번호 뒷자리" class="p_input" />
+								#foreach($error in $status.errorMessages) <br/><span class="fcolorR strong">$error</span> <br/> #end
 							</td>
 						</tr>
 						<tr>
 							<td class="strong"><label for="p_phone1">핸드폰</label></td>
 							<td colspan="3">
-								<select name="p_phone1" id="p_phone1" class="p_input">
+								<select name="celPhoneNumber1" id="p_phone1" class="p_input">
 									<option value="010">010</option>
 									<option value="011">011</option>
 									<option value="016">016</option>
@@ -107,33 +116,47 @@
 									<option value="018">018</option>
 									<option value="019">019</option>
 								</select>
-								<input type="text" name="p_phone2" size="4" maxlength="4" title="전화번호 앞자리" class="p_input" />
-								<input type="text" name="p_phone3" size="4" maxlength="4" title="전화번호 뒷자리" class="p_input" />
+								#springBind("formEntity.celPhoneNumber2")
+								<input type="text" name="${status.expression}" size="4" maxlength="4" title="전화번호 앞자리" class="p_input" />
+								#foreach($error in $status.errorMessages) <br/><span class="fcolorR strong">$error</span> <br/> #end
+								#springBind("formEntity.celPhoneNumber3")
+								<input type="text" name="${status.expression}" size="4" maxlength="4" title="전화번호 뒷자리" class="p_input" />
+								#foreach($error in $status.errorMessages) <br/><span class="fcolorR strong">$error</span> <br/> #end
 								<span>
-									<label for="p_chk"><input type="checkbox" value="01" name="p_chk" id="p_chk" />SMS 수신동의</label>
+									<label for="p_chk"><input type="checkbox" value="Y" name="p_chk" id="p_chk" />SMS 수신동의</label>
 									(체크하면 처리상황을 휴대폰으로 발송합니다.)
 								</span>
 							</td>
 						</tr>
 						<tr>
 							<td class="strong"><label for="p_email">e-mail</label></td>
-							<td colspan="3"><input type="text" name="p_email" id="p_email" size="30" maxlength="50" class="p_input" /></td>
+							#springBind("formEntity.email")
+							<td colspan="3"><input type="text" name="${status.expression}" id="p_email" size="30" maxlength="50" class="p_input" /></td>
+							#foreach($error in $status.errorMessages) <br/><span class="fcolorR strong">$error</span> <br/> #end
 						</tr>
 						<tr>
 							<td class="strong"><label for="p_pass">비밀번호</label></td>
-							<td><input type="password" size="8" maxlength="8" name="p_pass" id="p_pass" class="p_input" /></td>
-							<td class="strong"><label for="p_pass2">비밀번호확인</label></td>							
-							<td><input type="password" size="8" maxlength="8" name="p_pass2" id="p_pass2" class="p_input" /></td>
+							#springBind("formEntity.password")
+							<td><input type="password" size="8" maxlength="8" name="${status.expression}" id="p_pass" class="p_input" /></td>
+							#foreach($error in $status.errorMessages) <br/><span class="fcolorR strong">$error</span> <br/> #end
+							<td class="strong"><label for="p_pass2">비밀번호확인</label></td>
+							#springBind("formEntity.confirmPassword")
+							<td><input type="password" size="8" maxlength="8" name="${status.expression}" id="p_pass2" class="p_input" /></td>
+							#foreach($error in $status.errorMessages) <br/><span class="fcolorR strong">$error</span> <br/> #end
 						</tr>
 						<tr>
 							<td class="strong"><label for="p_title">제 목</label></td>
-							<td colspan="3"><input type="text" name="p_title" id="p_title" maxlength="100" class="p_input" /></td>
+							#springBind("formEntity.title")
+							<td colspan="3"><input type="text" name="${status.expression}" id="p_title" maxlength="100" class="p_input" /></td>
+							#foreach($error in $status.errorMessages) <br/><span class="fcolorR strong">$error</span> <br/> #end
 						</tr>
 						<tr>
 							<td class="strong"><label for="message">상담내용</label></td>
 							<td colspan="3">
 								<p class="alignC">현재 글자수(바이트수) :<input type="text" id="textByte" name="textByte" size="4" value="1" readonly="readonly"/>byte /2400 byte (최대글자수는 1,200자(2,400Byte)입니다.)</p>
-								<textarea id="message" name="message" title="상담하실 내용을 적어주세요." class="p_input"></textarea>
+								#springBind("formEntity.content")
+								<textarea id="message" name="${status.expression}" title="상담하실 내용을 적어주세요." class="p_input"></textarea>
+								#foreach($error in $status.errorMessages) <br/><span class="fcolorR strong">$error</span> <br/> #end
 							</td>
 						</tr>
 						<tr>
@@ -185,18 +208,21 @@
 							</td>
 						</tr>						
 					</table>
+					
+					<input type="submit" name="저장" value="저장">
 				</form>
 
 			</div>
 		</div>
-
+		
 		<div id="footer">
-		<!-- footer -->		
+		<!-- footer -->
+			#include("/common/include/footer.vm")		
 		</div>
 
 		<div id="quickMenu">
 		<!-- quick menu -->
-			#include("/common/comm/quickMenu.vm")			
+			#include("/common/include/quickMenu.vm")			
 		</div>		
 	</div>
 </body>

@@ -32,7 +32,7 @@ import com.inozen.app.model.Board;
 import com.inozen.app.model.Category;
 
 @Controller
-@RequestMapping("/admin/board/*.do")
+@RequestMapping({"/admin/board/*.do", "/board/*.do"})
 public class BoardController extends GenericController<Board, BoardService, BoardRef, BoardValidator, BoardParams>{
 
 	@Autowired

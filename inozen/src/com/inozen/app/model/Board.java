@@ -1,5 +1,6 @@
 package com.inozen.app.model;
 
+import java.util.Collection;
 import java.util.Date;
 
 import javax.persistence.Column;
@@ -7,6 +8,7 @@ import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
+import javax.persistence.OneToMany;
 import javax.persistence.Temporal;
 import javax.persistence.TemporalType;
 
@@ -45,6 +47,10 @@ public class Board {
 	@JoinColumn(name="cate_code", nullable=false, updatable=false)
 	@ForeignKey(name="FK_CATE_CODE")
 	private Category category;
+	
+	@OneToMany
+	@JoinColumn(name="board_code")
+	private Collection<Content> boardContent;
 	
 	public long getBoardCode() {
 		return boardCode;
@@ -140,5 +146,13 @@ public class Board {
 
 	public Category getCategory() {
 		return category;
+	}
+
+	public void setBoardContent(Collection<Content> boardContent) {
+		this.boardContent = boardContent;
+	}
+
+	public Collection<Content> getBoardContent() {
+		return boardContent;
 	}
 }

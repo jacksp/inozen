@@ -60,6 +60,7 @@
 				<value>com.inozen.app.model.HtmlPage</value>
 				<value>com.inozen.app.model.Menu</value>
 				<value>com.inozen.app.model.Content</value>
+				<value>com.inozen.app.model.CouncelContent</value>
 			</list>
 		</property>
 	</bean>

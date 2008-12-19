@@ -16,6 +16,7 @@ package com.inozen.framework.enumeration;
  */
 public class Pair {
     int value;
+    String strvalue;
     String descr;
 
     public Pair() {}
@@ -24,12 +25,23 @@ public class Pair {
 		this.value = value;
 		this.descr = descr;
 	}
+    
+    public Pair(String value, String descr) {
+    	this.strvalue = value;
+    	this.descr = descr;
+    }
 
 	public int getValue() {
 		return value;
 	}
 	public void setValue(int value) {
 		this.value = value;
+	}
+	public String getStringValue() {
+		return strvalue;
+	}
+	public void setStringValue(String value) {
+		this.strvalue = value;
 	}
 	public String getDescr() {
         return this.descr;

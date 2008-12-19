@@ -13,7 +13,7 @@
 
 <body>
 	<div id="skipMenu">
-		#include("/common/comm/skip.vm")
+		#include("/common/include/skip.vm")
 	</div>
 
 	<div id="wrapper">
@@ -29,7 +29,7 @@
 		
 			<div id="leftMenu">
 			<!-- leftmenu -->
-				#include("/common/include/leftMenu_xxx.vm")				
+				#include("/common/include/leftMenu_Cyber.vm")				
 			</div>
 
 			<div id="content" class="content-type1">
@@ -55,22 +55,22 @@
 					<tbody>
 						<tr>
 							<th>제 목</th>
-							<td colspan="7">1</td>
+							<td colspan="7">$entity.contentTitle</td>
 						</tr>
 						<tr>
 							<th>상담번호</th>
-							<td>5109900</td>
+							<td>$entity.contentCode</td>
 							<th>신청일</th>
-							<td>2008-12-09</td>
+							<td>$entity.createdDate</td>
 							<th>작성자</th>
-							<td>tester</td>
+							<td>$entity.createdUserName</td>
 							<th>조 회</th>
-							<td>2</td>
+							<td>$entity.viewCnt</td>
 						</tr>
 					</tbody>
 				</table>
 				<div class="qNa-texture">
-					<p>부모님집 3층에 월세로 사는분(가정집)이 있는데...보증금도 모두 까먹은 상태에서 월세도 몇달째 차일피일 미루기만 할뿐 월세를 주지 않고 있다고 합니다.....도저히 대화로는 안될거 같아서 법적인 조치를 취했으면 하시는데...어떻게 해야 할지 몰라 이곳에 문의를 드립니다...바쁘시겠지만....자세한 법적인 절차에 대해서 설명 부탁드립니다....</p>
+					<p>$entity.content</p>
 				</div>
 
 				<h2 class="styleH2-type1">답변</h2>
@@ -116,12 +116,13 @@
 		</div>
 
 		<div id="footer">
-		<!-- footer -->		
+		<!-- footer -->
+			#include("/common/include/footer.vm")
 		</div>
 
 		<div id="quickMenu">
 		<!-- quick menu -->
-			#include("/common/comm/quickMenu.vm")			
+			#include("/common/include/quickMenu.vm")			
 		</div>		
 	</div>
 </body>

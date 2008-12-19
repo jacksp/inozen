@@ -57,7 +57,7 @@
 								<p><span class="fcolorR strong">하루 상담 제한건수가 170건으로 제한</span>되어 있습니다. 유사사례찾기에서 신청할 사례를 검색 후 상담신청 해 주세요.</p>
 								<p class="noMg">
 									<!-- 상담건수 170건 미만 -->
-									<a href=""><img src="/images/cyber/klcyb_btnAppConsultation.gif" width="85" height="20" alt="상담신청하기" /></a>
+									<a href="/cyber/cyber02_wr.do"><img src="/images/cyber/klcyb_btnAppConsultation.gif" width="85" height="20" alt="상담신청하기" /></a>
 									<!-- 상담건수 170건 초과 -->
 									<a href="#" onclick="return jsExceed(event);" onkeypress="return jsExceed(event);" title=""><img src="/images/cyber/klcyb_btnAppConsultationOff.gif" width="85" height="20" alt="제한건수 초과" /></a><span class="strong">제한건수 170건을 초과 하였습니다.</span>
 								</p>
@@ -106,28 +106,32 @@
 						</tr>
 					</thead>
 					<tbody class="alignC">
-					<!-- for(var i=1; i <xx.length; i++){ //start -->
-						<!-- if(i%2==1){ -->
-						<tr>
-						<!-- else if(i%2==0){ -->
-					<!--	<tr class="lineGray">	-->
-						<!-- }-->
-							<td>501653</td>
-							<td>2008-09-17</td>
-							<td class="alignL"><a href="">수술 위로금 받을 수 없나요? (약관해석)</a></td>
-							<td>접수완료</td>
+#if($list)
+	#foreach($content in $list)
+		#if($list.size()%2==1) #set($classKey="")
+		#else #set($classKey="class=\"lineGray\"")
+		#end
+						<tr $classKey>
+							<td>$content.contentCode</td>
+							<td>$content.createdDate</td>
+							<td class="alignL"><a href="cyber02_vw.do?code=$content.contentCode">$content.contentTitle</a></td>
+							<td>
+		#set($progressList=$ref.counselProgress)
+			#foreach($progress in $progressList)
+				#if($progress.getStringValue()==$content.councelContent.progressStatus) $progress.getDescr()
+				#end
+								##$content.councelContent
+			#end
+							</td>
 							<td></td>
 							<td>0</td>
 						</tr>
-					<!-- } //end -->
+	#end
+#else
 						<tr class="lineGray">
-							<td>501653</td>
-							<td>2008-09-17</td>
-							<td class="alignL"><a href="">수술 위로금 받을 수 없나요? (약관해석)</a></td>
-							<td>접수완료</td>
-							<td></td>
-							<td>0</td>
-						</tr>						
+							<td colspan="6">등록된 데이터가 없습니다.</td>
+						</tr>
+#end						
 					</tbody>
 				</table>
 
