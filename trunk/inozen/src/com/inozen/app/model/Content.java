@@ -2,11 +2,13 @@ package com.inozen.app.model;
 
 import java.util.Date;
 
+import javax.persistence.CascadeType;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
+import javax.persistence.OneToOne;
 
 import org.hibernate.annotations.ForeignKey;
 
@@ -17,14 +19,16 @@ public class Content {
 	private Long contentCode;
 	
 	@ManyToOne
-	@JoinColumn(name="board_code", nullable=false, updatable=false)
+	@JoinColumn(name="board_code")
 	@ForeignKey(name="FK_BOARD_CODE")
 	private Board board;
 	
 	@Column(name="content_title")
 	private String contentTitle;
+	
 	@Column(name="content")
 	private String content;
+	
 	@Column(name="created_user_id")
 	private String createdUserID;
 	@Column(name="created_user_name")
@@ -45,6 +49,10 @@ public class Content {
 	private String contentStatus;
 	@Column(name="view_cnt")
 	private int viewCnt;
+	
+	@OneToOne(cascade = CascadeType.ALL)
+	@JoinColumn(name="councel_code")
+	private CouncelContent councelContent;
 	
 	public void setContentCode(long contentCode) {
 		this.contentCode = contentCode;
@@ -129,6 +137,13 @@ public class Content {
 	}
 	public int getViewCnt() {
 		return viewCnt;
+	}
+	public void setCouncelContent(CouncelContent councelContent) {
+		this.councelContent = councelContent;
+	}
+	
+	public CouncelContent getCouncelContent() {
+		return councelContent;
 	}
 	
 }

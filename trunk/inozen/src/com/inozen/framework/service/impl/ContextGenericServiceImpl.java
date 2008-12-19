@@ -34,7 +34,7 @@ public class ContextGenericServiceImpl<T,D extends GenericDao<T,P>,P,C>
 	/*
 	 * Add like GenericServiceImpl's add().
 	 * Apply context is your responsibility.
-	 * So when you want to apply context informatio when adding, 
+	 * So when you want to apply context information when adding, 
 	 * you have to overriding this methods.
 	 * @see com.inozen.framework.service.ContextGenericService#add(java.lang.Object, java.lang.Object)
 	 */
@@ -46,7 +46,7 @@ public class ContextGenericServiceImpl<T,D extends GenericDao<T,P>,P,C>
 	/*
 	 * Update like GenericServiceImpl's update().
 	 * Apply context is your responsibility.
-	 * So when you want to apply context informatio when updating, 
+	 * So when you want to apply context information when updating, 
 	 * you have to overriding this methods.
 	 * @see com.inozen.framework.service.ContextGenericService#update(java.lang.Object, java.lang.Object)
 	 */
